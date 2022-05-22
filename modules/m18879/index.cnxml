@@ -1,0 +1,3051 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+
+<title>Square Root Expressions </title>
+<metadata>
+  <md:content-id>m18879</md:content-id><md:title>Square Root Expressions </md:title>
+  <md:abstract>This module is from Elementary Algebra by Denny Burzynski and Wade Ellis, Jr.
+The distinction between the principal square root of the number x and the secondary square root of the number x is made by explanation and by example. The simplification of the radical expressions that both involve and do not involve fractions is shown in many detailed examples; this is followed by an explanation of how and why radicals are eliminated from the denominator of a radical expression. Real-life applications of radical equations have been included, such as problems involving daily output, daily sales, electronic resonance frequency, and kinetic energy.
+Objectives of this module: understand the concept of square root, be able to distinguish between the principal and secondary square roots of a number, be able to relate square roots and meaningful expressions and to simplify a square root expression.</md:abstract>
+  <md:uuid>61b5bd23-e3b7-4aad-ac18-3cae20a6f702</md:uuid>
+</metadata>
+
+<content>
+<section id="fs-id8355565">
+      <title>Overview</title>
+      <list id="fs-id7678693" list-type="bulleted"><item>
+          Square Roots
+        </item>
+        <item>
+         Principal and Secondary Square Roots
+        </item>
+        <item>
+          Meaningful Expressions
+        </item>
+		<item>
+          Simplifying Square Roots
+        </item>
+      </list>
+    </section>
+
+<section id="fs-id8201690">
+      <title>Square Roots</title>
+
+<para id="fs-id7672839">When we studied exponents in Section <link document="m21883"/>, we noted that <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:msup>
+					<m:mn>4</m:mn>
+					<m:mn>2</m:mn>
+				</m:msup>
+				<m:mo>=</m:mo><m:mn>16</m:mn>
+			</m:mrow>
+		</m:semantics>
+	</m:math>
+
+ and <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:msup>
+					<m:mrow>
+						<m:mrow><m:mo>(</m:mo>
+							<m:mrow>
+								<m:mo>−</m:mo><m:mn>4</m:mn>
+							</m:mrow>
+							<m:mo>)</m:mo></m:mrow>
+					</m:mrow>
+					<m:mn>2</m:mn>
+				</m:msup>
+				<m:mo>=</m:mo><m:mn>16.</m:mn>
+			</m:mrow>
+		</m:semantics>
+	</m:math>
+
+ We can see that 16 is the square of both 4 and <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mo>−</m:mo><m:mn>4</m:mn>
+			</m:mrow>
+		</m:semantics>
+	</m:math>. Since 16 comes from squaring 
+4 or <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mo>−</m:mo><m:mn>4</m:mn>
+			</m:mrow>
+		</m:semantics>
+	</m:math>, 4 and <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mo>−</m:mo><m:mn>4</m:mn>
+			</m:mrow>
+		</m:semantics>
+	</m:math> are called the <emphasis>square roots</emphasis> of 16. Thus 16 has two square roots, 4 and <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mo>−</m:mo><m:mn>4</m:mn>
+			</m:mrow>
+		</m:semantics>
+	</m:math>. Notice that these two square roots are opposites of each other. <newline/><newline/>We can say that 
+</para>
+
+
+<para id="fs-id8382828" class="highlight"><title>Square Root</title>
+The square root of a positive number <m:math>
+ <m:semantics>
+  <m:mi>x</m:mi>
+ </m:semantics>
+</m:math>
+ is a number such that when it is squared the number <m:math>
+ <m:semantics>
+  <m:mi>x</m:mi>
+ </m:semantics>
+</m:math>
+ results.
+</para>
+<para id="fs-id7728749">Every positive number has two square roots, one positive square root and one negative square root. Furthermore, the two square roots of a positive number are opposites of each other. The square root of 0 is 0. </para>
+</section>
+
+
+<section id="fs-id6837542">
+      <title>Sample Set A</title>
+	  <example id="fs-id6866562">
+        <para id="fs-id7793749">
+		The two square roots of 49 are 7 and −7 since <newline/><newline/>
+		<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable columnalign="left">
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:msup>
+        <m:mn>7</m:mn>
+        <m:mn>2</m:mn>
+       </m:msup>
+       <m:mo>=</m:mo><m:mn>49</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>and</m:mtext>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:msup>
+        <m:mrow>
+         <m:mrow><m:mo>(</m:mo>
+          <m:mrow>
+           <m:mo>−</m:mo><m:mn>7</m:mn>
+          </m:mrow>
+         <m:mo>)</m:mo></m:mrow>
+        </m:mrow>
+        <m:mn>2</m:mn>
+       </m:msup>
+       <m:mo>=</m:mo><m:mn>49</m:mn>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</para></example>
+        
+		<example id="fs-id8197423">
+        <para id="fs-id7730027">
+		The two square roots of <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>49</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>64</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+ </m:semantics>
+</m:math>
+
+ are <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>7</m:mn>
+    <m:mn>8</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+ </m:semantics>
+</m:math>
+ and <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mo>−</m:mo><m:mn>7</m:mn>
+    </m:mrow>
+    <m:mn>8</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+  </m:semantics>
+</m:math> since <newline/><newline/>
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable columnalign="left">
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:msup>
+        <m:mrow>
+         <m:mrow><m:mo>(</m:mo>
+          <m:mrow>
+           <m:mfrac>
+            <m:mn>7</m:mn>
+            <m:mn>8</m:mn>
+           </m:mfrac>
+           
+          </m:mrow>
+         <m:mo>)</m:mo></m:mrow>
+        </m:mrow>
+        <m:mn>2</m:mn>
+       </m:msup>
+       <m:mo>=</m:mo><m:mfrac>
+        <m:mn>7</m:mn>
+        <m:mn>8</m:mn>
+       </m:mfrac>
+       <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mfrac>
+        <m:mn>7</m:mn>
+        <m:mn>8</m:mn>
+       </m:mfrac>
+       <m:mo>=</m:mo><m:mfrac>
+        <m:mrow>
+         <m:mn>49</m:mn>
+        </m:mrow>
+        <m:mrow>
+         <m:mn>64</m:mn>
+        </m:mrow>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>and</m:mtext>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:msup>
+        <m:mrow>
+         <m:mrow><m:mo>(</m:mo>
+          <m:mrow>
+           <m:mfrac>
+            <m:mrow>
+             <m:mo>−</m:mo><m:mn>7</m:mn>
+            </m:mrow>
+            <m:mn>8</m:mn>
+           </m:mfrac>
+           
+          </m:mrow>
+         <m:mo>)</m:mo></m:mrow>
+        </m:mrow>
+        <m:mn>2</m:mn>
+       </m:msup>
+       <m:mo>=</m:mo><m:mfrac>
+        <m:mrow>
+         <m:mo>−</m:mo><m:mn>7</m:mn>
+        </m:mrow>
+        <m:mn>8</m:mn>
+       </m:mfrac>
+       <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mfrac>
+        <m:mrow>
+         <m:mo>−</m:mo><m:mn>7</m:mn>
+        </m:mrow>
+        <m:mn>8</m:mn>
+       </m:mfrac>
+       <m:mo>=</m:mo><m:mfrac>
+        <m:mrow>
+         <m:mn>49</m:mn>
+        </m:mrow>
+        <m:mrow>
+         <m:mn>64</m:mn>
+        </m:mrow>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+
+
+
+		</para>
+	
+</example>
+</section>
+<section id="fs-id6857533">
+<title>Practice Set A</title>
+<para id="fs-id7738236">Name both square roots of each of the following numbers. </para>
+<exercise id="fs-id7718225">
+<problem id="fs-id6835567"><para id="fs-id6835568">36</para></problem>
+<solution id="fs-id7740209"><para id="fs-id7740210">6 and −6</para></solution>
+</exercise>
+
+<exercise id="fs-id7736968">
+<problem id="fs-id7701388"><para id="fs-id7701389">25</para></problem>
+<solution id="fs-id7739906"><para id="fs-id7739907">5 and −5</para></solution>
+</exercise>
+
+<exercise id="fs-id6809882">
+<problem id="fs-id6809885"><para id="fs-id7740405">100</para></problem>
+<solution id="fs-id7740408"><para id="fs-id7738698">10 and −10</para></solution>
+</exercise>
+
+<exercise id="fs-id6806352">
+<problem id="fs-id6806355"><para id="fs-id6806356">64</para></problem>
+<solution id="fs-id6872498"><para id="fs-id6872499">8 and −8</para></solution>
+</exercise>
+
+<exercise id="fs-id7080901">
+<problem id="fs-id8190770"><para id="fs-id8190771">1</para></problem>
+<solution id="fs-id6511992"><para id="fs-id6511993">1 and −1</para></solution>
+</exercise>
+
+<exercise id="fs-id9000158">
+<problem id="fs-id7709492"><para id="fs-id7709493"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>4</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+ </m:semantics>
+</m:math></para></problem>
+<solution id="fs-id7043179"><para id="fs-id7043180"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+   <m:mtext> </m:mtext><m:mtext>and </m:mtext><m:mo>−</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</para></solution>
+</exercise>
+
+<exercise id="fs-id7695602">
+<problem id="fs-id7695604"><para id="fs-id7739895"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>9</m:mn>
+    <m:mrow>
+     <m:mn>16</m:mn>
+    </m:mrow>
+   </m:mfrac>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</para></problem>
+<solution id="fs-id6844882"><para id="fs-id7794168"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>4</m:mn>
+   </m:mfrac>
+   <m:mtext> </m:mtext><m:mtext>and </m:mtext><m:mo>−</m:mo><m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>4</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+ </m:semantics>
+</m:math></para></solution>
+</exercise>
+
+<exercise id="fs-id7924170"><problem id="fs-id6799494"><para id="fs-id6799495"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>0.1</m:mn>
+  </m:mrow>
+  </m:semantics>
+</m:math>
+</para></problem>
+<solution id="fs-id8227462"><para id="fs-id8227463"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>0.1</m:mn>
+  </m:mrow>
+  </m:semantics>
+</m:math>
+ and <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mn>0.1</m:mn>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</para></solution>
+</exercise>
+
+<exercise id="fs-id8198608"><problem id="fs-id8202485"><para id="fs-id8202486"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>0.09</m:mn>
+  </m:mrow>
+  </m:semantics>
+</m:math>
+</para></problem>
+	<solution id="fs-id8197516"><para id="fs-id8197517"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>0.03</m:mn>
+  </m:mrow>
+</m:semantics>
+</m:math>
+ and <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mn>0.03</m:mn>
+  </m:mrow>
+  </m:semantics>
+</m:math>
+</para></solution>
+</exercise>
+</section>
+
+<section id="fs-id8202798">
+ <title>Principal and Secondary Square Roots</title>
+<para id="fs-id7672669">There is a notation for distinguishing the positive square root of a number <m:math>
+ <m:semantics>
+  <m:mi>x</m:mi>
+ </m:semantics>
+</m:math> from the negative square root of <m:math>
+ <m:semantics>
+  <m:mi>x</m:mi>
+ </m:semantics>
+</m:math>. 
+</para>
+<para id="fs-id6845330" class="highlight"><title>Principal Square Root: <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msqrt>
+    <m:mi>x</m:mi>
+   </m:msqrt>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</title>
+If <m:math>
+ <m:semantics>
+  <m:mi>x</m:mi>
+ </m:semantics>
+</m:math> is a positive real number, then <newline/><newline/>
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msqrt>
+    <m:mi>x</m:mi>
+   </m:msqrt>
+  </m:mrow>
+ </m:semantics>
+</m:math> represents the positive square root of <m:math>
+ <m:semantics>
+  <m:mi>x</m:mi>
+ </m:semantics>
+</m:math>. The positive square root of a number is called the <term>principal square root</term> of the number. 
+</para>
+
+<para id="fs-id7703872" class="highlight"><title>Secondary Square Root: <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:msqrt>
+    <m:mi>x</m:mi>
+   </m:msqrt>
+   
+  </m:mrow>
+ </m:semantics>
+</m:math>
+
+</title>
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:msqrt>
+    <m:mi>x</m:mi>
+   </m:msqrt>
+  </m:mrow>
+ </m:semantics>
+</m:math> represents the negative square root of <m:math>
+ <m:semantics>
+  <m:mi>x</m:mi>
+ </m:semantics>
+</m:math>. The negative square root of a number is called the <term>secondary square root</term> of the number. <newline/><newline/>
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:msqrt>
+    <m:mi>x</m:mi>
+   </m:msqrt>
+  </m:mrow>
+ </m:semantics>
+</m:math> indicates the secondary square root of <m:math>
+ <m:semantics>
+  <m:mi>x</m:mi>
+ </m:semantics>
+</m:math>.
+</para>
+<para id="fs-id5766866" class="highlight"><title>Radical Sign, Radicand, and Radical</title>In the expression <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:msqrt>
+					<m:mrow>
+						<m:mi>x</m:mi><m:mo>,</m:mo>
+					</m:mrow>
+				</m:msqrt>
+			</m:mrow>
+		</m:semantics>
+	</m:math><newline/><newline/>
+	<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msqrt>
+    <m:mrow>
+     <m:mtable>
+      <m:mtr>
+       <m:mtd>
+        <m:mrow/>
+       </m:mtd>
+      </m:mtr>
+      <m:mtr>
+       <m:mtd>
+        <m:mrow/>
+       </m:mtd>
+      </m:mtr>
+      
+     </m:mtable>
+    </m:mrow>
+   </m:msqrt>
+   
+  </m:mrow>
+ </m:semantics>
+</m:math>
+
+ is called a <term>radical sign</term>. <newline/><newline/>
+	<m:math>
+		<m:semantics>
+			<m:mi>x</m:mi>
+		</m:semantics>
+	</m:math> is called the <term>radicand</term>. <newline/><newline/>
+	<m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:msqrt>
+					<m:mi>x</m:mi>
+				</m:msqrt>
+			</m:mrow>
+		</m:semantics>
+	</m:math> is called a <term>radical</term>. </para>
+<para id="fs-id5820326">The horizontal bar that appears attached to the radical sign, <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msqrt>
+    <m:mrow>
+     <m:mtable>
+      <m:mtr>
+       <m:mtd>
+        <m:mrow/>
+       </m:mtd>
+      </m:mtr>
+      <m:mtr>
+       <m:mtd>
+        <m:mrow/>
+       </m:mtd>
+      </m:mtr>
+      
+     </m:mtable>
+    </m:mrow>
+   </m:msqrt>
+   
+  </m:mrow>
+ </m:semantics>
+</m:math>, is a grouping symbol that specifies the radicand. <newline/><newline/>
+Because <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:msqrt>
+					<m:mi>x</m:mi>
+				</m:msqrt>
+			</m:mrow>
+		</m:semantics>
+	</m:math>
+ and <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mo>−</m:mo><m:msqrt>
+					<m:mi>x</m:mi>
+				</m:msqrt>
+			</m:mrow>
+		</m:semantics>
+	</m:math>
+ are the two square root of <m:math>
+		<m:semantics>
+			<m:mi>x</m:mi>
+		</m:semantics>
+	</m:math>, <newline/><newline/>
+	<m:math display="block">
+		<m:semantics>
+			<m:mrow>
+				<m:mtable columnalign="left">
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mrow><m:mo>(</m:mo>
+									<m:mrow>
+										<m:msqrt>
+											<m:mi>x</m:mi>
+										</m:msqrt>
+									</m:mrow>
+									<m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+									<m:mrow>
+										<m:msqrt>
+											<m:mi>x</m:mi>
+										</m:msqrt>
+									</m:mrow>
+									<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>x</m:mi>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>and</m:mtext>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mrow><m:mo>(</m:mo>
+									<m:mrow>
+										<m:mo>−</m:mo><m:msqrt>
+											<m:mi>x</m:mi>
+										</m:msqrt>
+									</m:mrow>
+									<m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+									<m:mrow>
+										<m:mo>−</m:mo><m:msqrt>
+											<m:mi>x</m:mi>
+										</m:msqrt>
+									</m:mrow>
+									<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>x</m:mi>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+				</m:mtable>
+			</m:mrow>
+		</m:semantics>
+	</m:math>
+</para>
+</section>
+<section id="fs-id7792328">
+      <title>Sample Set B</title>
+<para id="fs-id5821981">Write the principal and secondary square roots of each number. </para>
+<example id="fs-id5821985"><para id="fs-id5768438"><m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mtable>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>9.</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd>
+      <m:mtable columnalign="left">
+       <m:mtr>
+        <m:mtd>
+         <m:mtext>Principal square root is </m:mtext><m:msqrt>
+          <m:mn>9</m:mn>
+         </m:msqrt>
+         <m:mo>=</m:mo><m:mn>3.</m:mn>
+        </m:mtd>
+       </m:mtr>
+       <m:mtr>
+        <m:mtd>
+         <m:mtext>Secondary square root is</m:mtext><m:mtext> </m:mtext><m:mo>−</m:mo><m:msqrt>
+          <m:mn>9</m:mn>
+         </m:msqrt>
+         <m:mo>=</m:mo><m:mo>−</m:mo><m:mn>3.</m:mn>
+        </m:mtd>
+       </m:mtr>
+      </m:mtable>
+      
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+
+</para></example>
+<example id="fs-id7689830"><para id="fs-id7689831">
+<m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mtable>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>15.</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd>
+      <m:mtable columnalign="left">
+       <m:mtr>
+        <m:mtd>
+         <m:mtext>Principal square root is </m:mtext><m:msqrt>
+          <m:mrow>
+           <m:mn>15</m:mn>
+          </m:mrow>
+         </m:msqrt>
+         <m:mo>.</m:mo>
+        </m:mtd>
+       </m:mtr>
+       <m:mtr>
+        <m:mtd>
+         <m:mtext>Secondary square root is</m:mtext><m:mtext> </m:mtext><m:mo>−</m:mo><m:msqrt>
+          <m:mrow>
+           <m:mn>15</m:mn>
+          </m:mrow>
+         </m:msqrt>
+         <m:mo>.</m:mo>
+        </m:mtd>
+       </m:mtr>
+      </m:mtable>
+      
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</para></example>
+<example id="fs-id6467400"><para id="fs-id6467401">Use a calculator to obtain a decimal approximation for the two square roots of 34. Round to two decimal places. <newline/>
+	<m:math display="block">
+		<m:semantics>
+			<m:mtable columnalign="left">
+				<m:mtr>
+					<m:mtd>
+						<m:mtext>On</m:mtext><m:mtext> </m:mtext><m:mtext>the</m:mtext><m:mtext> </m:mtext><m:mtext>Calculater</m:mtext>
+					</m:mtd>
+				</m:mtr>
+				<m:mtr>
+					<m:mtd>
+						<m:mtable columnalign="left">
+							<m:mtr columnalign="left">
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mtext>Type</m:mtext>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mn>34</m:mn>
+									</m:mrow>
+								</m:mtd>
+							</m:mtr>
+							<m:mtr columnalign="left">
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mtext>Press</m:mtext>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mtable frame="solid"><m:mrow>
+												<m:msqrt>
+													<m:mi>x</m:mi>
+												</m:msqrt>
+											</m:mrow></m:mtable>
+									</m:mrow>
+								</m:mtd>
+							</m:mtr>
+							<m:mtr columnalign="left">
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mtext>Display reads:</m:mtext>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mn>5.8309519</m:mn>
+									</m:mrow>
+								</m:mtd>
+							</m:mtr>
+							<m:mtr columnalign="left">
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mtext>Round to 5.83.</m:mtext>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+							</m:mtr>
+						</m:mtable>
+					</m:mtd>
+				</m:mtr>
+			</m:mtable>
+		</m:semantics>
+	</m:math><newline/>
+Notice that the square root symbol on the calculator is <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msqrt>
+    <m:mrow>
+     <m:mtable>
+      <m:mtr>
+       <m:mtd>
+        <m:mrow/>
+       </m:mtd>
+      </m:mtr>
+      <m:mtr>
+       <m:mtd>
+        <m:mrow/>
+       </m:mtd>
+      </m:mtr>
+      
+     </m:mtable>
+    </m:mrow>
+   </m:msqrt>
+   
+  </m:mrow>
+ </m:semantics>
+</m:math>. This means, of course, that a calculator will produce only the positive square root. We must supply the negative square root ourselves. <newline/><newline/>
+	<m:math display="block">
+		<m:semantics>
+			<m:mrow>
+				<m:mtable columnalign="left">
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:msqrt>
+									<m:mrow>
+										<m:mn>34</m:mn>
+									</m:mrow>
+								</m:msqrt>
+								<m:mo>≈</m:mo><m:mn>5.83</m:mn>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>and</m:mtext>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mo>−</m:mo><m:msqrt>
+									<m:mrow>
+										<m:mn>34</m:mn>
+									</m:mrow>
+								</m:msqrt>
+								<m:mo>≈</m:mo><m:mo>−</m:mo><m:mn>5.83</m:mn>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+				</m:mtable>
+			</m:mrow>
+		</m:semantics>
+	</m:math><newline/>
+	<foreign>Note:</foreign> The symbol ≈ means "approximately equal to." 
+
+
+</para></example>
+<example id="fs-id8368812"><para id="fs-id8368813">The number <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:msqrt>
+					<m:mrow>
+						<m:mn>50</m:mn>
+					</m:mrow>
+				</m:msqrt>
+			</m:mrow>
+		</m:semantics>
+	</m:math> is between what two whole numbers? <newline/><newline/>
+Since <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:msup>
+					<m:mn>7</m:mn>
+					<m:mn>2</m:mn>
+				</m:msup>
+				<m:mo>=</m:mo><m:mn>49</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:msqrt>
+					<m:mrow>
+						<m:mn>49</m:mn>
+					</m:mrow>
+				</m:msqrt>
+				<m:mo>=</m:mo><m:mn>7.</m:mn>
+			</m:mrow>
+		</m:semantics>
+	</m:math><newline/><newline/>
+
+Since <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:msup>
+					<m:mn>8</m:mn>
+					<m:mn>2</m:mn>
+				</m:msup>
+				<m:mo>=</m:mo><m:mn>64</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:msqrt>
+					<m:mrow>
+						<m:mn>64</m:mn>
+					</m:mrow>
+				</m:msqrt>
+				<m:mo>=</m:mo><m:mn>8.</m:mn>
+			</m:mrow>
+		</m:semantics>
+	</m:math>
+
+ Thus,<newline/><newline/>
+	<m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>7</m:mn><m:mo>&lt;</m:mo><m:msqrt>
+					<m:mrow>
+						<m:mn>50</m:mn>
+					</m:mrow>
+				</m:msqrt>
+				<m:mo>&lt;</m:mo><m:mn>8</m:mn>
+			</m:mrow>
+		</m:semantics>
+	</m:math><newline/><newline/>
+Thus, <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:msqrt>
+					<m:mrow>
+						<m:mn>50</m:mn>
+					</m:mrow>
+				</m:msqrt>
+			</m:mrow>
+		</m:semantics>
+	</m:math> is a number between 7 and 8. <newline/><newline/>
+	<media id="fs-id7894440" display="block" alt="A number line with arrows on each end, labeled at zero, seven and eight. Seven is also labeled as square root of forty-nine and eight is labeled as square root of sixty-four. There is a closed circle at square root of fifty and it is labeled as square root of fifty.">
+		<image mime-type="image/jpeg" src="../../media/C08_S8-1_P03_001.jpg"/>
+	</media>
+</para></example>
+</section>
+
+<section id="fs-id6375419">
+<title>Practice Set B</title>
+<para id="fs-id7123690">Write the principal and secondary square roots of each number. </para>
+<exercise id="fs-id7123695">
+<problem id="fs-id7789130"><para id="fs-id7789131">100</para></problem>
+<solution id="fs-id6511343"><para id="fs-id6511344"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:msqrt>
+					<m:mrow>
+						<m:mn>100</m:mn>
+					</m:mrow>
+				</m:msqrt>
+				<m:mo>=</m:mo><m:mn>10</m:mn>
+			</m:mrow>
+		</m:semantics>
+	</m:math>
+ and <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mo>−</m:mo><m:msqrt>
+					<m:mrow>
+						<m:mn>100</m:mn>
+					</m:mrow>
+				</m:msqrt>
+				<m:mo>=</m:mo><m:mo>−</m:mo><m:mn>10</m:mn>
+			</m:mrow>
+		</m:semantics></m:math></para></solution>
+</exercise>
+
+<exercise id="fs-id7791093"><problem id="fs-id7791095"><para id="fs-id7791096">121</para></problem>
+	<solution id="fs-id7698597"><para id="fs-id7698598"><m:math>
+				<m:semantics>
+					<m:mrow>
+						<m:msqrt>
+							<m:mrow>
+								<m:mn>121</m:mn>
+							</m:mrow>
+						</m:msqrt>
+						<m:mo>=</m:mo><m:mn>11</m:mn>
+					</m:mrow>
+				</m:semantics>
+			</m:math>
+ and <m:math>
+				<m:semantics>
+					<m:mrow>
+						<m:mo>−</m:mo><m:msqrt>
+							<m:mrow>
+								<m:mn>121</m:mn>
+							</m:mrow>
+						</m:msqrt>
+						<m:mo>=</m:mo><m:mo>−</m:mo><m:mn>11</m:mn>
+					</m:mrow>
+				</m:semantics></m:math></para></solution>
+</exercise>
+<exercise id="fs-id8191669"><problem id="fs-id8191670"><para id="fs-id8191671">35</para></problem>
+<solution id="fs-id7916249"><para id="fs-id7916250">
+
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msqrt>
+    <m:mrow>
+     <m:mn>35</m:mn>
+    </m:mrow>
+   </m:msqrt>
+   
+  </m:mrow>
+ </m:semantics>
+</m:math>
+ and <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:msqrt>
+    <m:mrow>
+     <m:mn>35</m:mn>
+    </m:mrow>
+   </m:msqrt>
+   
+  </m:mrow>
+ </m:semantics>
+</m:math>
+
+</para></solution>
+</exercise>
+
+<exercise id="fs-id8997392">
+<problem id="fs-id6503392"><para id="fs-id6503393">Use a calculator to obtain a decimal approximation for the two square roots of 35. Round to two decimal places.</para></problem>
+<solution id="fs-id7706936"><para id="fs-id7706937"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>5.92</m:mn><m:mtext> and </m:mtext><m:mo>−</m:mo><m:mn>5.92</m:mn>
+  </m:mrow>
+  </m:semantics>
+</m:math>
+</para></solution>
+</exercise>
+</section>
+
+<section id="fs-id7698517">
+<title>Meaningful Expressions</title>
+<para id="fs-id7793204">
+Since we know that the square of any real number is a positive number or zero, we can see that expressions such as <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msqrt>
+    <m:mrow>
+     <m:mo>−</m:mo><m:mn>16</m:mn>
+    </m:mrow>
+   </m:msqrt>
+   
+  </m:mrow>
+ </m:semantics>
+</m:math>
+ do not describe real numbers. There is no real number that can be squared that will produce −16. For <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msqrt>
+    <m:mi>x</m:mi>
+   </m:msqrt>
+   
+  </m:mrow>
+ </m:semantics>
+</m:math>
+ to be a real number, we must have <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>≥</m:mo><m:mn>0.</m:mn>
+  </m:mrow>
+ </m:semantics>
+</m:math> In our study of algebra, we will assume that all variables and all expressions in radicands represent nonnegative numbers (numbers greater than or equal to zero). 
+
+</para>
+</section>
+<section id="fs-id8191430">
+      <title>Sample Set C</title>
+ <para id="fs-id7693160">Write the proper restrictions that must be placed on the variable so that each expression represents a real number.</para>
+	  <example id="fs-id7697850">
+        <para id="fs-id6373026">For <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msqrt>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn>
+    </m:mrow>
+   </m:msqrt>
+   
+  </m:mrow>
+ </m:semantics>
+</m:math> to be a real number, we must have <newline/><newline/>
+<m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mtable columnalign="left">
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>≥</m:mo><m:mn>0</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>or</m:mtext>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mi>x</m:mi><m:mo>≥</m:mo><m:mn>3</m:mn>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</para></example>
+<example id="fs-id6763704">
+        <para id="fs-id6763706">For <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msqrt>
+    <m:mrow>
+     <m:mn>2</m:mn><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>7</m:mn>
+    </m:mrow>
+   </m:msqrt>
+   
+  </m:mrow>
+ </m:semantics>
+</m:math> to be a real number, we must have <newline/><newline/>
+<m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mtable columnalign="left">
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mn>2</m:mn><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mo>≥</m:mo><m:mn>0</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>or</m:mtext>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mn>2</m:mn><m:mi>m</m:mi><m:mo>≥</m:mo><m:mo>−</m:mo><m:mn>7</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>or</m:mtext>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mi>m</m:mi><m:mo>≥</m:mo><m:mfrac>
+        <m:mrow>
+         <m:mo>−</m:mo><m:mn>7</m:mn>
+        </m:mrow>
+        <m:mn>2</m:mn>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</para></example>
+</section>
+
+<section id="fs-id7732640">
+<title>Practice Set C</title>
+<para id="fs-id7732927">Write the proper restrictions that must be placed on the variable so that each expression represents a real number.</para>
+<exercise id="fs-id6923596">
+<problem id="fs-id6923598"><para id="fs-id6373214"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msqrt>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn>
+    </m:mrow>
+   </m:msqrt>
+   
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</para></problem>
+<solution id="fs-id7697817"><para id="fs-id7792108"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>≥</m:mo><m:mo>−</m:mo><m:mn>5</m:mn>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</para></solution>
+</exercise>
+
+<exercise id="fs-id7786023">
+<problem id="fs-id7786025"><para id="fs-id7786026"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msqrt>
+    <m:mrow>
+     <m:mi>y</m:mi><m:mo>−</m:mo><m:mn>8</m:mn>
+    </m:mrow>
+   </m:msqrt>
+   
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</para></problem>
+<solution id="fs-id6544311"><para id="fs-id6544312"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>y</m:mi><m:mo>≥</m:mo><m:mn>8</m:mn>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</para></solution>
+</exercise>
+<exercise id="fs-id7081967"><problem id="fs-id7081968"><para id="fs-id7081969"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msqrt>
+    <m:mrow>
+     <m:mn>3</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>2</m:mn>
+    </m:mrow>
+   </m:msqrt>
+   
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</para></problem>
+<solution id="fs-id7049634"><para id="fs-id7049635">
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>a</m:mi><m:mo>≥</m:mo><m:mo>−</m:mo><m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mn>3</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+ </m:semantics>
+</m:math>
+
+</para></solution>
+</exercise>
+
+<exercise id="fs-id8363144">
+<problem id="fs-id7929601"><para id="fs-id7929602"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msqrt>
+    <m:mrow>
+     <m:mn>5</m:mn><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>6</m:mn>
+    </m:mrow>
+   </m:msqrt>
+   
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</para></problem>
+<solution id="fs-id8196704"><para id="fs-id7234722"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>m</m:mi><m:mo>≥</m:mo><m:mfrac>
+    <m:mn>6</m:mn>
+    <m:mn>5</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</para></solution>
+</exercise>
+
+</section>
+
+<section id="fs-id7081345">
+      <title>Simplifying Square Roots</title>
+
+<para id="fs-id7705309">When variables occur in the radicand, we can often simplify the expression by removing the radical sign. We can do so by keeping in mind that the radicand is the square of some other expression. We can simplify a radical by seeking an expression whose square is the radicand. The following observations will help us find the square root of a variable quantity. </para>
+
+<example id="fs-id7705313"><para id="fs-id6529646">Since <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:msup>
+					<m:mrow>
+						<m:mrow><m:mo>(</m:mo>
+							<m:mrow>
+								<m:msup>
+									<m:mi>x</m:mi>
+									<m:mn>3</m:mn>
+								</m:msup>
+							</m:mrow>
+							<m:mo>)</m:mo></m:mrow>
+					</m:mrow>
+					<m:mn>2</m:mn>
+				</m:msup>
+				<m:mo>=</m:mo><m:msup>
+					<m:mi>x</m:mi>
+					<m:mn>3</m:mn>
+				</m:msup>
+				<m:mtext> </m:mtext><m:mo>·</m:mo><m:msup>
+					<m:mtext> </m:mtext>
+					<m:mn>2</m:mn>
+				</m:msup>
+				<m:mo>=</m:mo><m:msup>
+					<m:mi>x</m:mi>
+					<m:mn>6</m:mn>
+				</m:msup>
+				<m:mo>,</m:mo><m:msup>
+					<m:mi>x</m:mi>
+					<m:mn>3</m:mn>
+				</m:msup>
+			</m:mrow>
+		</m:semantics>
+	</m:math> is a square root of <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:msup>
+					<m:mi>x</m:mi>
+					<m:mn>6</m:mn>
+				</m:msup>
+				<m:mo>.</m:mo>
+			</m:mrow>
+		</m:semantics>
+	</m:math> Also<newline/>
+	<media id="fs-id6491297" display="block" alt="Six divided by two is equal to three. There is an arrow pointing  towards six that is labeled as &quot;exponent of x to the sixth power.&quot;  There is another arrows pointing towards three that is labeled as  &quot;exponent of square root of the expression x to the sixth power.&quot;">
+		<image mime-type="image/jpeg" src="../../media/C08_S8-1_P04_001.jpg"/>
+	</media></para></example>
+<example id="fs-id8353770"><para id="fs-id8353771">Since <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:msup>
+					<m:mrow>
+						<m:mrow><m:mo>(</m:mo>
+							<m:mrow>
+								<m:msup>
+									<m:mi>x</m:mi>
+									<m:mn>4</m:mn>
+								</m:msup>
+							</m:mrow>
+							<m:mo>)</m:mo></m:mrow>
+					</m:mrow>
+					<m:mn>2</m:mn>
+				</m:msup>
+				<m:mo>=</m:mo><m:msup>
+					<m:mi>x</m:mi>
+					<m:mrow>
+						<m:mn>4</m:mn><m:mo>·</m:mo><m:mn>2</m:mn>
+					</m:mrow>
+				</m:msup>
+				<m:mo>=</m:mo><m:msup>
+					<m:mi>x</m:mi>
+					<m:mn>8</m:mn>
+				</m:msup>
+				<m:mo>,</m:mo><m:msup>
+					<m:mi>x</m:mi>
+					<m:mn>4</m:mn>
+				</m:msup>
+			</m:mrow>
+		</m:semantics>
+	</m:math>
+ is a square root of <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:msup>
+					<m:mi>x</m:mi>
+					<m:mn>8</m:mn>
+				</m:msup>
+				<m:mo>.</m:mo>
+			</m:mrow>
+		</m:semantics>
+	</m:math> Also<newline/>
+	<newline/>
+	<media id="fs-id7229759" display="block" alt="Eight divided by two is equal to four. There is an arrow pointing  towards eight that is labeled as &quot;exponent of x to the eighth power.&quot;  There is another arrows pointing towards four that is labeled as  &quot;exponent of square root of the expression x to the eighth power.&quot;">
+		<image mime-type="image/jpeg" src="../../media/C08_S8-1_P05_001.jpg"/>
+	</media>
+</para></example>
+<example id="fs-id6424782"><para id="fs-id6424784">Since <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:msup>
+					<m:mrow>
+						<m:mrow><m:mo>(</m:mo>
+							<m:mrow>
+								<m:msup>
+									<m:mi>x</m:mi>
+									<m:mn>6</m:mn>
+								</m:msup>
+							</m:mrow>
+							<m:mo>)</m:mo></m:mrow>
+					</m:mrow>
+					<m:mn>2</m:mn>
+				</m:msup>
+				<m:mo>=</m:mo><m:msup>
+					<m:mi>x</m:mi>
+					<m:mrow>
+						<m:mn>6</m:mn><m:mo>·</m:mo><m:mn>2</m:mn>
+					</m:mrow>
+				</m:msup>
+				<m:mo>=</m:mo><m:msup>
+					<m:mi>x</m:mi>
+					<m:mrow>
+						<m:mn>12</m:mn>
+					</m:mrow>
+				</m:msup>
+				<m:mo>,</m:mo><m:msup>
+					<m:mi>x</m:mi>
+					<m:mn>6</m:mn>
+				</m:msup>
+			</m:mrow>
+		</m:semantics>
+	</m:math>
+ is a square root of <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:msup>
+					<m:mi>x</m:mi>
+					<m:mn>12</m:mn>
+				</m:msup>
+				<m:mo>.</m:mo>
+			</m:mrow>
+		</m:semantics>
+	</m:math> Also<newline/>
+	<newline/>
+	<media id="fs-id6430616" display="block" alt="Twelve divided by two is equal to six. There is an arrow pointing  towards twelve that is labeled as &quot;exponent of x to the twelfth power.&quot;  There is another arrows pointing towards six that is labeled as  &quot;exponent of square root of the expression x to the twelfth power.&quot;">
+		<image mime-type="image/jpeg" src="../../media/C08_S8-1_P05_002.jpg"/>
+	</media></para></example>
+<para id="fs-id7724004">These examples suggest the following rule:</para>
+<para id="fs-id7724007" class="highlight">If a variable has an even exponent, its square root can be found by dividing that exponent by 2.</para>
+<para id="fs-id6850591">The examples of Sample Set B illustrate the use of this rule. 
+</para>
+
+
+</section>
+
+<section id="fs-id7916207">
+      <title>Sample Set D</title>
+ <para id="fs-id7647317">Simplify each expression by removing the radical sign. Assume each variable is <foreign>nonnegative</foreign>.</para>
+	  <example id="fs-id7647319">
+        <para id="fs-id6830212"><m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mtable columnalign="left">
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:msqrt>
+        <m:mrow>
+         <m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>2</m:mn>
+         </m:msup>
+         
+        </m:mrow>
+       </m:msqrt>
+       <m:mo>.</m:mo>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>We seek an expression whose square is </m:mtext><m:msup>
+        <m:mi>a</m:mi>
+        <m:mn>2</m:mn>
+       </m:msup>
+       <m:mo>.</m:mo><m:mtext> Since</m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:msup>
+        <m:mrow>
+         <m:mrow><m:mo>(</m:mo>
+          <m:mi>a</m:mi>
+         <m:mo>)</m:mo></m:mrow>
+        </m:mrow>
+        <m:mn>2</m:mn>
+       </m:msup>
+       <m:mo>=</m:mo><m:msup>
+        <m:mi>a</m:mi>
+        <m:mn>2</m:mn>
+       </m:msup>
+       <m:mo>,</m:mo>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:msqrt>
+        <m:mrow>
+         <m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>2</m:mn>
+         </m:msup>
+         
+        </m:mrow>
+       </m:msqrt>
+       <m:mo>=</m:mo><m:mi>a</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>Notice that </m:mtext><m:mn>2</m:mn><m:mo>÷</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>1.</m:mn>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+</m:semantics>
+</m:math>
+</para></example>
+<example id="fs-id8364270">
+        <para id="fs-id8364272">
+		<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable columnalign="left">
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:msqrt>
+        <m:mrow>
+         <m:msup>
+          <m:mi>y</m:mi>
+          <m:mn>8</m:mn>
+         </m:msup>
+         
+        </m:mrow>
+       </m:msqrt>
+       <m:mo>.</m:mo>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>We seek an expression whose square is </m:mtext><m:msup>
+        <m:mi>y</m:mi>
+        <m:mn>8</m:mn>
+       </m:msup>
+       <m:mo>.</m:mo><m:mtext> Since</m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:msup>
+        <m:mrow>
+         <m:mrow><m:mo>(</m:mo>
+          <m:mrow>
+           <m:msup>
+            <m:mi>y</m:mi>
+            <m:mn>4</m:mn>
+           </m:msup>
+           
+          </m:mrow>
+         <m:mo>)</m:mo></m:mrow>
+        </m:mrow>
+        <m:mn>2</m:mn>
+       </m:msup>
+       <m:mo>=</m:mo><m:msup>
+        <m:mi>y</m:mi>
+        <m:mn>8</m:mn>
+       </m:msup>
+       <m:mo>,</m:mo>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:msqrt>
+        <m:mrow>
+         <m:msup>
+          <m:mi>y</m:mi>
+          <m:mn>8</m:mn>
+         </m:msup>
+         
+        </m:mrow>
+       </m:msqrt>
+       <m:mo>=</m:mo><m:msup>
+        <m:mi>y</m:mi>
+        <m:mn>4</m:mn>
+       </m:msup>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>Notice that </m:mtext><m:mn>8</m:mn><m:mo>÷</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>4.</m:mn>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+
+</para></example>
+
+<example id="fs-id6851922">
+        <para id="fs-id6851924">
+		<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable columnalign="left">
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:msqrt>
+        <m:mrow>
+         <m:mn>25</m:mn><m:msup>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+         </m:msup>
+         <m:msup>
+          <m:mi>n</m:mi>
+          <m:mn>6</m:mn>
+         </m:msup>
+         
+        </m:mrow>
+       </m:msqrt>
+       <m:mo>.</m:mo>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>We seek an expression whose square is </m:mtext><m:mn>25</m:mn><m:msup>
+        <m:mi>m</m:mi>
+        <m:mn>2</m:mn>
+       </m:msup>
+       <m:msup>
+        <m:mi>n</m:mi>
+        <m:mn>6</m:mn>
+       </m:msup>
+       <m:mo>.</m:mo><m:mtext> Since</m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:msup>
+        <m:mrow>
+         <m:mrow><m:mo>(</m:mo>
+          <m:mrow>
+           <m:mn>5</m:mn><m:mi>m</m:mi><m:msup>
+            <m:mi>n</m:mi>
+            <m:mn>3</m:mn>
+           </m:msup>
+           
+          </m:mrow>
+         <m:mo>)</m:mo></m:mrow>
+        </m:mrow>
+        <m:mn>2</m:mn>
+       </m:msup>
+       <m:mo>=</m:mo><m:mn>25</m:mn><m:msup>
+        <m:mi>m</m:mi>
+        <m:mn>2</m:mn>
+       </m:msup>
+       <m:msup>
+        <m:mi>n</m:mi>
+        <m:mn>6</m:mn>
+       </m:msup>
+       <m:mo>,</m:mo>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:msqrt>
+        <m:mrow>
+         <m:mn>25</m:mn><m:msup>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+         </m:msup>
+         <m:msup>
+          <m:mi>n</m:mi>
+          <m:mn>6</m:mn>
+         </m:msup>
+         
+        </m:mrow>
+       </m:msqrt>
+       <m:mo>=</m:mo><m:mn>5</m:mn><m:mi>m</m:mi><m:msup>
+        <m:mi>n</m:mi>
+        <m:mn>3</m:mn>
+       </m:msup>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>Notice that </m:mtext><m:mn>2</m:mn><m:mo>÷</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>1</m:mn><m:mtext> and </m:mtext><m:mn>6</m:mn><m:mo>÷</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>3.</m:mn>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+
+</para></example>
+
+<example id="fs-id7677563">
+        <para id="fs-id7677565">
+		<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable columnalign="left">
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mo>−</m:mo><m:msqrt>
+        <m:mrow>
+         <m:mn>121</m:mn><m:msup>
+          <m:mi>a</m:mi>
+          <m:mrow>
+           <m:mn>10</m:mn>
+          </m:mrow>
+         </m:msup>
+         <m:msup>
+          <m:mrow>
+           <m:mrow><m:mo>(</m:mo>
+            <m:mrow>
+             <m:mi>b</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+            </m:mrow>
+           <m:mo>)</m:mo></m:mrow>
+          </m:mrow>
+          <m:mn>4</m:mn>
+         </m:msup>
+         
+        </m:mrow>
+       </m:msqrt>
+       <m:mo>.</m:mo>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>We seek an expression whose square is </m:mtext><m:mn>121</m:mn><m:msup>
+        <m:mi>a</m:mi>
+        <m:mrow>
+         <m:mn>10</m:mn>
+        </m:mrow>
+       </m:msup>
+       <m:msup>
+        <m:mrow>
+         <m:mrow><m:mo>(</m:mo>
+          <m:mrow>
+           <m:mi>b</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+          </m:mrow>
+         <m:mo>)</m:mo></m:mrow>
+        </m:mrow>
+        <m:mn>4</m:mn>
+       </m:msup>
+       <m:mo>.</m:mo><m:mtext> </m:mtext><m:mtext>Since</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:msup>
+        <m:mrow>
+         <m:mrow><m:mo>[</m:mo> <m:mrow>
+          <m:mn>11</m:mn><m:msup>
+           <m:mi>a</m:mi>
+           <m:mn>5</m:mn>
+          </m:msup>
+          <m:msup>
+           <m:mrow>
+            <m:mrow><m:mo>(</m:mo>
+             <m:mrow>
+              <m:mi>b</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+             </m:mrow>
+            <m:mo>)</m:mo></m:mrow>
+           </m:mrow>
+           <m:mn>2</m:mn>
+          </m:msup>
+          
+         </m:mrow> <m:mo>]</m:mo></m:mrow>
+        </m:mrow>
+        <m:mn>2</m:mn>
+       </m:msup>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mn>121</m:mn><m:msup>
+        <m:mi>a</m:mi>
+        <m:mrow>
+         <m:mn>10</m:mn>
+        </m:mrow>
+       </m:msup>
+       <m:msup>
+        <m:mrow>
+         <m:mrow><m:mo>(</m:mo>
+          <m:mrow>
+           <m:mi>b</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+          </m:mrow>
+         <m:mo>)</m:mo></m:mrow>
+        </m:mrow>
+        <m:mn>4</m:mn>
+       </m:msup>
+       <m:mo>,</m:mo>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:msqrt>
+        <m:mrow>
+         <m:mn>121</m:mn><m:msup>
+          <m:mi>a</m:mi>
+          <m:mrow>
+           <m:mn>10</m:mn>
+          </m:mrow>
+         </m:msup>
+         <m:msup>
+          <m:mrow>
+           <m:mrow><m:mo>(</m:mo>
+            <m:mrow>
+             <m:mi>b</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+            </m:mrow>
+           <m:mo>)</m:mo></m:mrow>
+          </m:mrow>
+          <m:mn>4</m:mn>
+         </m:msup>
+         
+        </m:mrow>
+       </m:msqrt>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mn>11</m:mn><m:msup>
+        <m:mi>a</m:mi>
+        <m:mn>5</m:mn>
+       </m:msup>
+       <m:msup>
+        <m:mrow>
+         <m:mrow><m:mo>(</m:mo>
+          <m:mrow>
+           <m:mi>b</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+          </m:mrow>
+         <m:mo>)</m:mo></m:mrow>
+        </m:mrow>
+        <m:mn>2</m:mn>
+       </m:msup>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>Then,</m:mtext><m:mtext> </m:mtext><m:mo>−</m:mo><m:msqrt>
+        <m:mrow>
+         <m:mn>121</m:mn><m:msup>
+          <m:mi>a</m:mi>
+          <m:mrow>
+           <m:mn>10</m:mn>
+          </m:mrow>
+         </m:msup>
+         <m:msup>
+          <m:mrow>
+           <m:mrow><m:mo>(</m:mo>
+            <m:mrow>
+             <m:mi>b</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+            </m:mrow>
+           <m:mo>)</m:mo></m:mrow>
+          </m:mrow>
+          <m:mn>4</m:mn>
+         </m:msup>
+         
+        </m:mrow>
+       </m:msqrt>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>11</m:mn><m:msup>
+        <m:mi>a</m:mi>
+        <m:mn>5</m:mn>
+       </m:msup>
+       <m:msup>
+        <m:mrow>
+         <m:mrow><m:mo>(</m:mo>
+          <m:mrow>
+           <m:mi>b</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+          </m:mrow>
+         <m:mo>)</m:mo></m:mrow>
+        </m:mrow>
+        <m:mn>2</m:mn>
+       </m:msup>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>Notice that </m:mtext><m:mn>10</m:mn><m:mo>÷</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>5</m:mn><m:mtext> and </m:mtext><m:mn>4</m:mn><m:mo>÷</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>2.</m:mn>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+
+</para></example>
+
+</section>
+<section id="fs-id6850208">
+<title>Practice Set D</title>
+<para id="fs-id6850213">Simplify each expression by removing the radical sign. Assume each variable is nonnegative. </para>
+
+
+<exercise id="fs-id7708838">
+<problem id="fs-id7708840"><para id="fs-id7708841"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msqrt>
+    <m:mrow>
+     <m:msup>
+      <m:mi>y</m:mi>
+      <m:mn>8</m:mn>
+     </m:msup>
+     
+    </m:mrow>
+   </m:msqrt>
+   
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</para></problem>
+<solution id="fs-id7726783"><para id="fs-id7726784"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mi>y</m:mi>
+    <m:mn>4</m:mn>
+   </m:msup>
+   
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</para></solution>
+</exercise>
+
+<exercise id="fs-id7738039">
+<problem id="fs-id7738041"><para id="fs-id7738042"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msqrt>
+    <m:mrow>
+     <m:mn>16</m:mn><m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>4</m:mn>
+     </m:msup>
+     
+    </m:mrow>
+   </m:msqrt>
+   
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</para></problem>
+<solution id="fs-id7707384"><para id="fs-id7707385"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>4</m:mn><m:msup>
+    <m:mi>a</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</para></solution>
+</exercise>
+
+<exercise id="fs-id6828834">
+<problem id="fs-id6828836"><para id="fs-id6828837"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msqrt>
+    <m:mrow>
+     <m:mn>49</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>4</m:mn>
+     </m:msup>
+     <m:msup>
+      <m:mi>y</m:mi>
+      <m:mn>6</m:mn>
+     </m:msup>
+     
+    </m:mrow>
+   </m:msqrt>
+   
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</para></problem>
+<solution id="fs-id6058517"><para id="fs-id6058518"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>7</m:mn><m:msup>
+    <m:mi>x</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:msup>
+    <m:mi>y</m:mi>
+    <m:mn>3</m:mn>
+   </m:msup>
+   
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</para></solution>
+</exercise>
+
+<exercise id="fs-id7724033">
+<problem id="fs-id7724035"><para id="fs-id7724036"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:msqrt>
+    <m:mrow>
+     <m:mn>100</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>8</m:mn>
+     </m:msup>
+     <m:msup>
+      <m:mi>y</m:mi>
+      <m:mrow>
+       <m:mn>12</m:mn>
+      </m:mrow>
+     </m:msup>
+     <m:msup>
+      <m:mi>z</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     
+    </m:mrow>
+   </m:msqrt>
+   
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</para></problem>
+<solution id="fs-id6808376"><para id="fs-id6808377"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mn>10</m:mn><m:msup>
+    <m:mi>x</m:mi>
+    <m:mn>4</m:mn>
+   </m:msup>
+   <m:msup>
+    <m:mi>y</m:mi>
+    <m:mn>6</m:mn>
+   </m:msup>
+   <m:mi>z</m:mi>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</para></solution>
+</exercise>
+
+<exercise id="fs-id6191652">
+<problem id="fs-id6191654"><para id="fs-id6191656"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:msqrt>
+    <m:mrow>
+     <m:mn>36</m:mn><m:msup>
+      <m:mrow>
+       <m:mrow><m:mo>(</m:mo>
+        <m:mrow>
+         <m:mi>a</m:mi><m:mo>+</m:mo><m:mn>5</m:mn>
+        </m:mrow>
+       <m:mo>)</m:mo></m:mrow>
+      </m:mrow>
+      <m:mn>4</m:mn>
+     </m:msup>
+     
+    </m:mrow>
+   </m:msqrt>
+   
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</para></problem>
+<solution id="fs-id6872475"><para id="fs-id6872476"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mn>6</m:mn><m:msup>
+    <m:mrow>
+     <m:mrow><m:mo>(</m:mo>
+      <m:mrow>
+       <m:mi>a</m:mi><m:mo>+</m:mo><m:mn>5</m:mn>
+      </m:mrow>
+     <m:mo>)</m:mo></m:mrow>
+    </m:mrow>
+    <m:mn>2</m:mn>
+   </m:msup>
+   
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</para></solution>
+</exercise>
+
+<exercise id="fs-id7845301">
+<problem id="fs-id7845303"><para id="fs-id7845304"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msqrt>
+    <m:mrow>
+     <m:mn>225</m:mn><m:msup>
+      <m:mi>w</m:mi>
+      <m:mn>4</m:mn>
+     </m:msup>
+     <m:msup>
+      <m:mrow>
+       <m:mrow><m:mo>(</m:mo>
+        <m:mrow>
+         <m:msup>
+          <m:mi>z</m:mi>
+          <m:mn>2</m:mn>
+         </m:msup>
+         <m:mo>−</m:mo><m:mn>1</m:mn>
+        </m:mrow>
+       <m:mo>)</m:mo></m:mrow>
+      </m:mrow>
+      <m:mn>2</m:mn>
+     </m:msup>
+     
+    </m:mrow>
+   </m:msqrt>
+   
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</para></problem>
+<solution id="fs-id8362540"><para id="fs-id8362541"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>15</m:mn><m:msup>
+    <m:mi>w</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:msup>
+      <m:mi>z</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</para></solution>
+</exercise>
+
+<exercise id="fs-id6829005">
+<problem id="fs-id6829007"><para id="fs-id6829008"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msqrt>
+    <m:mrow>
+     <m:mn>0.25</m:mn><m:msup>
+      <m:mi>y</m:mi>
+      <m:mn>6</m:mn>
+     </m:msup>
+     <m:msup>
+      <m:mi>z</m:mi>
+      <m:mrow>
+       <m:mn>14</m:mn>
+      </m:mrow>
+     </m:msup>
+     
+    </m:mrow>
+   </m:msqrt>
+   
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</para></problem>
+<solution id="fs-id6866247"><para id="fs-id6866248"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>0.5</m:mn><m:msup>
+    <m:mi>y</m:mi>
+    <m:mn>3</m:mn>
+   </m:msup>
+   <m:msup>
+    <m:mi>z</m:mi>
+    <m:mn>7</m:mn>
+   </m:msup>
+   
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</para></solution>
+</exercise>
+
+<exercise id="fs-id6843444">
+<problem id="fs-id6843447"><para id="fs-id6843448"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msqrt>
+    <m:mrow>
+     <m:msup>
+      <m:mi>x</m:mi>
+      <m:mrow>
+       <m:mn>2</m:mn><m:mi>n</m:mi>
+      </m:mrow>
+     </m:msup>
+     
+    </m:mrow>
+   </m:msqrt>
+   <m:mo>,</m:mo>
+  </m:mrow>
+ </m:semantics>
+</m:math> where <m:math>
+ <m:semantics>
+  <m:mi>n</m:mi>
+ </m:semantics>
+</m:math>
+ is a natural number.
+</para></problem>
+<solution id="fs-id6822747"><para id="fs-id6822748"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mi>x</m:mi>
+    <m:mi>n</m:mi>
+   </m:msup>
+   
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</para></solution>
+</exercise>
+
+<exercise id="fs-id6851881">
+<problem id="fs-id6851883"><para id="fs-id6851884"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msqrt>
+    <m:mrow>
+     <m:msup>
+      <m:mi>x</m:mi>
+      <m:mrow>
+       <m:mn>4</m:mn><m:mi>n</m:mi>
+      </m:mrow>
+     </m:msup>
+     
+    </m:mrow>
+   </m:msqrt>
+   <m:mo>,</m:mo>
+  </m:mrow>
+ </m:semantics>
+</m:math> where <m:math>
+ <m:semantics>
+  <m:mi>n</m:mi>
+ </m:semantics>
+</m:math>
+ is a natural number.
+</para></problem>
+<solution id="fs-id6843677">
+
+<para id="fs-id6823430"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mi>x</m:mi>
+    <m:mrow>
+     <m:mn>2</m:mn><m:mi>n</m:mi>
+    </m:mrow>
+   </m:msup>
+   
+  </m:mrow>
+
+ </m:semantics>
+</m:math>
+</para></solution>
+
+
+</exercise>
+</section>
+<section id="fs-id7704423" class="homework"><title>Exercises</title>
+<exercise id="fs-id7704428"><problem id="fs-id7704429"><para id="fs-id7704430">How many square roots does every positive real number have?</para></problem><solution id="zip-id2348313"><para id="zip-id1169999011280">two</para></solution></exercise>
+<exercise id="fs-id7704435"><problem id="fs-id6430644"><para id="fs-id6430645">The symbol <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msqrt>
+    <m:mrow>
+     <m:mtable>
+      <m:mtr>
+       <m:mtd>
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd>
+        <m:mrow/>
+       </m:mtd>
+      </m:mtr>
+      
+     </m:mtable>
+    </m:mrow>
+   </m:msqrt>
+   
+  </m:mrow>
+ </m:semantics>
+</m:math>
+ represents which square root of a number?</para></problem></exercise>
+<exercise id="fs-id6430654"><problem id="fs-id6430656"><para id="fs-id6864591">The symbol –<m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:msqrt>
+					<m:mrow>
+						<m:mtable>
+							<m:mtr>
+								<m:mtd>
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd>
+									<m:mrow/>
+								</m:mtd>
+							</m:mtr>
+						</m:mtable>
+					</m:mrow>
+				</m:msqrt>
+			</m:mrow>
+		</m:semantics>
+	</m:math> represents which square root of a number?</para></problem><solution id="zip-id1169979583053"><para id="zip-id1169991178626">secondary</para></solution></exercise><para id="fs-id6864602">For the following problems, find the two square roots of the given number.</para>
+<exercise id="fs-id6860130"><problem id="fs-id6860131"><para id="fs-id6860132">64</para></problem></exercise>
+<exercise id="fs-id6860135"><problem id="fs-id6860136"><para id="fs-id6860138">81</para></problem><solution id="zip-id1169999188461"><para id="zip-id8415961">9 and <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mn>9</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id6864628"><problem id="fs-id6864629"><para id="fs-id6864630">25</para></problem></exercise>
+<exercise id="fs-id6864634"><problem id="fs-id6864635"><para id="fs-id6864636">121</para></problem><solution id="zip-id1169988193854"><para id="zip-id5777477">11 and <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mn>11</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math></para></solution></exercise>
+<exercise id="fs-id6864639"><problem id="fs-id6835980"><para id="fs-id6835981">144</para></problem></exercise>
+<exercise id="fs-id6835984"><problem id="fs-id6835986"><para id="fs-id6835987">225</para></problem><solution id="zip-id1169984615303"><para id="zip-id5317135">15 and <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mn>15</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math></para></solution></exercise>
+<exercise id="fs-id6835990"><problem id="fs-id6835991"><para id="fs-id6835992">10,000</para></problem></exercise>
+<exercise id="fs-id6836002"><problem id="fs-id6836003"><para id="fs-id6836004"><m:math><m:semantics><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac></m:mrow></m:semantics></m:math></para></problem><solution id="zip-id1169984794734"><para id="zip-id1169983571826"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>4</m:mn>
+   </m:mfrac>
+   <m:mtext> </m:mtext><m:mtext>and</m:mtext><m:mo>−</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>4</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id6844718"><problem id="fs-id6844720"><para id="fs-id6844721"><m:math><m:semantics><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>49</m:mn></m:mrow></m:mfrac></m:mrow></m:semantics></m:math></para></problem></exercise>
+<exercise id="fs-id6864549"><problem id="fs-id6864550"><para id="fs-id6864552"><m:math><m:semantics><m:mrow><m:mfrac><m:mn>25</m:mn><m:mrow><m:mn>36</m:mn></m:mrow></m:mfrac></m:mrow></m:semantics></m:math></para></problem><solution id="zip-id1169984262358"><para id="zip-id1169990590753"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>5</m:mn>
+    <m:mn>6</m:mn>
+   </m:mfrac>
+   <m:mtext> and </m:mtext><m:mo>−</m:mo><m:mfrac>
+    <m:mn>5</m:mn>
+    <m:mn>6</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id6430476"><problem id="fs-id6430477"><para id="fs-id6430478"><m:math><m:semantics><m:mrow><m:mfrac><m:mn>121</m:mn><m:mrow><m:mn>225</m:mn></m:mrow></m:mfrac></m:mrow></m:semantics></m:math></para></problem></exercise>
+<exercise id="fs-id7738205"><problem id="fs-id7738206"><para id="fs-id7738207"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>0.04</m:mn>
+  </m:mrow>
+  </m:semantics>
+</m:math>
+</para></problem><solution id="zip-id1169983916136"><para id="zip-id1169986490488"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>0.2</m:mn><m:mtext> </m:mtext><m:mtext>and</m:mtext><m:mo>−</m:mo><m:mn>0.2</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id7738210"><problem id="fs-id7736600"><para id="fs-id7736601"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>0.16</m:mn>
+  </m:mrow>
+  </m:semantics>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id7736604"><problem id="fs-id7736605"><para id="fs-id7736606"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>1.21</m:mn>
+  </m:mrow>
+  </m:semantics>
+</m:math>
+</para></problem><solution id="zip-id3789492"><para id="zip-id1169982431855"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>1.1</m:mn><m:mtext> </m:mtext><m:mtext>and</m:mtext><m:mo>−</m:mo><m:mn>1.1</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><para id="fs-id7736608">For the following problems, evaluate each expression. If the expression does not represent a real number, write  "not a real number." </para>
+<exercise id="fs-id7728502"><problem id="fs-id7728503"><para id="fs-id7728504"><m:math><m:semantics><m:mrow><m:msqrt><m:mrow><m:mn>49</m:mn></m:mrow></m:msqrt></m:mrow></m:semantics></m:math></para></problem></exercise>
+<exercise id="fs-id7737454"><problem id="fs-id7737456"><para id="fs-id7737457"><m:math><m:semantics><m:mrow><m:msqrt><m:mrow><m:mn>64</m:mn></m:mrow></m:msqrt></m:mrow></m:semantics></m:math></para></problem><solution id="zip-id1169985941611"><para id="zip-id1169999198602">8</para></solution></exercise>
+<exercise id="fs-id6859606"><problem id="fs-id6859607"><para id="fs-id6859608"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:msqrt>
+    <m:mrow>
+     <m:mn>36</m:mn>
+    </m:mrow>
+   </m:msqrt>
+  </m:mrow>
+ </m:semantics>
+</m:math></para></problem></exercise>
+<exercise id="fs-id6821502"><problem id="fs-id6821503"><para id="fs-id6821504"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:msqrt>
+    <m:mrow>
+     <m:mn>100</m:mn>
+    </m:mrow>
+   </m:msqrt>
+  </m:mrow>
+ </m:semantics>
+</m:math></para></problem><solution id="zip-id1169979907360"><para id="zip-id1169979601551"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mn>10</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id6808806"><problem id="fs-id6837219"><para id="fs-id6837220"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:msqrt>
+    <m:mrow>
+     <m:mn>169</m:mn>
+    </m:mrow>
+   </m:msqrt>
+  </m:mrow>
+ </m:semantics>
+</m:math></para></problem></exercise>
+<exercise id="fs-id6857606"><problem id="fs-id6857607"><para id="fs-id6836045"><m:math><m:semantics><m:mrow><m:mo>−</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>36</m:mn></m:mrow><m:mrow><m:mn>81</m:mn></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:semantics></m:math></para></problem><solution id="zip-id1169983505248"><para id="zip-id3904439"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mn>3</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id7814223"><problem id="fs-id7814224"><para id="fs-id7814225"><m:math><m:semantics><m:mrow><m:mo>−</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>121</m:mn></m:mrow><m:mrow><m:mn>169</m:mn></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:semantics></m:math></para></problem></exercise>
+<exercise id="fs-id6852450"><problem id="fs-id6852452"><para id="fs-id6852345"><m:math><m:semantics><m:mrow><m:msqrt><m:mrow><m:mo>−</m:mo><m:mn>225</m:mn></m:mrow></m:msqrt></m:mrow></m:semantics></m:math></para></problem><solution id="zip-id1169987150951"><para id="zip-id1169993535728">not a real number</para></solution></exercise>
+<exercise id="fs-id6852356"><problem id="fs-id6844840"><para id="fs-id6844841"><m:math><m:semantics><m:mrow><m:msqrt><m:mrow><m:mo>−</m:mo><m:mn>36</m:mn></m:mrow></m:msqrt></m:mrow></m:semantics></m:math></para></problem></exercise>
+<exercise id="fs-id6851189"><problem id="fs-id6851190"><para id="fs-id6851191"><m:math><m:semantics><m:mrow><m:mo>−</m:mo><m:msqrt><m:mrow><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msqrt></m:mrow></m:semantics></m:math></para></problem><solution id="zip-id1169987459891"><para id="zip-id1169983168273">not a real number</para></solution></exercise>
+<exercise id="fs-id7736894"><problem id="fs-id7736895"><para id="fs-id7736896"><m:math><m:semantics><m:mrow><m:mo>−</m:mo><m:msqrt><m:mrow><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:msqrt></m:mrow></m:semantics></m:math></para></problem></exercise>
+<exercise id="fs-id6352377"><problem id="fs-id6352378"><para id="fs-id6352379"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mo>−</m:mo><m:msqrt>
+      <m:mn>9</m:mn>
+     </m:msqrt>
+     
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</para></problem><solution id="zip-id1169982350193"><para id="zip-id1169992659309">3</para></solution></exercise>
+<exercise id="fs-id7732574"><problem id="fs-id7732575"><para id="fs-id7732576"><m:math><m:semantics><m:mrow><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo><m:mrow><m:mo>−</m:mo><m:msqrt><m:mrow><m:mn>0.81</m:mn></m:mrow></m:msqrt></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow></m:semantics></m:math></para></problem></exercise><para id="fs-id7739935">For the following problems, write the proper restrictions that must be placed on the variable so that the expression represents a real number.</para>
+<exercise id="fs-id6850484"><problem id="fs-id6850485"><para id="fs-id6850486"><m:math><m:semantics><m:mrow><m:msqrt><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>10</m:mn></m:mrow></m:msqrt></m:mrow></m:semantics></m:math></para></problem><solution id="zip-id1169983916846"><para id="zip-id1673403"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>y</m:mi><m:mo>≥</m:mo><m:mo>−</m:mo><m:mn>10</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id7740574"><problem id="fs-id7740575"><para id="fs-id7740576"><m:math><m:semantics><m:mrow><m:msqrt><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:msqrt></m:mrow></m:semantics></m:math></para></problem></exercise>
+<exercise id="fs-id6809150"><problem id="fs-id6809151"><para id="fs-id6809152"><m:math><m:semantics><m:mrow><m:msqrt><m:mrow><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>16</m:mn></m:mrow></m:msqrt></m:mrow></m:semantics></m:math></para></problem><solution id="zip-id1169986439120"><para id="zip-id1169997950804"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>a</m:mi><m:mo>≥</m:mo><m:mn>16</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id7736484"><problem id="fs-id7736485"><para id="fs-id7736486"><m:math><m:semantics><m:mrow><m:msqrt><m:mrow><m:mi>h</m:mi><m:mo>−</m:mo><m:mn>11</m:mn></m:mrow></m:msqrt></m:mrow></m:semantics></m:math></para></problem></exercise>
+<exercise id="fs-id6807175"><problem id="fs-id6851291"><para id="fs-id6851292"><m:math><m:semantics><m:mrow><m:msqrt><m:mrow><m:mn>2</m:mn><m:mi>k</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msqrt></m:mrow></m:semantics></m:math></para></problem><solution id="zip-id1169985413699"><para id="zip-id1169996631836"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>k</m:mi><m:mo>≥</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id7791021"><problem id="fs-id7791022"><para id="fs-id7791023"><m:math><m:semantics><m:mrow><m:msqrt><m:mrow><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow></m:msqrt></m:mrow></m:semantics></m:math></para></problem></exercise>
+<exercise id="fs-id7739622"><problem id="fs-id7739623"><para id="fs-id7739624"><m:math><m:semantics><m:mrow><m:msqrt><m:mrow><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow></m:msqrt></m:mrow></m:semantics></m:math></para></problem><solution id="zip-id3781598"><para id="zip-id1169997945135"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>≤</m:mo><m:mo>−</m:mo><m:mn>4</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id6334179"><problem id="fs-id6334180"><para id="fs-id6815271"><m:math><m:semantics><m:mrow><m:msqrt><m:mrow><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>15</m:mn></m:mrow></m:msqrt></m:mrow></m:semantics></m:math></para></problem></exercise><para id="fs-id6857889">For the following problems, simplify each expression by removing the radical sign. </para>
+<exercise id="fs-id6857895"><problem id="fs-id6857896"><para id="fs-id6857897"><m:math><m:semantics><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>m</m:mi><m:mn>6</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:semantics></m:math></para></problem><solution id="zip-id1169992975430"><para id="zip-id1225568"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mi>m</m:mi>
+    <m:mn>3</m:mn>
+   </m:msup>
+   
+  </m:mrow>
+ 
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id7738970"><problem id="fs-id7738971"><para id="fs-id7738972"><m:math><m:semantics><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>k</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow></m:msqrt></m:mrow></m:semantics></m:math></para></problem></exercise>
+<exercise id="fs-id7737180"><problem id="fs-id7737181"><para id="fs-id7737182"><m:math><m:semantics><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>a</m:mi><m:mn>8</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:semantics></m:math></para></problem><solution id="zip-id1169992118374"><para id="zip-id1169991581478"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mi>a</m:mi>
+    <m:mn>4</m:mn>
+   </m:msup>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id6852023"><problem id="fs-id6852024"><para id="fs-id6852025"><m:math><m:semantics><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>h</m:mi><m:mrow><m:mn>16</m:mn></m:mrow></m:msup></m:mrow></m:msqrt></m:mrow></m:semantics></m:math></para></problem></exercise>
+<exercise id="fs-id6852296"><problem id="fs-id6852297"><para id="fs-id6852298"><m:math><m:semantics><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow></m:msqrt></m:mrow></m:semantics></m:math></para></problem><solution id="zip-id1169985304632"><para id="zip-id1169999118374"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mi>x</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:msup>
+    <m:mi>y</m:mi>
+    <m:mn>5</m:mn>
+   </m:msup>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id6867236"><problem id="fs-id6867238"><para id="fs-id6867239"><m:math><m:semantics><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>a</m:mi><m:mn>6</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mrow><m:mn>20</m:mn></m:mrow></m:msup></m:mrow></m:msqrt></m:mrow></m:semantics></m:math></para></problem></exercise>
+<exercise id="fs-id6829385"><problem id="fs-id6829386"><para id="fs-id6829388"><m:math><m:semantics><m:msqrt><m:mrow><m:msup><m:mi>a</m:mi><m:mn>4</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>6</m:mn></m:msup></m:mrow></m:msqrt></m:semantics></m:math></para></problem><solution id="zip-id1169993579617"><para id="zip-id1169979573688"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mi>a</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:msup>
+    <m:mi>b</m:mi>
+    <m:mn>3</m:mn>
+   </m:msup>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id7728387"><problem id="fs-id7728388"><para id="fs-id7728389"><m:math><m:semantics><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>x</m:mi><m:mn>8</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mrow><m:mn>14</m:mn></m:mrow></m:msup></m:mrow></m:msqrt></m:mrow></m:semantics></m:math></para></problem></exercise>
+<exercise id="fs-id6874010"><problem id="fs-id6874011"><para id="fs-id6874012"><m:math><m:semantics><m:mrow><m:msqrt><m:mrow><m:mn>81</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:semantics></m:math></para></problem><solution id="zip-id1169981322879"><para id="zip-id5572036"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>9</m:mn><m:mi>a</m:mi><m:mi>b</m:mi>
+  </m:mrow>
+ 
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id7738852"><problem id="fs-id7738853"><para id="fs-id7738854"><m:math><m:semantics><m:mrow><m:msqrt><m:mrow><m:mn>49</m:mn><m:msup><m:mi>x</m:mi><m:mn>6</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:semantics></m:math></para></problem></exercise>
+<exercise id="fs-id7737550"><problem id="fs-id7711827"><para id="fs-id7711828"><m:math><m:semantics><m:mrow><m:msqrt><m:mrow><m:mn>100</m:mn><m:msup><m:mi>m</m:mi><m:mn>8</m:mn></m:msup><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:semantics></m:math></para></problem><solution id="zip-id1169997927121"><para id="zip-id1169991206399"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>10</m:mn><m:msup>
+    <m:mi>m</m:mi>
+    <m:mn>4</m:mn>
+   </m:msup>
+   <m:mi>n</m:mi>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id7737339"><problem id="fs-id7737340"><para id="fs-id7737341"><m:math><m:semantics><m:mrow><m:msqrt><m:mrow><m:mn>225</m:mn><m:msup><m:mi>p</m:mi><m:mrow><m:mn>14</m:mn></m:mrow></m:msup><m:msup><m:mi>r</m:mi><m:mrow><m:mn>16</m:mn></m:mrow></m:msup></m:mrow></m:msqrt></m:mrow></m:semantics></m:math></para></problem></exercise>
+<exercise id="fs-id6866500"><problem id="fs-id6866501"><para id="fs-id7737848"><m:math><m:semantics><m:mrow><m:msqrt><m:mrow><m:mn>36</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mn>22</m:mn></m:mrow></m:msup><m:msup><m:mi>y</m:mi><m:mrow><m:mn>44</m:mn></m:mrow></m:msup></m:mrow></m:msqrt></m:mrow></m:semantics></m:math></para></problem><solution id="zip-id1169987614967"><para id="zip-id1169996435345"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>6</m:mn><m:msup>
+    <m:mi>x</m:mi>
+    <m:mrow>
+     <m:mn>11</m:mn>
+    </m:mrow>
+   </m:msup>
+   <m:msup>
+    <m:mi>y</m:mi>
+    <m:mrow>
+     <m:mn>22</m:mn>
+    </m:mrow>
+   </m:msup>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id6874443"><problem id="fs-id6874444"><para id="fs-id6874445"><m:math><m:semantics><m:mrow><m:msqrt><m:mrow><m:mn>169</m:mn><m:msup><m:mi>w</m:mi><m:mn>4</m:mn></m:msup><m:msup><m:mi>z</m:mi><m:mn>6</m:mn></m:msup><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:semantics></m:math></para></problem></exercise>
+<exercise id="fs-id7717252"><problem id="fs-id7717253"><para id="fs-id7717254"><m:math><m:semantics><m:mrow><m:msqrt><m:mrow><m:mn>25</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mn>12</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:semantics></m:math></para></problem><solution id="zip-id1169983863058"><para id="zip-id1169997033362"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>5</m:mn><m:msup>
+    <m:mi>x</m:mi>
+    <m:mn>6</m:mn>
+   </m:msup>
+   <m:msup>
+    <m:mrow>
+     <m:mrow><m:mo>(</m:mo>
+      <m:mrow>
+       <m:mi>y</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+      </m:mrow>
+     <m:mo>)</m:mo></m:mrow>
+    </m:mrow>
+    <m:mn>2</m:mn>
+   </m:msup>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id7709690"><problem id="fs-id7709691"><para id="fs-id7709692"><m:math><m:semantics><m:mrow><m:msqrt><m:mrow><m:mn>64</m:mn><m:msup><m:mi>a</m:mi><m:mrow><m:mn>10</m:mn></m:mrow></m:msup><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>14</m:mn></m:mrow></m:msup></m:mrow></m:msqrt></m:mrow></m:semantics></m:math></para></problem></exercise>
+<exercise id="fs-id6829280"><problem id="fs-id6872449"><para id="fs-id6872450"><m:math><m:semantics><m:mrow><m:msqrt><m:mrow><m:mn>9</m:mn><m:msup><m:mi>m</m:mi><m:mn>6</m:mn></m:msup><m:msup><m:mi>n</m:mi><m:mn>4</m:mn></m:msup><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>m</m:mi><m:mo>+</m:mo><m:mi>n</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow><m:mn>18</m:mn></m:mrow></m:msup></m:mrow></m:msqrt></m:mrow></m:semantics></m:math></para></problem><solution id="zip-id2263462"><para id="zip-id2396667"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>3</m:mn><m:msup>
+    <m:mi>m</m:mi>
+    <m:mn>3</m:mn>
+   </m:msup>
+   <m:msup>
+    <m:mi>n</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:msup>
+    <m:mrow>
+     <m:mrow><m:mo>(</m:mo>
+      <m:mrow>
+       <m:mi>m</m:mi><m:mo>+</m:mo><m:mi>n</m:mi>
+      </m:mrow>
+     <m:mo>)</m:mo></m:mrow>
+    </m:mrow>
+    <m:mn>9</m:mn>
+   </m:msup>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id7738439"><problem id="fs-id7738440"><para id="fs-id7738441"><m:math><m:semantics><m:mrow><m:msqrt><m:mrow><m:mn>25</m:mn><m:msup><m:mi>m</m:mi><m:mrow><m:mn>26</m:mn></m:mrow></m:msup><m:msup><m:mi>n</m:mi><m:mrow><m:mn>42</m:mn></m:mrow></m:msup><m:msup><m:mi>r</m:mi><m:mrow><m:mn>66</m:mn></m:mrow></m:msup><m:msup><m:mi>s</m:mi><m:mrow><m:mn>84</m:mn></m:mrow></m:msup></m:mrow></m:msqrt></m:mrow></m:semantics></m:math></para></problem></exercise>
+<exercise id="fs-id6843485"><problem id="fs-id6843486"><para id="fs-id6843487"><m:math><m:semantics><m:mrow><m:msqrt><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>f</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>g</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>4</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:semantics></m:math></para></problem><solution id="zip-id1169997051374"><para id="zip-id1169996727371"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mi>f</m:mi><m:mo>−</m:mo><m:mn>2</m:mn>
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow><m:msup>
+    <m:mrow>
+     <m:mrow><m:mo>(</m:mo>
+      <m:mrow>
+       <m:mi>g</m:mi><m:mo>+</m:mo><m:mn>6</m:mn>
+      </m:mrow>
+     <m:mo>)</m:mo></m:mrow>
+    </m:mrow>
+    <m:mn>4</m:mn>
+   </m:msup>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id7738280"><problem id="fs-id7726408"><para id="fs-id7726409"><m:math><m:semantics><m:mrow><m:msqrt><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>c</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>6</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>5</m:mn><m:mi>c</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:semantics></m:math></para></problem></exercise>
+<exercise id="fs-id6858546"><problem id="fs-id6858548"><para id="fs-id6858549"><m:math><m:semantics><m:mrow><m:mo>−</m:mo><m:msqrt><m:mrow><m:mn>64</m:mn><m:msup><m:mi>r</m:mi><m:mn>4</m:mn></m:msup><m:msup><m:mi>s</m:mi><m:mrow><m:mn>22</m:mn></m:mrow></m:msup></m:mrow></m:msqrt></m:mrow></m:semantics></m:math></para></problem><solution id="zip-id1169998987975"><para id="zip-id1169996515709"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mn>8</m:mn><m:msup>
+    <m:mi>r</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:msup>
+    <m:mi>s</m:mi>
+    <m:mrow>
+     <m:mn>11</m:mn>
+    </m:mrow>
+   </m:msup>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id7736077"><problem id="fs-id7736078"><para id="fs-id7736079"><m:math><m:semantics><m:mrow><m:mo>−</m:mo><m:msqrt><m:mrow><m:mn>121</m:mn><m:msup><m:mi>a</m:mi><m:mn>6</m:mn></m:msup><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>8</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:semantics></m:math></para></problem></exercise>
+<exercise id="fs-id7738404"><problem id="fs-id7738405"><para id="fs-id7738406"><m:math><m:semantics><m:mrow><m:mo>−</m:mo><m:mrow><m:mo>[</m:mo> <m:mrow><m:mo>−</m:mo><m:msqrt><m:mrow><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>w</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow> <m:mo>]</m:mo></m:mrow></m:mrow></m:semantics></m:math></para></problem><solution id="zip-id1169979681451"><para id="zip-id1169993565597"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>w</m:mi><m:mo>+</m:mo><m:mn>6</m:mn>
+  </m:mrow>
+ 
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id6829501"><problem id="fs-id6829502"><para id="fs-id6829503"><m:math><m:semantics><m:mrow><m:mo>−</m:mo><m:mrow><m:mo>[</m:mo> <m:mrow><m:mo>−</m:mo><m:msqrt><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow> <m:mo>]</m:mo></m:mrow></m:mrow></m:semantics></m:math></para></problem></exercise>
+<exercise id="fs-id6807235"><problem id="fs-id6807236"><para id="fs-id6807237"><m:math><m:semantics><m:mrow><m:msqrt><m:mrow><m:mn>1.21</m:mn><m:msup><m:mi>h</m:mi><m:mn>4</m:mn></m:msup><m:msup><m:mi>k</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:msqrt> </m:mrow></m:semantics></m:math></para></problem><solution id="zip-id1169983913595"><para id="zip-id1169991901990"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>1.1</m:mn><m:msup>
+    <m:mi>h</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:msup>
+    <m:mi>k</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id6808902"><problem id="fs-id6808903"><para id="fs-id6808904"><m:math><m:semantics><m:mrow><m:msqrt><m:mrow><m:mn>2.25</m:mn><m:msup><m:mi>m</m:mi><m:mn>6</m:mn></m:msup><m:msup><m:mi>p</m:mi><m:mn>6</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:semantics></m:math></para></problem></exercise>
+<exercise id="fs-id6845594"><problem id="fs-id6845595"><para id="fs-id6874496"><m:math><m:semantics><m:mrow><m:mo>−</m:mo><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>169</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>b</m:mi><m:mn>4</m:mn></m:msup><m:msup><m:mi>c</m:mi><m:mn>6</m:mn></m:msup></m:mrow><m:mrow><m:mn>196</m:mn><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:msup><m:mi>y</m:mi><m:mn>6</m:mn></m:msup><m:msup><m:mi>z</m:mi><m:mn>8</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:semantics></m:math></para></problem><solution id="zip-id8097089"><para id="zip-id1169985853781"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>13</m:mn><m:mi>a</m:mi><m:msup>
+      <m:mi>b</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:msup>
+      <m:mi>c</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     
+    </m:mrow>
+    <m:mrow>
+     <m:mn>14</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:msup>
+      <m:mi>y</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:msup>
+      <m:mi>z</m:mi>
+      <m:mn>4</m:mn>
+     </m:msup>
+     
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id7718135"><problem id="fs-id7718136"><para id="fs-id7718137"><m:math><m:semantics><m:mrow><m:mo>−</m:mo><m:mrow><m:mo>[</m:mo> <m:mrow><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>81</m:mn><m:msup><m:mi>y</m:mi><m:mn>4</m:mn></m:msup><m:msup><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:mi>z</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mo>)</m:mo></m:mrow></m:mrow><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>225</m:mn><m:msup><m:mi>x</m:mi><m:mn>8</m:mn></m:msup><m:msup><m:mi>z</m:mi><m:mn>4</m:mn></m:msup><m:msup><m:mi>w</m:mi><m:mn>6</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow> <m:mo>]</m:mo></m:mrow></m:mrow></m:semantics></m:math></para></problem></exercise></section><section id="fs-id7813051"><title>Exercised for Review</title><exercise id="fs-id7813056"><problem id="fs-id7813057"><para id="fs-id7813058"><emphasis>(<link document="m21964"/>)</emphasis> Find the quotient. <m:math><m:semantics><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac><m:mo>÷</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:semantics></m:math></para></problem><solution id="zip-id1169988854603"><para id="zip-id1169983962644"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mfrac>
+								<m:mrow>
+									<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+								</m:mrow>
+								<m:mrow>
+									<m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+								</m:mrow>
+							</m:mfrac>
+						</m:mrow>
+					</m:semantics>
+				</m:math>
+			</para></solution></exercise>
+	<exercise id="fs-id6800464"><problem id="fs-id6800466"><para id="fs-id6800467"><emphasis>(<link document="m21936"/>)</emphasis> Find the sum. 
+<m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mfrac>
+								<m:mn>1</m:mn>
+								<m:mrow>
+									<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+								</m:mrow>
+							</m:mfrac>
+							<m:mo>+</m:mo><m:mfrac>
+								<m:mn>3</m:mn>
+								<m:mrow>
+									<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+								</m:mrow>
+							</m:mfrac>
+							<m:mo>+</m:mo><m:mfrac>
+								<m:mn>2</m:mn>
+								<m:mrow>
+									<m:msup>
+										<m:mi>x</m:mi>
+										<m:mn>2</m:mn>
+									</m:msup>
+									<m:mo>−</m:mo><m:mn>1</m:mn>
+								</m:mrow>
+							</m:mfrac>
+							<m:mo>.</m:mo>
+						</m:mrow>
+					</m:semantics>
+				</m:math>
+			</para></problem></exercise>
+	<exercise id="fs-id6800065"><problem id="fs-id6800066"><para id="fs-id6800067"><emphasis>(<link document="m21951"/>)</emphasis> Solve the equation, if possible: <m:math><m:semantics><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>−</m:mo><m:mfrac><m:mn>3</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:semantics></m:math></para></problem><solution id="zip-id4776991"><para id="zip-id1169987960560">No solution<m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mtext>;</m:mtext><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn>
+						</m:mrow>
+					</m:semantics>
+				</m:math> is excluded.</para></solution></exercise>
+	<exercise id="fs-id7737231"><problem id="fs-id7737232"><para id="fs-id7737233"><emphasis>(<link document="m21946"/>)</emphasis> Perform the division: <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mfrac>
+								<m:mrow>
+									<m:mn>15</m:mn><m:msup>
+										<m:mi>x</m:mi>
+										<m:mn>3</m:mn>
+									</m:msup>
+									<m:mo>−</m:mo><m:mn>5</m:mn><m:msup>
+										<m:mi>x</m:mi>
+										<m:mn>2</m:mn>
+									</m:msup>
+									<m:mo>+</m:mo><m:mn>10</m:mn><m:mi>x</m:mi>
+								</m:mrow>
+								<m:mrow>
+									<m:mn>5</m:mn><m:mi>x</m:mi>
+								</m:mrow>
+							</m:mfrac>
+							<m:mo>.</m:mo>
+						</m:mrow>
+					</m:semantics>
+				</m:math>
+			</para></problem></exercise>
+	<exercise id="fs-id6859710"><problem id="fs-id6859711"><para id="fs-id6859712"><emphasis>(<link document="m21946"/>)</emphasis> Perform the division: <m:math><m:semantics><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>13</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>21</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:semantics></m:math></para></problem><solution id="zip-id1169999393058"><para id="zip-id1169991031942"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:msup>
+								<m:mi>x</m:mi>
+								<m:mn>2</m:mn>
+							</m:msup>
+							<m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn>
+						</m:mrow>
+					</m:semantics>
+				</m:math>
+			</para></solution></exercise></section>
+  </content>
+</document>

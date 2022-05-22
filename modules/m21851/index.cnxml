@@ -1,0 +1,335 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+
+<title>Summary of Key Concepts </title>
+<metadata>
+  <md:content-id>m21851</md:content-id><md:title>Summary of Key Concepts </md:title>
+  <md:abstract>This module is from Elementary Algebra by Denny Burzynski and Wade Ellis, Jr.
+Operations with algebraic expressions and numerical evaluations are introduced in this chapter. Coefficients are described rather than merely defined. Special binomial products have both literal and symbolic explanations and since they occur so frequently in mathematics, we have been careful to help the student remember them. In each example problem, the student is "talked" through the symbolic form.
+This module contains a summary of the key concepts in the chapter "Algebraic Expressions and Equations".</md:abstract>
+  <md:uuid>9b165c5f-acc2-4889-a977-18c6c48a37a8</md:uuid>
+</metadata>
+
+<content>
+  <section id="eip-482"><title>Summary of Key Concepts</title><para id="eip-603"><title>Algebraic Expressions (<link document="m18875"/>)</title>An <emphasis>algebraic expression</emphasis> (often called simply an expression) is a number, a letter, or a collection of numbers and letters along with meaningful signs of operation. (<m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>5</m:mn><m:mo>÷</m:mo><m:mn>0</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> is not meaningful.)</para><para id="eip-25"><title>Terms (<link document="m18875"/>)</title>In an algebraic expression, the quantities joined by "<m:math>
+		<m:semantics>
+			<m:mo>+</m:mo>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>" signs are <emphasis>terms</emphasis>.</para><para id="eip-577"><title>Distinction Between Terms and Factors (<link document="m18875"/> )</title><emphasis>Terms</emphasis> are parts of sums and are therefore separated by addition signs. <emphasis>Factors</emphasis> are parts of products and are therefore separated by multiplication signs.</para><para id="eip-137"><title>Common Factors (<link document="m18875"/>)</title>In an algebraic expression, a factor that appears in <emphasis>every</emphasis> term, that is, a factor that is common to each term, is called a <emphasis>common factor</emphasis>.</para><para id="eip-427"><title>Coefficients (<link document="m18875"/>)</title>The <emphasis>coefficient</emphasis> of a quantity records how many of that quantity there are. The coefficient of a group of factors is the remaining group of factors.</para><para id="eip-468"><title>Distinction Between Coefficients and Exponents (<link document="m18875"/>)</title><emphasis>Coefficients</emphasis> record the number of like terms in an expression.
+<m:math display="block">
+		<m:semantics>
+			<m:mrow>
+				<m:munder>
+					<m:munder>
+						<m:mrow>
+							<m:mi>x</m:mi><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>x</m:mi>
+						</m:mrow>
+						<m:mo stretchy="true">︸</m:mo>
+					</m:munder>
+					<m:mrow>
+						<m:mn>3</m:mn><m:mtext> </m:mtext><m:mtext>terms</m:mtext>
+					</m:mrow>
+				</m:munder>
+				<m:mo>=</m:mo><m:munder>
+					<m:mrow>
+						<m:mn>3</m:mn><m:mi>x</m:mi>
+					</m:mrow>
+					<m:mrow>
+						<m:mtext>coefficient</m:mtext><m:mtext> </m:mtext><m:mtext>is</m:mtext><m:mtext> </m:mtext><m:mn>3</m:mn>
+					</m:mrow>
+				</m:munder>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+	<newline/><emphasis>Exponents</emphasis> record the number of like factors in an expression<m:math display="block">
+		<m:semantics>
+			<m:mrow>
+				<m:munder>
+					<m:munder>
+						<m:mrow>
+							<m:mi>x</m:mi><m:mo>⋅</m:mo><m:mi>x</m:mi><m:mo>⋅</m:mo><m:mi>x</m:mi>
+						</m:mrow>
+						<m:mo stretchy="true">︸</m:mo>
+					</m:munder>
+					<m:mrow>
+						<m:mn>3</m:mn><m:mtext> </m:mtext><m:mtext>factors</m:mtext>
+					</m:mrow>
+				</m:munder>
+				<m:mo>=</m:mo><m:munder>
+					<m:mrow>
+						<m:msup>
+							<m:mi>x</m:mi>
+							<m:mn>3</m:mn>
+						</m:msup>
+					</m:mrow>
+					<m:mrow>
+						<m:mtext>exponent</m:mtext><m:mtext> </m:mtext><m:mtext>is</m:mtext><m:mtext> </m:mtext><m:mn>3</m:mn>
+					</m:mrow>
+				</m:munder>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math></para><para id="eip-797"><title>Equation (<link document="m21850"/>)</title>An <emphasis>equation</emphasis> is a statement that two expressions are equal.</para><para id="eip-778"><title>Numerical Evaluation (<link document="m21850"/>)</title><emphasis>Numerical evaluation</emphasis> is the process of determining a value by substituting numbers for letters.</para><para id="eip-453"><title>Polynomials (<link document="m21848"/>)</title>A polynomial is an algebraic expression that does not contain variables in the denominators of fractions and in which all exponents on variable quantities are whole numbers.<newline/><newline/>A <emphasis>monomial</emphasis> is a polynomial consisting of only one term.<newline/>
+A <emphasis>binomial</emphasis> is a polynomial consisting of two terms.<newline/>
+A <emphasis>trinomial</emphasis> is a polynomial consisting of three terms.
+</para><para id="eip-847"><title>Degree of a Polynomial (<link document="m21848"/>)</title>The degree of a term containing one variable is the value of the exponent on the variable.<newline/> 
+The degree of a term containing more than one variable is the sum of the exponents on the variables.<newline/>
+The degree of a polynomial is the degree of the term of the highest degree.
+</para><para id="eip-545"><title>Linear Quadratic Cubic Polynomials (<link document="m21848"/>)</title>Polynomials of the first degree are <emphasis>linear</emphasis> polynomials.<newline/>Polynomials of the second degree are <emphasis>quadratic</emphasis> polynomials.<newline/>Polynomials of the third degree are <emphasis>cubic</emphasis> polynomials.
+</para><para id="eip-298"><title>Like Terms (<link document="m21854"/>)</title><emphasis>Like terms</emphasis> are terms in which the variable parts, including the exponents, are identical.</para><para id="eip-489"><title>Descending Order (<link document="m21854"/>)</title>By convention, and when possible, the terms of an expression are placed in descending order with the highest degree term appearing first. <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>5</m:mn><m:msup>
+					<m:mi>x</m:mi>
+					<m:mn>3</m:mn>
+				</m:msup>
+				<m:mo>−</m:mo><m:mn>2</m:mn><m:msup>
+					<m:mi>x</m:mi>
+					<m:mn>2</m:mn>
+				</m:msup>
+				<m:mo>+</m:mo><m:mn>10</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>15</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> is in descending order.</para><para id="eip-319"><title>Multiplying a Polynomial by a Monomial (<link document="m21852"/>)</title>To multiply a polynomial by a monomial, multiply every term of the polynomial by the monomial and then add the resulting products together.<newline/><m:math display="block">
+		<m:semantics>
+			<m:mrow>
+				<m:mn>7</m:mn><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn><m:mo>⋅</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>21</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math></para><para id="eip-216"><title>Simplifying <m:math><m:semantics><m:mrow><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:annotation encoding="MathType-MTEF"/></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:annotation encoding="MathType-MTEF"/></m:semantics></m:math> (<link document="m21852"/>)</title><m:math display="block">
+		<m:semantics>
+			<m:mtable columnalign="left">
+				<m:mtr>
+					<m:mtd>
+						<m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi>
+					</m:mtd>
+				</m:mtr>
+				<m:mtr>
+					<m:mtd>
+						<m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>a</m:mi><m:mo>−</m:mo><m:mi>b</m:mi>
+					</m:mtd>
+				</m:mtr>
+			</m:mtable>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math></para><para id="eip-407"><title>Multiplying a Polynomial by a Polynomial (<link document="m21852"/>)</title>To multiply polynomials together, multiply every term of one polynomial by every term of the other polynomial.<m:math display="block">
+		<m:semantics>
+			<m:mrow>
+				<m:mtable columnalign="left">
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mo>=</m:mo>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:msup>
+									<m:mi>x</m:mi>
+									<m:mn>2</m:mn>
+								</m:msup>
+								<m:mo>−</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>12</m:mn>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mo>=</m:mo>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:msup>
+									<m:mi>x</m:mi>
+									<m:mn>2</m:mn>
+								</m:msup>
+								<m:mo>−</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>12</m:mn>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+				</m:mtable>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math></para><para id="eip-849"><title>Special Products (<link document="m21858"/>)</title><m:math display="block">
+		<m:semantics>
+			<m:mrow>
+				<m:mtable>
+					<m:mtr>
+						<m:mtd>
+							<m:mrow>
+								<m:msup>
+									<m:mrow>
+										<m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo>
+									</m:mrow>
+									<m:mn>2</m:mn>
+								</m:msup>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd>
+							<m:mo>=</m:mo>
+						</m:mtd>
+						<m:mtd>
+							<m:mrow>
+								<m:msup>
+									<m:mi>a</m:mi>
+									<m:mn>2</m:mn>
+								</m:msup>
+								<m:mo>+</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>+</m:mo><m:msup>
+									<m:mi>b</m:mi>
+									<m:mn>2</m:mn>
+								</m:msup>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd>
+							<m:mrow>
+								<m:mi>N</m:mi><m:mi>o</m:mi><m:mi>t</m:mi><m:mi>e</m:mi><m:mo>:</m:mo>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd>
+							<m:mrow>
+								<m:msup>
+									<m:mrow>
+										<m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo>
+									</m:mrow>
+									<m:mn>2</m:mn>
+								</m:msup>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd>
+							<m:mo>≠</m:mo>
+						</m:mtd>
+						<m:mtd>
+							<m:mrow>
+								<m:msup>
+									<m:mi>a</m:mi>
+									<m:mn>2</m:mn>
+								</m:msup>
+								<m:mo>+</m:mo><m:msup>
+									<m:mi>b</m:mi>
+									<m:mn>2</m:mn>
+								</m:msup>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr>
+						<m:mtd>
+							<m:mrow>
+								<m:msup>
+									<m:mrow>
+										<m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo>−</m:mo><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo>
+									</m:mrow>
+									<m:mn>2</m:mn>
+								</m:msup>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd>
+							<m:mo>=</m:mo>
+						</m:mtd>
+						<m:mtd>
+							<m:mrow>
+								<m:msup>
+									<m:mi>a</m:mi>
+									<m:mn>2</m:mn>
+								</m:msup>
+								<m:mo>−</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mi>b</m:mi><m:mo>+</m:mo><m:msup>
+									<m:mi>b</m:mi>
+									<m:mn>2</m:mn>
+								</m:msup>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd>
+							<m:mrow/>
+						</m:mtd>
+						<m:mtd>
+							<m:mrow>
+								<m:msup>
+									<m:mrow>
+										<m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo>−</m:mo><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo>
+									</m:mrow>
+									<m:mn>2</m:mn>
+								</m:msup>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd>
+							<m:mo>≠</m:mo>
+						</m:mtd>
+						<m:mtd>
+							<m:mrow>
+								<m:msup>
+									<m:mi>a</m:mi>
+									<m:mn>2</m:mn>
+								</m:msup>
+								<m:mo>−</m:mo><m:msup>
+									<m:mi>b</m:mi>
+									<m:mn>2</m:mn>
+								</m:msup>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr>
+						<m:mtd>
+							<m:mrow>
+								<m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo>−</m:mo><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd>
+							<m:mo>=</m:mo>
+						</m:mtd>
+						<m:mtd>
+							<m:mrow>
+								<m:msup>
+									<m:mi>a</m:mi>
+									<m:mn>2</m:mn>
+								</m:msup>
+								<m:mo>−</m:mo><m:msup>
+									<m:mi>b</m:mi>
+									<m:mn>2</m:mn>
+								</m:msup>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd>
+							<m:mrow/>
+						</m:mtd>
+						<m:mtd>
+							<m:mrow/>
+						</m:mtd>
+						<m:mtd>
+							<m:mrow/>
+						</m:mtd>
+						<m:mtd>
+							<m:mrow/>
+						</m:mtd>
+					</m:mtr>
+				</m:mtable>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math></para><para id="eip-804"><title>Independent and Dependent Variables (<link document="m21849"/>)</title>In an equation, any variable whose value can be freely assigned is said to be an <emphasis>independent variable</emphasis>. Any variable whose value is determined once the other values have been assigned is said to be a <emphasis>dependent variable</emphasis>.</para><para id="eip-140"><title>Domain (<link document="m21849"/>)</title>The collection of numbers that can be used as replacements for the independent variable in an expression or equation and yield a meaningful result is called the <emphasis>domain</emphasis> of the expression or equation.</para></section>
+</content>
+
+</document>

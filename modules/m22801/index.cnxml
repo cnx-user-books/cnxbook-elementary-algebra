@@ -1,0 +1,97 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+
+<title>Objectives</title>
+<metadata>
+  <md:content-id>m22801</md:content-id><md:title>Objectives</md:title>
+  <md:abstract>This module is from Elementary Algebra by Denny Burzynski and Wade Ellis, Jr.
+In this chapter, the emphasis is on the mechanics of equation solving, which clearly explains how to isolate a variable. The goal is to help the student feel more comfortable with solving applied problems. Ample opportunity is provided for the student to practice translating words to symbols, which is an important part of the "Five-Step Method" of solving applied problems (discussed in modules (&lt;link document="m21980"/&gt;) and (&lt;link document="m21979"/&gt;)).
+This module contains the objectives of the chapter "Solving Linear Equations and Inequalities".</md:abstract>
+  <md:uuid>d63242fb-dd93-495f-b00b-e5c00ae06c34</md:uuid>
+</metadata>
+
+<content>
+  <para id="delete_me">
+     After completing this chapter, you should
+  </para>
+
+  <list id="bullet1" type="bulleted">
+    <title>Solving Equations (<link document="m18876"/>)</title>
+    <item>be able to identify various types of equations</item>
+    <item>understand the meaning of solutions and equivalent equations</item>
+    <item>be able to solve equations of the form 
+<m:math>
+  <m:mi>x</m:mi>
+  <m:mo>+</m:mo>
+  <m:mi>a</m:mi>
+  <m:mo>=</m:mo>
+  <m:mi>b</m:mi>
+</m:math> and 
+<m:math>
+  <m:mi>x</m:mi>
+  <m:mo>-</m:mo>
+  <m:mi>a</m:mi>
+  <m:mo>=</m:mo>
+  <m:mi>b</m:mi>
+</m:math>.</item>
+    <item>be familiar with and able to solve literal equation</item>
+  </list>
+
+  <list id="bullet2" type="bulleted">
+    <title>Solving Equations of the Form <m:math>
+  <m:mi>ax</m:mi>
+  <m:mo>=</m:mo>
+  <m:mi>b</m:mi>
+</m:math> and <m:math>
+  <m:mfrac>
+    <m:mi>x</m:mi>
+    <m:mi>a</m:mi>
+  </m:mfrac>
+  <m:mo>=</m:mo>
+  <m:mi>b</m:mi>
+</m:math>(<link document="m21981"/>)</title>
+    <item>understand the equality property of addition and multiplication</item>
+    <item>be able to solve equations of the form<m:math>
+  <m:mi>ax</m:mi>
+  <m:mo>=</m:mo>
+  <m:mi>b</m:mi>
+</m:math> and <m:math>
+  <m:mfrac>
+    <m:mi>x</m:mi>
+    <m:mi>a</m:mi>
+  </m:mfrac>
+  <m:mo>=</m:mo>
+  <m:mi>b</m:mi>
+</m:math></item>
+  </list>
+
+  <list id="bullet3" type="bulleted">
+    <title>Further Techniques in Equation Solving (<link document="m21992"/>)</title>
+    <item>be comfortable with combining techniques in equation solving</item>
+    <item>be able to recognize identities and contradictions</item>
+  </list>
+
+  <list id="bullet4" type="bulleted">
+    <title>Applications I - Translating from Verbal to Mathematical Expressions (<link document="m21978"/>)</title>
+    <item>be able to translate from verbal to mathematical expressions</item>
+  </list>
+
+  <list id="bullet5" type="bulleted">
+    <title>Applications II - Solving Problems (<link document="m21980"/>)</title>
+    <item>be able to solve various applied problems</item>
+  </list>
+
+  <list id="bullet6" type="bulleted">
+    <title>Linear Inequalities in One Variable (<link document="m21979"/>)</title>
+    <item>understand the meaning of inequalities</item>
+    <item>be able to recognize linear inequalities</item>
+    <item>know, and be able to work with, the algebra of linear inequalities and with compound inequalities</item>
+  </list>
+
+  <list id="bullet7" type="bulleted">
+    <title>Linear Inequalities in Two Variables (<link document="m21982"/>)</title>
+    <item>be able to identify the solution of a linear equation in two variables</item>
+    <item>know that solutions to linear equations in two variables can be written as ordered pairs</item>
+  </list>
+</content>
+
+</document>

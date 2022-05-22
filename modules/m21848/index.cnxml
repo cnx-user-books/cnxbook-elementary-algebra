@@ -1,0 +1,1079 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml"><title>Classification of Expressions and Equations </title><metadata>
+  <md:content-id>m21848</md:content-id><md:title>Classification of Expressions and Equations </md:title>
+  <md:abstract>This module is from Elementary Algebra by Denny Burzynski and Wade Ellis, Jr.
+Operations with algebraic expressions and numerical evaluations are introduced in this chapter. Coefficients are described rather than merely defined. Special binomial products have both literal and symbolic explanations and since they occur so frequently in mathematics, we have been careful to help the student remember them. In each example problem, the student is "talked" through the symbolic form.
+Objectives of this module: be familar with polynomials, be able classify polynomials and polynomial equations.</md:abstract>
+  <md:uuid>7aa6bca2-1125-4d3d-a579-bfe0ce5b48c7</md:uuid>
+</metadata>
+
+<content>  <section id="eip-855"><title>Overview</title><list id="eip-139"><item>Polynomials</item>	<item>Classification of Polynomials</item>	<item>Classification of Polynomial Equations</item></list></section><section id="eip-755"><title>Polynomials</title><para id="eip-346"><title>Polynomials</title>Let us consider the collection of all algebraic expressions that do not contain variables in the denominators of fractions and where all exponents on the variable quantities are whole numbers. Expressions in this collection are called <term>polynomials.</term></para><para id="eip-799">Some expressions that <emphasis>are</emphasis> polynomials are</para><example id="eip-229"><para id="eip-978"><m:math>			<m:semantics>				<m:mrow>					<m:mn>3</m:mn><m:msup>						<m:mi>x</m:mi>						<m:mn>4</m:mn>					</m:msup>				</m:mrow>				<m:annotation encoding="MathType-MTEF">				</m:annotation>			</m:semantics>		</m:math></para></example><example id="eip-621"><para id="eip-607"><m:math>			<m:semantics>				<m:mrow>					<m:mfrac>						<m:mn>2</m:mn>						<m:mn>5</m:mn>					</m:mfrac>					<m:msup>						<m:mi>x</m:mi>						<m:mn>2</m:mn>					</m:msup>					<m:msup>						<m:mi>y</m:mi>						<m:mn>6</m:mn>					</m:msup>				</m:mrow>				<m:annotation encoding="MathType-MTEF">				</m:annotation>			</m:semantics>		</m:math>.<newline/><newline/>A fraction occurs, but no variable appears in the denominator.</para></example><example id="eip-11"><para id="eip-931"><m:math>			<m:semantics>				<m:mrow>					<m:mn>5</m:mn><m:msup>						<m:mi>x</m:mi>						<m:mn>3</m:mn>					</m:msup>					<m:mo>+</m:mo><m:mn>3</m:mn><m:msup>						<m:mi>x</m:mi>						<m:mn>2</m:mn>					</m:msup>					<m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>				</m:mrow>				<m:annotation encoding="MathType-MTEF">				</m:annotation>			</m:semantics>		</m:math></para></example><para id="eip-534">Some expressions that <emphasis>are not</emphasis> polynomials are </para><example id="eip-281"><para id="eip-407"><m:math>			<m:semantics>				<m:mrow>					<m:mfrac>						<m:mn>3</m:mn>						<m:mi>x</m:mi>					</m:mfrac>					<m:mo>−</m:mo><m:mn>16</m:mn>				</m:mrow>				<m:annotation encoding="MathType-MTEF">				</m:annotation>			</m:semantics>		</m:math>.<newline/><newline/>A variable appears in the denominator.</para></example><example id="eip-857"><para id="eip-718"><m:math>			<m:semantics>				<m:mrow>					<m:mn>4</m:mn><m:msup>						<m:mi>x</m:mi>						<m:mn>2</m:mn>					</m:msup>					<m:mo>−</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:msup>						<m:mi>x</m:mi>						<m:mrow>							<m:mo>−</m:mo><m:mn>3</m:mn>						</m:mrow>					</m:msup>				</m:mrow>				<m:annotation encoding="MathType-MTEF">				</m:annotation>			</m:semantics>		</m:math>.<newline/><newline/>A negative exponent appears on a variable.</para></example></section><section id="eip-565"><title>Classification of Polynomials</title><para id="eip-724">Polynomials can be classified using two criteria: the number of terms and degree of the polynomial.</para><table id="eip-688" summary="Table showing the classification of polynomials using two criteria; the number of term and degree of polynomial. The first column contains the number of terms in the polynomial, the second column contains the name of polynomial, the third column contains its example, and the fourth column contains the comment describing polynomial name." frame="topbot"><tgroup cols="4" colsep="0" rowsep="0"><tbody>		<row rowsep="1">			<entry align="center"><emphasis>Number of Terms</emphasis></entry>			<entry align="center"><emphasis>Name</emphasis></entry>			<entry align="center"><emphasis>Example</emphasis></entry>			<entry align="center"><emphasis>Comment</emphasis></entry>		</row>		<row>			<entry>One</entry>			<entry>Monomial</entry>			<entry align="center"><m:math> <m:semantics>  <m:mrow>   <m:mn>4</m:mn><m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>     </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></entry>			<entry><emphasis>mono</emphasis> means “one” in Greek.</entry>		</row>		<row>			<entry>Two</entry>			<entry>Binomial</entry>			<entry align="center"><m:math> <m:semantics>  <m:mrow>   <m:mn>4</m:mn><m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>−</m:mo><m:mn>7</m:mn><m:mi>x</m:mi>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></entry>			<entry><emphasis>bi</emphasis> means “two” in Latin. </entry>		</row>		<row>			<entry>Three</entry>			<entry>Trinomial</entry>			<entry align="center"><m:math> <m:semantics>  <m:mrow>   <m:mn>4</m:mn><m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>−</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></entry>			<entry><emphasis>tri</emphasis> means “three” in Greek.</entry>		</row>		<row>			<entry>Four or more</entry>			<entry>Polynomial</entry>			<entry align="center"><m:math> <m:semantics>  <m:mrow>   <m:mn>4</m:mn><m:msup>    <m:mi>x</m:mi>    <m:mn>3</m:mn>   </m:msup>   <m:mo>−</m:mo><m:mn>7</m:mn><m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></entry>			<entry><emphasis>poly</emphasis> means “many” in Greek.</entry>		</row>	</tbody></tgroup></table><para id="eip-200"><title>Degree of a Term Containing One Variable</title>The <term>degree of a term</term> containing only <emphasis>one</emphasis> variable is the value of the exponent of the variable. Exponents appearing on numbers do not affect the degree of the term. We consider only the exponent of the variable. For example: </para><example id="eip-57"><para id="eip-551"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>5</m:mn><m:msup>
+					<m:mi>x</m:mi>
+					<m:mn>3</m:mn>
+				</m:msup>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> is a monomial of degree 3.</para></example><example id="eip-212"><para id="eip-350"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>60</m:mn><m:msup>
+					<m:mi>a</m:mi>
+					<m:mn>5</m:mn>
+				</m:msup>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> is a monomial of degree 5.</para></example><example id="eip-511"><para id="eip-670"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>21</m:mn><m:msup>
+					<m:mi>b</m:mi>
+					<m:mn>2</m:mn>
+				</m:msup>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> is a monomial of degree 2.</para></example><example id="eip-715"><para id="eip-244">8 is a monomial of degree 0. We say that a nonzero number is a term of 0 degree since it could be written as <m:math>			<m:semantics>				<m:mrow>					<m:mn>8</m:mn><m:msup>						<m:mi>x</m:mi>						<m:mn>0</m:mn>					</m:msup>				</m:mrow>				<m:annotation encoding="MathType-MTEF">				</m:annotation>			</m:semantics>		</m:math>. Since <m:math>			<m:semantics>				<m:mrow>					<m:msup>						<m:mi>x</m:mi>						<m:mn>0</m:mn>					</m:msup>					<m:mo>=</m:mo><m:mn>1</m:mn><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo>				</m:mrow>				<m:annotation encoding="MathType-MTEF">				</m:annotation>			</m:semantics>		</m:math>, <m:math>			<m:semantics>				<m:mrow>					<m:mn>8</m:mn><m:msup>						<m:mi>x</m:mi>						<m:mn>0</m:mn>					</m:msup>					<m:mo>=</m:mo><m:mn>8</m:mn>				</m:mrow>				<m:annotation encoding="MathType-MTEF">				</m:annotation>			</m:semantics>		</m:math>. The exponent on the variable is 0 so it must be of degree 0. (By convention, the number 0 has no degree.)</para></example><example id="eip-808"><para id="eip-146"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>4</m:mn><m:mi>x</m:mi>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> is a monomial of the first degree. <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>4</m:mn><m:mi>x</m:mi>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>could be written as <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>4</m:mn><m:msup>
+					<m:mi>x</m:mi>
+					<m:mn>1</m:mn>
+				</m:msup>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>. The exponent on the variable is 1 so it must be of the first degree.</para></example><para id="eip-233"><title>Degree of a Term Containing Several Variables</title>The degree of a term containing <emphasis>more</emphasis> than one variable is the <emphasis>sum</emphasis> of the exponents of the variables, as shown below.</para><example id="eip-694"><para id="eip-892"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>4</m:mn><m:msup>
+					<m:mi>x</m:mi>
+					<m:mn>2</m:mn>
+				</m:msup>
+				<m:msup>
+					<m:mi>y</m:mi>
+					<m:mn>5</m:mn>
+				</m:msup>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> is a monomial of degree <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>2</m:mn><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>7</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>. This is a 7th degree monomial.</para></example><example id="eip-861"><para id="eip-277"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>37</m:mn><m:mi>a</m:mi><m:msup>
+					<m:mi>b</m:mi>
+					<m:mn>2</m:mn>
+				</m:msup>
+				<m:msup>
+					<m:mi>c</m:mi>
+					<m:mn>6</m:mn>
+				</m:msup>
+				<m:msup>
+					<m:mi>d</m:mi>
+					<m:mn>3</m:mn>
+				</m:msup>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> is a monomial of degree <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>1</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>12</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>. This is a 12th degree monomial.</para></example><example id="eip-10"><para id="eip-464"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>5</m:mn><m:mi>x</m:mi><m:mi>y</m:mi>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> is a monomial of degree <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>1</m:mn><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>2</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>. This is a 2nd degree monomial.</para></example><para id="eip-969"><title>Degree of a Polynomial</title>The <term>degree of a polynomial</term> is the degree of the <emphasis>term</emphasis> of highest degree; for example:</para><example id="eip-372"><para id="eip-319"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>2</m:mn><m:msup>
+					<m:mi>x</m:mi>
+					<m:mn>3</m:mn>
+				</m:msup>
+				<m:mo>+</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> is a trinomial of degree 3. The first term, <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>2</m:mn><m:msup>
+					<m:mi>x</m:mi>
+					<m:mn>3</m:mn>
+				</m:msup>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>, is the term of the highest degree. Therefore, its degree is the degree of the polynomial.</para></example><example id="eip-826"><para id="eip-689"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>7</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>10</m:mn><m:msup>
+					<m:mi>y</m:mi>
+					<m:mn>4</m:mn>
+				</m:msup>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> is a binomial of degree 4.</para></example><example id="eip-651"><para id="eip-865"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mi>a</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>+</m:mo><m:mn>5</m:mn><m:msup>
+					<m:mi>a</m:mi>
+					<m:mn>2</m:mn>
+				</m:msup>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> is a trinomial of degree 2.</para></example><example id="eip-553"><para id="eip-911"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>2</m:mn><m:msup>
+					<m:mi>x</m:mi>
+					<m:mn>6</m:mn>
+				</m:msup>
+				<m:mo>+</m:mo><m:mn>9</m:mn><m:msup>
+					<m:mi>x</m:mi>
+					<m:mn>4</m:mn>
+				</m:msup>
+				<m:mo>−</m:mo><m:msup>
+					<m:mi>x</m:mi>
+					<m:mn>7</m:mn>
+				</m:msup>
+				<m:mo>−</m:mo><m:mn>8</m:mn><m:msup>
+					<m:mi>x</m:mi>
+					<m:mn>3</m:mn>
+				</m:msup>
+				<m:mo>+</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>9</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> is a polynomial of degree 7.</para></example><example id="eip-343"><para id="eip-76"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>4</m:mn><m:msup>
+					<m:mi>x</m:mi>
+					<m:mn>3</m:mn>
+				</m:msup>
+				<m:msup>
+					<m:mi>y</m:mi>
+					<m:mn>5</m:mn>
+				</m:msup>
+				<m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:msup>
+					<m:mi>y</m:mi>
+					<m:mn>3</m:mn>
+				</m:msup>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> is a binomial of degree 8. The degree of the first term is 8.</para></example><example id="eip-330"><para id="eip-179"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>10</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+		 	</m:annotation>
+		</m:semantics>
+	</m:math> is a binomial of degree 1.</para></example><para id="eip-840"><title>Linear Quadratic Cubic</title>Polynomials of the first degree are called <term>linear</term> polynomials.<newline/>Polynomials of the second degree are called <term>quadratic</term> polynomials.<newline/>Polynomials of the third degree are called <term>cubic</term> polynomials.<newline/>Polynomials of the fourth degree are called <term>fourth degree</term> polynomials.<newline/>Polynomials of the <foreign><m:math>			<m:semantics>				<m:mi>n</m:mi>				<m:annotation encoding="MathType-MTEF">				</m:annotation>			</m:semantics>		</m:math></foreign>th degree are called <term><foreign><m:math> <m:semantics>  <m:mi>n</m:mi> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></foreign>th degree</term> polynomials.<newline/>	<term>Nonzero constants</term> are polynomials of the <term>0th</term> degree.</para><para id="eip-161">Some examples of these polynomials follow:</para><example id="eip-819"><para id="eip-871"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>9</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> is a linear polynomial.</para></example><example id="eip-742"><para id="eip-944"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>3</m:mn><m:msup>
+					<m:mi>x</m:mi>
+					<m:mn>2</m:mn>
+				</m:msup>
+				<m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> is a quadratic polynomial.</para></example><example id="eip-693"><para id="eip-400"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>8</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:msup>
+					<m:mi>x</m:mi>
+					<m:mn>3</m:mn>
+				</m:msup>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> is a cubic polynomial.</para></example><example id="eip-603"><para id="eip-501"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>16</m:mn><m:msup>
+					<m:mi>a</m:mi>
+					<m:mn>2</m:mn>
+				</m:msup>
+				<m:mo>−</m:mo><m:mn>32</m:mn><m:msup>
+					<m:mi>a</m:mi>
+					<m:mn>5</m:mn>
+				</m:msup>
+				<m:mo>−</m:mo><m:mn>64</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> is a 5th degree polynomial.</para></example><example id="eip-272"><para id="eip-709"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:msup>
+					<m:mi>x</m:mi>
+					<m:mrow>
+						<m:mn>12</m:mn>
+					</m:mrow>
+				</m:msup>
+				<m:mo>−</m:mo><m:msup>
+					<m:mi>y</m:mi>
+					<m:mrow>
+						<m:mn>12</m:mn>
+					</m:mrow>
+				</m:msup>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> is a 12th degree polynomial.</para></example><example id="eip-588"><para id="eip-308"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>7</m:mn><m:msup>
+					<m:mi>x</m:mi>
+					<m:mn>5</m:mn>
+				</m:msup>
+				<m:msup>
+					<m:mi>y</m:mi>
+					<m:mn>7</m:mn>
+				</m:msup>
+				<m:msup>
+					<m:mi>z</m:mi>
+					<m:mn>3</m:mn>
+				</m:msup>
+				<m:mo>−</m:mo><m:mn>2</m:mn><m:msup>
+					<m:mi>x</m:mi>
+					<m:mn>4</m:mn>
+				</m:msup>
+				<m:msup>
+					<m:mi>y</m:mi>
+					<m:mn>7</m:mn>
+				</m:msup>
+				<m:mi>z</m:mi><m:mo>+</m:mo><m:msup>
+					<m:mi>x</m:mi>
+					<m:mn>3</m:mn>
+				</m:msup>
+				<m:msup>
+					<m:mi>y</m:mi>
+					<m:mn>7</m:mn>
+				</m:msup>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> is a 15th degree polynomial. The first term is of degree <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>5</m:mn><m:mo>+</m:mo><m:mn>7</m:mn><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>15</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>.</para></example><example id="eip-672"><para id="eip-458">43 is a 0th degree polynomial.</para></example></section><section id="eip-53"><title>Classification of Polynomial Equations</title><para id="eip-268">As we know, an equation is composed of two algebraic expressions separated by an equal sign. If the two expressions happen to be polynomial expressions, then we can classify the equation according to its degree. Classification of equations by degree is useful since equations of the same degree have the same type of graph. (We will study graphs of equations in Chapter 6.)</para><para id="eip-177">The degree of an equation is the degree of the highest degree expression.</para></section><section id="eip-178"><title>Sample Set A </title><example id="eip-763"><para id="eip-279"><m:math>		<m:semantics>			<m:mrow>				<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mo>=</m:mo><m:mn>15</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>.<newline/><newline/>This is a linear equation since it is of degree 1, the degree of the expression on the left of the <m:math>		<m:semantics>			<m:mrow>				<m:mo>"</m:mo><m:mo>=</m:mo><m:mo>"</m:mo>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>sign. </para></example><example id="eip-520"><para id="eip-367"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>5</m:mn><m:msup>
+					<m:mi>x</m:mi>
+					<m:mn>2</m:mn>
+				</m:msup>
+				<m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn><m:mo>=</m:mo><m:mn>4</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics></m:math> is a quadratic equation since it is of degree 2.</para></example><example id="eip-529"><para id="eip-574"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>9</m:mn><m:msup>
+					<m:mi>x</m:mi>
+					<m:mn>3</m:mn>
+				</m:msup>
+				<m:mo>−</m:mo><m:mn>8</m:mn><m:mo>=</m:mo><m:mn>5</m:mn><m:msup>
+					<m:mi>x</m:mi>
+					<m:mn>2</m:mn>
+				</m:msup>
+				<m:mo>+</m:mo><m:mn>1</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> is a cubic equation since it is of degree 3. The expression on the left of the <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mo>"</m:mo><m:mo>=</m:mo><m:mo>"</m:mo>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>sign is of degree 3.</para></example><example id="eip-789"><para id="eip-165"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:msup>
+					<m:mi>y</m:mi>
+					<m:mn>4</m:mn>
+				</m:msup>
+				<m:mo>−</m:mo><m:msup>
+					<m:mi>x</m:mi>
+					<m:mn>4</m:mn>
+				</m:msup>
+				<m:mo>=</m:mo><m:mn>0</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> is a 4th degree equation.</para></example><example id="eip-2"><para id="eip-797"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:msup>
+					<m:mi>a</m:mi>
+					<m:mn>5</m:mn>
+				</m:msup>
+				<m:mo>−</m:mo><m:mn>3</m:mn><m:msup>
+					<m:mi>a</m:mi>
+					<m:mn>4</m:mn>
+				</m:msup>
+				<m:mo>=</m:mo><m:mo>−</m:mo><m:msup>
+					<m:mi>a</m:mi>
+					<m:mn>3</m:mn>
+				</m:msup>
+				<m:mo>+</m:mo><m:mn>6</m:mn><m:msup>
+					<m:mi>a</m:mi>
+					<m:mn>4</m:mn>
+				</m:msup>
+				<m:mo>−</m:mo><m:mn>7</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> is a 5th degree equation.</para></example><example id="eip-893"><para id="eip-547"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac>
+					<m:mn>2</m:mn>
+					<m:mn>3</m:mn>
+				</m:mfrac>
+				<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics></m:math> is a linear equation. </para></example><example id="eip-556"><para id="eip-255"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:msup>
+					<m:mi>x</m:mi>
+					<m:mn>2</m:mn>
+				</m:msup>
+				<m:mo>−</m:mo><m:mn>1</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics></m:math> is a quadratic equation.</para></example><example id="eip-83"><para id="eip-599"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:msup>
+					<m:mi>x</m:mi>
+					<m:mn>2</m:mn>
+				</m:msup>
+				<m:msup>
+					<m:mi>y</m:mi>
+					<m:mn>2</m:mn>
+				</m:msup>
+				<m:mo>−</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> is a 4th degree equation. The degree of <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:msup>
+					<m:mi>x</m:mi>
+					<m:mn>2</m:mn>
+				</m:msup>
+				<m:msup>
+					<m:mi>y</m:mi>
+					<m:mn>2</m:mn>
+				</m:msup>
+				<m:mo>−</m:mo><m:mn>4</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>is <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>2</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>4</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>.</para></example></section>
+
+<section id="eip-89" class="homework"><title>Practice Set A</title><para id="eip-517">Classify the following equations in terms of their degree.</para><exercise id="eip-998"><problem id="eip-150">		<para id="eip-326"><m:math> <m:semantics>  <m:mrow>   <m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem>	<solution id="eip-802">		<para id="eip-577">first, or linear</para>	</solution></exercise><exercise id="eip-358"><problem id="eip-341">		<para id="eip-171"><m:math>		<m:semantics>			<m:mrow>				<m:mn>9</m:mn><m:msup>					<m:mi>x</m:mi>					<m:mn>2</m:mn>				</m:msup>				<m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>3</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math></para>	
+</problem>	<solution id="eip-787">		<para id="eip-959">quadratic  </para>	</solution></exercise><exercise id="eip-361"><problem id="eip-48">		<para id="eip-957"><m:math> <m:semantics>  <m:mrow>   <m:mn>25</m:mn><m:msup>    <m:mi>y</m:mi>    <m:mn>3</m:mn>   </m:msup>   <m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>9</m:mn><m:msup>    <m:mi>y</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>−</m:mo><m:mn>17</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>4</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem>	<solution id="eip-975">		<para id="eip-902">cubic</para>	</solution></exercise><exercise id="eip-628"><problem id="eip-791">		<para id="eip-406"><m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>9</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem>	<solution id="eip-884">		<para id="eip-220">linear</para>	</solution></exercise><exercise id="eip-498"><problem id="eip-81">		<para id="eip-90"><m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem>	<solution id="eip-157">		<para id="eip-921">linear</para>	</solution></exercise><exercise id="eip-847"><problem id="eip-538">		<para id="eip-726"><m:math> <m:semantics>  <m:mrow>   <m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>9</m:mn><m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>     </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem>	<solution id="eip-740">		<para id="eip-173">quadratic</para>	</solution></exercise><exercise id="eip-256"><problem id="eip-810">		<para id="eip-47"><m:math> <m:semantics>  <m:mrow>   <m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>−</m:mo><m:mn>9</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem>	<solution id="eip-758">		<para id="eip-329">quadratic</para>	</solution></exercise><exercise id="eip-696"><problem id="eip-253">		<para id="eip-119"><m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem>	<solution id="eip-774">		<para id="eip-109">linear</para>	</solution></exercise><exercise id="eip-145"><problem id="eip-510">		<para id="eip-583"><m:math>		<m:semantics>			<m:mrow>				<m:mn>5</m:mn><m:msup>					<m:mi>x</m:mi>					<m:mn>7</m:mn>				</m:msup>				<m:mo>=</m:mo><m:mn>3</m:mn><m:msup>					<m:mi>x</m:mi>					<m:mn>5</m:mn>				</m:msup>				<m:mo>−</m:mo><m:mn>2</m:mn><m:msup>					<m:mi>x</m:mi>					<m:mn>8</m:mn>				</m:msup>				<m:mo>+</m:mo><m:mn>11</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>9</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math></para>	
+</problem>	<solution id="eip-979">		<para id="eip-391">eighth degree</para>	</solution></exercise></section>
+
+<section id="eip-908" class="homework"><title>Exercises</title><para id="eip-676">For the following problems, classify each polynomial as a monomial, binomial, or trinomial. State the degree of each polynomial and write the numerical coefficient of each term.</para><exercise id="eip-700"><problem id="eip-28">			<para id="eip-981">				<m:math>					<m:semantics>						<m:mrow>							<m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem><solution id="zip-id17070055"><para id="zip-id17070056"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable columnalign="left">
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>binomial;</m:mtext>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>first (linear);</m:mtext>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mn>5</m:mn><m:mo>,</m:mo><m:mn>7</m:mn>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution>	</exercise><exercise id="eip-886"><problem id="eip-514">			<para id="eip-703">				<m:math>					<m:semantics>						<m:mrow>							<m:mn>16</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>21</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem>	</exercise><exercise id="eip-485"><problem id="eip-62">			<para id="eip-728">				<m:math>					<m:semantics>						<m:mrow>							<m:mn>4</m:mn><m:msup>								<m:mi>x</m:mi>								<m:mn>2</m:mn>							</m:msup>							<m:mo>+</m:mo><m:mn>9</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem><solution id="zip-id17075695"><para id="zip-id17075702"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable columnalign="left">
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>binomial;</m:mtext>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>second (quadratic);</m:mtext>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mn>4</m:mn><m:mo>,</m:mo><m:mn>9</m:mn>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution>	</exercise><exercise id="eip-612"><problem id="eip-790">			<para id="eip-59">				<m:math>					<m:semantics>						<m:mrow>							<m:mn>7</m:mn><m:msup>								<m:mi>y</m:mi>								<m:mn>3</m:mn>							</m:msup>							<m:mo>+</m:mo><m:mn>8</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem>	</exercise><exercise id="eip-831"><problem id="eip-671">			<para id="eip-41">				<m:math>					<m:semantics>						<m:mrow>							<m:msup>								<m:mi>a</m:mi>								<m:mn>4</m:mn>							</m:msup>							<m:mo>+</m:mo><m:mn>1</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem><solution id="zip-id17035148"><para id="zip-id17035149"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable columnalign="left">
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>binomial;</m:mtext>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>fourth;</m:mtext>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mn>1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution>	</exercise><exercise id="eip-686"><problem id="eip-874">			<para id="eip-707">				<m:math>					<m:semantics>						<m:mrow>							<m:mn>2</m:mn><m:msup>								<m:mi>b</m:mi>								<m:mn>5</m:mn>							</m:msup>							<m:mo>−</m:mo><m:mn>8</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem>	</exercise><exercise id="eip-442"><problem id="eip-102">			<para id="eip-183">				<m:math>					<m:semantics>						<m:mrow>							<m:mn>5</m:mn><m:mi>x</m:mi>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem><solution id="zip-id17035294"><para id="zip-id17035295"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable columnalign="left">
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>monomial;</m:mtext>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>first (linear);</m:mtext>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mn>5</m:mn>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution>	</exercise><exercise id="eip-757"><problem id="eip-776">			<para id="eip-243">				<m:math>					<m:semantics>						<m:mrow>							<m:mn>7</m:mn><m:mi>a</m:mi>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem>	</exercise><exercise id="eip-851"><problem id="eip-123">			<para id="eip-451">				<m:math>					<m:semantics>						<m:mrow>							<m:mn>5</m:mn><m:msup>								<m:mi>x</m:mi>								<m:mn>3</m:mn>							</m:msup>							<m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem><solution id="zip-id17035439"><para id="zip-id17035440"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable columnalign="left">
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>trinomial;</m:mtext>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>third (cubic);</m:mtext>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mn>5</m:mn>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable><m:mo>,</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution>	</exercise><exercise id="eip-471"><problem id="eip-616">			<para id="eip-158">				<m:math>					<m:semantics>						<m:mrow>							<m:mn>17</m:mn><m:msup>								<m:mi>y</m:mi>								<m:mn>4</m:mn>							</m:msup>							<m:mo>+</m:mo><m:msup>								<m:mi>y</m:mi>								<m:mn>5</m:mn>							</m:msup>							<m:mo>−</m:mo><m:mn>9</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem>	</exercise><exercise id="eip-246"><problem id="eip-410">			<para id="eip-995">				<m:math>					<m:semantics>						<m:mrow>							<m:mn>41</m:mn><m:msup>								<m:mi>a</m:mi>								<m:mn>3</m:mn>							</m:msup>							<m:mo>+</m:mo><m:mn>22</m:mn><m:msup>								<m:mi>a</m:mi>								<m:mn>2</m:mn>							</m:msup>							<m:mo>+</m:mo><m:mi>a</m:mi>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem><solution id="zip-id17073264"><para id="zip-id17073265"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable columnalign="left">
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>trinomial;</m:mtext>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>third (cubic);</m:mtext>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mn>41</m:mn>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable><m:mo>,</m:mo><m:mn>22</m:mn><m:mo>,</m:mo><m:mn>1</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution>	</exercise><exercise id="eip-910"><problem id="eip-721">			<para id="eip-667">				<m:math>					<m:semantics>						<m:mrow>							<m:mn>6</m:mn><m:msup>								<m:mi>y</m:mi>								<m:mn>2</m:mn>							</m:msup>							<m:mo>+</m:mo><m:mn>9</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem>	</exercise><exercise id="eip-415"><problem id="eip-6">			<para id="eip-993">				<m:math>					<m:semantics>						<m:mrow>							<m:mn>2</m:mn><m:msup>								<m:mi>c</m:mi>								<m:mn>6</m:mn>							</m:msup>							<m:mo>+</m:mo><m:mn>0</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem><solution id="zip-id17073425"><para id="zip-id17073426"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable columnalign="left">
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>monomial;</m:mtext>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>sixth;</m:mtext>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mn>2</m:mn>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution>	</exercise><exercise id="eip-961"><problem id="eip-736">			<para id="eip-408">				<m:math>					<m:semantics>						<m:mrow>							<m:mn>8</m:mn><m:msup>								<m:mi>x</m:mi>								<m:mn>2</m:mn>							</m:msup>							<m:mo>−</m:mo><m:mn>0</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem>	</exercise><exercise id="eip-327"><problem id="eip-395">			<para id="eip-214">				<m:math>					<m:semantics>						<m:mrow>							<m:mn>9</m:mn><m:mi>g</m:mi>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem><solution id="zip-id17075221"><para id="zip-id17075222"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable columnalign="left">
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>monomial;</m:mtext>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>first (linear);</m:mtext>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mn>9</m:mn>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution>	</exercise><exercise id="eip-219"><problem id="eip-362">			<para id="eip-525">				<m:math>					<m:semantics>						<m:mrow>							<m:mn>5</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem>	</exercise><exercise id="eip-587"><problem id="eip-749">			<para id="eip-49">				<m:math>					<m:semantics>						<m:mrow>							<m:mn>3</m:mn><m:mi>y</m:mi><m:mi>z</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>11</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem><solution id="zip-id17075369"><para id="zip-id17075370"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable columnalign="left">
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>trinomial;</m:mtext>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>second (quadratic);</m:mtext>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mn>3</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>11</m:mn>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution>	</exercise><exercise id="eip-245"><problem id="eip-280">			<para id="eip-285">				<m:math>					<m:semantics>						<m:mrow>							<m:mn>7</m:mn><m:mi>a</m:mi><m:msup>								<m:mi>b</m:mi>								<m:mn>2</m:mn>							</m:msup>							<m:msup>								<m:mi>c</m:mi>								<m:mn>2</m:mn>							</m:msup>							<m:mo>+</m:mo><m:mn>2</m:mn><m:msup>								<m:mi>a</m:mi>								<m:mn>2</m:mn>							</m:msup>							<m:msup>								<m:mi>b</m:mi>								<m:mn>3</m:mn>							</m:msup>							<m:msup>								<m:mi>c</m:mi>								<m:mn>5</m:mn>							</m:msup>							<m:mo>+</m:mo><m:msup>								<m:mi>a</m:mi>								<m:mrow>									<m:mn>14</m:mn>								</m:mrow>							</m:msup>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem>			</exercise><exercise id="eip-917"><problem id="eip-365">		<para id="eip-324"><m:math> <m:semantics>  <m:mrow>   <m:msup>    <m:mi>x</m:mi>    <m:mn>4</m:mn>   </m:msup>   <m:msup>    <m:mi>y</m:mi>    <m:mn>3</m:mn>   </m:msup>   <m:msup>    <m:mi>z</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>+</m:mo><m:mn>9</m:mn><m:mi>z</m:mi>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem><solution id="zip-id17072102"><para id="zip-id17072103"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable columnalign="left">
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>binomial;</m:mtext>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>ninth;</m:mtext>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mn>1</m:mn><m:mo>,</m:mo><m:mn>9</m:mn>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution>	</exercise><exercise id="eip-429"><problem id="eip-113">		<para id="eip-130"><m:math> <m:semantics>  <m:mrow>   <m:mn>5</m:mn><m:msup>    <m:mi>a</m:mi>    <m:mn>3</m:mn>   </m:msup>   <m:mi>b</m:mi>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem>	</exercise><exercise id="eip-925"><problem id="eip-454">		<para id="eip-668"><m:math>		<m:semantics>			<m:mrow>				<m:mn>6</m:mn><m:mo>+</m:mo><m:mn>3</m:mn><m:msup>					<m:mi>x</m:mi>					<m:mn>2</m:mn>				</m:msup>				<m:msup>					<m:mi>y</m:mi>					<m:mn>5</m:mn>				</m:msup>				<m:mi>b</m:mi>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math></para>	
+</problem><solution id="zip-id17046930"><para id="zip-id17046931"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable columnalign="left">
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>binomial;</m:mtext>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>eighth;</m:mtext>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mn>6</m:mn><m:mo>,</m:mo><m:mn>3</m:mn>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution>	</exercise><exercise id="eip-239"><problem id="eip-60">		<para id="eip-409"><m:math> <m:semantics>  <m:mrow>   <m:mo>−</m:mo><m:mn>9</m:mn><m:mo>+</m:mo><m:mn>3</m:mn><m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mn>6</m:mn><m:msup>    <m:mi>z</m:mi>    <m:mn>2</m:mn>   </m:msup>     </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem>	</exercise><exercise id="eip-332"><problem id="eip-885">		<para id="eip-388">5  </para>	
+</problem><solution id="zip-id17047076"><para id="zip-id17047077"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable columnalign="left">
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>monomial;</m:mtext>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>zero;</m:mtext>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mn>5</m:mn>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution>	</exercise><exercise id="eip-822"><problem id="eip-339">		<para id="eip-569"><m:math> <m:semantics>  <m:mrow>   <m:mn>3</m:mn><m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:msup>    <m:mi>y</m:mi>    <m:mn>0</m:mn>   </m:msup>   <m:msup>    <m:mi>z</m:mi>    <m:mn>4</m:mn>   </m:msup>   <m:mo>+</m:mo><m:mn>12</m:mn><m:msup>    <m:mi>z</m:mi>    <m:mn>3</m:mn>   </m:msup>   <m:mo>,</m:mo><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mi>y</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem>	</exercise><exercise id="eip-990"><problem id="eip-172">		<para id="eip-423"><m:math> <m:semantics>  <m:mrow>   <m:mn>4</m:mn><m:mi>x</m:mi><m:msup>    <m:mi>y</m:mi>    <m:mn>3</m:mn>   </m:msup>   <m:msup>    <m:mi>z</m:mi>    <m:mn>5</m:mn>   </m:msup>   <m:msup>    <m:mi>w</m:mi>    <m:mn>0</m:mn>   </m:msup>   <m:mo>,</m:mo><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mi>w</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem><solution id="zip-id18647007"><para id="zip-id18647008"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable columnalign="left">
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>monomial;</m:mtext>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>ninth;</m:mtext>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mn>4</m:mn>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution>	</exercise><para id="eip-678">Classify each of the equations for the following problems by degree. If the term linear, quadratic, or cubic applies, state it.</para><exercise id="eip-46"><problem id="eip-615">		<para id="eip-132"><m:math> <m:semantics>  <m:mrow>   <m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem>	</exercise><exercise id="eip-78"><problem id="eip-829">		<para id="eip-205"><m:math> <m:semantics>  <m:mrow>   <m:mn>3</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>15</m:mn><m:mo>=</m:mo><m:mn>9</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem><solution id="zip-id18647153"><para id="zip-id18647154">linear</para></solution>	</exercise><exercise id="eip-580"><problem id="eip-181">		<para id="eip-283"><m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>s</m:mi><m:mo>+</m:mo><m:mn>6</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem>	</exercise><exercise id="eip-934"><problem id="eip-213">		<para id="eip-118"><m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>+</m:mo><m:mn>2</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem><solution id="zip-id18647237"><para id="zip-id18647238">quadratic</para></solution>	</exercise><exercise id="eip-77"><problem id="eip-912">		<para id="eip-428"><m:math> <m:semantics>  <m:mrow>   <m:mn>4</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>24</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem>	</exercise><exercise id="eip-217"><problem id="eip-293">		<para id="eip-443"><m:math> <m:semantics>  <m:mrow>   <m:mn>9</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>12</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>18</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem><solution id="zip-id18647320"><para id="zip-id18647321">linear</para></solution>	</exercise><exercise id="eip-66"><problem id="eip-386">		<para id="eip-452"><m:math> <m:semantics>  <m:mrow>   <m:msup>    <m:mi>y</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>+</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>6</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem>	</exercise><exercise id="eip-397"><problem id="eip-909">		<para id="eip-402"><m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo>+</m:mo><m:msup>    <m:mi>y</m:mi>    <m:mn>3</m:mn>   </m:msup>   <m:mo>=</m:mo><m:mn>3</m:mn><m:msup>    <m:mi>y</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>+</m:mo><m:mn>2</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem><solution id="zip-id17047409"><para id="zip-id17047410">cubic</para></solution>	</exercise><exercise id="eip-835"><problem id="eip-788">		<para id="eip-697"><m:math> <m:semantics>  <m:mrow>   <m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>+</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>7</m:mn><m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>9</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem>	</exercise><exercise id="eip-297"><problem id="eip-598">		<para id="eip-120"><m:math> <m:semantics>  <m:mrow>   <m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem><solution id="zip-id17047543"><para id="zip-id17047544">quadratic</para></solution>	</exercise><exercise id="eip-562"><problem id="eip-841">		<para id="eip-40"><m:math> <m:semantics>  <m:mrow>   <m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>9</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem>	</exercise><exercise id="eip-360"><problem id="eip-544">		<para id="eip-82"><m:math> <m:semantics>  <m:mrow>   <m:mn>8</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>8</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem><solution id="zip-id17047633"><para id="zip-id17047634">linear</para></solution>	</exercise><exercise id="eip-8"><problem id="eip-983">		<para id="eip-23"><m:math> <m:semantics>  <m:mrow>   <m:mn>2</m:mn><m:msup>    <m:mi>x</m:mi>    <m:mn>5</m:mn>   </m:msup>   <m:mo>−</m:mo><m:mn>8</m:mn><m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>+</m:mo><m:mn>9</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>12</m:mn><m:msup>    <m:mi>x</m:mi>    <m:mn>4</m:mn>   </m:msup>   <m:mo>+</m:mo><m:mn>3</m:mn><m:msup>    <m:mi>x</m:mi>    <m:mn>3</m:mn>   </m:msup>   <m:mo>+</m:mo><m:mn>4</m:mn><m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>+</m:mo><m:mn>1</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem>	</exercise><exercise id="eip-425"><problem id="eip-167">		<para id="eip-438"><m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem><solution id="zip-id18648998"><para id="zip-id18648999">linear</para></solution>	</exercise><exercise id="eip-426"><problem id="eip-762">		<para id="eip-652"><m:math> <m:semantics>  <m:mrow>   <m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>−</m:mo><m:mn>25</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem>	</exercise><exercise id="eip-85"><problem id="eip-550">		<para id="eip-933"><m:math> <m:semantics>  <m:mrow>   <m:msup>    <m:mi>x</m:mi>    <m:mn>3</m:mn>   </m:msup>   <m:mo>−</m:mo><m:mn>64</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem><solution id="zip-id18649088"><para id="zip-id18649089">cubic</para></solution>	</exercise><exercise id="eip-747"><problem id="eip-691">		<para id="eip-267"><m:math> <m:semantics>  <m:mrow>   <m:msup>    <m:mi>x</m:mi>    <m:mrow>     <m:mn>12</m:mn>    </m:mrow>   </m:msup>   <m:mo>−</m:mo><m:msup>    <m:mi>y</m:mi>    <m:mrow>     <m:mn>12</m:mn>    </m:mrow>   </m:msup>   <m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem>	</exercise><exercise id="eip-972"><problem id="eip-405">		<para id="eip-242"><m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:msup>    <m:mi>x</m:mi>    <m:mn>5</m:mn>   </m:msup>   <m:mo>=</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:msup>    <m:mi>x</m:mi>    <m:mn>5</m:mn>   </m:msup>     </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem><solution id="zip-id18649206"><para id="zip-id18649207">fifth degree</para></solution>	</exercise><exercise id="eip-683"><problem id="eip-741">		<para id="eip-617"><m:math> <m:semantics>  <m:mrow>   <m:mn>3</m:mn><m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:msup>    <m:mi>y</m:mi>    <m:mn>4</m:mn>   </m:msup>   <m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>14</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem>	</exercise><exercise id="eip-52"><problem id="eip-722">		<para id="eip-450"><m:math> <m:semantics>  <m:mrow>   <m:mn>10</m:mn><m:msup>    <m:mi>a</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:msup>    <m:mi>b</m:mi>    <m:mn>3</m:mn>   </m:msup>   <m:msup>    <m:mi>c</m:mi>    <m:mn>6</m:mn>   </m:msup>   <m:msup>    <m:mi>d</m:mi>    <m:mn>0</m:mn>   </m:msup>   <m:msup>    <m:mi>e</m:mi>    <m:mn>4</m:mn>   </m:msup>   <m:mo>+</m:mo><m:mn>27</m:mn><m:msup>    <m:mi>a</m:mi>    <m:mn>3</m:mn>   </m:msup>   <m:msup>    <m:mi>b</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:msup>    <m:mi>b</m:mi>    <m:mn>4</m:mn>   </m:msup>   <m:msup>    <m:mi>b</m:mi>    <m:mn>3</m:mn>   </m:msup>   <m:msup>    <m:mi>b</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:msup>    <m:mi>c</m:mi>    <m:mn>5</m:mn>   </m:msup>   <m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>d</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>  </para>	
+</problem><solution id="zip-id17021513"><para id="zip-id17021514">19th degree</para></solution>	</exercise><exercise id="eip-881"><problem id="eip-264">		<para id="eip-128">The expression <m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mrow>     <m:mn>4</m:mn><m:msup>      <m:mi>x</m:mi>      <m:mn>3</m:mn>     </m:msup>         </m:mrow>    <m:mrow>     <m:mn>9</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn>    </m:mrow>   </m:mfrac>     </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>is not a polynomial because  </para>	
+</problem>	</exercise><exercise id="eip-174"><problem id="eip-210">		<para id="eip-33">The expression <m:math>		<m:semantics>			<m:mrow>				<m:mfrac>					<m:mrow>						<m:msup>							<m:mi>a</m:mi>							<m:mn>4</m:mn>						</m:msup>					</m:mrow>					<m:mrow>						<m:mn>7</m:mn><m:mo>−</m:mo><m:mi>a</m:mi>					</m:mrow>				</m:mfrac>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math> is not a polynomial because  </para>	
+</problem><solution id="zip-id17021627"><para id="zip-id17021628">. . . there is a variable in the denominator</para></solution>	</exercise><exercise id="eip-278"><problem id="eip-160">		<para id="eip-260">Is every algebraic expression a polynomial expression? If not, give an example of an algebraic expression that is not a polynomial expression.  </para>	
+</problem>	</exercise><exercise id="eip-39"><problem id="eip-675">		<para id="eip-298">Is every polynomial expression an algebraic expression? If not, give an example of a polynomial expression that is not an algebraic expression.  </para>	
+</problem><solution id="zip-id17021658"><para id="zip-id17021659">yes</para></solution>	</exercise><exercise id="eip-441"><problem id="eip-524">		<para id="eip-649">How do we find the degree of a term that contains more than one variable?  </para>	
+</problem>	</exercise></section><section id="eip-175"><title>Exercises for Review</title><exercise id="eip-770"><problem id="eip-479">
+			<para id="eip-476"><emphasis>(<link document="m18872"/>)</emphasis> Use algebraic notation to write “eleven minus three times a number is five.”  </para>
+		</problem><solution id="zip-id17021695"><para id="zip-id17021696"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mn>11</m:mn><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn>
+						</m:mrow>
+					</m:semantics>
+				</m:math>
+			</para></solution>
+	</exercise><exercise id="eip-254"><problem id="eip-539">
+			<para id="eip-653"><emphasis>(<link document="m21897"/>)</emphasis> Simplify <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:msup>
+								<m:mrow>
+									<m:mo stretchy="false">(</m:mo><m:msup>
+										<m:mi>x</m:mi>
+										<m:mn>4</m:mn>
+									</m:msup>
+									<m:msup>
+										<m:mi>y</m:mi>
+										<m:mn>2</m:mn>
+									</m:msup>
+									<m:msup>
+										<m:mi>z</m:mi>
+										<m:mn>3</m:mn>
+									</m:msup>
+									<m:mo stretchy="false">)</m:mo>
+								</m:mrow>
+								<m:mn>5</m:mn>
+							</m:msup>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math>.</para>
+		</problem></exercise><exercise id="eip-500"><problem id="eip-140">
+			<para id="eip-645"><emphasis>(<link document="m21872"/>)</emphasis> Find the value of <m:math>
+					<m:semantics>
+						<m:mi>z</m:mi>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math>if <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
+								<m:mrow>
+									<m:mi>x</m:mi><m:mo>−</m:mo><m:mi>u</m:mi>
+								</m:mrow>
+								<m:mi>s</m:mi>
+							</m:mfrac>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math>and <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mi>x</m:mi><m:mo>=</m:mo><m:mn>55</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>u</m:mi><m:mo>=</m:mo><m:mn>49</m:mn><m:mo>,</m:mo>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math>and <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mi>s</m:mi><m:mo>=</m:mo><m:mn>3</m:mn>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math>.</para>
+		</problem><solution id="zip-id17071504"><para id="zip-id17071505"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mi>z</m:mi><m:mo>=</m:mo><m:mn>2</m:mn>
+						</m:mrow>
+					</m:semantics>
+				</m:math>
+			</para></solution>
+	</exercise><exercise id="eip-228"><problem id="eip-779">
+			<para id="eip-919"><emphasis>(<link document="m18875"/>)</emphasis> List, if any should appear, the common factors in the expression <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mn>3</m:mn><m:msup>
+								<m:mi>x</m:mi>
+								<m:mn>4</m:mn>
+							</m:msup>
+							<m:mo>+</m:mo><m:mn>6</m:mn><m:msup>
+								<m:mi>x</m:mi>
+								<m:mn>3</m:mn>
+							</m:msup>
+							<m:mo>−</m:mo><m:mn>18</m:mn><m:msup>
+								<m:mi>x</m:mi>
+								<m:mn>2</m:mn>
+							</m:msup>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math>.</para>
+		</problem>
+	</exercise><exercise id="eip-541"><problem id="eip-719">
+			<para id="eip-950"><emphasis>(<link document="m21850"/>)</emphasis> State (by writing it) the relationship being expressed by the equation <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math>.</para>
+		</problem><solution id="zip-id17071635"><para id="zip-id17071636"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mtext>The</m:mtext><m:mtext> </m:mtext><m:mtext>value</m:mtext><m:mtext>​</m:mtext><m:mtext> </m:mtext><m:mtext>of</m:mtext><m:mtext> </m:mtext><m:mi>y</m:mi><m:mtext> </m:mtext><m:mtext>is 5 more then three times the value of </m:mtext><m:mi>x</m:mi><m:mtext>.</m:mtext>
+						</m:mrow>
+					</m:semantics>
+				</m:math>
+			</para></solution>
+	</exercise></section></content></document>

@@ -1,0 +1,1187 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+
+<title>Application I - Translating from Verbal to Mathetical Expressions </title>
+<metadata>
+  <md:content-id>m21978</md:content-id><md:title>Application I - Translating from Verbal to Mathetical Expressions </md:title>
+  <md:abstract>This module is from Elementary Algebra by Denny Burzynski and Wade Ellis, Jr.
+In this chapter, the emphasis is on the mechanics of equation solving, which clearly explains how to isolate a variable. The goal is to help the student feel more comfortable with solving applied problems. Ample opportunity is provided for the student to practice translating words to symbols, which is an important part of the "Five-Step Method" of solving applied problems (discussed in modules (&lt;link document="m21980"/&gt;) and (&lt;link document="m21979"/&gt;)).
+Objectives of this module: be able to translate from verbal to mathematical expressions.</md:abstract>
+  <md:uuid>9b5d62bb-46c1-4dfe-942d-83e7bc1c2ee9</md:uuid>
+</metadata>
+
+<content>
+  <section id="eip-39"><title>Overview</title><list id="eip-241"><item>Translating from Verbal to Mathematical Expressions</item></list></section><section id="eip-747"><title>Translating from Verbal to Mathematical Expressions</title><para id="eip-907">To solve a problem using algebra, we must first express the problem algebraically. To express a problem algebraically, we must scrutinize the wording of the problem to determine the variables and constants that are present and the relationships among them. Then we must translate the verbal phrases and statements to algebraic expressions and equations.</para><para id="eip-491">To help us translate verbal expressions to mathematics, we can use the following table as a mathematics dictionary.</para><table id="eip-926" summary="A table with two columns and seven rows. The first column header is 'Word or Phrase', and the second column header is 'Mathematical Operation'. The table is useful for translating a verbal expression into a mathematical operation. Words or phrases like 'sum', 'sum of', 'added to', 'increased by', 'more than', 'plus', and 'and' are equivalent to the mathematical operation of addition denoted by a plus symbol. Word or phrases like 'difference', 'minus', 'subtracted from', 'decreased by', 'less', and 'less than' are equivalent to the mathematical operation of subtraction denoted by a minus symbol. Words or phrases like 'product', 'the product of', 'of', 'multiplied by', and 'times' are equivalent to the mathematical operation of multiplication denoted by a dot. Words or phrases like 'quotient', 'divided by', and 'ratio' are equivalent to the mathematical operation of division denoted by a division symbol. Words or phrases like 'equals', 'is equal to', 'is', 'the result is', and 'becomes' are equivalent to the mathematical operation denoted by an equal sign. Words or phrases like 'a number', 'an unknown quantity', 'an unknown', and 'a quantity' are denoted by 'x' (or any symbol)." frame="topbot"><title>Mathematics Dictionary</title>
+<tgroup cols="2" rowsep="0" colsep="0"><tbody>
+		<row rowsep="1">
+			<entry align="center"><emphasis>Word or Phrase</emphasis></entry>
+			<entry align="center"><emphasis>Mathematical Operation</emphasis></entry>
+		</row>
+		<row>
+			<entry>Sum, sum of, added to, increased by, more than, plus, and </entry>
+			<entry align="center"><m:math>
+ <m:semantics>
+  <m:mo>+</m:mo>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+</entry>
+		</row>
+		<row>
+			<entry>Difference, minus, subtracted from, decreased by, less, less than</entry>
+			<entry align="center">
+
+<m:math>
+ <m:semantics>
+  <m:mo>−</m:mo>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+</entry>
+		</row>
+		<row>
+			<entry>Product, the product of, of, muitiplied by, times</entry>
+			<entry align="center">
+<m:math>
+ <m:semantics>
+  <m:mo>⋅</m:mo>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+</entry>
+		</row>
+		<row>
+			<entry>Quotient, divided by, ratio</entry>
+			<entry align="center">
+<m:math>
+ <m:semantics>
+  <m:mo>÷</m:mo>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+</entry>
+		</row>
+		<row>
+			<entry>Equals, is equal to, is, the result is, becomes</entry>
+			<entry align="center">
+<m:math>
+ <m:semantics>
+  <m:mo>=</m:mo>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+</entry>
+		</row>
+		<row>
+			<entry>A number, an unknown quantity, an unknown, a quantity</entry>
+			<entry align="center">
+<m:math>
+ <m:semantics>
+  <m:mi>x</m:mi>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math> (or any symbol)</entry>
+		</row>
+	</tbody>
+
+</tgroup>
+</table></section><section id="eip-153"><title>Sample Set A</title><para id="eip-171">Translate the following phrases or sentences into mathematical expressions or equations.</para><example id="eip-570"><para id="eip-147"><m:math display="block">
+		<m:semantics>
+			<m:mrow>
+				<m:munder>
+					<m:munder>
+						<m:mrow>
+							<m:munder>
+								<m:munder>
+									<m:mrow>
+										<m:mtext>six</m:mtext>
+									</m:mrow>
+									<m:mo stretchy="true">︸</m:mo>
+								</m:munder>
+								<m:mn>6</m:mn>
+							</m:munder>
+							<m:mtext> </m:mtext><m:munder>
+								<m:munder>
+									<m:mrow>
+										<m:mtext>more</m:mtext><m:mtext> </m:mtext><m:mtext>than</m:mtext>
+									</m:mrow>
+									<m:mo stretchy="true">︸</m:mo>
+								</m:munder>
+								<m:mo>+</m:mo>
+							</m:munder>
+							<m:mtext> </m:mtext><m:munder>
+								<m:munder>
+									<m:mrow>
+										<m:mtext>a</m:mtext><m:mtext> </m:mtext><m:mtext>number</m:mtext>
+									</m:mrow>
+									<m:mo stretchy="true">︸</m:mo>
+								</m:munder>
+								<m:mi>x</m:mi>
+							</m:munder>
+						</m:mrow>
+						<m:mo stretchy="true">︸</m:mo>
+					</m:munder>
+					<m:mrow>
+						<m:mn>6</m:mn><m:mo>+</m:mo><m:mi>x</m:mi>
+					</m:mrow>
+				</m:munder>
+				<m:mo>.</m:mo>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math></para>
+</example><example id="eip-612"><para id="eip-238"><m:math display="block">
+		<m:semantics>
+			<m:mrow>
+				<m:munder>
+					<m:munder>
+						<m:mrow>
+							<m:munder>
+								<m:munder>
+									<m:mrow>
+										<m:mtext>Fifteen</m:mtext>
+									</m:mrow>
+									<m:mo stretchy="true">︸</m:mo>
+								</m:munder>
+								<m:mn>15</m:mn>
+							</m:munder>
+							<m:mtext> </m:mtext><m:munder>
+								<m:munder>
+									<m:mrow>
+										<m:mtext>minus</m:mtext>
+									</m:mrow>
+									<m:mo stretchy="true">︸</m:mo>
+								</m:munder>
+								<m:mo>-</m:mo>
+							</m:munder>
+							<m:mtext> </m:mtext><m:munder>
+								<m:munder>
+									<m:mrow>
+										<m:mtext>a</m:mtext><m:mtext> </m:mtext><m:mtext>number</m:mtext>
+									</m:mrow>
+									<m:mo stretchy="true">︸</m:mo>
+								</m:munder>
+								<m:mi>x</m:mi>
+							</m:munder>
+						</m:mrow>
+						<m:mo stretchy="true">︸</m:mo>
+					</m:munder>
+					<m:mrow>
+						<m:mn>15</m:mn><m:mo>-</m:mo><m:mi>x</m:mi>
+					</m:mrow>
+				</m:munder>
+				<m:mo>.</m:mo>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math></para>
+</example><example id="eip-765"><para id="eip-867"><m:math display="block">
+		<m:semantics>
+			<m:mrow>
+				<m:munder>
+					<m:munder>
+						<m:mrow>
+							<m:munder>
+								<m:munder>
+									<m:mrow>
+										<m:mtext>A</m:mtext><m:mtext> </m:mtext><m:mtext>quantity</m:mtext>
+									</m:mrow>
+									<m:mo stretchy="true">︸</m:mo>
+								</m:munder>
+								<m:mi>y</m:mi>
+							</m:munder>
+							<m:mtext> </m:mtext><m:munder>
+								<m:munder>
+									<m:mrow>
+										<m:mtext>less</m:mtext>
+									</m:mrow>
+									<m:mo stretchy="true">︸</m:mo>
+								</m:munder>
+								<m:mo>-</m:mo>
+							</m:munder>
+							<m:mtext> </m:mtext><m:munder>
+								<m:munder>
+									<m:mrow>
+										<m:mtext>eight</m:mtext>
+									</m:mrow>
+									<m:mo stretchy="true">︸</m:mo>
+								</m:munder>
+								<m:mn>8</m:mn>
+							</m:munder>
+						</m:mrow>
+						<m:mo stretchy="true">︸</m:mo>
+					</m:munder>
+					<m:mrow>
+						<m:mi>y</m:mi><m:mo>-</m:mo><m:mn>8</m:mn>
+					</m:mrow>
+				</m:munder>
+				<m:mo>.</m:mo>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math></para>
+</example><example id="eip-320"><para id="eip-762"><m:math display="block">
+		<m:semantics>
+			<m:mrow>
+				<m:munder>
+					<m:munder>
+						<m:mrow>
+							<m:munder>
+								<m:munder>
+									<m:mrow>
+										<m:mtext>Twice</m:mtext>
+									</m:mrow>
+									<m:mo stretchy="true">︸</m:mo>
+								</m:munder>
+								<m:mrow>
+									<m:mn>2</m:mn><m:mo>⋅</m:mo>
+								</m:mrow>
+							</m:munder>
+							<m:mtext> </m:mtext><m:munder>
+								<m:munder>
+									<m:mrow>
+										<m:mtext>a</m:mtext><m:mtext> </m:mtext><m:mtext>number</m:mtext>
+									</m:mrow>
+									<m:mo stretchy="true">︸</m:mo>
+								</m:munder>
+								<m:mi>x</m:mi>
+							</m:munder>
+							<m:mtext> </m:mtext><m:munder>
+								<m:munder>
+									<m:mrow>
+										<m:mtext>is</m:mtext>
+									</m:mrow>
+									<m:mo stretchy="true">︸</m:mo>
+								</m:munder>
+								<m:mo>=</m:mo>
+							</m:munder>
+							<m:mtext> </m:mtext><m:munder>
+								<m:munder>
+									<m:mrow>
+										<m:mtext>ten</m:mtext><m:mtext>.</m:mtext>
+									</m:mrow>
+									<m:mo stretchy="true">︸</m:mo>
+								</m:munder>
+								<m:mrow>
+									<m:mn>10</m:mn>
+								</m:mrow>
+							</m:munder>
+						</m:mrow>
+						<m:mo stretchy="true">︸</m:mo>
+					</m:munder>
+					<m:mrow>
+						<m:mn>2</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>10</m:mn>
+					</m:mrow>
+				</m:munder>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math></para>
+</example><example id="eip-849"><para id="eip-980"><m:math display="block">
+		<m:semantics>
+			<m:mrow>
+				<m:munder>
+					<m:munder>
+						<m:mrow>
+							<m:munder>
+								<m:munder>
+									<m:mrow>
+										<m:mtext>One</m:mtext><m:mtext> </m:mtext><m:mtext>half</m:mtext>
+									</m:mrow>
+									<m:mo stretchy="true">︸</m:mo>
+								</m:munder>
+								<m:mrow>
+									<m:mfrac>
+										<m:mtext>1</m:mtext>
+										<m:mtext>2</m:mtext>
+									</m:mfrac>
+								</m:mrow>
+							</m:munder>
+							<m:mtext> </m:mtext><m:munder>
+								<m:munder>
+									<m:mrow>
+										<m:mtext>of</m:mtext>
+									</m:mrow>
+									<m:mo stretchy="true">︸</m:mo>
+								</m:munder>
+								<m:mo>⋅</m:mo>
+							</m:munder>
+							<m:mtext> </m:mtext><m:munder>
+								<m:munder>
+									<m:mrow>
+										<m:mtext>a</m:mtext><m:mtext> </m:mtext><m:mtext>number</m:mtext>
+									</m:mrow>
+									<m:mo stretchy="true">︸</m:mo>
+								</m:munder>
+								<m:mtext>z</m:mtext>
+							</m:munder>
+							<m:mtext> </m:mtext><m:munder>
+								<m:munder>
+									<m:mrow>
+										<m:mtext>is</m:mtext>
+									</m:mrow>
+									<m:mo stretchy="true">︸</m:mo>
+								</m:munder>
+								<m:mtext>=</m:mtext>
+							</m:munder>
+							<m:mtext> </m:mtext><m:munder>
+								<m:munder>
+									<m:mrow>
+										<m:mtext>twenty</m:mtext><m:mtext>.</m:mtext>
+									</m:mrow>
+									<m:mo stretchy="true">︸</m:mo>
+								</m:munder>
+								<m:mrow>
+									<m:mtext>20</m:mtext>
+								</m:mrow>
+							</m:munder>
+						</m:mrow>
+						<m:mo stretchy="true">︸</m:mo>
+					</m:munder>
+					<m:mrow>
+						<m:mfrac>
+							<m:mn>1</m:mn>
+							<m:mn>2</m:mn>
+						</m:mfrac>
+						<m:mi>z</m:mi><m:mo>=</m:mo><m:mn>20</m:mn>
+					</m:mrow>
+				</m:munder>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+</para>
+</example><example id="eip-446"><para id="eip-776"><m:math display="block">
+		<m:semantics>
+			<m:mrow>
+				<m:munder>
+					<m:munder>
+						<m:mrow>
+							<m:munder>
+								<m:munder>
+									<m:mrow>
+										<m:mtext>Three</m:mtext>
+									</m:mrow>
+									<m:mo stretchy="true">︸</m:mo>
+								</m:munder>
+								<m:mn>3</m:mn>
+							</m:munder>
+							<m:mtext> </m:mtext><m:munder>
+								<m:munder>
+									<m:mrow>
+										<m:mtext>times</m:mtext>
+									</m:mrow>
+									<m:mo stretchy="true">︸</m:mo>
+								</m:munder>
+								<m:mo>⋅</m:mo>
+							</m:munder>
+							<m:mtext> </m:mtext><m:munder>
+								<m:munder>
+									<m:mrow>
+										<m:mtext>a</m:mtext><m:mtext> </m:mtext><m:mtext>number</m:mtext>
+									</m:mrow>
+									<m:mo stretchy="true">︸</m:mo>
+								</m:munder>
+								<m:mi>y</m:mi>
+							</m:munder>
+							<m:mtext> </m:mtext><m:munder>
+								<m:munder>
+									<m:mrow>
+										<m:mtext>is</m:mtext>
+									</m:mrow>
+									<m:mo stretchy="true">︸</m:mo>
+								</m:munder>
+								<m:mo>=</m:mo>
+							</m:munder>
+							<m:mtext> </m:mtext><m:munder>
+								<m:munder>
+									<m:mrow>
+										<m:mtext>five</m:mtext>
+									</m:mrow>
+									<m:mo stretchy="true">︸</m:mo>
+								</m:munder>
+								<m:mn>5</m:mn>
+							</m:munder>
+							<m:mtext> </m:mtext><m:munder>
+								<m:munder>
+									<m:mrow>
+										<m:mtext>more</m:mtext><m:mtext> </m:mtext><m:mtext>than</m:mtext>
+									</m:mrow>
+									<m:mo stretchy="true">︸</m:mo>
+								</m:munder>
+								<m:mo>+</m:mo>
+							</m:munder>
+							<m:mtext> </m:mtext><m:munder>
+								<m:munder>
+									<m:mrow>
+										<m:mtext>twice</m:mtext>
+									</m:mrow>
+									<m:mo stretchy="true">︸</m:mo>
+								</m:munder>
+								<m:mrow>
+									<m:mn>2</m:mn><m:mo>⋅</m:mo>
+								</m:mrow>
+							</m:munder>
+							<m:mtext> </m:mtext><m:munder>
+								<m:munder>
+									<m:mrow>
+										<m:mtext>the</m:mtext><m:mtext> </m:mtext><m:mtext>same</m:mtext><m:mtext> </m:mtext><m:mtext>number</m:mtext><m:mtext>.</m:mtext>
+									</m:mrow>
+									<m:mo stretchy="true">︸</m:mo>
+								</m:munder>
+								<m:mi>y</m:mi>
+							</m:munder>
+						</m:mrow>
+						<m:mo stretchy="true">︸</m:mo>
+					</m:munder>
+					<m:mrow>
+						<m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi>
+					</m:mrow>
+				</m:munder>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+</para>
+</example></section><section id="eip-539"><title>Practice Set A </title><para id="eip-25">Translate the following phrases or sentences into mathematical expressions or equations.</para><exercise id="eip-825"><problem id="eip-351">
+			<para id="eip-852">Eleven more than a number.</para>
+		</problem>
+		<solution id="eip-555">
+			<para id="eip-402"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>11</m:mn><m:mo>+</m:mo><m:mi>x</m:mi>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math></para>
+		</solution>
+	</exercise><exercise id="eip-id43837114"><problem id="eip-id43837115">
+			<para id="eip-id42363081">Nine minus a number.</para>
+		</problem>
+		<solution id="eip-id44058649">
+			<para id="eip-id44044561"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>9</m:mn><m:mo>−</m:mo><m:mi>x</m:mi>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math></para>
+		</solution>
+	</exercise><exercise id="eip-id43493039"><problem id="eip-id43493040">
+			<para id="eip-id43740567">A quantity less twenty.</para>
+		</problem>
+		<solution id="eip-id44119562">
+			<para id="eip-id44121711"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>20</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+</para>
+		</solution>
+	</exercise><exercise id="eip-id45095555"><problem id="eip-id42851798">
+			<para id="eip-id42851800">Four times a number is thirty two.</para>
+		</problem>
+		<solution id="eip-id43832427">
+			<para id="eip-id43832429"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>4</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>32</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math></para>
+		</solution>
+	</exercise><exercise id="eip-id43837603"><problem id="eip-id43837604">
+			<para id="eip-id44132733">One third of a number is six.</para>
+		</problem>
+		<solution id="eip-id44561670">
+			<para id="eip-id43281253"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mi>x</m:mi>
+    <m:mn>3</m:mn>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mn>6</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+</para>
+		</solution>
+	</exercise><exercise id="eip-id44068906"><problem id="eip-id44068907">
+			<para id="eip-id44041966">Ten times a number is eight more than five times the same number.</para>
+		</problem>
+		<solution id="eip-id43315352">
+			<para id="eip-id45574249"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>10</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>8</m:mn><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+</para>
+		</solution>
+	</exercise><para id="eip-655">Sometimes the structure of the sentence indicates the use of grouping symbols.</para></section><section id="eip-758"><title>Sample Set B </title><para id="eip-328">Translate the following phrases or sentences into mathematical expressions or equations.</para><example id="eip-877"><para id="eip-68"><m:math display="block">
+  <m:semantics>
+   <m:mrow>
+    <m:munder>
+     <m:munder>
+      <m:mrow>
+       <m:munder>
+        <m:munder>
+         <m:mrow>
+          <m:mtext>A</m:mtext><m:mtext> </m:mtext><m:mtext>number</m:mtext><m:mtext> </m:mtext><m:mtext>divided</m:mtext><m:mtext> </m:mtext><m:mtext>by</m:mtext><m:mtext> </m:mtext><m:mtext>five,</m:mtext>
+         </m:mrow>
+         <m:mo stretchy="true">︸</m:mo>
+        </m:munder>
+        <m:mrow>
+         <m:mo>(</m:mo>
+         <m:mi> x </m:mi>
+         <m:mo> ÷ </m:mo>
+         <m:mn>5</m:mn><m:mo stretchy="false">)</m:mo>
+        </m:mrow> 
+
+
+
+
+
+       </m:munder>
+       <m:mtext> </m:mtext><m:munder>
+        <m:munder>
+         <m:mrow>
+          <m:mtext>minus</m:mtext>
+         </m:mrow>
+         <m:mo stretchy="true">︸</m:mo>
+        </m:munder>
+        <m:mo>−</m:mo>
+       </m:munder>
+       <m:mtext> </m:mtext><m:munder>
+        <m:munder>
+         <m:mrow>
+          <m:mtext>ten,</m:mtext>
+         </m:mrow>
+         <m:mo stretchy="true">︸</m:mo>
+        </m:munder>
+        <m:mrow>
+         <m:mn>10</m:mn>
+        </m:mrow>
+       </m:munder>
+       <m:mtext> </m:mtext><m:munder>
+        <m:munder>
+         <m:mrow>
+          <m:mtext>is</m:mtext>
+         </m:mrow>
+         <m:mo stretchy="true">︸</m:mo>
+        </m:munder>
+        <m:mo>=</m:mo>
+       </m:munder>
+       <m:mtext> </m:mtext><m:munder>
+        <m:munder>
+         <m:mrow>
+          <m:mtext>fifteen</m:mtext><m:mtext>.</m:mtext>
+         </m:mrow>
+         <m:mo stretchy="true">︸</m:mo>
+        </m:munder>
+        <m:mrow>
+         <m:mn>15</m:mn>
+        </m:mrow>
+       </m:munder>
+      </m:mrow>
+      <m:mo stretchy="true">︸</m:mo>
+     </m:munder>
+     <m:mrow>
+      <m:mfrac>
+       <m:mi>x</m:mi>
+       <m:mn>5</m:mn>
+      </m:mfrac>
+      <m:mo>−</m:mo><m:mn>10</m:mn><m:mo>=</m:mo><m:mn>15</m:mn>
+     </m:mrow>
+    </m:munder>
+   </m:mrow>
+   <m:annotation encoding="MathType-MTEF">
+   </m:annotation>
+  </m:semantics>
+ </m:math>
+</para><para id="eip-372">Commas set off terms.</para>
+</example><example id="eip-342"><para id="eip-515"><m:math display="block">
+  <m:semantics>
+   <m:mrow>
+    <m:munder>
+     <m:munder>
+      <m:mrow>
+       <m:munder>
+        <m:munder>
+         <m:mrow>
+          <m:mtext>Eight</m:mtext>
+         </m:mrow>
+         <m:mo stretchy="true">︸</m:mo>
+        </m:munder>
+        <m:mn>8</m:mn>
+       </m:munder>
+       <m:mtext> </m:mtext><m:munder>
+        <m:munder>
+         <m:mrow>
+          <m:mtext>divided</m:mtext><m:mtext> </m:mtext><m:mtext>by</m:mtext>
+         </m:mrow>
+         <m:mo stretchy="true">︸</m:mo>
+        </m:munder>
+        <m:mo>÷</m:mo>
+       </m:munder>
+       <m:mtext> </m:mtext><m:munder>
+        <m:munder>
+         <m:mrow>
+          <m:mtext>five</m:mtext><m:mtext> </m:mtext><m:mtext>more</m:mtext><m:mtext> </m:mtext><m:mtext>than</m:mtext><m:mtext> </m:mtext><m:mtext>a</m:mtext><m:mtext> </m:mtext><m:mtext>number</m:mtext>
+         </m:mrow>
+         <m:mo stretchy="true">︸</m:mo>
+        </m:munder>
+        <m:mrow>
+
+<m:mo>(</m:mo>
+<m:mn>5</m:mn>
+<m:mo> + </m:mo>
+<m:mi>x</m:mi>
+<m:mo>)</m:mo>
+
+<!--         
+<m:mtable>
+          <m:mtr>
+           <m:mtd>
+            <m:mrow>
+             <m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mtable>
+              <m:mtr>
+               <m:mtd>
+                <m:mrow/>
+               </m:mtd>
+               <m:mtd>
+                <m:mrow/>
+               </m:mtd>
+              </m:mtr>
+             </m:mtable>
+            </m:mrow>
+           </m:mtd>
+           <m:mtd>
+            <m:mrow>
+             <m:mo>+</m:mo><m:mtable>
+              <m:mtr>
+               <m:mtd>
+                <m:mrow/>
+               </m:mtd>
+               <m:mtd>
+                <m:mrow/>
+               </m:mtd>
+              </m:mtr>
+             </m:mtable>
+            </m:mrow>
+           </m:mtd>
+           <m:mtd>
+            <m:mrow>
+             <m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+            </m:mrow>
+           </m:mtd>
+          </m:mtr>
+         </m:mtable>
+-->
+
+        </m:mrow>
+       </m:munder>
+       <m:mtext> </m:mtext><m:munder>
+        <m:munder>
+         <m:mrow>
+          <m:mtext>is</m:mtext>
+         </m:mrow>
+         <m:mo stretchy="true">︸</m:mo>
+        </m:munder>
+        <m:mo>=</m:mo>
+       </m:munder>
+       <m:mtext> </m:mtext><m:munder>
+        <m:munder>
+         <m:mrow>
+          <m:mtext>ten</m:mtext>
+         </m:mrow>
+         <m:mo stretchy="true">︸</m:mo>
+        </m:munder>
+        <m:mrow>
+         <m:mn>10</m:mn>
+        </m:mrow>
+       </m:munder>
+      </m:mrow>
+      <m:mo stretchy="true">︸</m:mo>
+     </m:munder>
+ <m:mrow>
+
+
+         <m:mtext>The</m:mtext><m:mtext> </m:mtext><m:mtext>wording</m:mtext><m:mtext> </m:mtext><m:mtext>indicates</m:mtext><m:mtext> </m:mtext><m:mtext>this</m:mtext><m:mtext> </m:mtext><m:mtext>is</m:mtext><m:mtext> </m:mtext><m:mtext>to</m:mtext><m:mtext> </m:mtext><m:mtext>be</m:mtext><m:mtext> </m:mtext><m:mtext>considered</m:mtext><m:mtext> </m:mtext><m:mtext>as</m:mtext><m:mtext> </m:mtext><m:mtext>a</m:mtext>
+
+         <m:mtext>single</m:mtext><m:mtext> </m:mtext><m:mtext>quantity.</m:mtext>
+</m:mrow>
+
+    </m:munder>
+   </m:mrow>
+   <m:annotation encoding="MathType-MTEF">
+   </m:annotation>
+  </m:semantics>
+ </m:math>
+</para><para id="eip-306"><m:math display="block">        <m:mrow>
+         <m:mfrac>
+          <m:mn>8</m:mn>
+          <m:mrow>
+           <m:mn>5</m:mn><m:mo>+</m:mo><m:mi>x</m:mi>
+          </m:mrow>
+         </m:mfrac>
+         <m:mo>=</m:mo><m:mn>10</m:mn>
+        </m:mrow></m:math></para>
+</example><example id="eip-782"><para id="eip-974"><m:math display="block">
+  <m:semantics>
+   <m:mrow>
+    <m:munder>
+     <m:munder>
+      <m:mrow>
+       <m:munder>
+        <m:munder>
+         <m:mrow>
+          <m:mtext>A</m:mtext><m:mtext> </m:mtext><m:mtext>number</m:mtext>
+         </m:mrow>
+         <m:mo stretchy="true">︸</m:mo>
+        </m:munder>
+        <m:mi>x</m:mi>
+       </m:munder>
+       <m:mtext> </m:mtext><m:munder>
+        <m:munder>
+         <m:mrow>
+          <m:mtext>multiplied</m:mtext><m:mtext> </m:mtext><m:mtext>by</m:mtext>
+         </m:mrow>
+         <m:mo stretchy="true">︸</m:mo>
+        </m:munder>
+        <m:mo>⋅</m:mo>
+       </m:munder>
+       <m:mtext> </m:mtext><m:munder>
+        <m:munder>
+         <m:mrow>
+          <m:mtext>ten</m:mtext><m:mtext> </m:mtext><m:mtext>more</m:mtext><m:mtext> </m:mtext><m:mtext>than</m:mtext><m:mtext> </m:mtext><m:mtext>itself</m:mtext>
+         </m:mrow>
+         <m:mo stretchy="true">︸</m:mo>
+        </m:munder>
+        <m:mrow>
+
+<m:mo stretchy="false">(</m:mo><m:mn>10</m:mn>
+<m:mo> + </m:mo>
+<m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+
+<!--
+         <m:mtable>
+          <m:mtr>
+           <m:mtd>
+            <m:mrow>
+             <m:mo stretchy="false">(</m:mo><m:mn>10</m:mn><m:mtable>
+              <m:mtr>
+               <m:mtd>
+                <m:mrow/>
+               </m:mtd>
+               <m:mtd>
+                <m:mrow/>
+               </m:mtd>
+              </m:mtr>
+             </m:mtable>
+            </m:mrow>
+           </m:mtd>
+           <m:mtd>
+            <m:mrow>
+             <m:mo>+</m:mo><m:mtable>
+              <m:mtr>
+               <m:mtd>
+                <m:mrow/>
+               </m:mtd>
+               <m:mtd>
+                <m:mrow/>
+               </m:mtd>
+              </m:mtr>
+             </m:mtable>
+            </m:mrow>
+           </m:mtd>
+           <m:mtd>
+            <m:mrow>
+             <m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
+            </m:mrow>
+           </m:mtd>
+          </m:mtr>
+         </m:mtable>
+
+
+-->
+        </m:mrow>
+       </m:munder>
+       <m:mtext> </m:mtext><m:munder>
+        <m:munder>
+         <m:mrow>
+          <m:mtext>is</m:mtext>
+         </m:mrow>
+         <m:mo stretchy="true">︸</m:mo>
+        </m:munder>
+        <m:mo>=</m:mo>
+       </m:munder>
+       <m:mtext> </m:mtext><m:munder>
+        <m:munder>
+         <m:mrow>
+          <m:mtext>twenty</m:mtext><m:mtext>.</m:mtext>
+         </m:mrow>
+         <m:mo stretchy="true">︸</m:mo>
+        </m:munder>
+        <m:mrow>
+         <m:mn>20</m:mn>
+        </m:mrow>
+       </m:munder>
+      </m:mrow>
+      <m:mo stretchy="true">︸</m:mo>
+     </m:munder>
+     <m:mrow>
+      <m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mn>10</m:mn><m:mo> + </m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo> = </m:mo><m:mn>20</m:mn>
+     </m:mrow>
+    </m:munder>
+   </m:mrow>
+   <m:annotation encoding="MathType-MTEF">
+   </m:annotation>
+  </m:semantics>
+ </m:math>
+</para>
+</example><example id="eip-743"><para id="eip-920">A number plus one is divided by three times the number minus twelve and the result is four.<newline/><m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mtable>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>÷</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo>⋅</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>12</m:mn><m:mo stretchy="false">)</m:mo>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mn>4</m:mn>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mfrac>
+        <m:mrow>
+         <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+        </m:mrow>
+        <m:mrow>
+         <m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>12</m:mn>
+        </m:mrow>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd>
+      <m:mn>4</m:mn>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>	<newline/>Notice that since the phrase "three times the number minus twelve" does not contain a comma, we get the expression <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>12</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>. If the phrase had appeared as "three times the number, minus twelve," the result would have been<newline/><m:math display="block">
+		<m:semantics>
+			<m:mrow>
+				<m:mfrac>
+					<m:mrow>
+						<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+					</m:mrow>
+					<m:mrow>
+						<m:mn>3</m:mn><m:mi>x</m:mi>
+					</m:mrow>
+				</m:mfrac>
+				<m:mo>−</m:mo><m:mn>12</m:mn><m:mo>=</m:mo><m:mn>4</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math></para>
+</example><example id="eip-623"><para id="eip-385">Some phrases and sentences do not translate directly. We must be careful to read them properly. The word <emphasis>from</emphasis> often appears in such phrases and sentences. The word <emphasis>from</emphasis> means "a point of departure for motion." The following translation will illustrate this use.</para><para id="eip-224"><media id="C04_S4-4_P025_001" display="block" alt="The translation of a verbal expressions 'Fifteen is subtracted from some quantity' into mathematical expressions is x minus fifteen.">
+		<image mime-type="image/png" src="../../media/C04_S4-4_P025_001.png" print-width="2.1in"/>
+	</media></para><para id="eip-571">The word <emphasis>from</emphasis> indicates the motion (subtraction) is to begin at the point of "some quantity."</para>
+</example><example id="eip-819"><para id="eip-50">Eight less than some quantity. Notice that <emphasis>less than</emphasis> could be replaced with <emphasis>from</emphasis>.<newline/><m:math display="block">
+		<m:semantics>
+			<m:mrow>
+				<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math></para>
+</example></section><section id="eip-582"><title>Practice Set B</title><para id="eip-989">Translate the following phrases and sentences into mathematical expressions or equations.</para><exercise id="eip-966"><problem id="eip-343">
+			<para id="eip-91">A number divided by sixteen, plus one, is five.</para>
+		</problem>
+		<solution id="eip-54">
+			<para id="eip-436"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mi>x</m:mi>
+    <m:mrow>
+     <m:mn>16</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   <m:mo>+</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>5</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+</para>
+		</solution>
+	</exercise><exercise id="eip-id27117960"><problem id="eip-id27117962">
+			<para id="eip-id19992020">Seven times two more than a number is twenty-one.</para>
+		</problem>
+		<solution id="eip-id19992025">
+			<para id="eip-id6251965"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>7</m:mn><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>21</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math></para>
+		</solution>
+	</exercise><exercise id="eip-id25920646"><problem id="eip-id25920648">
+			<para id="eip-id25920650">A number divided by two more than itself is zero.</para>
+		</problem>
+		<solution id="eip-id26813137">
+			<para id="eip-id26813139"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mi>x</m:mi>
+    <m:mrow>
+     <m:mn>2</m:mn><m:mo>+</m:mo><m:mi>x</m:mi>
+    </m:mrow>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mn>0</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math></para>
+		</solution>
+	</exercise><exercise id="eip-id15400022"><problem id="eip-id15400023">
+			<para id="eip-id13568103">A number minus five is divided by twice the number plus three and the result is seventeen.</para>
+		</problem>
+		<solution id="eip-id15083055">
+			<para id="eip-id15083058"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mn>17</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+</para>
+		</solution>
+	</exercise><exercise id="eip-id17068547"><problem id="eip-id17068548">
+			<para id="eip-id17068550">Fifty-two is subtracted from some quantity.</para>
+		</problem>
+		<solution id="eip-id12562832">
+			<para id="eip-id26131942"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>52</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+</para>
+		</solution>
+	</exercise><exercise id="eip-id26131946"><problem id="eip-id25906060">
+			<para id="eip-id25906062">An unknown quantity is subtracted from eleven and the result is five less than the unknown quantity.</para>
+		</problem>
+		<solution id="eip-id12457914">
+			<para id="eip-id12457917"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>11</m:mn><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math></para>
+		</solution>
+	</exercise></section>
+<section id="eip-69" class="homework"><title>Exercises</title><para id="eip-225">For the following problems, translate the following phrases or sentences into mathematical expressions or equations.</para><exercise id="eip-id13676211"><problem id="eip-id13676212">			<para id="eip-id13676214">A quantity less four.</para>		
+</problem><solution id="fs-id2771894"><para id="fs-id4032122"><m:math><m:semantics>  <m:mrow>   <m:mi>a</m:mi><m:mo>−</m:mo><m:mn>4</m:mn>  </m:mrow>   </m:semantics></m:math></para></solution>
+		</exercise><exercise id="eip-id13676218"><problem id="eip-id13530200">			<para id="eip-id13530202">Eight more than a number.</para>		
+</problem>		</exercise><exercise id="eip-id11585288"><problem id="eip-id11585289">			<para id="eip-id11585292">A number plus seven.</para>		
+</problem><solution id="fs-id1885523"><para id="fs-id4644281"><m:math> <m:semantics>  <m:mrow>   <m:mi>b</m:mi><m:mo>+</m:mo><m:mn>7</m:mn>  </m:mrow>  </m:semantics></m:math></para></solution>
+		</exercise><exercise id="eip-id11585296"><problem id="eip-id11585297">			<para id="eip-id13852273">A number minus three.</para>		
+</problem>		</exercise><exercise id="eip-id13852278"><problem id="eip-id13852279">			<para id="eip-id13852281">Negative five plus an unknown quantity.</para>		
+</problem><solution id="fs-id1908580"><para id="fs-id3994352"><m:math> <m:semantics>  <m:mrow>   <m:mo>−</m:mo><m:mn>5</m:mn><m:mo>+</m:mo><m:mi>c</m:mi>  </m:mrow>  </m:semantics></m:math></para></solution>
+		</exercise><exercise id="eip-id13852194"><problem id="eip-id13852195">			<para id="eip-id13852198">Negative sixteen minus some quantity.</para>		
+</problem>		</exercise><exercise id="eip-id13852202"><problem id="eip-id13852203">			<para id="eip-id13852205">Fourteen added to twice a number.</para>		
+</problem><solution id="fs-id3732520"><para id="fs-id2775643"><m:math> <m:semantics>  <m:mrow>   <m:mn>2</m:mn><m:mi>d</m:mi><m:mo>+</m:mo><m:mn>14</m:mn>  </m:mrow> </m:semantics></m:math></para></solution>
+		</exercise><exercise id="eip-id13815739"><problem id="eip-id13815740">			<para id="eip-id13815742">Ten added to three times some number.</para>		
+</problem>		</exercise><exercise id="eip-id13815747"><problem id="eip-id13815748">			<para id="eip-id13803468">One third minus an unknown quantity.</para>		
+</problem><solution id="fs-id4476546"><para id="fs-id4619765"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mn>1</m:mn>    <m:mn>3</m:mn>   </m:mfrac>   <m:mo>−</m:mo><m:mi>e</m:mi>  </m:mrow>  </m:semantics></m:math></para></solution>
+		</exercise><exercise id="eip-id13803472"><problem id="eip-id13803473">			<para id="eip-id13803476">Twice a number is eleven.</para>		
+</problem>		</exercise><exercise id="eip-id13803480"><problem id="eip-id13779301">			<para id="eip-id13779303">Four ninths of a number is twenty-one.</para>		
+</problem><solution id="fs-id3743948"><para id="fs-id2186509"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mn>4</m:mn>    <m:mn>9</m:mn>   </m:mfrac>   <m:mi>f</m:mi><m:mo>=</m:mo><m:mn>21</m:mn>  </m:mrow> </m:semantics></m:math></para></solution>
+		</exercise><exercise id="eip-id13779308"><problem id="eip-id13779309">			<para id="eip-id13779311">One third of a number is two fifths.</para>		
+</problem>		</exercise><exercise id="eip-id13817995"><problem id="eip-id13817996">			<para id="eip-id13817998">Three times a number is nine more than twice the number.</para>		
+</problem><solution id="fs-id1878445"><para id="fs-id2918454"><m:math> <m:semantics>  <m:mrow>   <m:mn>3</m:mn><m:mi>g</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>g</m:mi><m:mo>+</m:mo><m:mn>9</m:mn>  </m:mrow>   </m:semantics></m:math></para></solution>
+		</exercise><exercise id="eip-id13818002"><problem id="eip-id13818004">			<para id="eip-id13818006">Five times a number is that number minus two.</para>		
+</problem>		</exercise><exercise id="eip-id12533459"><problem id="eip-id12533460">			<para id="eip-id12533462">Twice a number added to six results in thirty.</para>		
+</problem><solution id="fs-id3956558"><para id="fs-id4215651"><m:math> <m:semantics>  <m:mrow>   <m:mn>2</m:mn><m:mi>h</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>30</m:mn>  </m:mrow>  </m:semantics></m:math></para></solution>
+		</exercise><exercise id="eip-id12533467"><problem id="eip-id12533468">			<para id="eip-id12533470">Ten times a number less four results in sixty-six.</para>		
+</problem>		</exercise><exercise id="eip-id13769851"><problem id="eip-id13769852">			<para id="eip-id13769855">A number less twenty-five is equal to <m:math> <m:semantics>  <m:mrow>   <m:mn>3.019</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>.</para>		
+</problem><solution id="fs-id2211328"><para id="fs-id4786808"><m:math> <m:semantics>  <m:mrow>   <m:mi>k</m:mi><m:mo>−</m:mo><m:mn>25</m:mn><m:mo>=</m:mo><m:mn>3.019</m:mn>  </m:mrow> </m:semantics></m:math></para></solution>
+		</exercise><exercise id="eip-id13769859"><problem id="eip-id13769860">			<para id="eip-id13769862">Seven more than some number is five more than twice the number.</para>		
+</problem>		</exercise><exercise id="eip-id13727639"><problem id="eip-id13727640">			<para id="eip-id13727642">When a number is divided by four, the result is sixty-eight.</para>		
+</problem><solution id="fs-id3022439"><para id="fs-id3470524"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mi>m</m:mi>    <m:mn>4</m:mn>   </m:mfrac>   <m:mo>=</m:mo><m:mn>68</m:mn>  </m:mrow>  </m:semantics></m:math></para></solution>
+		</exercise><exercise id="eip-id13727646"><problem id="eip-id13727647">			<para id="eip-id13727649">Eleven fifteenths of two more than a number is eight.</para>		
+</problem>		</exercise><exercise id="eip-id13654671"><problem id="eip-id13654672">			<para id="eip-id13654674">One tenth of a number is that number less one.</para>		
+</problem><solution id="fs-id4881506"><para id="fs-id4344115"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mi>n</m:mi>    <m:mrow>     <m:mn>10</m:mn>    </m:mrow>   </m:mfrac>   <m:mo>=</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>  </m:mrow>  </m:semantics></m:math></para></solution>
+		</exercise><exercise id="eip-id13654679"><problem id="eip-id13654680">			<para id="eip-id13654682">Two more than twice a number is one half the number less three.</para>		
+</problem>		</exercise><exercise id="eip-id13654686"><problem id="eip-id13654687">			<para id="eip-id13654689">A number is equal to itself plus four times itself.</para>		
+</problem><solution id="fs-id3840701"><para id="fs-id4679270"><m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi>  </m:mrow> </m:semantics></m:math></para></solution>
+		</exercise><exercise id="eip-id13797433"><problem id="eip-id13797434">			<para id="eip-id13797437">Three fifths of a quantity added to the quantity itself is thirty-nine.</para>		
+</problem>		</exercise><exercise id="eip-id13797441"><problem id="eip-id13797442">			<para id="eip-id13797444">A number plus seven is divided by two and the result is twenty-two.</para>		
+</problem><solution id="fs-id1292402"><para id="fs-id4765144"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mrow>     <m:mi>Q</m:mi><m:mo>+</m:mo><m:mn>7</m:mn>    </m:mrow>    <m:mn>2</m:mn>   </m:mfrac>   <m:mo>=</m:mo><m:mn>22</m:mn>  </m:mrow> </m:semantics></m:math></para></solution>
+		</exercise><exercise id="eip-id13797448"><problem id="eip-id13797449">			<para id="eip-id13797452">Ten times a number minus one is divided by fourteen and the result is one.</para>		
+</problem>		</exercise><exercise id="eip-id13807756"><problem id="eip-id13807757">			<para id="eip-id13807759">A number is added to itself then divided by three. This result is then divided by three. The entire result is fifteen.</para>		
+</problem><solution id="fs-id3579110"><para id="fs-id4621703"><m:math><m:semantics><m:mrow>  <m:mfrac>   <m:mrow>    <m:mfrac>     <m:mrow>      <m:mi>r</m:mi><m:mo>+</m:mo><m:mi>r</m:mi>     </m:mrow>     <m:mn>3</m:mn>    </m:mfrac>       </m:mrow>   <m:mn>3</m:mn>  </m:mfrac>  <m:mo>=</m:mo><m:mn>15</m:mn>  </m:mrow></m:semantics></m:math></para></solution>
+		</exercise><exercise id="eip-id13807764"><problem id="eip-id13807765">			<para id="eip-id13807767">Ten divided by two more than a number is twenty-one.</para>		
+</problem>		</exercise><exercise id="eip-id13807771"><problem id="eip-id13807772">			<para id="eip-id13807774">Five divided by a number plus six is fourteen.</para>		
+</problem><solution id="fs-id3906411"><para id="fs-id4693965"><m:math><m:semantics><m:mrow>  <m:mfrac>   <m:mn>5</m:mn>   <m:mrow>    <m:mi>s</m:mi><m:mo>+</m:mo><m:mn>6</m:mn>   </m:mrow>  </m:mfrac>  <m:mo>=</m:mo><m:mn>14</m:mn></m:mrow> </m:semantics></m:math></para></solution>
+		</exercise><exercise id="eip-id13807779"><problem id="eip-id13807780">			<para id="eip-id13782305">Twelve divided by twice a number is fifty-five.</para>		
+</problem>		</exercise><exercise id="eip-id13782309"><problem id="eip-id13782310">			<para id="eip-id13782312">Twenty divided by eight times a number added to one is nine.</para>		
+</problem><solution id="fs-id4360076"><para id="fs-id1863019"><m:math><m:semantics><m:mrow>  <m:mfrac>   <m:mrow>    <m:mn>20</m:mn>   </m:mrow>   <m:mrow>    <m:mn>8</m:mn><m:mi>x</m:mi>   </m:mrow>  </m:mfrac>  <m:mo>+</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>9</m:mn>  </m:mrow></m:semantics></m:math></para></solution>
+		</exercise><exercise id="eip-id13782317"><problem id="eip-id13782318">			<para id="eip-id13782320">A number divided by itself, plus one, results in seven.</para>		
+</problem>		</exercise><exercise id="eip-id13782324"><problem id="eip-id13782325">			<para id="eip-id13782327">A number divided by ten, plus four, results in twenty-four.</para>		
+</problem><solution id="fs-id4498991"><para id="fs-id4287367"><m:math><m:semantics><m:mrow>  <m:mfrac>   <m:mi>v</m:mi>   <m:mrow>    <m:mn>10</m:mn>   </m:mrow>  </m:mfrac>  <m:mo>+</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>24</m:mn>  </m:mrow></m:semantics></m:math></para></solution>
+		</exercise><exercise id="eip-id13849536"><problem id="eip-id13849537">			<para id="eip-id13849539">A number plus six, divided by two, is seventy-one.</para>		
+</problem>		</exercise><exercise id="eip-id13849544"><problem id="eip-id13849545">			<para id="eip-id13849547">A number plus six, divided by two, plus five, is  forty-three.</para>		
+</problem><solution id="fs-id4445719"><para id="fs-id3833301"><m:math><m:semantics><m:mrow>  <m:mfrac>   <m:mrow>    <m:mi>w</m:mi><m:mo>+</m:mo><m:mn>6</m:mn>   </m:mrow>   <m:mn>2</m:mn>  </m:mfrac>  <m:mo>+</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>43</m:mn> </m:mrow></m:semantics></m:math></para></solution>
+		</exercise><exercise id="eip-id13849551"><problem id="eip-id13849552">			<para id="eip-id13849554">A number multiplied by itself added to five is thirty-one.</para>		
+</problem>		</exercise><exercise id="eip-id13849559"><problem id="eip-id13849560">			<para id="eip-id13852348">A quantity multiplied by seven plus twice itself is ninety.</para>		
+</problem><solution id="fs-id3607507"><para id="fs-id4012708"><m:math><m:semantics><m:mrow>  <m:mn>7</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>90</m:mn>  </m:mrow></m:semantics></m:math></para></solution>
+		</exercise><exercise id="eip-id13852352"><problem id="eip-id13852353">			<para id="eip-id13852355">A number is increased by one and then multiplied by five times itself. The result is eighty-four.</para>		
+</problem>		</exercise><exercise id="eip-id13852359"><problem id="eip-id13852360">			<para id="eip-id13852363">A number is added to six and that result is multiplied by thirteen. This result is then divided by six times the number. The entire result is equal to fifty-nine. </para>		
+</problem><solution id="fs-id2134251"><para id="fs-id3853684"><m:math><m:semantics><m:mrow>  <m:mfrac>   <m:mrow>    <m:mrow><m:mo>(</m:mo>     <m:mrow>      <m:mi>z</m:mi><m:mo>+</m:mo><m:mn>16</m:mn>     </m:mrow>    <m:mo>)</m:mo></m:mrow><m:mn>13</m:mn>   </m:mrow>   <m:mrow>    <m:mn>6</m:mn><m:mi>z</m:mi>   </m:mrow>  </m:mfrac>  <m:mo>=</m:mo><m:mn>59</m:mn>  </m:mrow></m:semantics></m:math></para></solution>
+		</exercise><exercise id="eip-id13852367"><problem id="eip-id13852368">			<para id="eip-id13852370">A number is subtracted from ten and that result is multiplied by four. This result is then divided by three more than the number. The entire result is equal to six.</para>		
+</problem>		</exercise><exercise id="eip-id13852374"><problem id="eip-id13852375">			<para id="eip-id13852378">An unknown quantity is decreased by eleven. This result is then divided by fifteen. Now, one is subtracted from this result and five is obtained.</para>		
+</problem><solution id="fs-id4614539"><para id="fs-id4443787"><m:math><m:semantics><m:mrow>  <m:mfrac>   <m:mrow>    <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>11</m:mn>   </m:mrow>   <m:mrow>    <m:mn>15</m:mn>   </m:mrow>  </m:mfrac>  <m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>5</m:mn>   </m:mrow></m:semantics></m:math></para></solution>
+		</exercise><exercise id="eip-id13768995"><problem id="eip-id13768996">			<para id="eip-id13768998">Ten less than some number.</para>		
+</problem>		</exercise><exercise id="eip-id13769002"><problem id="eip-id13769004">			<para id="eip-id13769006">Five less than some unknown number. </para>		
+</problem><solution id="fs-id3419930"><para id="fs-id3655054"><m:math><m:semantics><m:mrow>  <m:mi>n</m:mi><m:mo>−</m:mo><m:mn>5</m:mn> </m:mrow> </m:semantics></m:math></para></solution>
+		</exercise><exercise id="eip-id13769010"><problem id="eip-id13769011">			<para id="eip-id13769013">Twelve less than a number.</para>		
+</problem>		</exercise><exercise id="eip-id13769017"><problem id="eip-id13769018">			<para id="eip-id13769021">One less than an unknown quantity.</para>		
+</problem><solution id="fs-id4660716"><para id="fs-id4685195"><m:math><m:semantics><m:mrow>  <m:mi>m</m:mi><m:mo>−</m:mo><m:mn>1</m:mn> </m:mrow></m:semantics></m:math></para></solution>
+		</exercise><exercise id="eip-id13769025"><problem id="eip-id13769026">			<para id="eip-id13769028">Sixteen less than some number is forty-two.</para>		
+</problem>		</exercise><exercise id="eip-id13816199"><problem id="eip-id13816200">			<para id="eip-id13816203">Eight less than some unknown number is three.</para>		
+</problem><solution id="fs-id4692946"><para id="fs-id4736502"><m:math><m:semantics><m:mrow>  <m:mi>p</m:mi><m:mo>−</m:mo><m:mn>8</m:mn><m:mo>=</m:mo><m:mn>3</m:mn>  </m:mrow></m:semantics></m:math></para></solution>
+		</exercise><exercise id="eip-id13816207"><problem id="eip-id13816208">			<para id="eip-id13816210">Seven is added to ten less than some number. The result is one.</para>		
+</problem>		</exercise><exercise id="eip-id13816214"><problem id="eip-id13816215">			<para id="eip-id13816218">Twenty-three is divided by two less than twice some number and the result is thirty-four.</para>		
+</problem><solution id="fs-id4712935"><para id="fs-id4712936"><m:math><m:semantics><m:mrow>  <m:mfrac>   <m:mrow>    <m:mn>23</m:mn>   </m:mrow>   <m:mrow>    <m:mn>2</m:mn><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>2</m:mn>   </m:mrow>  </m:mfrac>  <m:mo>=</m:mo><m:mn>34</m:mn>  </m:mrow></m:semantics></m:math></para></solution>
+
+		</exercise><exercise id="eip-id13816222"><problem id="eip-id13816223">			<para id="eip-id13816225">One less than some number is multiplied by three less than five times the number and the entire result is divided by six less than the number. The result is twenty-seven less than eleven times the number.</para>		
+</problem>		</exercise></section><section id="eip-779"><title>Exercises for Review</title><exercise id="eip-534"><problem id="eip-89">
+			<para id="eip-478"><emphasis>(<link document="m21895"/>)</emphasis> Supply the missing word. The point on a line that is associated with a particular number is called the <space count="10" effect="underline"/> of that number.</para>
+		</problem><solution id="fs-id4786539"><para id="fs-id4786540">graph</para></solution>
+	</exercise><exercise id="eip-958"><problem id="eip-297">
+			<para id="eip-477"><emphasis>(<link document="m21883"/>)</emphasis> Supply the missing word. An exponent records the number of identical <space count="10" effect="underline"/> in a multiplication.</para>
+		</problem></exercise><exercise id="eip-838"><problem id="eip-37">
+			<para id="eip-462"><emphasis>(<link document="m21876"/>)</emphasis> Write the algebraic definition of the absolute value of the number <m:math>
+					<m:semantics>
+						<m:mi>a</m:mi>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics></m:math>.</para>
+		</problem><solution id="fs-id4621538"><para id="fs-id4621539"><m:math><m:semantics><m:mrow>
+							<m:mrow><m:mo>|</m:mo>
+								<m:mi>a</m:mi>
+								<m:mo>|</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>{</m:mo>
+								<m:mtable columnalign="left">
+									<m:mtr>
+										<m:mtd>
+											<m:mi>a</m:mi><m:mo>,</m:mo><m:mtext>i</m:mtext><m:mtext>f</m:mtext><m:mtext> </m:mtext><m:mi>a</m:mi><m:mo>≥</m:mo><m:mn>0</m:mn>
+										</m:mtd>
+									</m:mtr>
+									<m:mtr>
+										<m:mtd>
+											<m:mo>−</m:mo><m:mi>a</m:mi><m:mo>,</m:mo><m:mtext>i</m:mtext><m:mtext>f</m:mtext><m:mtext> </m:mtext><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn>
+										</m:mtd>
+									</m:mtr>
+								</m:mtable>
+							</m:mrow>
+						</m:mrow></m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-876"><problem id="eip-214">
+			<para id="eip-278"><emphasis>(<link document="m21992"/>)</emphasis> Solve the equation <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mn>4</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>3</m:mn>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics></m:math>.</para>
+		</problem></exercise><exercise id="eip-279"><problem id="eip-864">
+			<para id="eip-673"><emphasis>(<link document="m21992"/>)</emphasis> Solve the equation <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>17</m:mn>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math>.</para>
+		</problem><solution id="fs-id2780940"><para id="fs-id3915735"><m:math><m:semantics><m:mrow>
+							<m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow>
+					</m:semantics></m:math></para></solution>
+	</exercise></section></content></document>

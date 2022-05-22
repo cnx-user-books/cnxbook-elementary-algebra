@@ -1,0 +1,204 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml"><title>Proficiency Exam</title><metadata>
+  <md:content-id>m21987</md:content-id><md:title>Proficiency Exam</md:title>
+  <md:abstract>This module is from Elementary Algebra by Denny Burzynski and Wade Ellis, Jr.
+Beginning with the graphical solution of systems, this chapter includes an interpretation of independent, inconsistent, and dependent systems and examples to illustrate the applications for these systems. The substitution method and the addition method of solving a system by elimination are explained, noting when to use each method. The five-step method is again used to illustrate the solutions of value and rate problems (coin and mixture problems), using drawings that correspond to the actual situation.
+This module contains the proficiency exam for the chapter "Systems of Linear Equations".</md:abstract>
+  <md:uuid>723c26f2-1b14-48a5-bcae-2530fd1e0ae5</md:uuid>
+</metadata>
+
+<content>  <section id="fs-id43174509"><title>Proficiency Exam</title><exercise id="fs-id43124806"><problem id="fs-id43124808"><para id="fs-id43124809"><emphasis>(<link document="m18881"/>)</emphasis> Solve using graphing: <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mrow><m:mo>{</m:mo>
+								<m:mtable>
+									<m:mtr>
+										<m:mtd>
+											<m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn>
+										</m:mtd>
+									</m:mtr>
+									<m:mtr>
+										<m:mtd>
+											<m:mn>15</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>10</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>10</m:mn>
+										</m:mtd>
+									</m:mtr>
+								</m:mtable>
+							</m:mrow>
+						</m:mrow>
+					</m:semantics></m:math><newline/><media id="fs-id43123528" display="block" alt="An xy coordinate plane with gridlines, labeled negative five and five with increments of one unit for both axes.">
+					<image mime-type="image/jpeg" src="../../media/C10_S10-1_P05_003.jpg" print-width="2in"/>
+				</media></para>
+		</problem><solution id="zip-id1172644069719"><para id="zip-id5392609">inconsistent<newline/><media id="zip-id1172631716252" display="block" alt="A graph of two parallel lines. One line is labeled with the equation three x plus two y equals four and passes through the points zero, two and two, negative one. A second line is labeled with the equation fifteen x plus ten y equals negative ten and passes through the points zero, negative one and two, negative four.">
+					<image mime-type="image/jpeg" src="../../media/C11_S11-10_P28_002.jpg" print-width="2in"/>
+				</media></para></solution></exercise><exercise id="fs-id43179371"><problem id="fs-id43179372"><para id="fs-id43179373"><emphasis>(<link document="m18881"/>)</emphasis> Solve using graphing: <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mrow><m:mo>{</m:mo>
+								<m:mtable>
+									<m:mtr>
+										<m:mtd>
+											<m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn>
+										</m:mtd>
+									</m:mtr>
+									<m:mtr>
+										<m:mtd>
+											<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>8</m:mn>
+										</m:mtd>
+									</m:mtr>
+								</m:mtable>
+							</m:mrow>
+						</m:mrow>
+					</m:semantics></m:math><newline/><media id="fs-id43116226" display="block" alt="An xy coordinate plane with gridlines, labeled negative five and five with increments of one unit for both axes.">
+					<image mime-type="image/jpeg" src="../../media/C10_S10-1_P05_003.jpg" print-width="2in"/>
+				</media></para>
+		</problem><solution id="zip-id2607264"><para id="zip-id1172636000740"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mrow><m:mo>(</m:mo>
+								<m:mrow>
+									<m:mn>4</m:mn><m:mo>,</m:mo><m:mn>2</m:mn>
+								</m:mrow>
+								<m:mo>)</m:mo></m:mrow>
+						</m:mrow>
+					</m:semantics>
+				</m:math><newline/><media id="zip-id1172630575289" display="block" alt="A graph of two lines intersecting at a point with coordinates four, two. One line is labeled with the equation x plus two y equals eight and passes through the points zero, four.  A second line is labeled with the equation two x minus three y equals two and passes through the points zero, negative two over three and one, zero.">
+					<image mime-type="image/jpeg" src="../../media/C11_S11-10_P28_003.jpg" print-width="2in"/>
+				</media>
+			</para></solution></exercise><exercise id="fs-id43171868"><problem id="fs-id43171869"><para id="fs-id43171870"><emphasis>(<link document="m21984"/>)</emphasis> Solve using substitution: <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mrow><m:mo>{</m:mo>
+								<m:mtable>
+									<m:mtr>
+										<m:mtd>
+											<m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>16</m:mn>
+										</m:mtd>
+									</m:mtr>
+									<m:mtr>
+										<m:mtd>
+											<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>13</m:mn>
+										</m:mtd>
+									</m:mtr>
+								</m:mtable>
+							</m:mrow>
+						</m:mrow>
+					</m:semantics></m:math></para>
+		</problem><solution id="zip-id1749530"><para id="zip-id1172639600099"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mrow><m:mo>(</m:mo>
+								<m:mrow>
+									<m:mo>−</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn>
+								</m:mrow>
+								<m:mo>)</m:mo></m:mrow>
+						</m:mrow>
+					</m:semantics>
+				</m:math>
+			</para></solution></exercise><exercise id="fs-id43135292"><problem id="fs-id43135293"><para id="fs-id43183380"><emphasis>(<link document="m21986"/>)</emphasis> Solve using addition: <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mrow><m:mo>{</m:mo>
+								<m:mtable>
+									<m:mtr>
+										<m:mtd>
+											<m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>5</m:mn>
+										</m:mtd>
+									</m:mtr>
+									<m:mtr>
+										<m:mtd>
+											<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn>
+										</m:mtd>
+									</m:mtr>
+								</m:mtable>
+							</m:mrow>
+						</m:mrow>
+					</m:semantics></m:math></para>
+		</problem><solution id="zip-id1172642831551"><para id="zip-id1172637455991"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mrow><m:mo>(</m:mo>
+								<m:mrow>
+									<m:mn>1</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>1</m:mn>
+								</m:mrow>
+								<m:mo>)</m:mo></m:mrow>
+						</m:mrow>
+					</m:semantics>
+				</m:math>
+			</para></solution></exercise><exercise id="fs-id43183609"><problem id="fs-id43183610"><para id="fs-id43183611"><emphasis>(<link document="m21984"/>, <link document="m21986"/>)</emphasis> Solve using either substitution or addition: <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mrow><m:mo>{</m:mo>
+								<m:mtable>
+									<m:mtr>
+										<m:mtd>
+											<m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>8</m:mn>
+										</m:mtd>
+									</m:mtr>
+									<m:mtr>
+										<m:mtd>
+											<m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn>
+										</m:mtd>
+									</m:mtr>
+								</m:mtable>
+							</m:mrow>
+						</m:mrow>
+					</m:semantics>
+				</m:math></para>
+		</problem><solution id="zip-id1172631768177"><para id="zip-id3019706">inconsistent</para></solution></exercise><exercise id="fs-id43176132"><problem id="fs-id43176133"><para id="fs-id43176134"><emphasis>(<link document="m21984"/>, <link document="m21986"/>)</emphasis> Solve using either substitution or addition: <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mrow><m:mo>{</m:mo>
+								<m:mtable>
+									<m:mtr>
+										<m:mtd>
+											<m:mn>9</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>12</m:mn>
+										</m:mtd>
+									</m:mtr>
+									<m:mtr>
+										<m:mtd>
+											<m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn>
+										</m:mtd>
+									</m:mtr>
+								</m:mtable>
+							</m:mrow>
+						</m:mrow>
+					</m:semantics></m:math></para>
+		</problem><solution id="zip-id2729003"><para id="zip-id1172635731634"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mrow><m:mo>(</m:mo>
+								<m:mrow>
+									<m:mfrac>
+										<m:mn>4</m:mn>
+										<m:mn>3</m:mn>
+									</m:mfrac>
+									<m:mo>,</m:mo><m:mn>0</m:mn>
+								</m:mrow>
+								<m:mo>)</m:mo></m:mrow>
+						</m:mrow>
+					</m:semantics>
+				</m:math>
+			</para></solution></exercise><exercise id="fs-id43136516"><problem id="fs-id43123953"><para id="fs-id43123954"><emphasis>(<link document="m21983"/>)</emphasis> The sum of two numbers is 43 and the difference of the same two numbers is 7. What are the numbers?</para>
+		</problem><solution id="zip-id1172637334271"><para id="zip-id1172639822742">18 and 25</para></solution></exercise><exercise id="fs-id43123961"><problem id="fs-id43123962"><para id="fs-id43123963"><emphasis>(<link document="m21983"/>)</emphasis> A chemist needs 80 ml of an 18% acid solution. She has two acid solutions, A and B, to mix together to form the 80-ml solution. Acid solution A is 15% acid and acid solution B is 20% acid. How much of each solution should be used?</para>
+		</problem><solution id="zip-id1172634168196"><para id="zip-id1172631657937"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mn>32</m:mn><m:mtext> ml of solution A;  </m:mtext><m:mn>48</m:mn><m:mtext> ml of solution B</m:mtext><m:mo>.</m:mo>
+						</m:mrow>
+					</m:semantics>
+				</m:math>
+			</para></solution></exercise><exercise id="fs-id43171325"><problem id="fs-id43171326"><para id="fs-id43171328"><emphasis>(<link document="m21983"/>)</emphasis> A parking meter contains 32 coins. If the meter contains only nickels and quarters, and the total value of the coins is <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mi>$</m:mi><m:mn>4.60</m:mn>
+						</m:mrow>
+					</m:semantics></m:math>, how many of each type of coin are there?</para>
+		</problem><solution id="zip-id1172639283096"><para id="zip-id1172631613483">17 nickels and 15 quarters</para></solution></exercise><exercise id="fs-id43129746"><problem id="fs-id43129748"><para id="fs-id43129749"><emphasis>(<link document="m21983"/>)</emphasis> A person has $15,000 to invest. If he invests part at 8% and the rest at 12%, how much should he invest at each rate to produce the same return as if he had invested it all at 9%? </para>
+		</problem><solution id="zip-id1172635999878"><para id="zip-id1172635592007"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mi>$</m:mi><m:mtext>11,250 at </m:mtext><m:mn>8</m:mn><m:mi>%</m:mi><m:mo>;</m:mo><m:mtext>  </m:mtext><m:mi>$</m:mi><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>750</m:mn><m:mtext> at </m:mtext><m:mn>12</m:mn><m:mi>%</m:mi>
+						</m:mrow>
+					</m:semantics>
+				</m:math>
+			</para></solution></exercise>
+</section></content></document>

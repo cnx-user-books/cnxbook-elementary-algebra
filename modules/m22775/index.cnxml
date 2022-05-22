@@ -1,0 +1,274 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+
+<title>Properties of Real Numbers</title>
+<metadata>
+  <md:content-id>m22775</md:content-id><md:title>Properties of Real Numbers</md:title>
+  <md:abstract>This module contains a chart of the properties of real numbers from Elementary Algebra by Denny Burzynski and Wade Ellis, Jr.</md:abstract>
+  <md:uuid>e6df75f7-ae69-49c5-ba96-18a95d728630</md:uuid>
+</metadata>
+
+<content>
+  <rule id="commutativeprop" type="Property">
+   <title>Commutative Property</title>
+   <statement id="commutativeadd">
+    <para id="cadd">
+     <title>Addition</title>
+      <m:math display="block">
+            <m:mi>a</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>b</m:mi>
+            <m:mo>=</m:mo>
+            <m:mi>b</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>a</m:mi>
+      </m:math>
+      <newline/>
+      <m:math display="block">
+            <m:mn>3</m:mn>
+            <m:mo>+</m:mo>
+            <m:mn>4</m:mn>
+            <m:mo>=</m:mo>
+            <m:mn>4</m:mn>
+            <m:mo>+</m:mo>
+            <m:mn>3</m:mn>
+      </m:math>
+    </para>
+   </statement>
+   <statement id="commutativemult">
+    <para id="cmult">
+     <title>Multiplication</title>
+      <m:math display="block">
+       <m:mi>a</m:mi>
+       <m:mi>b</m:mi>
+       <m:mo>=</m:mo>
+       <m:mi>b</m:mi>
+       <m:mi>a</m:mi>
+      </m:math>
+      <newline/>
+      <m:math display="block">
+       <m:mn>4</m:mn>
+       <m:mo>·</m:mo>
+       <m:mn>3</m:mn>
+       <m:mo>=</m:mo>
+       <m:mn>3</m:mn>
+       <m:mo>·</m:mo>
+       <m:mn>4</m:mn>
+      </m:math>
+    </para>
+   </statement>
+  </rule>
+
+  <rule id="associativeprop" type="Property">
+   <title>Associative Property</title>
+   <statement id="assocadd">
+    <para id="aadd">
+     <title>Addition</title>
+     <m:math display="block">
+            <m:mi>a</m:mi>
+            <m:mo>+</m:mo>
+            <m:mo>(</m:mo>
+             <m:mi>b</m:mi>
+             <m:mo>+</m:mo>
+             <m:mi>c</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>=</m:mo>
+             <m:mo>(</m:mo>
+             <m:mi>a</m:mi>
+             <m:mo>+</m:mo>
+             <m:mi>b</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>+</m:mo>
+            <m:mi>c</m:mi>
+     </m:math>
+     <newline/>
+     <m:math display="block">
+            <m:mn>4</m:mn>
+            <m:mo>+</m:mo>
+            <m:mo>(</m:mo>
+             <m:mn>3</m:mn>
+             <m:mo>+</m:mo>
+             <m:mn>5</m:mn>
+            <m:mo>)</m:mo>
+            <m:mo>=</m:mo>
+             <m:mo>(</m:mo>
+             <m:mn>4</m:mn>
+             <m:mo>+</m:mo>
+             <m:mn>3</m:mn>
+            <m:mo>)</m:mo>
+            <m:mo>+</m:mo>
+            <m:mn>5</m:mn>
+     </m:math>
+    </para>
+   </statement>
+
+   <statement id="assocmult">
+    <para id="amult">
+     <title>Multiplication</title>
+     <m:math display="block">
+            <m:mi>a</m:mi>
+            <m:mo>(</m:mo>
+             <m:mi>bc</m:mi>
+            <m:mo>)</m:mo>
+            <m:mo>=</m:mo>
+             <m:mo>(</m:mo>
+             <m:mi>ab</m:mi>
+            <m:mo>)</m:mo>
+            <m:mi>c</m:mi>
+     </m:math>
+     <newline/>
+     <m:math display="block">
+            <m:mn>4</m:mn>
+            <m:mo>(</m:mo>
+             <m:mn>3</m:mn>
+             <m:mo>·</m:mo>
+             <m:mn>5</m:mn>
+            <m:mo>)</m:mo>
+            <m:mo>=</m:mo>
+             <m:mo>(</m:mo>
+             <m:mn>4</m:mn>
+             <m:mo>·</m:mo>
+             <m:mn>3</m:mn>
+            <m:mo>)</m:mo>
+            <m:mn>5</m:mn>
+     </m:math>
+    </para>
+   </statement>
+</rule>
+
+
+  <rule id="distributiveprop" type="Property">
+   <title>Distributive Property</title>
+   <statement id="distributive">
+    <para id="dist">
+
+     <m:math display="block">
+           <m:mi>a</m:mi>
+           <m:mo>(</m:mo>
+            <m:mi>b</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>c</m:mi>
+           <m:mo>)</m:mo>
+           <m:mo>=</m:mo>
+           <m:mi>a</m:mi>
+           <m:mi>b</m:mi>
+           <m:mo>+</m:mo>
+           <m:mi>a</m:mi>
+           <m:mi>c</m:mi>
+     </m:math>
+     <newline/>
+     <m:math display="block">
+           <m:mn>4</m:mn>
+           <m:mo>(</m:mo>
+           <m:mi>x</m:mi>
+           <m:mo>+</m:mo>
+           <m:mn>3</m:mn>
+           <m:mo>)</m:mo>
+           <m:mo>=</m:mo>
+           <m:mi>4x</m:mi>
+           <m:mo>+</m:mo>
+           <m:mn>12</m:mn>
+     </m:math>
+     <newline count="2"/>
+     <m:math display="block">
+           <m:mo>(</m:mo>
+           <m:mi>b</m:mi>
+           <m:mo>+</m:mo>
+           <m:mi>c</m:mi>
+           <m:mo>)</m:mo>
+           <m:mi>a</m:mi>
+           <m:mo>=</m:mo>
+           <m:mi>a</m:mi>
+           <m:mi>b</m:mi>
+           <m:mo>+</m:mo>
+           <m:mi>b</m:mi>
+           <m:mi>c</m:mi>
+     </m:math>
+     <newline/>
+     <m:math display="block">
+           <m:mo>(</m:mo>
+           <m:mi>x</m:mi>
+           <m:mo>+</m:mo>
+           <m:mn>3</m:mn>
+           <m:mo>)</m:mo>
+           <m:mn>4</m:mn>
+           <m:mo>=</m:mo>
+           <m:mi>4x</m:mi>
+           <m:mo>+</m:mo>
+           <m:mn>12</m:mn>
+     </m:math>
+    </para>
+   </statement>
+</rule>
+
+<rule id="prop0" type="Property">
+ <title>Properties of Zero</title>
+ <statement id="property0">
+  <para id="prop">
+   <m:math display="block">
+           <m:mi>a</m:mi>
+           <m:mo>·</m:mo>
+           <m:mn>0</m:mn>
+           <m:mo>=</m:mo>
+           <m:mn>0</m:mn>
+   </m:math>
+   <newline/>
+   <m:math display="block">
+           <m:mn>0</m:mn>
+           <m:mo>·</m:mo>
+           <m:mi>a</m:mi>
+           <m:mo>=</m:mo>
+           <m:mn>0</m:mn>
+   </m:math>
+          If <m:math>
+              <m:mi>a</m:mi>
+              <m:mo>≠</m:mo>
+              <m:mn>0</m:mn></m:math>, then 
+
+              <m:math>
+
+              <m:mfrac>
+              
+               <m:mn>0</m:mn>
+               <m:mi>a</m:mi>
+              
+              </m:mfrac>
+              <m:mo>=</m:mo>
+              <m:mn>0</m:mn></m:math> and 
+
+              <m:math>
+
+              <m:mfrac>
+              
+               <m:mn>0</m:mn>
+               <m:mi>a</m:mi>
+              
+              </m:mfrac>
+              <m:mo>=</m:mo>
+              <m:mn>0</m:mn></m:math> is undefined.
+  </para>
+ </statement>
+</rule>
+
+<rule id="doubleneg" type="Property">
+ <title>Double Negative Property</title>
+ <statement id="dneg">
+  <para id="dn">
+    <m:math display="block">
+              <m:mo>-</m:mo>
+           <m:mo>(</m:mo>
+           <m:mo>-</m:mo>
+           <m:mi>a</m:mi>
+           <m:mo>)</m:mo>
+           <m:mo>=</m:mo>
+           <m:mi>a</m:mi>
+    </m:math>
+  </para>
+ </statement>
+</rule>
+
+ 
+
+
+</content>
+
+</document>

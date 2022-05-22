@@ -1,0 +1,2309 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+
+<title>Linear inequalities in One Variable </title>
+<metadata>
+  <md:content-id>m21979</md:content-id><md:title>Linear inequalities in One Variable </md:title>
+  <md:abstract>This module is from Elementary Algebra by Denny Burzynski and Wade Ellis, Jr.
+In this chapter, the emphasis is on the mechanics of equation solving, which clearly explains how to isolate a variable. The goal is to help the student feel more comfortable with solving applied problems. Ample opportunity is provided for the student to practice translating words to symbols, which is an important part of the "Five-Step Method" of solving applied problems (discussed in modules (&lt;link document="m21980"/&gt;) and (&lt;link document="m21979"/&gt;)).
+Objectives of this module: understand the meaning of inequalities, be able to recognize linear inequalities, know, and be able to work with, the algebra of linear inequalities and with compound inequalities.</md:abstract>
+  <md:uuid>8e52eb9b-c522-484c-bdaa-5487dde5a6e9</md:uuid>
+</metadata>
+
+<content>
+  <section id="eip-789"><title>Overview</title><list id="eip-880"><item>Inequalities</item>
+	<item>Linear Inequalities</item>
+	<item>The Algebra of Linear Inequalities</item>
+<item>Compound Inequalities</item></list></section><section id="eip-977"><title>Inequalities</title><para id="eip-448"><title>Relationships of Inequality</title>We have discovered that an equation is a mathematical way of expressing the relationship of equality between quantities. Not all relationships need be relationships of equality, however. Certainly the number of human beings on earth is greater than 20. Also, the average American consumes less than 10 grams of vitamin C every day. These types of relationships are not relationships of equality, but rather, relationships of <term>inequality</term>.</para>
+  </section><section id="eip-395"><title>Linear Inequalities</title><para id="eip-165"><title>Linear Inequality</title>A <term>linear inequality</term> is a mathematical statement that one linear expression is greater than or less than another linear expression.</para><para id="eip-685" class="highlight"><title>Inequality Notation </title>The following notation is used to express relationships of inequality:<newline/><m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mtable columnalign="left">
+						<m:mtr columnalign="left">
+							<m:mtd columnalign="left">
+								<m:mo>&gt;</m:mo>
+							</m:mtd>
+							<m:mtd columnalign="left">
+								<m:mrow/>
+							</m:mtd>
+							<m:mtd columnalign="left">
+								<m:mrow>
+									<m:mtext>Strictly</m:mtext><m:mtext> </m:mtext><m:mtext>greater</m:mtext><m:mtext> </m:mtext><m:mtext>than</m:mtext>
+								</m:mrow>
+							</m:mtd>
+						</m:mtr>
+						<m:mtr columnalign="left">
+							<m:mtd columnalign="left">
+								<m:mo>&lt;</m:mo>
+							</m:mtd>
+							<m:mtd columnalign="left">
+								<m:mrow/>
+							</m:mtd>
+							<m:mtd columnalign="left">
+								<m:mrow>
+									<m:mtext>Strictly</m:mtext><m:mtext> </m:mtext><m:mtext>less</m:mtext><m:mtext> </m:mtext><m:mtext>than</m:mtext>
+								</m:mrow>
+							</m:mtd>
+						</m:mtr>
+						<m:mtr columnalign="left">
+							<m:mtd columnalign="left">
+								<m:mo>≥</m:mo>
+							</m:mtd>
+							<m:mtd columnalign="left">
+								<m:mrow/>
+							</m:mtd>
+							<m:mtd columnalign="left">
+								<m:mrow>
+									<m:mtext>Greater</m:mtext><m:mtext> </m:mtext><m:mtext>than</m:mtext><m:mtext> </m:mtext><m:mtext>or</m:mtext><m:mtext> </m:mtext><m:mtext>equal</m:mtext><m:mtext> </m:mtext><m:mtext>to</m:mtext>
+								</m:mrow>
+							</m:mtd>
+						</m:mtr>
+						<m:mtr columnalign="left">
+							<m:mtd columnalign="left">
+								<m:mo>≤</m:mo>
+							</m:mtd>
+							<m:mtd columnalign="left">
+								<m:mrow/>
+							</m:mtd>
+							<m:mtd columnalign="left">
+								<m:mrow>
+									<m:mtext>Less</m:mtext><m:mtext> </m:mtext><m:mtext>than</m:mtext><m:mtext> </m:mtext><m:mtext>or</m:mtext><m:mtext> </m:mtext><m:mtext>equal</m:mtext><m:mtext> </m:mtext><m:mtext>to</m:mtext>
+								</m:mrow>
+							</m:mtd>
+						</m:mtr>
+					</m:mtable>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math>
+	</para><para id="eip-768">Note that the expression <m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>12</m:mn>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math> has infinitely many solutions. Any number strictly greater than 12 will satisfy the statement. Some solutions are 13, 15, 90, <m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mn>12.1</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>16.3</m:mn><m:mtext> </m:mtext><m:mtext>and</m:mtext><m:mtext> </m:mtext><m:mn>102.51</m:mn>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math>.
+</para></section><section id="eip-620"><title>Sample Set A</title><para id="eip-743">
+The following <emphasis>are</emphasis> linear inequalities in one variable.
+</para><example id="eip-995"><list id="eip-746" list-type="enumerated" number-style="arabic"><item><m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mi>x</m:mi><m:mo>≤</m:mo><m:mn>12</m:mn>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math></item>
+	<item><m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mo>&gt;</m:mo><m:mn>4</m:mn>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math></item>
+	<item><m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>≥</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>7</m:mn>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math></item>
+	<item><m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mi>P</m:mi><m:mo>+</m:mo><m:mn>26</m:mn><m:mo>&lt;</m:mo><m:mn>10</m:mn><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>P</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math></item>
+	<item><m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mfrac>
+						<m:mrow>
+							<m:mn>2</m:mn><m:mi>r</m:mi><m:mo>−</m:mo><m:mn>9</m:mn>
+						</m:mrow>
+						<m:mn>5</m:mn>
+					</m:mfrac>
+					<m:mo>&gt;</m:mo><m:mn>15</m:mn>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math></item></list>
+</example><para id="eip-946">The following <emphasis>are not</emphasis> linear inequalities in one variable.</para><example id="eip-696"><list id="eip-957" list-type="enumerated" number-style="arabic"><item><m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:msup>
+						<m:mi>x</m:mi>
+						<m:mn>2</m:mn>
+					</m:msup>
+					<m:mo>&lt;</m:mo><m:mn>4</m:mn>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math>.<newline/>The term 
+<m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:msup>
+						<m:mi>x</m:mi>
+						<m:mn>2</m:mn>
+					</m:msup>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math> is quadratic, not linear.
+
+</item>
+	<item><m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mi>x</m:mi><m:mo>≤</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math>.<newline/>There are two variables. This is a linear inequality in two variables.</item>
+	<item>		<m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mi>y</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>≠</m:mo><m:mn>5</m:mn>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math>.<newline/>Although the symbol <m:math>
+			<m:semantics>
+				<m:mo>≠</m:mo>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math> certainly expresses an inequality, it is customary to use only the symbols <m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mo>&lt;</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>&gt;</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>≤</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>≥</m:mo>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math>.</item></list>
+</example></section><section id="eip-258"><title>Practice Set A </title><para id="eip-646">A linear equation, we know, may have exactly one solution, infinitely many solutions, or no solution. Speculate on the number of solutions of a linear inequality. (<emphasis>Hint:</emphasis> Consider the inequalities <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+ and <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mi>x</m:mi><m:mo>≥</m:mo><m:mn>9</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+.)
+</para><para id="eip-12">A linear inequality may have infinitely many solutions, or no solutions.</para></section><section id="eip-282"><title>The Algebra of Linear Inequalities</title><para id="eip-402">
+Inequalities can be solved by basically the same methods as linear equations. There is one important exception that we will discuss in item 3 of the algebra of linear inequalities.
+</para></section><para id="eip-902" class="highlight"><title>The Algebra of Linear Inequalities</title>Let <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mi>a</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>b</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mtext>and</m:mtext><m:mtext> </m:mtext><m:mi>c</m:mi>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> represent real numbers and assume that<newline/><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mtable>
+					<m:mtr>
+						<m:mtd>
+							<m:mrow>
+								<m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mi>b</m:mi>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd>
+							<m:mrow/>
+						</m:mtd>
+						<m:mtd>
+							<m:mrow>
+								<m:mo stretchy="false">(</m:mo><m:mtext>or</m:mtext><m:mtext> </m:mtext><m:mi>a</m:mi><m:mo>&gt;</m:mo><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+				</m:mtable>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math><newline/>Then, <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mtext> </m:mtext><m:mtext>if</m:mtext><m:mtext> </m:mtext><m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mi>b</m:mi><m:mo>,</m:mo>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+</para><list id="eip-652" list-type="enumerated" number-style="arabic"><item><m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mtable>
+						<m:mtr>
+							<m:mtd>
+								<m:mrow>
+									<m:mi>a</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>&lt;</m:mo><m:mi>b</m:mi><m:mo>+</m:mo><m:mi>c</m:mi>
+								</m:mrow>
+							</m:mtd>
+							<m:mtd>
+								<m:mrow>
+									<m:mtext>and</m:mtext>
+								</m:mrow>
+							</m:mtd>
+							<m:mtd>
+								<m:mrow>
+									<m:mi>a</m:mi><m:mo>−</m:mo><m:mi>c</m:mi><m:mo>&lt;</m:mo><m:mi>b</m:mi><m:mo>−</m:mo><m:mi>c</m:mi>
+								</m:mrow>
+							</m:mtd>
+						</m:mtr>
+					</m:mtable>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math>.<newline/>If any real number is added to or subtracted from both sides of an inequality, the sense of the inequality remains unchanged.
+</item>
+	<item>If <m:math>
+			<m:semantics>
+				<m:mi>c</m:mi>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math> is a <emphasis>positive</emphasis> real number, then if 
+<m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mi>b</m:mi><m:mo>,</m:mo>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math><newline/><m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mtable>
+						<m:mtr>
+							<m:mtd>
+								<m:mrow>
+									<m:mi>a</m:mi><m:mi>c</m:mi><m:mo>&lt;</m:mo><m:mi>b</m:mi><m:mi>c</m:mi>
+								</m:mrow>
+							</m:mtd>
+							<m:mtd>
+								<m:mrow>
+									<m:mtext>and</m:mtext>
+								</m:mrow>
+							</m:mtd>
+							<m:mtd>
+								<m:mrow>
+									<m:mfrac>
+										<m:mi>a</m:mi>
+										<m:mi>c</m:mi>
+									</m:mfrac>
+									<m:mo>&lt;</m:mo><m:mfrac>
+										<m:mi>b</m:mi>
+										<m:mi>c</m:mi>
+									</m:mfrac>
+									<m:mo>.</m:mo>
+								</m:mrow>
+							</m:mtd>
+						</m:mtr>
+					</m:mtable>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math>
+		<newline/>If both sides of an inequality are multiplied or divided by the same positive number the sense of the inequality remains unchanged.
+</item>
+	<item>If <m:math>
+			<m:semantics>
+				<m:mi>c</m:mi>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math> is a <emphasis>negative</emphasis> real number, then if 
+<m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mi>b</m:mi><m:mo>,</m:mo>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math><newline/>
+		<m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mtable>
+						<m:mtr>
+							<m:mtd>
+								<m:mrow>
+									<m:mi>a</m:mi><m:mi>c</m:mi><m:mo>&gt;</m:mo><m:mi>b</m:mi><m:mi>c</m:mi>
+								</m:mrow>
+							</m:mtd>
+							<m:mtd>
+								<m:mrow>
+									<m:mtext>and</m:mtext>
+								</m:mrow>
+							</m:mtd>
+							<m:mtd>
+								<m:mrow>
+									<m:mfrac>
+										<m:mi>a</m:mi>
+										<m:mi>c</m:mi>
+									</m:mfrac>
+								</m:mrow>
+							</m:mtd>
+						</m:mtr>
+					</m:mtable><m:mo>&gt;</m:mo><m:mfrac>
+						<m:mi>b</m:mi>
+						<m:mi>c</m:mi>
+					</m:mfrac>
+					<m:mo>.</m:mo>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math>
+		<newline/> If both sides of an inequality are multiplied or divided by the same <emphasis>negative</emphasis> number, <term>the inequality sign must be reversed</term> (change direction) in order for the resulting inequality to be equivalent to the original inequality. (See problem 4 in the next set of examples.)
+
+</item></list><para id="eip-67">For example, consider the inequality 
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>3</m:mn><m:mo>&lt;</m:mo><m:mn>7</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>.
+</para><example id="eip-912"><para id="eip-209">For <m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mn>3</m:mn><m:mo>&lt;</m:mo><m:mn>7</m:mn>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math>, if 8 is added to both sides, we get</para><para id="eip-949"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>3</m:mn><m:mo>+</m:mo><m:mn>8</m:mn><m:mo>&lt;</m:mo><m:mn>7</m:mn><m:mo>+</m:mo><m:mn>8.</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>11</m:mn><m:mo>&lt;</m:mo><m:mn>15</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mtext>True</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math></para>
+</example><example id="eip-695"><para id="eip-600">For <m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mn>3</m:mn><m:mo>&lt;</m:mo><m:mn>7</m:mn>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math>, if 8 is subtracted from both sides, we get</para><para id="eip-151"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>3</m:mn><m:mo>−</m:mo><m:mn>8</m:mn><m:mo>&lt;</m:mo><m:mn>7</m:mn><m:mo>−</m:mo><m:mn>8.</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>5</m:mn><m:mo>&lt;</m:mo><m:mo>−</m:mo><m:mn>1</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mtext>True</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math></para>
+</example><example id="eip-560"><para id="eip-421">For <m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mn>3</m:mn><m:mo>&lt;</m:mo><m:mn>7</m:mn>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math>, if both sides are multiplied by 8 (a positive number), we get</para><para id="eip-915"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>8</m:mn><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>&lt;</m:mo><m:mn>8</m:mn><m:mo stretchy="false">(</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mn>24</m:mn><m:mo>&lt;</m:mo><m:mn>56</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mtext>True</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math></para>
+</example><example id="eip-715"><para id="eip-297">For <m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mn>3</m:mn><m:mo>&lt;</m:mo><m:mn>7</m:mn>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math>, if both sides are multiplied by <m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mo>−</m:mo><m:mn>8</m:mn>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math> (a negative number), we get</para><para id="eip-485"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo><m:mn>3</m:mn><m:mo>&gt;</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo><m:mn>7</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math></para><para id="eip-253">Notice the change in direction of the inequality sign.</para><para id="eip-337"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>24</m:mn><m:mo>&gt;</m:mo><m:mo>−</m:mo><m:mn>56</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mtext>True</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math></para><para id="eip-365">If we had forgotten to reverse the direction of the inequality sign we would have obtained the incorrect statement<m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mo>−</m:mo><m:mn>24</m:mn><m:mo>&lt;</m:mo><m:mo>−</m:mo><m:mn>56</m:mn>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math>.</para>
+</example><example id="eip-799"><para id="eip-90">For <m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mn>3</m:mn><m:mo>&lt;</m:mo><m:mn>7</m:mn>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math>, if both sides are divided by 8 (a positive number), we get</para><para id="eip-643"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mfrac>
+        <m:mn>3</m:mn>
+        <m:mn>8</m:mn>
+       </m:mfrac>
+       <m:mo>&lt;</m:mo><m:mfrac>
+        <m:mn>7</m:mn>
+        <m:mn>8</m:mn>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mtext>True</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math></para>
+</example><example id="eip-860"><para id="eip-68">For <m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mn>3</m:mn><m:mo>&lt;</m:mo><m:mn>7</m:mn>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math>, if both sides are divided by 
+<m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mo>−</m:mo><m:mn>8</m:mn>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math> (a negative number), we get</para><para id="eip-779"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow>
+       <m:mfrac>
+        <m:mn>3</m:mn>
+        <m:mrow>
+         <m:mo>−</m:mo><m:mn>8</m:mn>
+        </m:mrow>
+       </m:mfrac>
+       <m:mo>&gt;</m:mo><m:mfrac>
+        <m:mn>7</m:mn>
+        <m:mrow>
+         <m:mo>−</m:mo><m:mn>8</m:mn>
+        </m:mrow>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mtext>True</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable><m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mtext>since</m:mtext><m:mtext> </m:mtext><m:mo>−</m:mo><m:mn>.375</m:mn><m:mo>−</m:mo><m:mn>.875</m:mn><m:mo stretchy="false">)</m:mo>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math></para>
+</example><section id="eip-105"><title>Sample Set B </title><para id="eip-531">
+Solve the following linear inequalities. Draw a number line and place a point at each solution.
+</para><example id="eip-975"><para id="eip-602"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mtable columnalign="left">
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mn>3</m:mn><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>15</m:mn>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>Divide</m:mtext><m:mtext> </m:mtext><m:mtext>both</m:mtext><m:mtext> </m:mtext><m:mtext>sides</m:mtext><m:mtext> </m:mtext><m:mtext>by</m:mtext><m:mtext> </m:mtext><m:mtext>3</m:mtext><m:mtext>.</m:mtext><m:mtext> </m:mtext><m:mtext>The</m:mtext><m:mtext> </m:mtext><m:mn>3</m:mn><m:mtext> </m:mtext><m:mtext>is</m:mtext><m:mtext> </m:mtext><m:mtext>a</m:mtext><m:mtext> </m:mtext><m:mtext>positive</m:mtext><m:mtext> </m:mtext><m:mtext>number</m:mtext><m:mo>,</m:mo><m:mtext> </m:mtext><m:mtext>so</m:mtext><m:mtext> </m:mtext><m:mtext>we</m:mtext><m:mtext> </m:mtext><m:mtext>need</m:mtext><m:mtext> </m:mtext><m:mtext>not</m:mtext><m:mtext> </m:mtext><m:mtext>reverse</m:mtext><m:mtext> </m:mtext><m:mtext>the</m:mtext><m:mtext> </m:mtext><m:mtext>sense</m:mtext><m:mtext> </m:mtext><m:mtext>of</m:mtext><m:mtext> </m:mtext><m:mtext>the</m:mtext><m:mtext> </m:mtext><m:mtext>inequality</m:mtext><m:mtext>.</m:mtext>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>5</m:mn>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+					</m:mtr>
+				</m:mtable>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+	<newline/>Thus, all numbers strictly greater than 5 are solutions to the inequality 
+<m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>3</m:mn><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>15</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>.<newline/><media id="C04_S4-6_P173_001" display="block" alt="A number line showing all numbers strictly greater than five.">
+		<image mime-type="image/png" src="../../media/C04_S4-6_P173_001.png" print-width="2.1in"/>
+	</media>
+</para>
+	</example><example id="eip-897"><para id="eip-57"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mtable columnalign="left">
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>≤</m:mo><m:mn>16</m:mn>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>Add</m:mtext><m:mtext> </m:mtext><m:mtext>1</m:mtext><m:mtext> </m:mtext><m:mtext>to</m:mtext><m:mtext> </m:mtext><m:mtext>both</m:mtext><m:mtext> </m:mtext><m:mtext>sides</m:mtext><m:mo>.</m:mo>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mn>2</m:mn><m:mi>y</m:mi><m:mo>≤</m:mo><m:mn>17</m:mn>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>Divide</m:mtext><m:mtext> </m:mtext><m:mtext>both</m:mtext><m:mtext> </m:mtext><m:mtext>sides</m:mtext><m:mtext> </m:mtext><m:mtext>by</m:mtext><m:mtext> </m:mtext><m:mn>2.</m:mn>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mi>y</m:mi><m:mo>≤</m:mo><m:mfrac>
+									<m:mrow>
+										<m:mn>17</m:mn>
+									</m:mrow>
+									<m:mn>2</m:mn>
+								</m:mfrac>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+					</m:mtr>
+				</m:mtable>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+	<newline/><media id="C04_S4-6_P173_002" display="block" alt="A number line showing all numbers less than or equal to seventeen over two.">
+		<image mime-type="image/png" src="../../media/C04_S4-6_P173_002.png" print-width="2.1in"/>
+	</media>
+</para></example>
+		<example id="eip-141"><para id="eip-336"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mtable columnalign="left">
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mo>−</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>&lt;</m:mo><m:mn>14</m:mn>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>Subtract</m:mtext><m:mtext> </m:mtext><m:mn>5</m:mn><m:mtext> </m:mtext><m:mtext>from</m:mtext><m:mtext> </m:mtext><m:mtext>both</m:mtext><m:mtext> </m:mtext><m:mtext>sides</m:mtext><m:mtext>.</m:mtext>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mo>−</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>9</m:mn>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>Divide</m:mtext><m:mtext> </m:mtext><m:mtext>both</m:mtext><m:mtext> </m:mtext><m:mtext>sides</m:mtext><m:mtext> </m:mtext><m:mtext>by</m:mtext><m:mtext> </m:mtext><m:mo>−</m:mo><m:mn>8.</m:mn><m:mtext> </m:mtext><m:mtext>We</m:mtext><m:mtext> </m:mtext><m:mtext>must</m:mtext><m:mtext> </m:mtext><m:mtext>reverse</m:mtext><m:mtext> </m:mtext><m:mtext>the</m:mtext><m:mtext> </m:mtext><m:mtext>sense</m:mtext><m:mtext> </m:mtext><m:mtext>of</m:mtext><m:mtext> </m:mtext><m:mtext>the</m:mtext><m:mtext> </m:mtext><m:mtext>inequality</m:mtext>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>since</m:mtext><m:mtext> </m:mtext><m:mtext>we</m:mtext><m:mtext> </m:mtext><m:mtext>are</m:mtext><m:mtext> </m:mtext><m:mtext>dividing</m:mtext><m:mtext> </m:mtext><m:mtext>by</m:mtext><m:mtext> </m:mtext><m:mtext>a</m:mtext><m:mtext> </m:mtext><m:mtext>negative</m:mtext><m:mtext> </m:mtext><m:mtext>number</m:mtext><m:mtext>.</m:mtext>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mo>−</m:mo><m:mfrac>
+									<m:mn>9</m:mn>
+									<m:mn>8</m:mn>
+								</m:mfrac>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+					</m:mtr>
+				</m:mtable>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math><newline/><media id="C04_S4-6_P173_003" display="block" alt="A number line showing all numbers strictly greater than negative nine over eight.">
+		<image mime-type="image/png" src="../../media/C04_S4-6_P173_003.png" print-width="2.1in"/>
+	</media>
+</para>
+		</example><example id="eip-249"><para id="eip-871"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mtable columnalign="left">
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mn>5</m:mn><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>&lt;</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>10</m:mn>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mn>5</m:mn><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mo>&lt;</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>10</m:mn>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>&lt;</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>10</m:mn>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mo>−</m:mo><m:mn>9</m:mn><m:mi>y</m:mi><m:mo>&lt;</m:mo><m:mo>−</m:mo><m:mn>9</m:mn>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mi>y</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+				</m:mtable>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math><newline/><media id="C04_S4-6_P174_001" display="block" alt="A number line showing all numbers strictly greater than one.">
+		<image mime-type="image/png" src="../../media/C04_S4-6_P174_001.png" print-width="2.1in"/>
+	</media>
+</para>
+		</example><example id="eip-885"><para id="eip-851"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mtable columnalign="left">
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mfrac>
+									<m:mrow>
+										<m:mn>2</m:mn><m:mi>z</m:mi><m:mo>+</m:mo><m:mn>7</m:mn>
+									</m:mrow>
+									<m:mrow>
+										<m:mo>−</m:mo><m:mn>4</m:mn>
+									</m:mrow>
+								</m:mfrac>
+								<m:mo>≥</m:mo><m:mo>−</m:mo><m:mn>6</m:mn>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>Multiply</m:mtext><m:mtext> </m:mtext><m:mtext>by</m:mtext><m:mtext> </m:mtext><m:mo>−</m:mo><m:mn>4</m:mn>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mn>2</m:mn><m:mi>z</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mo>≤</m:mo><m:mn>24</m:mn>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>Notice</m:mtext><m:mtext> </m:mtext><m:mtext>the</m:mtext><m:mtext> </m:mtext><m:mtext>change</m:mtext><m:mtext> </m:mtext><m:mtext>in</m:mtext><m:mtext> </m:mtext><m:mtext>the</m:mtext><m:mtext> </m:mtext><m:mtext>sense</m:mtext><m:mtext> </m:mtext><m:mtext>of</m:mtext><m:mtext> </m:mtext><m:mtext>the</m:mtext><m:mtext> </m:mtext><m:mtext>inequality</m:mtext><m:mtext>.</m:mtext>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mn>2</m:mn><m:mi>z</m:mi><m:mo>≤</m:mo><m:mn>17</m:mn>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mi>z</m:mi><m:mo>≤</m:mo><m:mfrac>
+									<m:mrow>
+										<m:mn>17</m:mn>
+									</m:mrow>
+									<m:mn>2</m:mn>
+								</m:mfrac>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+					</m:mtr>
+				</m:mtable>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math><newline/><media id="C04_S4-6_P174_002" display="block" alt="A number line showing all numbers less than or equal to seventeen over two.">
+		<image mime-type="image/png" src="../../media/C04_S4-6_P174_002.png" print-width="2.1in"/>
+	</media>
+</para>
+		</example></section><section id="eip-984"><title>Practice Set B</title><para id="eip-112">
+Solve the following linear inequalities.</para><exercise id="eip-938"><problem id="eip-714">
+		<para id="eip-463">
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>y</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mo>≤</m:mo><m:mn>5</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+  </para>
+	</problem>
+	<solution id="eip-436">
+		<para id="eip-460"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>y</m:mi><m:mo>≤</m:mo><m:mn>11</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+  </para>
+	</solution>
+</exercise><exercise id="eip-582"><problem id="eip-993">
+		<para id="eip-212">
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>&gt;</m:mo><m:mn>9</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+  </para>
+	</problem>
+	<solution id="eip-747">
+		<para id="eip-818"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>5</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+</para>
+	</solution>
+</exercise><exercise id="eip-794"><problem id="eip-159">
+		<para id="eip-725">
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>≥</m:mo><m:mn>15</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+  </para>
+	</problem>
+	<solution id="eip-66">
+		<para id="eip-240"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>≥</m:mo><m:mn>4</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+</para>
+	</solution>
+</exercise><exercise id="eip-986"><problem id="eip-733">
+		<para id="eip-631">
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>16</m:mn><m:mo>≤</m:mo><m:mn>7</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+  </para>
+	</problem>
+	<solution id="eip-863">
+		<para id="eip-650"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>y</m:mi><m:mo>≥</m:mo><m:mfrac>
+    <m:mn>9</m:mn>
+    <m:mn>5</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+</para>
+	</solution>
+</exercise><exercise id="eip-72"><problem id="eip-505">
+		<para id="eip-574">
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>7</m:mn><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>s</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>&lt;</m:mo><m:mn>2</m:mn><m:mi>s</m:mi><m:mo>+</m:mo><m:mn>8</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+</para>
+	</problem>
+	<solution id="eip-134">
+		<para id="eip-0"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>s</m:mi><m:mo>&lt;</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>29</m:mn>
+    </m:mrow>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+</para>
+	</solution>
+</exercise><exercise id="eip-495"><problem id="eip-126">
+		<para id="eip-289">
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>5</m:mn><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>h</m:mi><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>&lt;</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>h</m:mi><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>6</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+
+  </para>
+	</problem>
+	<solution id="eip-575">
+		<para id="eip-278"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>h</m:mi><m:mo>&gt;</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mrow>
+     <m:mn>18</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+</para>
+	</solution>
+</exercise><exercise id="eip-899"><problem id="eip-317">
+		<para id="eip-321">
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>18</m:mn><m:mo>≥</m:mo><m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>9</m:mn><m:mi>x</m:mi>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+  </para>
+	</problem>
+	<solution id="eip-501">
+		<para id="eip-19"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>≥</m:mo><m:mo>−</m:mo><m:mn>30</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+</para>
+	</solution>
+</exercise><exercise id="eip-93"><problem id="eip-225">
+		<para id="eip-377">
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>3</m:mn><m:mi>b</m:mi>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>16</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   <m:mo>≤</m:mo><m:mn>4</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+
+  </para>
+	</problem>
+	<solution id="eip-612">
+		<para id="eip-386"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>b</m:mi><m:mo>≥</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mo>−</m:mo><m:mn>64</m:mn>
+    </m:mrow>
+    <m:mn>3</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+</para>
+	</solution>
+</exercise><exercise id="eip-185"><problem id="eip-812">
+		<para id="eip-364"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mfrac>
+					<m:mrow>
+						<m:mo>−</m:mo><m:mn>7</m:mn><m:mi>z</m:mi><m:mo>+</m:mo><m:mn>10</m:mn>
+					</m:mrow>
+					<m:mrow>
+						<m:mo>−</m:mo><m:mn>12</m:mn>
+					</m:mrow>
+				</m:mfrac>
+				<m:mo>&lt;</m:mo><m:mo>−</m:mo><m:mn>1</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+</para>
+	</problem>
+	<solution id="eip-214">
+		<para id="eip-876"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>z</m:mi><m:mo>&lt;</m:mo><m:mo>−</m:mo><m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mn>7</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+</para>
+	</solution>
+</exercise><exercise id="eip-4"><problem id="eip-867">
+		<para id="eip-979">
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mn>3</m:mn>
+   </m:mfrac>
+   <m:mo>≤</m:mo><m:mfrac>
+    <m:mn>5</m:mn>
+    <m:mn>6</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+
+  </para>
+	</problem>
+	<solution id="eip-222">
+		<para id="eip-670"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>≥</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mo>−</m:mo><m:mn>3</m:mn>
+    </m:mrow>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+</para>
+	</solution>
+</exercise></section><section id="eip-748"><title>Compound Inequalities</title><para id="eip-255"><title>Compound Inequality</title>Another type of inequality is the <emphasis>compound inequality</emphasis>. A compound inequality is of the form:</para><para id="eip-497"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mi>b</m:mi>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+</para><para id="eip-503">There are actually two statements here. The first statement is <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mi>x</m:mi>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>. The next statement is <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mi>b</m:mi>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>. When we read this statement we say "<m:math>
+ <m:semantics>
+  <m:mi>a</m:mi>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math> is less than <m:math>
+ <m:semantics>
+  <m:mi>x</m:mi>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>," then continue saying "and <m:math>
+ <m:semantics>
+  <m:mi>x</m:mi>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math> is less than <m:math>
+ <m:semantics>
+  <m:mi>b</m:mi>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>."
+
+ 
+
+
+
+</para><para id="eip-123">Just by looking at the inequality we can see that the number <m:math>
+ <m:semantics>
+  <m:mi>x</m:mi>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math> is between the numbers <m:math>
+ <m:semantics>
+  <m:mi>a</m:mi>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math> and <m:math>
+ <m:semantics>
+  <m:mi>b</m:mi>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>. The compound inequality <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mi>b</m:mi>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math> indicates "betweenness." Without changing the meaning, the statement <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mi>x</m:mi>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math> can be read <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mi>a</m:mi>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>. (Surely, if the number <m:math>
+ <m:semantics>
+  <m:mi>a</m:mi>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math> is less than the number <m:math>
+ <m:semantics>
+  <m:mi>x</m:mi>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>, the number <m:math>
+ <m:semantics>
+  <m:mi>x</m:mi>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math> must be greater than the number <m:math>
+ <m:semantics>
+  <m:mi>a</m:mi>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>.) Thus, we can read <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mi>b</m:mi>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math> as "<m:math>
+ <m:semantics>
+  <m:mi>x</m:mi>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math> is greater than <m:math>
+ <m:semantics>
+  <m:mi>a</m:mi>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math> and at the same time is less than <m:math>
+ <m:semantics>
+  <m:mi>b</m:mi>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>." For example:
+
+
+ 
+
+
+ 
+
+
+
+
+ 
+
+
+</para><list id="eip-481" list-type="enumerated" number-style="arabic"><item><m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mn>4</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>9</m:mn>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math>.<newline/>The letter <m:math>
+			<m:semantics>
+				<m:mi>x</m:mi>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math> is some number strictly between 4 and 9. Hence, <m:math>
+			<m:semantics>
+				<m:mi>x</m:mi>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math> is greater than 4 and, at the same time, less than 9. The numbers 4 and 9 are not included so we use open circles at these points.<newline/><media id="C04_S4-6_P175_001" display="block" alt="A number line showing all numbers strictly greater than four, and strictly less than nine.">
+			<image mime-type="image/png" src="../../media/C04_S4-6_P175_001.png" print-width="2.1in"/>
+		</media>
+	</item>
+	<item><m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mo>−</m:mo><m:mn>2</m:mn><m:mo>&lt;</m:mo><m:mi>z</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math>.<newline/>The <m:math>
+			<m:semantics>
+				<m:mi>z</m:mi>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math> stands for some number between <m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mo>−</m:mo><m:mn>2</m:mn>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math> and 0. Hence, <m:math>
+			<m:semantics>
+				<m:mi>z</m:mi>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math> is greater than <m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mo>−</m:mo><m:mn>2</m:mn>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math> but also less than 0.<newline/><media id="C04_S4-6_P175_002" display="block" alt="A number line showing all numbers strictly greater than negative two, and strictly less than zero.">
+			<image mime-type="image/png" src="../../media/C04_S4-6_P175_002.png" print-width="2.1in"/>
+		</media>
+	</item>
+	<item><m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mn>1</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>&lt;</m:mo><m:mn>8</m:mn>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math>
+.<newline/>The expression <m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math> represents some number strictly between 1 and 8. Hence, <m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math> represents some number strictly greater than 1, but less than 8.
+
+ 
+</item>
+	<item><m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mfrac>
+						<m:mn>1</m:mn>
+						<m:mn>4</m:mn>
+					</m:mfrac>
+					<m:mo>≤</m:mo><m:mfrac>
+						<m:mrow>
+							<m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn>
+						</m:mrow>
+						<m:mn>6</m:mn>
+					</m:mfrac>
+					<m:mo>≤</m:mo><m:mfrac>
+						<m:mn>7</m:mn>
+						<m:mn>9</m:mn>
+					</m:mfrac>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math>.<newline/>The term <m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mfrac>
+						<m:mrow>
+							<m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn>
+						</m:mrow>
+						<m:mn>6</m:mn>
+					</m:mfrac>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math> represents some number between and including <m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mfrac>
+						<m:mn>1</m:mn>
+						<m:mn>4</m:mn>
+					</m:mfrac>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math> and <m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mfrac>
+						<m:mn>7</m:mn>
+						<m:mn>9</m:mn>
+					</m:mfrac>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math>. Hence, <m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mfrac>
+						<m:mrow>
+							<m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn>
+						</m:mrow>
+						<m:mn>6</m:mn>
+					</m:mfrac>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math> represents some number greater than or equal to <m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mfrac>
+						<m:mn>1</m:mn>
+						<m:mn>4</m:mn>
+					</m:mfrac>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math> to but less than or equal to <m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mfrac>
+						<m:mn>7</m:mn>
+						<m:mn>9</m:mn>
+					</m:mfrac>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math>.<newline/><media id="C04_S4-6_P175_003" display="block" alt="A number line showing all numbers greater than or equal to one over four, and less than or equal to seven over nine.">
+			<image mime-type="image/png" src="../../media/C04_S4-6_P175_003.png" print-width="2.1in"/>
+		</media>
+	</item></list><para id="eip-674">Consider problem 3 above, <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>1</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>&lt;</m:mo><m:mn>8</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>. The statement says that the quantity <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> is between 1 and 8. This statement will be true for only certain values of <m:math>
+		<m:semantics>
+			<m:mi>x</m:mi>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>. For example, if <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>, the statement is true since <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>1</m:mn><m:mo>&lt;</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>&lt;</m:mo><m:mn>8</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>. However, if <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4.9</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>, the statement is false since <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>1</m:mn><m:mo>&lt;</m:mo><m:mn>4.9</m:mn><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>&lt;</m:mo><m:mn>8</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> is clearly not true. The first of the inequalities is satisfied since 1 is less than <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>10.9</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>, but the second inequality is not satisfied since <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>10.9</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> is not less than 8.
+
+
+
+
+
+
+
+
+
+</para><para id="eip-556">We would like to know for exactly which values of <m:math>
+ <m:semantics>
+  <m:mi>x</m:mi>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math> the statement <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>1</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>&lt;</m:mo><m:mn>8</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math> is true. We proceed by using the properties discussed earlier in this section, but now we must apply the rules to all <emphasis>three</emphasis> parts rather than just the two parts in a regular inequality.
+
+</para>
+</section><section id="eip-77"><title>Sample Set C</title><example id="eip-245"><para id="eip-413">Solve <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>1</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>&lt;</m:mo><m:mn>8</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>.
+
+
+</para><para id="eip-371"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable columnalign="left">
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mn>1</m:mn><m:mo>−</m:mo><m:mn>6</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>−</m:mo><m:mn>6</m:mn><m:mo>&lt;</m:mo><m:mn>8</m:mn><m:mo>−</m:mo><m:mn>6</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>Subtract</m:mtext><m:mtext> </m:mtext><m:mn>6</m:mn><m:mtext> </m:mtext><m:mtext>from</m:mtext><m:mtext> </m:mtext><m:mtext>all</m:mtext><m:mtext> </m:mtext><m:mtext>three</m:mtext><m:mtext> </m:mtext><m:mtext>parts</m:mtext><m:mtext>.</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>5</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>2</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math></para><para id="eip-399">Thus, if <m:math>
+		<m:semantics>
+			<m:mi>x</m:mi>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> is any number strictly between <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mo>−</m:mo><m:mn>5</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> and 2, the statement <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>1</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>&lt;</m:mo><m:mn>8</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> will be true.
+</para>
+</example><example id="eip-359"><para id="eip-780">
+Solve <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mn>3</m:mn><m:mo>&lt;</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn>
+    </m:mrow>
+    <m:mn>5</m:mn>
+   </m:mfrac>
+   <m:mo>&lt;</m:mo><m:mn>8</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>.
+</para><para id="eip-659"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable columnalign="left">
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>&lt;</m:mo><m:mfrac>
+        <m:mrow>
+         <m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn>
+        </m:mrow>
+        <m:mn>5</m:mn>
+       </m:mfrac>
+       <m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>&lt;</m:mo><m:mn>8</m:mn><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>Multiply</m:mtext><m:mtext> </m:mtext><m:mtext>each</m:mtext><m:mtext> </m:mtext><m:mtext>part</m:mtext><m:mtext> </m:mtext><m:mtext>by</m:mtext><m:mtext> </m:mtext><m:mn>5.</m:mn>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>15</m:mn><m:mo>&lt;</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn><m:mo>&lt;</m:mo><m:mn>40</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>Add</m:mtext><m:mtext> </m:mtext><m:mn>7</m:mn><m:mtext> </m:mtext><m:mtext>to</m:mtext><m:mtext> </m:mtext><m:mtext>all</m:mtext><m:mtext> </m:mtext><m:mtext>three</m:mtext><m:mtext> </m:mtext><m:mtext>parts</m:mtext><m:mo>.</m:mo>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>8</m:mn><m:mo>&lt;</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>47</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>Divide</m:mtext><m:mtext> </m:mtext><m:mtext>all</m:mtext><m:mtext> </m:mtext><m:mtext>three</m:mtext><m:mtext> </m:mtext><m:mtext>parts</m:mtext><m:mtext> </m:mtext><m:mtext>by</m:mtext><m:mtext> </m:mtext><m:mo>−</m:mo><m:mn>2.</m:mn>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mn>4</m:mn><m:mo>&gt;</m:mo><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mo>−</m:mo><m:mfrac>
+        <m:mrow>
+         <m:mn>47</m:mn>
+        </m:mrow>
+        <m:mn>2</m:mn>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>Remember</m:mtext><m:mtext> </m:mtext><m:mtext>to</m:mtext><m:mtext> </m:mtext><m:mtext>reverse</m:mtext><m:mtext> </m:mtext><m:mtext>the</m:mtext><m:mtext> </m:mtext><m:mtext>direction</m:mtext><m:mtext> </m:mtext><m:mtext>of</m:mtext><m:mtext> </m:mtext><m:mtext>the</m:mtext><m:mtext> </m:mtext><m:mtext>inequality</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>signs</m:mtext><m:mtext>.</m:mtext><m:mtext> </m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mo>−</m:mo><m:mfrac>
+        <m:mrow>
+         <m:mn>47</m:mn>
+        </m:mrow>
+        <m:mn>2</m:mn>
+       </m:mfrac>
+       <m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>4</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>It</m:mtext><m:mtext> </m:mtext><m:mtext>is</m:mtext><m:mtext> </m:mtext><m:mtext>customary</m:mtext><m:mtext> </m:mtext><m:mtext>(but</m:mtext><m:mtext> </m:mtext><m:mtext>not</m:mtext><m:mtext> </m:mtext><m:mtext>necessary)</m:mtext><m:mtext> </m:mtext><m:mtext>to</m:mtext><m:mtext> </m:mtext><m:mtext>write</m:mtext><m:mtext> </m:mtext><m:mtext>the</m:mtext><m:mtext> </m:mtext><m:mtext>inequality</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>so</m:mtext><m:mtext> </m:mtext><m:mtext>that</m:mtext><m:mtext> </m:mtext><m:mtext>inequality</m:mtext><m:mtext> </m:mtext><m:mtext>arrows</m:mtext><m:mtext> </m:mtext><m:mtext>point</m:mtext><m:mtext> </m:mtext><m:mtext>to</m:mtext><m:mtext> </m:mtext><m:mtext>the</m:mtext><m:mtext> </m:mtext><m:mtext>left</m:mtext><m:mtext>.</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math></para><para id="eip-873">Thus, if <m:math>
+ <m:semantics>
+  <m:mi>x</m:mi>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math> is any number between <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>47</m:mn>
+    </m:mrow>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math> and 4, the original inequality will be satisfied.
+
+</para>
+</example></section><section id="eip-519"><title>Practice Set C</title><para id="eip-716">
+Find the values of <m:math>
+			<m:semantics>
+				<m:mi>x</m:mi>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math> that satisfy the given continued inequality.
+
+</para><exercise id="eip-389"><problem id="eip-83">
+			<para id="eip-734">
+				<m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mn>4</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo>&lt;</m:mo><m:mn>12</m:mn>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math>
+			</para>
+		</problem>
+		<solution id="eip-322">
+			<para id="eip-383"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mn>9</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>17</m:mn><m:mtext> </m:mtext>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math>
+			</para></solution>
+	</exercise><exercise id="eip-127"><problem id="eip-820">
+			<para id="eip-439">
+				<m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mo>−</m:mo><m:mn>3</m:mn><m:mo>&lt;</m:mo><m:mn>7</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>&lt;</m:mo><m:mn>18</m:mn>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math>
+			</para>
+		</problem>
+		<solution id="eip-35">
+			<para id="eip-509"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mo>−</m:mo><m:mfrac>
+								<m:mn>4</m:mn>
+								<m:mn>7</m:mn>
+							</m:mfrac>
+							<m:mo>&lt;</m:mo><m:mi>y</m:mi><m:mo>&lt;</m:mo><m:mfrac>
+								<m:mrow>
+									<m:mn>17</m:mn>
+								</m:mrow>
+								<m:mn>7</m:mn>
+							</m:mfrac>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math>
+			</para></solution>
+	</exercise><exercise id="eip-994"><problem id="eip-545">
+			<para id="eip-358">
+				<m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mn>0</m:mn><m:mo>≤</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>≤</m:mo><m:mn>7</m:mn>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math>
+			</para>
+		</problem>
+		<solution id="eip-947">
+			<para id="eip-864"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mo>−</m:mo><m:mn>1</m:mn><m:mo>≤</m:mo><m:mi>x</m:mi><m:mo>≤</m:mo><m:mfrac>
+								<m:mn>1</m:mn>
+								<m:mn>6</m:mn>
+							</m:mfrac>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math>
+			</para></solution>
+	</exercise><exercise id="eip-22"><problem id="eip-221">
+			<para id="eip-401">
+				<m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mo>−</m:mo><m:mn>5</m:mn><m:mo>≤</m:mo><m:mfrac>
+								<m:mrow>
+									<m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+								</m:mrow>
+								<m:mn>3</m:mn>
+							</m:mfrac>
+							<m:mo>≤</m:mo><m:mn>10</m:mn>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math>
+			</para>
+		</problem>
+		<solution id="eip-720">
+			<para id="eip-200"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mo>−</m:mo><m:mn>8</m:mn><m:mo>≤</m:mo><m:mi>x</m:mi><m:mo>≤</m:mo><m:mfrac>
+								<m:mrow>
+									<m:mn>29</m:mn>
+								</m:mrow>
+								<m:mn>2</m:mn>
+							</m:mfrac>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math>
+			</para></solution>
+	</exercise><exercise id="eip-845"><problem id="eip-753">
+			<para id="eip-593">
+				<m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mn>9</m:mn><m:mo>&lt;</m:mo><m:mfrac>
+								<m:mrow>
+									<m:mo>−</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn>
+								</m:mrow>
+								<m:mrow>
+									<m:mo>−</m:mo><m:mn>2</m:mn>
+								</m:mrow>
+							</m:mfrac>
+							<m:mo>&lt;</m:mo><m:mn>14</m:mn>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math>
+			</para>
+		</problem>
+		<solution id="eip-605">
+			<para id="eip-635"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mfrac>
+								<m:mrow>
+									<m:mn>23</m:mn>
+								</m:mrow>
+								<m:mn>4</m:mn>
+							</m:mfrac>
+							<m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mfrac>
+								<m:mrow>
+									<m:mn>33</m:mn>
+								</m:mrow>
+								<m:mn>4</m:mn>
+							</m:mfrac>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math>
+			</para></solution>
+	</exercise><exercise id="eip-842"><problem id="eip-610">
+			<para id="eip-279">Does <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mn>4</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mtext> </m:mtext>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math> have a solution?
+
+  </para>
+		</problem>
+		<solution id="eip-1000">
+			<para id="eip-821">no
+  </para></solution>
+	</exercise></section>
+<section id="eip-550" class="homework"><title>Exercises</title><para id="eip-697">For the following problems, solve the inequalities.</para><exercise id="eip-23"><problem id="eip-375">			<para id="eip-480">				<m:math>					<m:semantics>						<m:mrow>							<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mo>&lt;</m:mo><m:mn>12</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem><solution id="fs-id1171366173096"><para id="fs-id1171364846279"><m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>5</m:mn>  </m:mrow>   </m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-983"><problem id="eip-918">			<para id="eip-234">				<m:math>					<m:semantics>						<m:mrow>							<m:mi>y</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo>≤</m:mo><m:mn>8</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem>	</exercise><exercise id="eip-914"><problem id="eip-722">			<para id="eip-724">				<m:math>					<m:semantics>						<m:mrow>							<m:mi>y</m:mi><m:mo>+</m:mo><m:mn>19</m:mn><m:mo>≥</m:mo><m:mn>2</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem><solution id="fs-id1171364983600"><para id="fs-id1171364901351"><m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>≥</m:mo><m:mo>−</m:mo><m:mn>17</m:mn>  </m:mrow>   </m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-248"><problem id="eip-243">			<para id="eip-621">				<m:math>					<m:semantics>						<m:mrow>							<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo>&gt;</m:mo><m:mn>16</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem>	</exercise><exercise id="eip-219"><problem id="eip-807">			<para id="eip-511">				<m:math>					<m:semantics>						<m:mrow>							<m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn><m:mo>≤</m:mo><m:mn>8</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem><solution id="fs-id1171367196505"><para id="fs-id1171366919894"><m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>≤</m:mo><m:mn>3</m:mn>  </m:mrow>  </m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-487"><problem id="eip-583">			<para id="eip-524">				<m:math>					<m:semantics>						<m:mrow>							<m:mn>9</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>12</m:mn><m:mo>≤</m:mo><m:mn>6</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem>	</exercise><exercise id="eip-808"><problem id="eip-795">			<para id="eip-204">				<m:math>					<m:semantics>						<m:mrow>							<m:mn>2</m:mn><m:mi>z</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mo>&lt;</m:mo><m:mn>7</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem><solution id="fs-id1171367196219"><para id="fs-id1171365779762"><m:math> <m:semantics>  <m:mrow>   <m:mi>z</m:mi><m:mo>&lt;</m:mo><m:mo>−</m:mo><m:mfrac>    <m:mn>1</m:mn>    <m:mn>2</m:mn>   </m:mfrac>     </m:mrow>   </m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-314"><problem id="eip-407">			<para id="eip-246"><m:math>					<m:semantics>						<m:mrow>							<m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>14</m:mn><m:mo>&gt;</m:mo><m:mn>21</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem>	</exercise><exercise id="eip-206"><problem id="eip-325">			<para id="eip-239">				<m:math>					<m:semantics>						<m:mrow>							<m:mo>−</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>≤</m:mo><m:mn>20</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem><solution id="fs-id1171364640247"><para id="fs-id1171365079145"><m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>≥</m:mo><m:mo>−</m:mo><m:mn>4</m:mn>  </m:mrow>   </m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-11"><problem id="eip-15">			<para id="eip-832">				<m:math>					<m:semantics>						<m:mrow>							<m:mo>−</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>40</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem>	</exercise><exercise id="eip-446"><problem id="eip-268">			<para id="eip-996">				<m:math>					<m:semantics>						<m:mrow>							<m:mo>−</m:mo><m:mn>7</m:mn><m:mi>z</m:mi><m:mo>&lt;</m:mo><m:mn>77</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem><solution id="fs-id1171369479516"><para id="fs-id1171369444951"><m:math> <m:semantics>  <m:mrow>   <m:mi>z</m:mi><m:mo>&gt;</m:mo><m:mo>−</m:mo><m:mn>11</m:mn>  </m:mrow> </m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-948"><problem id="eip-972">			<para id="eip-496">				<m:math>					<m:semantics>						<m:mrow>							<m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>&gt;</m:mo><m:mn>39</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem>	</exercise><exercise id="eip-769"><problem id="eip-930">			<para id="eip-146"><m:math>					<m:semantics>						<m:mrow>							<m:mfrac>								<m:mi>x</m:mi>								<m:mn>4</m:mn>							</m:mfrac>							<m:mo>≥</m:mo><m:mn>12</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>
+</problem><solution id="fs-id1171366811041"><para id="fs-id1171367180725"><m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>≥</m:mo><m:mn>48</m:mn>  </m:mrow>  </m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-267"><problem id="eip-547">			<para id="eip-658">				<m:math>					<m:semantics>						<m:mrow>							<m:mfrac>								<m:mi>y</m:mi>								<m:mn>7</m:mn>							</m:mfrac>							<m:mo>&gt;</m:mo><m:mn>3</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem>	</exercise><exercise id="eip-683"><problem id="eip-784">			<para id="eip-103">				<m:math>					<m:semantics>						<m:mrow>							<m:mfrac>								<m:mrow>									<m:mn>2</m:mn><m:mi>x</m:mi>								</m:mrow>								<m:mn>9</m:mn>							</m:mfrac>							<m:mo>≥</m:mo><m:mn>4</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem><solution id="fs-id1171367130135"><para id="fs-id1171364583373"><m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>≥</m:mo><m:mn>18</m:mn>  </m:mrow>  </m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-361"><problem id="eip-773">			<para id="eip-432">				<m:math>					<m:semantics>						<m:mrow>							<m:mfrac>								<m:mrow>									<m:mn>5</m:mn><m:mi>y</m:mi>								</m:mrow>								<m:mn>2</m:mn>							</m:mfrac>							<m:mo>≥</m:mo><m:mn>15</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem>	</exercise><exercise id="eip-115"><problem id="eip-704">			<para id="eip-440">				<m:math>					<m:semantics>						<m:mrow>							<m:mfrac>								<m:mrow>									<m:mn>10</m:mn><m:mi>x</m:mi>								</m:mrow>								<m:mn>3</m:mn>							</m:mfrac>							<m:mo>≤</m:mo><m:mn>4</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem><solution id="fs-id1171366837354"><para id="fs-id1171366918203"><m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>≤</m:mo><m:mfrac>    <m:mn>6</m:mn>    <m:mn>5</m:mn>   </m:mfrac>     </m:mrow>  </m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-680"><problem id="eip-307">			<para id="eip-638">				<m:math>					<m:semantics>						<m:mrow>							<m:mfrac>								<m:mrow>									<m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi>								</m:mrow>								<m:mn>4</m:mn>							</m:mfrac>							<m:mo>&lt;</m:mo><m:mn>8</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem>	</exercise><exercise id="eip-346"><problem id="eip-213">			<para id="eip-227">				<m:math>					<m:semantics>						<m:mrow>							<m:mfrac>								<m:mrow>									<m:mo>−</m:mo><m:mn>12</m:mn><m:mi>b</m:mi>								</m:mrow>								<m:mn>5</m:mn>							</m:mfrac>							<m:mo>&lt;</m:mo><m:mn>24</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem><solution id="fs-id1171364997748"><para id="fs-id1171365813084"><m:math> <m:semantics>  <m:mrow>   <m:mi>b</m:mi><m:mo>&gt;</m:mo><m:mo>−</m:mo><m:mn>10</m:mn>  </m:mrow>   </m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-92"><problem id="eip-489">			<para id="eip-398">				<m:math>					<m:semantics>						<m:mrow>							<m:mfrac>								<m:mrow>									<m:mo>−</m:mo><m:mn>6</m:mn><m:mi>a</m:mi>								</m:mrow>								<m:mn>7</m:mn>							</m:mfrac>							<m:mo>≤</m:mo><m:mo>−</m:mo><m:mn>24</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem>	</exercise><exercise id="eip-761"><problem id="eip-797">			<para id="eip-987">				<m:math>					<m:semantics>						<m:mrow>							<m:mfrac>								<m:mrow>									<m:mn>8</m:mn><m:mi>x</m:mi>								</m:mrow>								<m:mrow>									<m:mo>−</m:mo><m:mn>5</m:mn>								</m:mrow>							</m:mfrac>							<m:mo>&gt;</m:mo><m:mn>6</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem><solution id="fs-id1171365863936"><para id="fs-id1171364984463"><m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mo>−</m:mo><m:mfrac>    <m:mrow>     <m:mn>15</m:mn>    </m:mrow>    <m:mn>4</m:mn>   </m:mfrac>     </m:mrow>  </m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-228"><problem id="eip-71">			<para id="eip-587">				<m:math>					<m:semantics>						<m:mrow>							<m:mfrac>								<m:mrow>									<m:mn>14</m:mn><m:mi>y</m:mi>								</m:mrow>								<m:mrow>									<m:mo>−</m:mo><m:mn>3</m:mn>								</m:mrow>							</m:mfrac>							<m:mo>≥</m:mo><m:mo>−</m:mo><m:mn>18</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem>	</exercise><exercise id="eip-469"><problem id="eip-827">			<para id="eip-822">				<m:math>					<m:semantics>						<m:mrow>							<m:mfrac>								<m:mrow>									<m:mn>21</m:mn><m:mi>y</m:mi>								</m:mrow>								<m:mrow>									<m:mo>−</m:mo><m:mn>8</m:mn>								</m:mrow>							</m:mfrac>							<m:mo>&lt;</m:mo><m:mo>−</m:mo><m:mn>2</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem><solution id="fs-id1171367134683"><para id="fs-id1171367214823"><m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>&gt;</m:mo><m:mfrac>    <m:mrow>     <m:mn>16</m:mn>    </m:mrow>    <m:mrow>     <m:mn>21</m:mn>    </m:mrow>   </m:mfrac>     </m:mrow>   </m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-604"><problem id="eip-96">			<para id="eip-782">				<m:math>					<m:semantics>						<m:mrow>							<m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mo>≤</m:mo><m:mo>−</m:mo><m:mn>5</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem>	</exercise><exercise id="eip-917"><problem id="eip-125">			<para id="eip-644">				<m:math>					<m:semantics>						<m:mrow>							<m:mo>−</m:mo><m:mn>7</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>10</m:mn><m:mo>≤</m:mo><m:mo>−</m:mo><m:mn>4</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem><solution id="fs-id1171366148697"><para id="fs-id1171365799537"><m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn>   </m:mrow></m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-168"><problem id="eip-474">			<para id="eip-999">				<m:math>					<m:semantics>						<m:mrow>							<m:mn>6</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>11</m:mn><m:mo>&lt;</m:mo><m:mn>31</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem>	</exercise><exercise id="eip-687"><problem id="eip-515">			<para id="eip-394">				<m:math>					<m:semantics>						<m:mrow>							<m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>15</m:mn><m:mo>≤</m:mo><m:mn>30</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem><solution id="fs-id1171366194212"><para id="fs-id1171369451312"><m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>≤</m:mo><m:mn>15</m:mn>  </m:mrow> </m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-536"><problem id="eip-37">			<para id="eip-252">				<m:math>					<m:semantics>						<m:mrow>							<m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mfrac>								<m:mn>4</m:mn>								<m:mn>3</m:mn>							</m:mfrac>							<m:mo>≤</m:mo><m:mo>−</m:mo><m:mfrac>								<m:mn>2</m:mn>								<m:mn>3</m:mn>							</m:mfrac>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem>	</exercise><exercise id="eip-830"><problem id="eip-521">			<para id="eip-675">				<m:math>					<m:semantics>						<m:mrow>							<m:mn>5</m:mn><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>≥</m:mo><m:mn>15</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem><solution id="fs-id1171364830616"><para id="fs-id1171366862356"><m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>≥</m:mo><m:mn>4</m:mn>  </m:mrow>  </m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-735"><problem id="eip-52">			<para id="eip-833">				<m:math>					<m:semantics>						<m:mrow>							<m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>&gt;</m:mo><m:mo>−</m:mo><m:mn>12</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem>	</exercise><exercise id="eip-846"><problem id="eip-998">			<para id="eip-51">				<m:math>					<m:semantics>						<m:mrow>							<m:mn>6</m:mn><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo><m:mo>≥</m:mo><m:mn>48</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem><solution id="fs-id1171367134186"><para id="fs-id1171363742312"><m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>≥</m:mo><m:mn>5</m:mn>  </m:mrow> </m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-102"><problem id="eip-577">			<para id="eip-706">				<m:math>					<m:semantics>						<m:mrow>							<m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>&gt;</m:mo><m:mo>−</m:mo><m:mn>27</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem>	</exercise><exercise id="eip-931"><problem id="eip-962">			<para id="eip-373"><m:math>					<m:semantics>						<m:mrow>							<m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>&gt;</m:mo><m:mn>0</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>
+</problem><solution id="fs-id1171363692455"><para id="fs-id1171363692456"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>y</m:mi><m:mo>&lt;</m:mo><m:mo>−</m:mo><m:mn>3</m:mn>
+  </m:mrow>
+  </m:semantics>
+</m:math>
+</para></solution>
+	</exercise><exercise id="eip-558"><problem id="eip-237">			<para id="eip-853">				<m:math>					<m:semantics>						<m:mrow>							<m:mo>−</m:mo><m:mn>7</m:mn><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>77</m:mn><m:mo stretchy="false">)</m:mo><m:mo>≤</m:mo><m:mn>0</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem>	</exercise><exercise id="eip-960"><problem id="eip-933">			<para id="eip-527">				<m:math>					<m:semantics>						<m:mrow>							<m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem><solution id="fs-id1171369455016"><para id="fs-id1171369455018"><m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>6</m:mn>  </m:mrow>  </m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-848"><problem id="eip-856">			<para id="eip-380">				<m:math>					<m:semantics>						<m:mrow>							<m:mn>6</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>12</m:mn><m:mo>≤</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem>	</exercise><exercise id="eip-104"><problem id="eip-229">			<para id="eip-182">				<m:math>					<m:semantics>						<m:mrow>							<m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>≤</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem><solution id="fs-id1171369482101"><para id="fs-id1171369482102"><m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>≤</m:mo><m:mo>−</m:mo><m:mn>7</m:mn>  </m:mrow>  </m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-809"><problem id="eip-829">			<para id="eip-420">				<m:math>					<m:semantics>						<m:mrow>							<m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>&gt;</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>11</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem>	</exercise><exercise id="eip-727"><problem id="eip-362">			<para id="eip-647">				<m:math>					<m:semantics>						<m:mrow>							<m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>12</m:mn><m:mo>≥</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem><solution id="fs-id1171363614023"><para id="fs-id1171363614024"><m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>≤</m:mo><m:mo>−</m:mo><m:mn>4</m:mn>  </m:mrow>   </m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-607"><problem id="eip-895">			<para id="eip-792">				<m:math>					<m:semantics>						<m:mrow>							<m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn><m:mo>&gt;</m:mo><m:mn>5</m:mn><m:mi>x</m:mi>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem>	</exercise><exercise id="eip-211"><problem id="eip-516">			<para id="eip-175">				<m:math>					<m:semantics>						<m:mrow>							<m:mo>−</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>&gt;</m:mo><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>12</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem><solution id="fs-id1171363698534"><para id="fs-id1171363698536"><m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>8</m:mn>  </m:mrow>  </m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-400"><problem id="eip-107">			<para id="eip-318">				<m:math>					<m:semantics>						<m:mrow>							<m:mn>3</m:mn><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>≥</m:mo><m:mn>4</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem>	</exercise><exercise id="eip-703"><problem id="eip-928">			<para id="eip-669">				<m:math>					<m:semantics>						<m:mrow>							<m:mn>5</m:mn><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>≤</m:mo><m:mn>14</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem><solution id="fs-id1171369491870"><para id="fs-id1171369491871"><m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>≥</m:mo><m:mo>−</m:mo><m:mn>9</m:mn>  </m:mrow>  </m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-482"><problem id="eip-392">			<para id="eip-236">				<m:math>					<m:semantics>						<m:mrow>							<m:mn>2</m:mn><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>≤</m:mo><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:mi>x</m:mi>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem>	</exercise><exercise id="eip-572"><problem id="eip-585">			<para id="eip-615">				<m:math>					<m:semantics>						<m:mrow>							<m:mn>3</m:mn><m:mo stretchy="false">[</m:mo><m:mn>4</m:mn><m:mo>+</m:mo><m:mn>5</m:mn><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">]</m:mo><m:mo>&lt;</m:mo><m:mo>−</m:mo><m:mn>3</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem><solution id="fs-id1171366936313"><para id="fs-id1171366936314"><m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mo>−</m:mo><m:mn>2</m:mn>  </m:mrow> </m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-29"><problem id="eip-507">			<para id="eip-50">				<m:math>					<m:semantics>						<m:mrow>							<m:mn>2</m:mn><m:mo stretchy="false">[</m:mo><m:mn>6</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">]</m:mo><m:mo>≥</m:mo><m:mn>4</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem>	</exercise><exercise id="eip-817"><problem id="eip-247">			<para id="eip-579">				<m:math>					<m:semantics>						<m:mrow>							<m:mn>7</m:mn><m:mo stretchy="false">[</m:mo><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">]</m:mo><m:mo>≤</m:mo><m:mn>91</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem><solution id="fs-id1171363618966"><para id="fs-id1171363618967"><m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>≥</m:mo><m:mo>−</m:mo><m:mn>3</m:mn>  </m:mrow>   </m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-355"><problem id="eip-904">			<para id="eip-148">				<m:math>					<m:semantics>						<m:mrow>							<m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>&lt;</m:mo><m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem>	</exercise><exercise id="eip-537"><problem id="eip-5">			<para id="eip-764">				<m:math>					<m:semantics>						<m:mrow>							<m:mo>−</m:mo><m:mn>5</m:mn><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>&gt;</m:mo><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>15</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>1</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem><solution id="fs-id1171363758178"><para id="fs-id1171363758179"><m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mo>−</m:mo><m:mn>2</m:mn>  </m:mrow>  </m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-723"><problem id="eip-91">			<para id="eip-877"><media id="C04_S4-6_P179_001" display="inline" alt="Use a calculator to solve this equation.">					<image mime-type="image/png" src="../../media/C04_S4-6_P179_001.png" print-width="0.2in"/>				</media>				<m:math>					<m:semantics>						<m:mrow>							<m:mo>−</m:mo><m:mn>.0091</m:mn><m:mi>x</m:mi><m:mo>≥</m:mo><m:mn>2.885</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>12.014</m:mn>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>		
+</problem>	</exercise><exercise id="eip-728"><problem id="eip-732">			<para id="eip-188">    What numbers satisfy the condition: twice a number plus one is greater than negative three?  </para>		
+</problem><solution id="fs-id1171363739244"><para id="fs-id1171363739245"><m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mo>−</m:mo><m:mn>2</m:mn>  </m:mrow>   </m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-452"><problem id="eip-580">			<para id="eip-964">    What numbers satisfy the condition: eight more than three times a number is less than or equal to fourteen?  </para>		
+</problem>	</exercise><exercise id="eip-551"><problem id="eip-86">			<para id="eip-272">    One number is five times larger than another number. The difference between these two numbers is less than twenty-four. What are the largest possible values for the two numbers? Is there a smallest possible value for either number?  </para>		
+</problem><solution id="fs-id1171367067723"><para id="fs-id1171363481266">First number: any number strictly smaller that 6.<newline/>Second number: any number strictly smaller than 30. <newline/>No smallest possible value for either number.<newline/>No largest possible value for either number.</para></solution>
+	</exercise><exercise id="eip-53"><problem id="eip-787">			<para id="eip-230">    The area of a rectangle is found by multiplying the length of the rectangle by the width of the rectangle. If the length of a rectangle is 8 feet, what is the largest possible measure for the width if it must be an integer (positive whole number) and the area must be less than 48 square feet?  </para>		
+</problem>	</exercise></section><section id="eip-478"><title>Exercises for Review</title><exercise id="eip-811"><problem id="eip-522">
+			<para id="eip-483">
+				<emphasis>(<link document="m21897"/>)</emphasis> Simplify <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:msup>
+								<m:mrow>
+									<m:mo stretchy="false">(</m:mo><m:msup>
+										<m:mi>x</m:mi>
+										<m:mn>2</m:mn>
+									</m:msup>
+									<m:msup>
+										<m:mi>y</m:mi>
+										<m:mn>3</m:mn>
+									</m:msup>
+									<m:msup>
+										<m:mi>z</m:mi>
+										<m:mn>2</m:mn>
+									</m:msup>
+									<m:mo stretchy="false">)</m:mo>
+								</m:mrow>
+								<m:mn>5</m:mn>
+							</m:msup>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics></m:math>.  </para>
+		</problem><solution id="fs-id1171363483804"><para id="fs-id1171363483805"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:msup>
+								<m:mi>x</m:mi>
+								<m:mrow>
+									<m:mn>10</m:mn>
+								</m:mrow>
+							</m:msup>
+							<m:msup>
+								<m:mi>y</m:mi>
+								<m:mrow>
+									<m:mn>15</m:mn>
+								</m:mrow>
+							</m:msup>
+							<m:msup>
+								<m:mi>z</m:mi>
+								<m:mrow>
+									<m:mn>10</m:mn>
+								</m:mrow>
+							</m:msup>
+						</m:mrow>
+					</m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-147"><problem id="eip-881">
+			<para id="eip-594">
+				<emphasis>(<link document="m21876"/>)</emphasis> Simplify <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mo>−</m:mo><m:mo stretchy="false">[</m:mo><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mrow><m:mo>|</m:mo>
+								<m:mrow>
+									<m:mo>−</m:mo><m:mn>8</m:mn>
+								</m:mrow>
+								<m:mo>|</m:mo></m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">]</m:mo>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics></m:math>.</para>
+		</problem>
+	</exercise><exercise id="eip-578"><problem id="eip-32">
+			<para id="eip-942">
+				<emphasis>(<link document="m21852"/>)</emphasis> Find the product. <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics></m:math>.  </para>
+		</problem><solution id="fs-id1171367064897"><para id="fs-id1171363493244"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mn>2</m:mn><m:msup>
+								<m:mi>x</m:mi>
+								<m:mn>2</m:mn>
+							</m:msup>
+							<m:mo>+</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>28</m:mn>
+						</m:mrow>
+					</m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-43"><problem id="eip-471">
+			<para id="eip-654"><emphasis>(<link document="m21980"/>)</emphasis> Twenty-five percent of a number is <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mn>12.32</m:mn>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math>. What is the number?  </para>
+		</problem>
+	</exercise><exercise id="eip-629"><problem id="eip-25">
+			<para id="eip-416">
+				<emphasis>(<link document="m21980"/>)</emphasis> The perimeter of a triangle is 40 inches. If the length of each of the two legs is exactly twice the length of the base, how long is each leg?  </para>
+		</problem><solution id="fs-id1171367062960"><para id="fs-id1171363666379">16 inches</para></solution>
+	</exercise></section></content></document>

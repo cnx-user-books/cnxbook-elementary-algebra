@@ -1,0 +1,57 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+
+<title>Objectives</title>
+<metadata>
+  <md:content-id>m22797</md:content-id><md:title>Objectives</md:title>
+  <md:abstract>This module is from Elementary Algebra by Denny Burzynski and Wade Ellis, Jr.
+The distinction between the principal square root of the number x and the secondary square root of the number x is made by explanation and by example. The simplification of the radical expressions that both involve and do not involve fractions is shown in many detailed examples; this is followed by an explanation of how and why radicals are eliminated from the denominator of a radical expression. Real-life applications of radical equations have been included, such as problems involving daily output, daily sales, electronic resonance frequency, and kinetic energy.
+This module contains the objectives for the chapter "Roots, Radicals, and Square Root Equations".</md:abstract>
+  <md:uuid>0183d7a1-f78c-4abd-8975-e8a521ae8175</md:uuid>
+</metadata>
+
+<content>
+  <para id="delete_me">
+     After completing this chapter, you should
+  </para>
+
+  <list id="bullet1" type="bulleted">
+    <title>Square Root Expressions (<link document="m18879"/>)</title>
+    <item>understand the concept of square root</item>
+    <item>be able to distinguish between the principal and secondary square roots of a number</item>
+    <item>be able to relate square roots and meaningful expressions and to simplify a square root expression</item>
+  </list>
+
+  <list id="bullet2" type="bulleted">
+    <title>Simplifying Square Root Expressions (<link document="m21973"/>)</title>
+    <item>be able to identify a perfect square</item>
+    <item>be familiar with the product and quotient properties of square roots</item>
+    <item>be able to simplify square roots involving and not involving fractions</item>
+  </list>
+
+  <list id="bullet3" type="bulleted">
+    <title>Multiplication of Square Root Expressions (<link document="m21975"/>)</title>
+    <item>be able to use the product property of square roots to multiply square roots</item>
+  </list>
+
+
+  <list id="bullet4" type="bulleted">
+    <title>Division of Square Root Expressions (<link document="m21968"/>)</title>
+    <item>be able to use the division property of square roots, the method of rationalizing the denominator, and conjugates to divide square roots</item>
+  </list>
+
+  <list id="bullet5" type="bulleted">
+    <title>Addition and Subtraction of Square Root Expressions (<link document="m21957"/>)</title>
+    <item>understand the process used in adding and subtracting square roots</item>
+    <item>be able to add and subtract square roote</item>
+  </list>
+
+  <list id="bullet6" type="bulleted">
+    <title>Square Root Equations with Applications (<link document="m21965"/>)</title>
+    <item>be able to recognize square root equations and extraneous solutions</item>
+    <item>be able to solve square root equations</item>
+  </list>
+
+
+</content>
+
+</document>

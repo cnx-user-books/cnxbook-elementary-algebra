@@ -1,0 +1,73 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+
+<title>Objectives</title>
+<metadata>
+  <md:content-id>m22796</md:content-id><md:title>Objectives</md:title>
+  <md:abstract>&lt;para&gt;This module is from &lt;link document="col10614"&gt;Elementary Algebra&lt;/link&gt; by Denny Burzynski and Wade Ellis, Jr.&lt;/para&gt;
+&lt;para&gt;A detailed study of arithmetic operations with rational expressions is presented in this chapter, beginning with the definition of a rational expression and then proceeding immediately to a discussion of the domain. The process of reducing a rational expression and illustrations of multiplying, dividing, adding, and subtracting rational expressions are also included. Since the operations of addition and subtraction can cause the most difficulty, they are given particular attention. We have tried to make the written explanation of the examples clearer by using a "freeze frame" approach, which walks the student through the operation step by step.&lt;/para&gt;
+&lt;para&gt;The five-step method of solving applied problems is included in this chapter to show the problem-solving approach to number problems, work problems, and geometry problems. The chapter also illustrates simplification of complex rational expressions, using the combine-divide method and the LCD-multiply-divide method.&lt;/para&gt;
+&lt;para&gt;This module contains the objectives for the chapter "Rational Expressions".&lt;/para&gt;</md:abstract>
+  <md:uuid>ef2fd842-8d27-4884-b994-87c527859fc0</md:uuid>
+</metadata>
+
+<content>
+  <para id="delete_me">
+     After completing this chapter, you should
+  </para>
+
+  <list id="bullet1" type="bulleted">
+    <title>Rational Expressions (<link document="m18878"/>)</title>
+    <item>be able to recognize a rational expression</item>
+    <item>be familar with the equality and negative properties of fractions</item>
+  </list>
+
+  <list id="bullet2" type="bulleted">
+    <title>Reducing Rational Expressions (<link document="m21953"/>)</title>
+    <item>understand and be able to use the process of reducing rational expressions</item>
+  </list>
+
+  <list id="bullet3" type="bulleted">
+    <title>Multiplying and Dividing Rational Expressions (<link document="m21964"/>)</title>
+    <item>be able to multiply and divide rational expressions</item>
+  </list>
+
+  <list id="bullet4" type="bulleted">
+    <title>Building Rational Expressions and the LCD (<link document="m21941"/>)</title>
+    <item>understand and be able to use the process of building rational expressions and know why it is often necessary to build them</item>
+    <item>be able to find the LCD of one or more expressions</item>
+  </list>
+
+  <list id="bullet5" type="bulleted">
+    <title>Adding and Subtracting Rational Expressions (<link document="m21936"/>)</title>
+    <item>be familiar with the basic rule for adding and subtracting rational expressions</item>
+    <item>be able to add and subtract fractions with the same and with different denominators</item>
+  </list>
+
+
+  <list id="bullet6" type="bulleted">
+    <title>Rational Equations (<link document="m21951"/>)</title>
+    <item>be able to identify rational equations</item>
+    <item>understand and be able to use the method of solving rational expressions</item>
+    <item>be able to recognize extraneous solutions</item>
+  </list>
+
+  <list id="bullet7" type="bulleted">
+    <title>Applications (<link document="m21938"/>)</title>
+    <item>be able to use the five-step method to solve various applied problems</item>
+  </list>
+
+  <list id="bullet8" type="bulleted">
+    <title>Complex Rational Expressions (<link document="m21944"/>)</title>
+    <item>be able to distinguish between simple and complex fractions</item>
+    <item>be able to simplify complex fractions using the combine-divide and the LCD-multiply-divide method</item>
+  </list>
+
+  <list id="bullet9" type="bulleted">
+    <title>Dividing Polynomials (<link document="m21946"/>)</title>
+    <item>be able to divide a polynomial by a monomial</item>
+    <item>understand the process and be able to divide a polynomial by a polynomial</item>
+  </list>
+
+</content>
+
+</document>

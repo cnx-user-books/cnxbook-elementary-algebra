@@ -1,0 +1,615 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml"><title>Graphing Linear Equations in Two Variables </title><metadata>
+  <md:content-id>m21995</md:content-id><md:title>Graphing Linear Equations in Two Variables </md:title>
+  <md:abstract>This module is from Elementary Algebra by Denny Burzynski and Wade Ellis, Jr.
+In this chapter the student is shown how graphs provide information that is not always evident from the equation alone. The chapter begins by establishing the relationship between the variables in an equation, the number of coordinate axes necessary to construct its graph, and the spatial dimension of both the coordinate system and the graph. Interpretation of graphs is also emphasized throughout the chapter, beginning with the plotting of points. The slope formula is fully developed, progressing from verbal phrases to mathematical expressions. The expressions are then formed into an equation by explicitly stating that a ratio is a comparison of two quantities of the same type (e.g., distance, weight, or money). This approach benefits students who take future courses that use graphs to display information.
+The student is shown how to graph lines using the intercept method, the table method, and the slope-intercept method, as well as how to distinguish, by inspection, oblique and horizontal/vertical lines.
+Objectives of this module: be able to relate solutions to a linear equation to lines, know the general form of a linear equation, be able to construct the graph of a line using the intercept method, be able to distinguish, by their equations, slanted, horizontal, and vertical lines.</md:abstract>
+  <md:uuid>129c4c3d-7b9f-4c66-bd42-b55d6b708fea</md:uuid>
+</metadata>
+
+<content>  <section id="eip-763"><title>Overview</title><list id="eip-150"><item>Solutions and Lines</item>	<item>General form of a Linear Equation</item>	<item>The Intercept Method of Graphing</item>	<item>Graphing Using any Two or More Points</item>	<item>Slanted, Horizontal, and Vertical Lines</item></list></section><section id="eip-506"><title>Solutions and Lines</title><para id="eip-997">We know that solutions to linear equations in two variables can be expressed as ordered pairs. Hence, the solutions can be represented by point in the plane. We also know that the phrase “graph the equation” means to locate the solution to the given equation in the plane. Consider the equation <m:math>		<m:semantics>			<m:mrow>				<m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>3</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>. We’ll graph six solutions (ordered pairs) to this equation on the coordinates system below. We’ll find the solutions by choosing <m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mtext>-values</m:mtext>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math> (from <m:math>		<m:semantics>			<m:mrow>				<m:mo>−</m:mo><m:mn>1</m:mn><m:mtext> </m:mtext><m:mtext>to</m:mtext><m:mtext> </m:mtext><m:mo>+</m:mo><m:mn>4</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>), substituting them into the equation <m:math>		<m:semantics>			<m:mrow>				<m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>3</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>, and then solving to obtain the corresponding <m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mtext>-values</m:mtext>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>. We can keep track of the ordered pairs by using a table.  </para><para id="eip-359"><m:math>			<m:semantics>				<m:mrow>					<m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>3</m:mn>				</m:mrow>				<m:annotation encoding="MathType-MTEF">				</m:annotation>			</m:semantics>		</m:math></para><table id="eip-985" summary="The table displays the coordinates of six points for graphing the line y minus two x equals negative three. First column displays values for x from negative one to four with the increment of one. The second column displays corresponding y values for each value of x. The third column displays the order pair x, y." frame="none">		<tgroup cols="3" rowsep="0"><tbody>				<row rowsep="1">					<entry align="center"><emphasis>If <m:math>								<m:semantics>									<m:mrow>										<m:mi>x</m:mi><m:mo>=</m:mo>									</m:mrow>									<m:annotation encoding="MathType-MTEF">									</m:annotation>								</m:semantics>							</m:math></emphasis></entry>					<entry align="center"><emphasis>Then <m:math>								<m:semantics>									<m:mrow>										<m:mi>y</m:mi><m:mo>=</m:mo>									</m:mrow>									<m:annotation encoding="MathType-MTEF">									</m:annotation>								</m:semantics>							</m:math></emphasis></entry>					<entry align="center"><emphasis>Ordered Pairs</emphasis></entry>				</row>				<row>					<entry align="center"><m:math>							<m:semantics>								<m:mrow>									<m:mo>−</m:mo><m:mn>1</m:mn>								</m:mrow>								<m:annotation encoding="MathType-MTEF">								</m:annotation>							</m:semantics>						</m:math></entry>					<entry align="center"><m:math>							<m:semantics>								<m:mrow>									<m:mo>−</m:mo><m:mn>5</m:mn>								</m:mrow>								<m:annotation encoding="MathType-MTEF">								</m:annotation>							</m:semantics>						</m:math></entry>					<entry><m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mo>−</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>−</m:mo><m:mn>5</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></entry>				</row>				<row>					<entry align="center">0</entry>					<entry align="center"><m:math>							<m:semantics>								<m:mrow>									<m:mo>−</m:mo><m:mn>3</m:mn>								</m:mrow>								<m:annotation encoding="MathType-MTEF">								</m:annotation>							</m:semantics>						</m:math></entry>					<entry><m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mn>0</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>−</m:mo><m:mn>3</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></entry>				</row>				<row>					<entry align="center">1</entry>					<entry align="center"><m:math>							<m:semantics>								<m:mrow>									<m:mo>−</m:mo><m:mn>1</m:mn>								</m:mrow>								<m:annotation encoding="MathType-MTEF">								</m:annotation>							</m:semantics>						</m:math></entry>					<entry><m:math>							<m:semantics>								<m:mrow>									<m:mrow><m:mo>(</m:mo>										<m:mrow>											<m:mn>1</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>−</m:mo><m:mn>1</m:mn>										</m:mrow>										<m:mo>)</m:mo></m:mrow>								</m:mrow>								<m:annotation encoding="MathType-MTEF">								</m:annotation>							</m:semantics>						</m:math></entry>				</row>				<row>					<entry align="center">2</entry>					<entry align="center">1</entry>					<entry><m:math>							<m:semantics>								<m:mrow>									<m:mrow><m:mo>(</m:mo>										<m:mrow>											<m:mn>2</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>1</m:mn>										</m:mrow>										<m:mo>)</m:mo></m:mrow>								</m:mrow>								<m:annotation encoding="MathType-MTEF">								</m:annotation>							</m:semantics>						</m:math></entry>				</row>				<row>					<entry align="center">3</entry>					<entry align="center">3</entry>					<entry><m:math>							<m:semantics>								<m:mrow>									<m:mrow><m:mo>(</m:mo>										<m:mrow>											<m:mn>3</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn>										</m:mrow>										<m:mo>)</m:mo></m:mrow>								</m:mrow>								<m:annotation encoding="MathType-MTEF">								</m:annotation>							</m:semantics>						</m:math></entry>				</row>				<row>					<entry align="center">4</entry>					<entry align="center">5</entry>					<entry><m:math>							<m:semantics>								<m:mrow>									<m:mrow><m:mo>(</m:mo>										<m:mrow>											<m:mn>4</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn>										</m:mrow>										<m:mo>)</m:mo></m:mrow>								</m:mrow>								<m:annotation encoding="MathType-MTEF">								</m:annotation>							</m:semantics>						</m:math></entry>				</row>			</tbody>		</tgroup>	</table><para id="eip-321"><media id="C06_S6-3_P251_001" display="block" alt="Total six points plotted for graphing the line y minus two x equals negative three. The coordinates of these points are negative one, negative five; zero, negative three; one, negative one; two, one; three, three; and four, five.">		<image mime-type="image/png" src="../../media/C06_S6-3_P251_001.png" print-width="2in"/>	</media></para><para id="eip-221">We have plotted only six solutions to the equation <m:math>		<m:semantics>			<m:mrow>				<m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>3</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>. There are, as we know, infinitely many solutions. By observing the six points we have plotted, we can speculate as to the location of all the other points. The six points we plotted seem to lie on a straight line. This would lead us to believe that all the other points (solutions) also lie on that same line. Indeed, this is true. In fact, this is precisely why first-degree equations are called <emphasis>linear</emphasis> equations.  </para><para id="eip-653" class="highlight"><title>Linear Equations Produce Straight Lines</title><m:math> <m:semantics>  <m:mrow>   <m:mtable>    <m:mtr>     <m:mtd>      <m:mrow>       <m:mtext>Line</m:mtext>      </m:mrow>     </m:mtd>    </m:mtr>    <m:mtr>     <m:mtd>      <m:mo>↕</m:mo>     </m:mtd>    </m:mtr>    <m:mtr>     <m:mtd>      <m:mrow>       <m:mtext>Linear</m:mtext>      </m:mrow>     </m:mtd>    </m:mtr>       </m:mtable>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para><para id="eip-166"><media id="C06_S6-3_P252_001" display="block" alt="A graph of a line passing through six points with the coordinates negative one, negative five; zero, negative three; one, negative one; two, one; three, three; and four, five.">		<image mime-type="image/png" src="../../media/C06_S6-3_P252_001.png" print-width="2in"/>	</media></para></section><section id="eip-462"><title>General Form of a Linear Equation</title><para id="eip-645" class="highlight"><title>General Form of a Linear Equation in Two Variables</title>			There is a standard form in which linear equations in two variables are written. Suppose that <m:math>			<m:semantics>				<m:mi>a</m:mi>				<m:annotation encoding="MathType-MTEF">				</m:annotation>			</m:semantics>		</m:math>, <m:math>			<m:semantics>				<m:mi>b</m:mi>				<m:annotation encoding="MathType-MTEF">				</m:annotation>			</m:semantics>		</m:math>, and <m:math>			<m:semantics>				<m:mi>c</m:mi>				<m:annotation encoding="MathType-MTEF">				</m:annotation>			</m:semantics>		</m:math> are any real numbers and that <m:math>			<m:semantics>				<m:mi>a</m:mi>				<m:annotation encoding="MathType-MTEF">				</m:annotation>			</m:semantics>		</m:math> and <m:math>			<m:semantics>				<m:mi>b</m:mi>				<m:annotation encoding="MathType-MTEF">				</m:annotation>			</m:semantics>		</m:math> cannot both be zero at the same time. Then, the linear equation in two variables		</para><para id="eip-883"><m:math>			<m:semantics>				<m:mrow>					<m:mi>a</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>c</m:mi>				</m:mrow>				<m:annotation encoding="MathType-MTEF">				</m:annotation>			</m:semantics>		</m:math></para><para id="eip-70">is said to be in <term>general form</term>.</para><para id="eip-879">We must stipulate that <m:math>			<m:semantics>				<m:mi>a</m:mi>				<m:annotation encoding="MathType-MTEF">				</m:annotation>			</m:semantics>		</m:math> and <m:math>			<m:semantics>				<m:mi>b</m:mi>				<m:annotation encoding="MathType-MTEF">				</m:annotation>			</m:semantics>		</m:math> cannot both equal zero at the same time, for if they were we would have</para><para id="eip-605"><m:math>			<m:semantics>				<m:mrow>					<m:mn>0</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>0</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>c</m:mi>				</m:mrow>				<m:annotation encoding="MathType-MTEF">				</m:annotation>			</m:semantics>		</m:math></para><para id="eip-914"><m:math>			<m:semantics>				<m:mrow>					<m:mn>0</m:mn><m:mo>=</m:mo><m:mi>c</m:mi>				</m:mrow>				<m:annotation encoding="MathType-MTEF">				</m:annotation>			</m:semantics>		</m:math></para><para id="eip-235">This statement is true only if <m:math>			<m:semantics>				<m:mrow>					<m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>				</m:mrow>				<m:annotation encoding="MathType-MTEF">				</m:annotation>			</m:semantics>		</m:math>. If <m:math>			<m:semantics>				<m:mi>c</m:mi>				<m:annotation encoding="MathType-MTEF">				</m:annotation>			</m:semantics>		</m:math> were to be any other number, we would get a false statement.</para><para id="eip-342">Now, we have the following:</para><para id="eip-192" class="highlight">The graphing of all ordered pairs that solve a linear equation in two variables produces a straight line.</para><para id="eip-540">This implies,</para><para id="eip-829" class="highlight">The graph of a linear equation in two variables is a straight line.</para><para id="eip-677">From these statements we can conclude,</para><para id="eip-36" class="highlight">If an ordered pair is a solution to a linear equations in two variables, then it lies on the graph of the equation.</para><para id="eip-783">Also,</para><para id="eip-115" class="highlight">Any point (ordered pairs) that lies on the graph of a linear equation in two variables is a solution to that equation.</para></section><section id="eip-837"><title>The Intercept Method of Graphing</title><para id="eip-609">When we want to graph a linear equation, it is certainly impractical to graph infinitely many points. Since a straight line is determined by only two points, we need only find two solutions to the equation (although a third point is helpful as a check).</para><para id="eip-94"><title>Intercepts</title>When a linear equation in two variables is given in general from, <m:math>		<m:semantics>			<m:mrow>				<m:mi>a</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>c</m:mi>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>, often the two most convenient points (solutions) to fine are called the <term>Intercepts:</term> these are the points at which the line intercepts the coordinate axes. Of course, a horizontal or vertical line intercepts only one axis, so this method does not apply. Horizontal and vertical lines are easily recognized as they contain only <emphasis>one</emphasis> variable. (See Sample Set <m:math>		<m:semantics>			<m:mtext>C</m:mtext>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>.)		</para><para id="eip-680"><media id="C06_S6-3_P253_001" display="block" alt="A graph of a line sloped down and to the right. The line intersects the x axis at a positive value of x, and the y axis at a positive value of y. The points where the line intersects the axes are labeled x-intercept and y-intercept respectively.">		<image mime-type="image/png" src="../../media/C06_S6-3_P253_001.png" print-width="2in"/>	</media></para><para id="eip-868"><title><m:math>			<m:semantics>				<m:mrow>					<m:mi>y</m:mi><m:mtext>-Intercept</m:mtext>				</m:mrow>				<m:annotation encoding="MathType-MTEF">				</m:annotation>			</m:semantics>		</m:math></title>The point at which the line crosses the <m:math>		<m:semantics>			<m:mrow>				<m:mi>y</m:mi><m:mtext>-axis</m:mtext>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math> is called the <term><m:math>			<m:semantics>				<m:mrow>					<m:mi>y</m:mi><m:mtext>-intercept</m:mtext>				</m:mrow>				<m:annotation encoding="MathType-MTEF">				</m:annotation>			</m:semantics>		</m:math></term>. The <m:math>		<m:semantics>			<m:mrow>				<m:mi>x</m:mi><m:mtext>-value</m:mtext>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math> at this point is zero (since the point is neither to the left nor right of the origin).</para><para id="eip-923"><title><m:math>			<m:semantics>				<m:mrow>					<m:mi>x</m:mi><m:mtext>-Intercept</m:mtext>				</m:mrow>				<m:annotation encoding="MathType-MTEF">				</m:annotation>			</m:semantics>		</m:math></title>The point at which the line crosses the <m:math>		<m:semantics>			<m:mrow>				<m:mi>x</m:mi><m:mtext>-axis</m:mtext>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math> is called the <term><m:math>			<m:semantics>				<m:mrow>					<m:mi>x</m:mi><m:mtext>-intercept</m:mtext>				</m:mrow>				<m:annotation encoding="MathType-MTEF">				</m:annotation>			</m:semantics>		</m:math></term> and the <m:math>		<m:semantics>			<m:mrow>				<m:mi>y</m:mi><m:mtext>-value</m:mtext>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math> at that point is zero. The <m:math>		<m:semantics>			<m:mrow>				<m:mi>y</m:mi><m:mtext>-intercept</m:mtext>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math> can be found by substituting the value 0 for <m:math>		<m:semantics>			<m:mi>x</m:mi>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math> into the equation and solving for <m:math>		<m:semantics>			<m:mi>y</m:mi>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>. The <m:math>		<m:semantics>			<m:mrow>				<m:mi>x</m:mi><m:mtext>-intercept</m:mtext>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math> can be found by substituting the value 0 for <m:math>		<m:semantics>			<m:mi>y</m:mi>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math> into the equation and solving for <m:math>		<m:semantics>			<m:mi>x</m:mi>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>.</para><para id="eip-861"><title>Intercept Method</title>Since we are graphing an equation by finding the intercepts, we call this method the <term>intercept method</term></para></section><section id="eip-873"><title>Sample Set A</title><para id="eip-61">Graph the following equations using the intercept method.</para><example id="eip-626"><para id="eip-832"><m:math>		<m:semantics>			<m:mrow>				<m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>3</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math></para><para id="eip-642">To find the <m:math>		<m:semantics>			<m:mrow>				<m:mi>y</m:mi><m:mtext>-intercept</m:mtext>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>, let <m:math>		<m:semantics>			<m:mrow>				<m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math> and <m:math>		<m:semantics>			<m:mrow>				<m:mi>y</m:mi><m:mo>=</m:mo><m:mi>b</m:mi>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>.</para><para id="eip-817"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable columnalign="right">
+    <m:mtr columnalign="right">
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mi>b</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mrow><m:mo>(</m:mo>
+        <m:mn>0</m:mn>
+       <m:mo>)</m:mo></m:mrow>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>3</m:mn>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="right">
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mi>b</m:mi><m:mo>−</m:mo><m:mn>0</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>3</m:mn>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="right">
+     <m:mtd columnalign="right">
+      <m:mi>b</m:mi>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>3</m:mn>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+</para><para id="eip-545">Thus, we have the point <m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mn>0</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>−</m:mo><m:mn>3</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>. So, if <m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>, <m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>b</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>3</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>.</para><para id="eip-835">To find the <m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mtext>-intercept</m:mtext>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>, let <m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math> and <m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>=</m:mo><m:mi>a</m:mi>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>.</para><para id="eip-515"><m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mtable columnalign="right">
+    <m:mtr columnalign="right">
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mn>0</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>a</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>3</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="right">
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>2</m:mn><m:mi>a</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>3</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mtext>Divide by -2</m:mtext><m:mtext>.</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="right">
+     <m:mtd columnalign="right">
+      <m:mi>a</m:mi>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mfrac>
+        <m:mrow>
+         <m:mo>−</m:mo><m:mn>3</m:mn>
+        </m:mrow>
+        <m:mrow>
+         <m:mo>−</m:mo><m:mn>2</m:mn>
+        </m:mrow>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="right">
+     <m:mtd columnalign="right">
+      <m:mi>a</m:mi>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mfrac>
+        <m:mn>3</m:mn>
+        <m:mn>2</m:mn>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+</para><para id="eip-976">Thus, we have the point <m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mfrac>      <m:mn>3</m:mn>      <m:mn>2</m:mn>     </m:mfrac>     <m:mo>,</m:mo><m:mn>0</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>. So, if <m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>=</m:mo><m:mfrac>    <m:mn>3</m:mn>    <m:mn>2</m:mn>   </m:mfrac>     </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>, <m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>.</para><para id="eip-483">Construct a coordinate system, plot these two points, and draw a line through them. Keep in mind that every point on this line is a solution to the equation <m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>3</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>.</para><para id="eip-298"><media id="C06_S6-3_P254_001" display="block" alt="A graph of a line passing through two points with coordinates zero, negative three and three over two, zero.">		<image mime-type="image/png" src="../../media/C06_S6-3_P254_001.png" print-width="2in"/>	</media></para></example><example id="eip-328"><para id="eip-287"><m:math>		<m:semantics>			<m:mrow>				<m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math></para><para id="eip-552">To find the <m:math>		<m:semantics>			<m:mrow>				<m:mi>y</m:mi><m:mtext>-intercept</m:mtext>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>, let <m:math>		<m:semantics>			<m:mrow>				<m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math> and <m:math>		<m:semantics>			<m:mrow>				<m:mi>y</m:mi><m:mo>=</m:mo><m:mn>b</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>.</para><para id="eip-158"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable columnalign="right">
+    <m:mtr columnalign="right">
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>2</m:mn><m:mrow><m:mo>(</m:mo>
+        <m:mn>0</m:mn>
+       <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>b</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mn>3</m:mn>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="right">
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mn>0</m:mn><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>b</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mn>3</m:mn>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="right">
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mn>3</m:mn><m:mi>b</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mn>3</m:mn>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="right">
+     <m:mtd columnalign="right">
+      <m:mi>b</m:mi>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mn>1</m:mn>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+</para><para id="eip-857">Thus, we have the point <m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mn>0</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>1</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>. So, if <m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>, <m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>1</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>.</para><para id="eip-128">To find the <m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mtext>-intercept</m:mtext>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>, let <m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math> and <m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>=</m:mo><m:mi>a</m:mi>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>.</para><para id="eip-11"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable columnalign="right">
+    <m:mtr columnalign="right">
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mrow><m:mo>(</m:mo>
+        <m:mn>0</m:mn>
+       <m:mo>)</m:mo></m:mrow>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mn>3</m:mn>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="right">
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>0</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mn>3</m:mn>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="right">
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mo>−</m:mo><m:mn>2</m:mn><m:mi>a</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mn>3</m:mn>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="right">
+     <m:mtd columnalign="right">
+      <m:mi>a</m:mi>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mfrac>
+        <m:mn>3</m:mn>
+        <m:mrow>
+         <m:mo>−</m:mo><m:mn>2</m:mn>
+        </m:mrow>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="right">
+     <m:mtd columnalign="right">
+      <m:mi>a</m:mi>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mo>−</m:mo><m:mfrac>
+        <m:mn>3</m:mn>
+        <m:mn>2</m:mn>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+</para><para id="eip-611">Thus, we have the point <m:math>		<m:semantics>			<m:mrow>				<m:mrow><m:mo>(</m:mo>					<m:mrow>						<m:mo>−</m:mo><m:mfrac>							<m:mn>3</m:mn>							<m:mn>2</m:mn>						</m:mfrac>						<m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>0</m:mn>					</m:mrow>					<m:mo>)</m:mo></m:mrow>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>. So, if <m:math>		<m:semantics>			<m:mrow>				<m:mi>x</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>					<m:mn>3</m:mn>					<m:mn>2</m:mn>				</m:mfrac>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>, <m:math>		<m:semantics>			<m:mrow>				<m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>.</para><para id="eip-996">Construct a coordinate system, plot these two points, and draw a line through them. Keep in mind that all the solutions to the equation <m:math> <m:semantics>  <m:mrow>   <m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math> are precisely on this line.</para><para id="eip-411"><media id="C06_S6-3_P255_001" display="block" alt="A graph of a line passing through two points with coordinates zero, one and negative three over two, zero.">		<image mime-type="image/png" src="../../media/C06_S6-3_P255_001.png" print-width="2in"/>	</media></para></example><example id="eip-627"><para id="eip-93"><m:math> <m:semantics>  <m:mrow>   <m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para><para id="eip-530">To find the <m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mtext>-intercept</m:mtext>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>, let <m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math> and <m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>b</m:mi>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>.</para><para id="eip-167"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable columnalign="right">
+    <m:mtr columnalign="right">
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mn>4</m:mn><m:mrow><m:mo>(</m:mo>
+        <m:mn>0</m:mn>
+       <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mi>b</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mn>5</m:mn>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="right">
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mn>0</m:mn><m:mo>+</m:mo><m:mi>b</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mn>5</m:mn>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="right">
+     <m:mtd columnalign="right">
+      <m:mi>b</m:mi>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mn>5</m:mn>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+</para><para id="eip-288">Thus, we have the point <m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mn>0</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>. So, if <m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>, <m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>5</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>.</para><para id="eip-320">To find the <m:math>		<m:semantics>			<m:mrow>				<m:mi>x</m:mi><m:mtext>-intercept</m:mtext>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>, let <m:math>		<m:semantics>			<m:mrow>				<m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math> and <m:math>		<m:semantics>			<m:mrow>				<m:mi>x</m:mi><m:mo>=</m:mo><m:mi>a</m:mi>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>.</para><para id="eip-55"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable columnalign="right">
+    <m:mtr columnalign="right">
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mn>4</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>0</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mn>5</m:mn>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="right">
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mn>4</m:mn><m:mi>a</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mn>5</m:mn>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="right">
+     <m:mtd columnalign="right">
+      <m:mi>a</m:mi>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mfrac>
+        <m:mn>5</m:mn>
+        <m:mn>4</m:mn>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+</para><para id="eip-876">Thus, we have the point <m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mfrac>      <m:mn>5</m:mn>      <m:mn>4</m:mn>     </m:mfrac>     <m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>0</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>. So, if <m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>=</m:mo><m:mfrac>    <m:mn>5</m:mn>    <m:mn>4</m:mn>   </m:mfrac>     </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>, <m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>.</para><para id="eip-776">Construct a coordinate system, plot these two points, and draw a line through them.</para><para id="eip-712"><media id="C06_S6-3_P255_002" display="block" alt="A graph of a line passing through two points with coordinates zero, five and five over four, zero.">		<image mime-type="image/png" src="../../media/C06_S6-3_P255_002.png" print-width="2in"/>	</media></para></example></section><section id="eip-237"><title>Practice Set A</title><exercise id="eip-830"><problem id="eip-365">		<para id="eip-894">Graph <m:math> <m:semantics>  <m:mrow>   <m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math> using the intercept method.</para>		<para id="eip-id22651196"><media id="C06_S6-3_P256_001" display="block" alt="An xy coordinate plane with gridlines, labeled negative five and five on the both axes.">		<image mime-type="image/png" src="../../media/C06_S6-3_P256_001.png" print-width="2in"/>	</media></para>	
+</problem>	<solution id="eip-286">		<para id="eip-523">When <m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>, <m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>; when <m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>, <m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para><para id="eip-id24318885"><media id="C06_S6-3_P263_001" display="block" alt="A graph of a line passing through two points with coordinates zero, three and one, zero.">		<image mime-type="image/png" src="../../media/C06_S6-3_P263_001.png" print-width="2in"/>	</media></para>	</solution></exercise></section><section id="eip-461"><title>Graphing Using any Two or More Points</title><para id="eip-954">The graphs we have constructed so far have been done by finding two particular points, the intercepts. Actually, <emphasis>any</emphasis> two points will do. We chose to use the intercepts because they are usually the easiest to work with. In the next example, we will graph two equations using points other than the intercepts. We’ll use three points, the extra point serving as a check.</para></section><section id="eip-951"><title>Sample Set B</title><example id="eip-937"><para id="eip-537"><m:math>		<m:semantics>			<m:mrow>				<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>10</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>.<newline/>We can find three points by choosing three <m:math>		<m:semantics>			<m:mrow>				<m:mi>x</m:mi><m:mtext>-values</m:mtext>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math> and computing to find the corresponding <m:math>		<m:semantics>			<m:mrow>				<m:mi>y</m:mi><m:mtext>-values</m:mtext>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>. We’ll put our results in a table for ease of reading.</para><para id="jre10">Since we are going to choose <m:math>		<m:semantics>			<m:mrow>				<m:mi>x</m:mi><m:mtext>-values</m:mtext>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math> and then compute to find the corresponding <m:math>		<m:semantics>			<m:mrow>				<m:mi>y</m:mi><m:mtext>-values</m:mtext>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>, it will be to our advantage to solve the given equation for <m:math>		<m:semantics>			<m:mi>y</m:mi>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>.</para><para id="eip-704"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mtable columnalign="right">
+					<m:mtr columnalign="right">
+						<m:mtd columnalign="right">
+							<m:mrow>
+								<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="right">
+							<m:mo>=</m:mo>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mo>−</m:mo><m:mn>10</m:mn>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="right">
+							<m:mrow>
+								<m:mtext>Subtract </m:mtext><m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext><m:mtext> from both sides</m:mtext><m:mtext>.</m:mtext>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="right">
+						<m:mtd columnalign="right">
+							<m:mrow>
+								<m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="right">
+							<m:mo>=</m:mo>
+						</m:mtd>
+						<m:mtd columnalign="right">
+							<m:mrow>
+								<m:mo>−</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>10</m:mn>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="right">
+							<m:mrow>
+								<m:mtext>Divide both sides by </m:mtext><m:mo>-</m:mo><m:mn>3.</m:mn>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="right">
+						<m:mtd columnalign="right">
+							<m:mi>y</m:mi>
+						</m:mtd>
+						<m:mtd columnalign="right">
+							<m:mo>=</m:mo>
+						</m:mtd>
+						<m:mtd columnalign="right">
+							<m:mrow>
+								<m:mfrac>
+									<m:mn>1</m:mn>
+									<m:mn>3</m:mn>
+								</m:mfrac>
+								<m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac>
+									<m:mrow>
+										<m:mn>10</m:mn>
+									</m:mrow>
+									<m:mn>3</m:mn>
+								</m:mfrac>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="right">
+							<m:mrow/>
+						</m:mtd>
+					</m:mtr>
+				</m:mtable>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+</para><table id="eip-798" summary="Table 2" frame="none"><tgroup cols="3" rowsep="0"><tbody>			<row rowsep="1">						<entry align="center"><emphasis><m:math> <m:semantics>  <m:mi>x</m:mi> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></emphasis></entry>						<entry align="center"><emphasis><m:math> <m:semantics>  <m:mi>y</m:mi> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></emphasis></entry>						<entry align="center"><emphasis><m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mi>x</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>y</m:mi>    </m:mrow>   <m:mo>)</m:mo></m:mrow>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></emphasis></entry>		</row>		<row>			<entry align="right">1</entry>						<entry>If <m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>, then <m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac>    <m:mn>1</m:mn>    <m:mn>3</m:mn>   </m:mfrac>   <m:mrow><m:mo>(</m:mo>    <m:mn>1</m:mn>   <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mfrac>    <m:mrow>     <m:mn>10</m:mn>    </m:mrow>    <m:mn>3</m:mn>   </m:mfrac>   <m:mo>=</m:mo><m:mfrac>    <m:mn>1</m:mn>    <m:mn>3</m:mn>   </m:mfrac>   <m:mo>+</m:mo><m:mfrac>    <m:mrow>     <m:mn>10</m:mn>    </m:mrow>    <m:mn>3</m:mn>   </m:mfrac>   <m:mo>=</m:mo><m:mfrac>    <m:mrow>     <m:mn>11</m:mn>    </m:mrow>    <m:mn>3</m:mn>   </m:mfrac>     </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></entry>						<entry><m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mn>1</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mfrac>      <m:mrow>       <m:mn>11</m:mn>      </m:mrow>      <m:mn>3</m:mn>     </m:mfrac>         </m:mrow>   <m:mo>)</m:mo></m:mrow>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></entry>		</row>		<row>			<entry align="right"><m:math> <m:semantics>  <m:mrow>   <m:mo>−</m:mo><m:mn>3</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></entry>						<entry>If <m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>3</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>, then <m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac>    <m:mn>1</m:mn>    <m:mn>3</m:mn>   </m:mfrac>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mo>−</m:mo><m:mn>3</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mfrac>    <m:mrow>     <m:mn>10</m:mn>    </m:mrow>    <m:mn>3</m:mn>   </m:mfrac>   <m:mo>=</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac>    <m:mrow>     <m:mn>10</m:mn>    </m:mrow>    <m:mn>3</m:mn>   </m:mfrac>   <m:mo>=</m:mo><m:mfrac>    <m:mn>7</m:mn>    <m:mn>3</m:mn>   </m:mfrac>     </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></entry>						<entry><m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mo>−</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mfrac>      <m:mn>7</m:mn>      <m:mn>3</m:mn>     </m:mfrac>         </m:mrow>   <m:mo>)</m:mo></m:mrow>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></entry>		</row><row><entry align="right">3</entry>						<entry>If <m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>, then <m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac>    <m:mn>1</m:mn>    <m:mn>3</m:mn>   </m:mfrac>   <m:mrow><m:mo>(</m:mo>    <m:mn>3</m:mn>   <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mfrac>    <m:mrow>     <m:mn>10</m:mn>    </m:mrow>    <m:mn>3</m:mn>   </m:mfrac>   <m:mo>=</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac>    <m:mrow>     <m:mn>10</m:mn>    </m:mrow>    <m:mn>3</m:mn>   </m:mfrac>   <m:mo>=</m:mo><m:mfrac>    <m:mrow>     <m:mn>13</m:mn>    </m:mrow>    <m:mn>3</m:mn>   </m:mfrac>     </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></entry>						<entry><m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mn>3</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mfrac>      <m:mrow>       <m:mn>13</m:mn>      </m:mrow>      <m:mn>3</m:mn>     </m:mfrac>         </m:mrow>   <m:mo>)</m:mo></m:mrow>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></entry></row>	</tbody></tgroup></table><para id="eip-280">Thus, we have the three ordered pairs (points), <m:math>		<m:semantics>			<m:mrow>				<m:mrow><m:mo>(</m:mo>					<m:mrow>						<m:mn>1</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mfrac>							<m:mrow>								<m:mn>11</m:mn>							</m:mrow>							<m:mn>3</m:mn>						</m:mfrac>					</m:mrow>					<m:mo>)</m:mo></m:mrow>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>, <m:math>		<m:semantics>			<m:mrow>				<m:mrow><m:mo>(</m:mo>					<m:mrow>						<m:mo>−</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mfrac>							<m:mn>7</m:mn>							<m:mn>3</m:mn>						</m:mfrac>					</m:mrow>					<m:mo>)</m:mo></m:mrow>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>, <m:math>		<m:semantics>			<m:mrow>				<m:mrow><m:mo>(</m:mo>					<m:mrow>						<m:mn>3</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mfrac>							<m:mrow>								<m:mn>13</m:mn>							</m:mrow>							<m:mn>3</m:mn>						</m:mfrac>					</m:mrow>					<m:mo>)</m:mo></m:mrow>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>. If we wish, we can change the improper fractions to mixed numbers, <m:math>		<m:semantics>			<m:mrow>				<m:mrow><m:mo>(</m:mo>					<m:mrow>						<m:mn>1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mtext> </m:mtext><m:mfrac>							<m:mn>2</m:mn>							<m:mn>3</m:mn>						</m:mfrac>					</m:mrow>					<m:mo>)</m:mo></m:mrow>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>, <m:math>		<m:semantics>			<m:mrow>				<m:mrow><m:mo>(</m:mo>					<m:mrow>						<m:mo>−</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mtext> </m:mtext><m:mfrac>							<m:mn>1</m:mn>							<m:mn>3</m:mn>						</m:mfrac>					</m:mrow>					<m:mo>)</m:mo></m:mrow>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>, <m:math>		<m:semantics>			<m:mrow>				<m:mrow><m:mo>(</m:mo>					<m:mrow>						<m:mn>3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mtext> </m:mtext><m:mfrac>							<m:mn>1</m:mn>							<m:mn>3</m:mn>						</m:mfrac>					</m:mrow>					<m:mo>)</m:mo></m:mrow>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>.</para><para id="eip-736"><media id="C06_S6-3_P257_001" display="block" alt="A graph of a line passing through three points with coordinates negative three, seven over three; one, eleven over three; and three, thirteen over three.">		<image mime-type="image/png" src="../../media/C06_S6-3_P257_001.png" print-width="2in"/>	</media></para></example><example id="eip-973"><para id="eip-811">  <m:math> <m:semantics>  <m:mrow>   <m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para><para id="eip-393">We solve for <m:math> <m:semantics>  <m:mi>y</m:mi> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>.</para><para id="eip-227"><m:math> <m:semantics>  <m:mrow>   <m:mtable>    <m:mtr>     <m:mtd>      <m:mrow>       <m:mn>4</m:mn><m:mi>y</m:mi>      </m:mrow>     </m:mtd>     <m:mtd>      <m:mo>=</m:mo>     </m:mtd>     <m:mtd>      <m:mrow>       <m:mo>−</m:mo><m:mn>4</m:mn><m:mi>x</m:mi>      </m:mrow>     </m:mtd>    </m:mtr>    <m:mtr>     <m:mtd>      <m:mi>y</m:mi>     </m:mtd>     <m:mtd>      <m:mo>=</m:mo>     </m:mtd>     <m:mtd>      <m:mrow>       <m:mo>−</m:mo><m:mi>x</m:mi>      </m:mrow>     </m:mtd>    </m:mtr>       </m:mtable>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para><table id="eip-335" summary="Table 3" frame="none"><tgroup cols="3" rowsep="0"><tbody>		<row rowsep="1">			<entry align="center"><emphasis><m:math> <m:semantics>  <m:mi>x</m:mi> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></emphasis></entry>			<entry align="center"><emphasis><m:math> <m:semantics>  <m:mi>y</m:mi> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></emphasis></entry>			<entry align="center"><emphasis><m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mi>x</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>y</m:mi>    </m:mrow>   <m:mo>)</m:mo></m:mrow>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></emphasis></entry>		</row>		<row>			<entry align="right">0</entry>			<entry align="right">0</entry>			<entry><m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mn>0</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>0</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></entry>		</row>		<row>			<entry align="right">2</entry>			<entry align="right"><m:math> <m:semantics>  <m:mrow>   <m:mo>−</m:mo><m:mn>2</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></entry>			<entry><m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mn>2</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>−</m:mo><m:mn>2</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></entry>		</row>		<row>			<entry align="right"><m:math> <m:semantics>  <m:mrow>   <m:mo>−</m:mo><m:mn>3</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></entry>			<entry align="right">3</entry>			<entry><m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mo>−</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></entry>		</row>	</tbody></tgroup></table><para id="eip-806"><media id="C06_S6-3_P257_002" display="block" alt="A graph of a line passing through three points with coordinates negative three, three; zero, zero; and two, negative two."><image mime-type="image/png" src="../../media/C06_S6-3_P257_002.png" print-width="2in"/></media></para><para id="eip-178">Notice that the <m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>−</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math> and <m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mtext>-intercepts</m:mtext>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math> are the same point. Thus the intercept method does not provide enough information to construct this graph.</para><para id="eip-356">When an equation is given in the general form <m:math> <m:semantics>  <m:mrow>   <m:mi>a</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>c</m:mi>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>, usually the most efficient approach to constructing the graph is to use the intercept method, when it works.</para></example></section><section id="eip-978"><title>Practice Set B</title><para id="eip-215">Graph the following equations.</para><exercise id="eip-855"><problem id="eip-430">		<para id="eip-497"><m:math>		<m:semantics>			<m:mrow>				<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math><newline/><media id="C06_S6-3_P257_003" display="block" alt="An xy coordinate plane with gridlines, labeled negative five and five on the both axes.">		<image mime-type="image/png" src="../../media/C06_S6-3_P256_001.png" print-width="2in"/>	</media></para>	
+</problem>	<solution id="eip-74">		<para id="eip-id5608625"><media id="C06_S6-3_P263_002" display="block" alt="A graph of a line passing through two points with coordinates zero, negative one and five, zero.">		<image mime-type="image/png" src="../../media/C06_S6-3_P263_002.png" print-width="2in"/>	</media></para>	</solution></exercise><exercise id="eip-788"><problem id="eip-212">		<para id="eip-9"><m:math>		<m:semantics>			<m:mrow>				<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math><newline/><media id="C06_S6-3_P257_004" display="block" alt="An xy coordinate plane with gridlines, labeled negative five and five on the both axes.">		<image mime-type="image/png" src="../../media/C06_S6-3_P256_001.png" print-width="2in"/>	</media></para>	
+</problem>	<solution id="eip-228">		<para id="eip-id27050560"><media id="C06_S6-3_P263_003" display="block" alt="A graph of a line passing through two points with coordinates zero, three and two, two.">		<image mime-type="image/png" src="../../media/C06_S6-3_P263_003.png" print-width="2in"/>	</media></para>	</solution></exercise><exercise id="eip-720"><problem id="eip-786">		<para id="eip-220"><m:math>		<m:semantics>			<m:mrow>				<m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math><newline/><media id="C06_S6-3_P257_005" display="block" alt="An xy coordinate plane with gridlines, labeled negative five and five on the both axes.">		<image mime-type="image/png" src="../../media/C06_S6-3_P256_001.png" print-width="2in"/>	</media></para>			
+</problem>	<solution id="eip-417">		<para id="eip-id29500399"><media id="C06_S6-3_P263_004" display="block" alt="A graph of a line passing through two points with coordinates zero, one and one, negative one.">		<image mime-type="image/png" src="C06_S6-3_004.png" print-width="2in"/>	</media></para>	</solution></exercise></section><section id="eip-205"><title>Slanted, Horizontal, and Vertical Lines</title><para id="eip-958">In all the graphs we have observed so far, the lines have been slanted. This will always be the case when <emphasis>both</emphasis> variables appear in the equation. If only one variable appears in the equation, then the line will be either vertical or horizontal. To see why, let’s consider a specific case:</para><para id="eip-819">Using the general form of a line, <m:math> <m:semantics>  <m:mrow>   <m:mi>a</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>c</m:mi>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>, we can produce an equation with exactly one variable by choosing <m:math> <m:semantics>  <m:mrow>   <m:mi>a</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>, <m:math> <m:semantics>  <m:mrow>   <m:mi>b</m:mi><m:mo>=</m:mo><m:mn>5</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>, and <m:math> <m:semantics>  <m:mrow>   <m:mi>c</m:mi><m:mo>=</m:mo><m:mn>15</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>. The equation <m:math> <m:semantics>  <m:mrow>   <m:mi>a</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>c</m:mi>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math> then becomes</para><para id="eip-398"><m:math> <m:semantics>  <m:mrow>   <m:mn>0</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>15</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para><para id="eip-159">Since <m:math>		<m:semantics>			<m:mrow>				<m:mn>0</m:mn><m:mo>⋅</m:mo><m:mrow><m:mo>(</m:mo>					<m:mrow>						<m:mtext>any</m:mtext><m:mtext> </m:mtext><m:mtext>number</m:mtext>					</m:mrow>					<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>, the term <m:math>		<m:semantics>			<m:mrow>				<m:mn>0</m:mn><m:mi>x</m:mi>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math> is <m:math> <m:semantics>  <m:mn>0</m:mn> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math> for any number that is chosen for <m:math>		<m:semantics>			<m:mi>x</m:mi>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>.</para><para id="eip-682">Thus,</para><para id="eip-563"><m:math> <m:semantics>  <m:mrow>   <m:mn>0</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>15</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para><para id="eip-596">becomes</para><para id="eip-987"><m:math> <m:semantics>  <m:mrow>   <m:mn>0</m:mn><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>15</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para><para id="eip-950">But, <m:math> <m:semantics>  <m:mn>0</m:mn> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math> is the additive identity and <m:math> <m:semantics>  <m:mrow>   <m:mn>0</m:mn><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>y</m:mi>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>.</para><para id="eip-396"><m:math> <m:semantics>  <m:mrow>   <m:mn>5</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>15</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para><para id="eip-468">Then, solving for <m:math> <m:semantics>  <m:mi>y</m:mi> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math> we get</para><para id="eip-737"><m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para><para id="eip-348">This is an equation in which exactly one variable appears.</para><para id="eip-970">This means that regardless of which number we choose for <m:math> <m:semantics>  <m:mi>x</m:mi> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>, the corresponding <m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mtext>-value</m:mtext>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math> is 3. Since the <m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mtext>-value</m:mtext>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math> is always the same as we move from left-to-right through the <m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mtext>-values</m:mtext>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>, the height of the line above the <m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mtext>-axis</m:mtext>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math> is always the same (in this case, 3 units). This type of line must be horizontal.</para><para id="eip-509">An argument similar to the one above will show that if the only variable that appears is <m:math> <m:semantics>  <m:mi>x</m:mi> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>, we can expect to get a vertical line.</para></section><section id="eip-482"><title>Sample Set C</title><example id="eip-753"><para id="eip-796">Graph <m:math>				<m:semantics>					<m:mrow>						<m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn>					</m:mrow>					<m:annotation encoding="MathType-MTEF">					</m:annotation>				</m:semantics>			</m:math>.<newline/>The only variable appearing is <m:math>				<m:semantics>					<m:mi>y</m:mi>					<m:annotation encoding="MathType-MTEF">					</m:annotation>				</m:semantics>			</m:math>. Regardless of which <m:math>				<m:semantics>					<m:mrow>						<m:mi>x</m:mi><m:mtext>-value</m:mtext>					</m:mrow>					<m:annotation encoding="MathType-MTEF">					</m:annotation>				</m:semantics>			</m:math> we choose, the <m:math>				<m:semantics>					<m:mrow>						<m:mi>y</m:mi><m:mtext>-value</m:mtext>					</m:mrow>					<m:annotation encoding="MathType-MTEF">					</m:annotation>				</m:semantics>			</m:math> is always 4. All points with a <m:math>				<m:semantics>					<m:mrow>						<m:mi>y</m:mi><m:mtext>-value</m:mtext>					</m:mrow>					<m:annotation encoding="MathType-MTEF">					</m:annotation>				</m:semantics>			</m:math> of 4 satisfy the equation. Thus we get a horizontal line 4 unit above the <m:math>				<m:semantics>					<m:mrow>						<m:mi>x</m:mi><m:mtext>-axis</m:mtext>					</m:mrow>					<m:annotation encoding="MathType-MTEF">					</m:annotation>				</m:semantics>			</m:math>.</para><table id="eip-383" summary="The table displays the coordinates of eight points for graphing the line y equals four. First column displays values for x from negative three to four with the increment of one. The second column displays y-value which is four and remains constant independent of the values of x. The third column displays the order pair x, y." frame="none">			<tgroup cols="3" rowsep="0"><tbody>					<row rowsep="1">						<entry><emphasis><m:math> <m:semantics>  <m:mi>x</m:mi> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></emphasis></entry>						<entry><emphasis><m:math> <m:semantics>  <m:mi>y</m:mi> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></emphasis></entry>						<entry><emphasis><m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mi>x</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>y</m:mi>    </m:mrow>   <m:mo>)</m:mo></m:mrow>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></emphasis></entry>					</row>					<row>						<entry><m:math>								<m:semantics>									<m:mrow>										<m:mo>−</m:mo><m:mn>3</m:mn>									</m:mrow>									<m:annotation encoding="MathType-MTEF">									</m:annotation>								</m:semantics>							</m:math></entry>						<entry>4</entry>						<entry><m:math>								<m:semantics>									<m:mrow>										<m:mrow><m:mo>(</m:mo>											<m:mrow>												<m:mo>−</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>4</m:mn>											</m:mrow>											<m:mo>)</m:mo></m:mrow>									</m:mrow>									<m:annotation encoding="MathType-MTEF">									</m:annotation>								</m:semantics>							</m:math></entry>					</row>					<row>						<entry><m:math>								<m:semantics>									<m:mrow>										<m:mo>−</m:mo><m:mn>2</m:mn>									</m:mrow>									<m:annotation encoding="MathType-MTEF">									</m:annotation>								</m:semantics>							</m:math></entry>						<entry>4</entry>						<entry><m:math>								<m:semantics>									<m:mrow>										<m:mrow><m:mo>(</m:mo>											<m:mrow>												<m:mo>−</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>4</m:mn>											</m:mrow>											<m:mo>)</m:mo></m:mrow>									</m:mrow>									<m:annotation encoding="MathType-MTEF">									</m:annotation>								</m:semantics>							</m:math></entry>					</row>					<row>						<entry><m:math>								<m:semantics>									<m:mrow>										<m:mo>−</m:mo><m:mn>1</m:mn>									</m:mrow>									<m:annotation encoding="MathType-MTEF">									</m:annotation>								</m:semantics>							</m:math></entry>						<entry>4</entry>						<entry><m:math>								<m:semantics>									<m:mrow>										<m:mrow><m:mo>(</m:mo>											<m:mrow>												<m:mo>−</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>4</m:mn>											</m:mrow>											<m:mo>)</m:mo></m:mrow>									</m:mrow>									<m:annotation encoding="MathType-MTEF">									</m:annotation>								</m:semantics>							</m:math></entry>					</row>					<row>						<entry>0</entry>						<entry>4</entry>						<entry><m:math>								<m:semantics>									<m:mrow>										<m:mrow><m:mo>(</m:mo>											<m:mrow>												<m:mn>0</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>4</m:mn>											</m:mrow>											<m:mo>)</m:mo></m:mrow>									</m:mrow>									<m:annotation encoding="MathType-MTEF">									</m:annotation>								</m:semantics>							</m:math></entry>					</row><row><entry>1</entry><entry>4</entry><entry><m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mn>1</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>4</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></entry></row><row><entry>2</entry><entry>4</entry><entry><m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mn>2</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>4</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></entry></row><row><entry>3</entry><entry>4</entry><entry><m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mn>3</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>4</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></entry></row><row><entry>4</entry><entry>4</entry><entry><m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mn>4</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>4</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></entry></row>				</tbody>			</tgroup>		</table>	<para id="eip-660"><media id="C06_S6-3_P258_001" display="block" alt="A graph of a line parallel to x-axis passing through a point with coordinates zero, four.">		<image mime-type="image/png" src="../../media/C06_S6-3_P258_001.png" print-width="2in"/>	</media></para></example><example id="eip-117"><para id="eip-88">Graph <m:math>				<m:semantics>					<m:mrow>						<m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn>					</m:mrow>					<m:annotation encoding="MathType-MTEF">					</m:annotation>				</m:semantics>			</m:math>.<newline/>The only variable that appears is <m:math>				<m:semantics>					<m:mi>x</m:mi>					<m:annotation encoding="MathType-MTEF">					</m:annotation>				</m:semantics>			</m:math>. Regardless of which <m:math>				<m:semantics>					<m:mrow>						<m:mi>y</m:mi><m:mtext>-value</m:mtext>					</m:mrow>					<m:annotation encoding="MathType-MTEF">					</m:annotation>				</m:semantics>			</m:math> we choose, the <m:math>				<m:semantics>					<m:mrow>						<m:mi>x</m:mi><m:mtext>-value</m:mtext>					</m:mrow>					<m:annotation encoding="MathType-MTEF">					</m:annotation>				</m:semantics>			</m:math> will always be <m:math>				<m:semantics>					<m:mrow>						<m:mo>−</m:mo><m:mn>2</m:mn>					</m:mrow>					<m:annotation encoding="MathType-MTEF">					</m:annotation>				</m:semantics>			</m:math>. Thus, we get a vertical line two units to the left of the <m:math>				<m:semantics>					<m:mrow>						<m:mi>y</m:mi><m:mtext>-axis</m:mtext>					</m:mrow>					<m:annotation encoding="MathType-MTEF">					</m:annotation>				</m:semantics>			</m:math>.</para><table id="eip-745" summary="The table displays the coordinates of eight points for graphing the line x equals negative two. First column displays x-value which is neagtive two and remains constant throughout the table. The second column displays values of y from negative four to four with the increment of one. The third column displays the order pair x, y." frame="none">		<tgroup cols="3"><tbody>				<row><entry><emphasis><m:math><m:semantics> <m:mi>x</m:mi><m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></emphasis></entry><entry><emphasis><m:math> <m:semantics>  <m:mi>y</m:mi> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></emphasis></entry><entry><emphasis><m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mn>x</m:mn><m:mo>,</m:mo><m:mtext/><m:mn>y</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></emphasis></entry>				</row>				<row>					<entry align="right"><m:math> <m:semantics>  <m:mrow>   <m:mo>−</m:mo><m:mn>2</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></entry>					<entry align="right"><m:math> <m:semantics>  <m:mrow>   <m:mo>−</m:mo><m:mn>4</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></entry>					<entry><m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mo>−</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>−</m:mo><m:mn>4</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></entry>				</row>				<row>					<entry align="right"><m:math> <m:semantics>  <m:mrow>   <m:mo>−</m:mo><m:mn>2</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></entry>					<entry align="right"><m:math> <m:semantics>  <m:mrow>   <m:mo>−</m:mo><m:mn>3</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></entry>					<entry><m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mo>−</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>−</m:mo><m:mn>3</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></entry>				</row>				<row>					<entry align="right"><m:math> <m:semantics>  <m:mrow>   <m:mo>−</m:mo><m:mn>2</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></entry>					<entry align="right"><m:math> <m:semantics>  <m:mrow>   <m:mo>−</m:mo><m:mn>2</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></entry>					<entry><m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mo>−</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>−</m:mo><m:mn>2</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></entry>				</row>				<row>					<entry align="right"><m:math> <m:semantics>  <m:mrow>   <m:mo>−</m:mo><m:mn>2</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></entry>					<entry align="right"><m:math> <m:semantics>  <m:mrow>   <m:mo>−</m:mo><m:mn>1</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></entry>					<entry><m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mo>−</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>−</m:mo><m:mn>1</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></entry>				</row>				<row>					<entry align="right"><m:math> <m:semantics>  <m:mrow>   <m:mo>−</m:mo><m:mn>2</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></entry>					<entry align="right">0</entry>					<entry><m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mo>−</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>0</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></entry>				</row>				<row>					<entry align="right"><m:math> <m:semantics>  <m:mrow>   <m:mo>−</m:mo><m:mn>2</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></entry>					<entry align="right">1</entry>					<entry><m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mo>−</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>1</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></entry>				</row>				<row>					<entry align="right"><m:math> <m:semantics>  <m:mrow>   <m:mo>−</m:mo><m:mn>2</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></entry>					<entry align="right">2</entry>					<entry><m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mo>−</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>0</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></entry>				</row>				<row>					<entry align="right"><m:math> <m:semantics>  <m:mrow>   <m:mo>−</m:mo><m:mn>2</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></entry>					<entry align="right">3</entry>					<entry><m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mo>−</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>3</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></entry>				</row>				<row>					<entry align="right"><m:math> <m:semantics>  <m:mrow>   <m:mo>−</m:mo><m:mn>2</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></entry>					<entry align="right">4</entry>					<entry><m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mo>−</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>4</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></entry>				</row>			</tbody>		</tgroup>	</table><list id="eip-686" list-type="labeled-item"><item><media id="C06_S6-3_P259_001" display="block" alt="A graph of a line parallel to y-axis and passing through a point with coordinates negative two, zero.">			<image mime-type="image/png" src="../../media/C06_S6-3_P259_001.png" print-width="2in"/>		</media></item></list>	</example></section><section id="eip-106"><title>Practice Set C</title><exercise id="eip-108"><problem id="eip-916">		<para id="eip-421">Graph <m:math>				<m:semantics>					<m:mrow>						<m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn>					</m:mrow>					<m:annotation encoding="MathType-MTEF">					</m:annotation>				</m:semantics>			</m:math>.<newline/>			<media id="C06_S6-3_P259_002" display="block" alt="An xy coordinate plane with gridlines, labeled negative five and five on the both axes.">				<image mime-type="image/png" src="../../media/C06_S6-3_P256_001.png" print-width="2in"/>			</media></para>
+</problem>	<solution id="eip-361">		<para id="eip-id4321495"><media id="C06_S6-3_P263_005" display="block" alt="A graph of a line parallel to x axis passing through a point with coordinates zero, two.">				<image mime-type="image/png" src="../../media/C06_S6-3_P263_005.png" print-width="2in"/>			</media></para>	</solution></exercise><exercise id="eip-34"><problem id="eip-305">		<para id="eip-675">Graph <m:math>		<m:semantics>			<m:mrow>				<m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>.<newline/><media id="C06_S6-3_P259_003" display="block" alt="An xy coordinate plane with gridlines, labeled negative five and five on the both axes.">		<image mime-type="image/png" src="../../media/C06_S6-3_P256_001.png" print-width="2in"/>	</media></para>	
+</problem>	<solution id="eip-919">		<para id="eip-id42656670"><media id="C06_S6-3_P263_006" display="block" alt="A graph of a line parallel to y axis and passing through a point with coordinates negative four, zero.">		<image mime-type="image/png" src="../../media/C06_S6-3_P263_006.png" print-width="2in"/>	</media></para>	</solution></exercise><list id="eip-556" list-type="enumerated" number-style="arabic" class="highlight"><title>Summarizing our results we can make the following observations:</title><item>When a linear equation in two variables is written in the form <m:math>			<m:semantics>				<m:mrow>					<m:mi>a</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>c</m:mi>				</m:mrow>				<m:annotation encoding="MathType-MTEF">				</m:annotation>			</m:semantics>		</m:math>, we say it is written in <emphasis>general form</emphasis>.</item>	<item>To graph an equation in general form it is sometimes convenient to use the intercept method. </item>	<item>A linear equation in which both variables appear will graph as a slanted line.</item>	<item>A linear equation in which only one variable appears will graph as either a vertical or horizontal line.<newline/><newline/><m:math>			<m:semantics>				<m:mrow>					<m:mi>x</m:mi><m:mo>=</m:mo><m:mi>a</m:mi>				</m:mrow>				<m:annotation encoding="MathType-MTEF">				</m:annotation>			</m:semantics>		</m:math> graphs as a vertical line passing through <m:math>			<m:semantics>				<m:mi>a</m:mi>				<m:annotation encoding="MathType-MTEF">				</m:annotation>			</m:semantics>		</m:math> on the <m:math>			<m:semantics>				<m:mrow>					<m:mi>x</m:mi><m:mtext>-axis</m:mtext>				</m:mrow>				<m:annotation encoding="MathType-MTEF">				</m:annotation>			</m:semantics>		</m:math>.<newline/><m:math>			<m:semantics>				<m:mrow>					<m:mi>y</m:mi><m:mo>=</m:mo><m:mi>b</m:mi>				</m:mrow>				<m:annotation encoding="MathType-MTEF">				</m:annotation>			</m:semantics>		</m:math> graphs as a horizontal line passing through <m:math>			<m:semantics>				<m:mi>b</m:mi>				<m:annotation encoding="MathType-MTEF">				</m:annotation>			</m:semantics>		</m:math> on the <m:math>			<m:semantics>				<m:mrow>					<m:mi>y</m:mi><m:mtext>-axis</m:mtext>				</m:mrow>				<m:annotation encoding="MathType-MTEF">				</m:annotation>			</m:semantics>		</m:math>.</item></list></section>
+<section id="eip-22" class="homework"><title>Exercises</title><para id="eip-821">For the following problems, graph the equations.</para><exercise id="eip-844"><problem id="eip-152">		<para id="eip-41"><m:math>		<m:semantics>			<m:mrow>				<m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>1</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math><newline/><media id="C06_S6-3_P260_001" display="block" alt="An xy-plane with gridlines, labeled negative five and five on the both axes."><image mime-type="image/png" src="../../media/C06_S6-3_P256_001.png" print-width="2in"/></media></para>	
+</problem><solution id="zip-id5621224"><para id="zip-id5621225"><media id="zip-id5621226" alt="A graph of a line passing through three points with coordinates negative one, negative four; zero, negative one; and one, two."><image mime-type="image/jpeg" src="../../media/C11_S11-6_P12_006.jpg" print-width="2in"/></media></para></solution></exercise><exercise id="eip-147"><problem id="eip-725">		<para id="eip-459"><m:math>		<m:semantics>			<m:mrow>				<m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math><newline/><media id="C06_S6-3_P260_002" display="block" alt="An xy coordinate plane with gridlines, labeled negative five and five on the both axes."><image mime-type="image/png" src="../../media/C06_S6-3_P256_001.png" print-width="2in"/></media></para>	
+</problem></exercise><exercise id="eip-739"><problem id="eip-749">		<para id="eip-446"><m:math>		<m:semantics>			<m:mrow>				<m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>	<newline/><media id="C06_S6-3_P260_003" display="block" alt="An xy coordinate plane with gridlines, labeled negative five and five on the both axes."><image mime-type="image/png" src="../../media/C06_S6-3_P256_001.png" print-width="2in"/></media></para>	
+</problem><solution id="zip-id18603182"><para id="zip-id18603183"><media id="zip-id3397989" alt="A graph of a line passing through two points with coordinates negative two, zero and zero, four."><image mime-type="image/jpeg" src="../../media/C11_S11-6_P12_008.jpg" print-width="2in"/></media></para></solution></exercise><exercise id="eip-940"><problem id="eip-163">		<para id="eip-764"><m:math>		<m:semantics>			<m:mrow>				<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math><newline/><media id="C06_S6-3_P260_004" display="block" alt="An xy coordinate plane with gridlines, labeled negative five and five on the both axes."><image mime-type="image/png" src="../../media/C06_S6-3_P256_001.png" print-width="2in"/></media></para>	
+</problem></exercise><exercise id="eip-33"><problem id="eip-249">		<para id="eip-938"><m:math>		<m:semantics>			<m:mrow>				<m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math><newline/><media id="C06_S6-3_P260_005" display="block" alt="An xy coordinate plane with gridlines, labeled negative five and five on the both axes."><image mime-type="image/png" src="../../media/C06_S6-3_P256_001.png" print-width="2in"/></media></para>	
+</problem><solution id="zip-id11157252"><para id="zip-id11157253"><media id="zip-id11157254" alt="A graph of a line passing through three points with coordinates negative one, negative eight over three; zero, negative two; and three, zero."><image mime-type="image/jpeg" src="../../media/C11_S11-6_P12_009.jpg" print-width="2in"/></media></para></solution></exercise><exercise id="eip-597"><problem id="eip-747">		<para id="eip-165"><m:math>		<m:semantics>			<m:mrow>				<m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>10</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math><newline/><media id="C06_S6-3_P260_006" display="block" alt="An xy coordinate plane with gridlines, labeled negative five and five on the both axes."><image mime-type="image/png" src="../../media/C06_S6-3_P256_001.png" print-width="2in"/></media></para>	
+</problem></exercise><exercise id="eip-177"><problem id="eip-676">		<para id="eip-257"><m:math>		<m:semantics>			<m:mrow>				<m:mn>3</m:mn><m:mrow><m:mo>(</m:mo>					<m:mrow>						<m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi>					</m:mrow>					<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>9</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math><newline/><media id="C06_S6-3_P260_007" display="block" alt="An xy coordinate plane with gridlines, labeled negative five and five on the both axes."><image mime-type="image/png" src="../../media/C06_S6-3_P256_001.png" print-width="2in"/></media></para>	
+</problem><solution id="zip-id4314824"><para id="zip-id4314825"><media id="zip-id4314826" alt="A graph of a line passing through two points with coordinates three, zero and zero, negative three."><image mime-type="image/jpeg" src="../../media/C11_S11-6_P12_002.jpg" print-width="2in"/></media></para></solution></exercise><exercise id="eip-100"><problem id="eip-72">		<para id="eip-768"><m:math>		<m:semantics>			<m:mrow>				<m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>12</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math><newline/><media id="C06_S6-3_P260_008" display="block" alt="An xy coordinate plane with gridlines, labeled negative five and five on the both axes."><image mime-type="image/png" src="../../media/C06_S6-3_P256_001.png" print-width="2in"/></media></para>	
+</problem></exercise><exercise id="eip-226"><problem id="eip-755">		<para id="eip-593"><m:math>		<m:semantics>			<m:mrow>				<m:mi>y</m:mi><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math><newline/>	<media id="C06_S6-3_P260_009" display="block" alt="An xy coordinate plane with gridlines, labeled negative five and five on the both axes."><image mime-type="image/png" src="../../media/C06_S6-3_P256_001.png" print-width="2in"/></media></para>	
+</problem><solution id="zip-id14318308"><para id="zip-id14318309"><media id="zip-id14318310" alt="A graph of a line passing through three points with coordinates one, zero; zero, one; and three, negative two."><image mime-type="image/jpeg" src="../../media/C11_S11-6_P12_003.jpg" print-width="2in"/></media></para></solution></exercise><exercise id="eip-935"><problem id="eip-901">		<para id="eip-570"><m:math>		<m:semantics>			<m:mrow>				<m:mn>4</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>12</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math><newline/><media id="C06_S6-3_P260_010" display="block" alt="An xy coordinate plane with gridlines, labeled negative five and five on the both axes."><image mime-type="image/png" src="../../media/C06_S6-3_P256_001.png" print-width="2in"/></media></para>	
+</problem></exercise><exercise id="eip-172"><problem id="eip-493">		<para id="eip-841"><m:math>		<m:semantics>			<m:mrow>				<m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math><newline/><media id="C06_S6-3_P260_011" display="block" alt="An xy coordinate plane with gridlines, labeled negative five and five on the both axes."><image mime-type="image/png" src="../../media/C06_S6-3_P256_001.png" print-width="2in"/></media></para>	
+</problem><solution id="zip-id5023650"><para id="zip-id5023651"><media id="zip-id5023652" alt="A graph of a line passing through two points with coordinates negative two, zero and zero, four."><image mime-type="image/jpeg" src="../../media/C11_S11-6_P12_004.jpg" print-width="2in"/></media></para></solution></exercise><exercise id="eip-290"><problem id="eip-397">		<para id="eip-699"><m:math>		<m:semantics>			<m:mrow>				<m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math><newline/><media id="C06_S6-3_P260_012" display="block" alt="An xy coordinate plane with gridlines, labeled negative five and five on the both axes."><image mime-type="image/png" src="../../media/C06_S6-3_P256_001.png" print-width="2in"/></media></para>	
+</problem></exercise><exercise id="eip-499"><problem id="eip-503">		<para id="eip-670"><m:math>		<m:semantics>			<m:mrow>				<m:mi>y</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math><newline/><media id="C06_S6-3_P261_001" display="block" alt="An xy coordinate plane with gridlines, labeled negative five and five on the both axes."><image mime-type="image/png" src="../../media/C06_S6-3_P256_001.png" print-width="2in"/></media></para>	
+</problem><solution id="zip-id10805478"><para id="zip-id10805479"><media id="zip-id11415764" alt="A graph of a line passing through three points with coordinates zero, negative four; four over five, zero; and two, six."><image mime-type="image/jpeg" src="../../media/C11_S11-6_P12_005.jpg" print-width="2in"/></media></para></solution></exercise><exercise id="eip-104"><problem id="eip-416">		<para id="eip-43"><m:math>		<m:semantics>			<m:mrow>				<m:mn>0</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math><newline/><media id="C06_S6-3_P261_002" display="block" alt="An xy coordinate plane with gridlines, labeled negative five and five on the both axes."><image mime-type="image/png" src="../../media/C06_S6-3_P256_001.png" print-width="2in"/></media></para>	
+</problem></exercise><exercise id="eip-719"><problem id="eip-210">		<para id="eip-7"><m:math>		<m:semantics>			<m:mrow>				<m:mn>0</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math><newline/><media id="C06_S6-3_P261_003" display="block" alt="An xy coordinate plane with gridlines, labeled negative five and five on the both axes."><image mime-type="image/png" src="../../media/C06_S6-3_P256_001.png" print-width="2in"/></media></para>	
+</problem><solution id="zip-id11124678"><para id="zip-id11124679"><media id="zip-id11124680" alt="A graph of a line parallel to x-axis and passing through two points with coordinates negative three, one and three, one."><image mime-type="image/jpeg" src="../../media/C11_S11-6_P12_007.jpg" print-width="2in"/></media></para></solution></exercise><exercise id="eip-582"><problem id="eip-893">		<para id="eip-756"><m:math>		<m:semantics>			<m:mrow>				<m:mn>0</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac>					<m:mn>1</m:mn>					<m:mn>4</m:mn>				</m:mfrac>				<m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math><newline/><media id="C06_S6-3_P261_004" display="block" alt="An xy coordinate plane with gridlines, labeled negative five and five on the both axes."><image mime-type="image/png" src="../../media/C06_S6-3_P256_001.png" print-width="2in"/></media></para>	
+</problem></exercise><exercise id="eip-504"><problem id="eip-20">		<para id="eip-744"><m:math>		<m:semantics>			<m:mrow>				<m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>0</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>16</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math><newline/><media id="C06_S6-3_P261_005" display="block" alt="An xy coordinate plane with gridlines, labeled negative five and five on the both axes."><image mime-type="image/png" src="../../media/C06_S6-3_P256_001.png" print-width="2in"/></media></para>	
+</problem><solution id="zip-id8508131"><para id="zip-id8508132"><media id="zip-id8508133" alt="A graph of a line parallel to y-axis and passing through three points with coordinates four, zero; four, two; and four, four."><image mime-type="image/jpeg" src="../../media/C11_S11-6_P12_010.jpg" print-width="2in"/></media></para></solution></exercise><exercise id="eip-216"><problem id="eip-726">		<para id="eip-32"><m:math>		<m:semantics>			<m:mrow>				<m:mfrac>					<m:mn>1</m:mn>					<m:mn>2</m:mn>				</m:mfrac>				<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>0</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>1</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math><newline/><media id="C06_S6-3_P261_006" display="block" alt="An xy coordinate plane with gridlines, labeled negative five and five on the both axes."><image mime-type="image/png" src="../../media/C06_S6-3_P256_001.png" print-width="2in"/></media></para>	
+</problem></exercise><exercise id="eip-308"><problem id="eip-926">		<para id="eip-529"><m:math>		<m:semantics>			<m:mrow>				<m:mfrac>					<m:mn>2</m:mn>					<m:mn>3</m:mn>				</m:mfrac>				<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>0</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math><newline/><media id="C06_S6-3_P261_007" display="block" alt="An xy coordinate plane with gridlines, labeled negative five and five on the both axes."><image mime-type="image/png" src="../../media/C06_S6-3_P256_001.png" print-width="2in"/></media></para>	
+</problem><solution id="zip-id8509357"><para id="zip-id8509358"><m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac>    <m:mn>3</m:mn>    <m:mn>2</m:mn>   </m:mfrac>     </m:mrow>  </m:semantics></m:math><newline/><newline/><media id="zip-id9846588" alt="A graph of a line parallel to y-axis in an xy plane. The line is labeled as ' x equals three over two'  and it crosses the x-axis at x equals three over two."><image mime-type="image/jpeg" src="../../media/C11_S11-6_P13_001.jpg" print-width="2in"/></media></para></solution></exercise><exercise id="eip-869"><problem id="eip-924">		<para id="eip-451"><m:math>		<m:semantics>			<m:mrow>				<m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math><newline/><media id="C06_S6-3_P261_008" display="block" alt="An xy coordinate plane with gridlines, labeled negative five and five on the both axes."><image mime-type="image/png" src="../../media/C06_S6-3_P256_001.png" print-width="2in"/></media></para>	
+</problem></exercise><exercise id="eip-203"><problem id="eip-666">		<para id="eip-427"><m:math>		<m:semantics>			<m:mrow>				<m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math><newline/><media id="C06_S6-3_P261_009" display="block" alt="An xy coordinate plane with gridlines, labeled negative five and five on the both axes."><image mime-type="image/png" src="../../media/C06_S6-3_P256_001.png" print-width="2in"/></media></para>	
+</problem><solution id="zip-id14359640"><para id="zip-id14359641"><m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn>  </m:mrow>   </m:semantics></m:math><newline/><newline/><media id="zip-id11083863" alt="A graph of a line parallel to x-axis in an xy plane. The line is labeled as ' y equals negative two'. The line crosses the y-axis at y equals negative two."><image mime-type="image/jpeg" src="../../media/C11_S11-6_P13_002.jpg" print-width="2in"/></media></para></solution></exercise><exercise id="eip-82"><problem id="eip-581">		<para id="eip-508"><m:math>		<m:semantics>			<m:mrow>				<m:mo>−</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>20</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math><newline/><media id="C06_S6-3_P261_010" display="block" alt="An xy coordinate plane with gridlines, labeled negative five and five on the both axes."><image mime-type="image/png" src="../../media/C06_S6-3_P256_001.png" print-width="2in"/></media></para>	
+</problem></exercise><exercise id="eip-890"><problem id="eip-559">		<para id="eip-983"><m:math>		<m:semantics>			<m:mrow>				<m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>	<newline/>	<media id="C06_S6-3_P261_011" display="block" alt="An xy coordinate plane with gridlines, labeled negative five and five on the both axes."><image mime-type="image/png" src="../../media/C06_S6-3_P256_001.png" print-width="2in"/></media></para>	
+</problem><solution id="zip-id17495665"><para id="zip-id11087379"><media id="zip-id11087380" alt="A graph of a line parallel to y-axis in an xy plane. The line is labeled as ' x equals negative four'. The line crosses the x-axis at x equals negative four."><image mime-type="image/jpeg" src="../../media/C11_S11-6_P13_004.jpg" print-width="2in"/></media></para></solution></exercise><exercise id="eip-239"><problem id="eip-838">		<para id="eip-173"><m:math>		<m:semantics>			<m:mrow>				<m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>9</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math><newline/><media id="C06_S6-3_P261_012" display="block" alt="An xy coordinate plane with gridlines, labeled negative five and five on the both axes."><image mime-type="image/png" src="../../media/C06_S6-3_P256_001.png" print-width="2in"/></media></para>	
+</problem></exercise><exercise id="eip-241"><problem id="eip-662">		<para id="eip-860"><m:math>		<m:semantics>			<m:mrow>				<m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math><newline/><media id="C06_S6-3_P262_001" display="block" alt="An xy coordinate plane with gridlines, labeled negative five and five on the both axes."><image mime-type="image/png" src="../../media/C06_S6-3_P256_001.png" print-width="2in"/></media></para>	
+</problem><solution id="zip-id10300449"><para id="zip-id6332756"><media id="zip-id6332757" alt="A graph of a line parallel to y-axis in an xy plane. The line is labeled as ' x equals four'. The line crosses the x-axis at x equals four."><image mime-type="image/jpeg" src="../../media/C11_S11-6_P13_005.jpg" print-width="2in"/></media></para></solution></exercise><exercise id="eip-580"><problem id="eip-422">		<para id="eip-804">Construct the graph of all the points that have coordinates <m:math>		<m:semantics>			<m:mrow>				<m:mrow><m:mo>(</m:mo>					<m:mrow>						<m:mi>a</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>a</m:mi>					</m:mrow>					<m:mo>)</m:mo></m:mrow>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>, that is, for each point, the <m:math>		<m:semantics>			<m:mrow>				<m:mi>x</m:mi><m:mo>−</m:mo>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math> and <m:math>		<m:semantics>			<m:mrow>				<m:mi>y</m:mi><m:mtext>-values</m:mtext>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math> are the same.<newline/>  <media id="C06_S6-3_P262_002" display="block" alt="An xy coordinate plane with gridlines, labeled negative five and five on the both axes."><image mime-type="image/png" src="../../media/C06_S6-3_P256_001.png" print-width="2in"/></media></para>	
+</problem></exercise><section id="eip-99"><title><media id="C06_S6-3_P262_003" display="inline" alt="Use a calculator">  <image mime-type="image/png" src="../../media/C06_S6-3_P262_003.png" print-width="0.2in"/></media> Calculator Problems</title><exercise id="eip-182"><problem id="eip-491">		<para id="eip-465"><m:math>		<m:semantics>			<m:mrow>				<m:mn>2.53</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4.77</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>8.45</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math><newline/><media id="C06_S6-3_P262_004" display="block" alt="An xy coordinate plane with gridlines, labeled negative five and five on the both axes."><image mime-type="image/png" src="../../media/C06_S6-3_P256_001.png" print-width="2in"/></media></para>	
+</problem><solution id="zip-id13541858"><para id="zip-id13541859"><media id="zip-id13541860" alt="A graph of a line passing through two points with coordinates three point three four, zero and zero, one point seven seven."><image mime-type="image/jpeg" src="../../media/C11_S11-6_P13_006.jpg" print-width="2in"/></media></para></solution></exercise><exercise id="eip-233"><problem id="eip-18">		<para id="eip-944"><m:math>		<m:semantics>			<m:mrow>				<m:mn>1.96</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2.05</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6.55</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math><newline/><media id="C06_S6-3_P262_005" display="block" alt="An xy coordinate plane with gridlines, labeled negative five and five on the both axes."><image mime-type="image/png" src="../../media/C06_S6-3_P256_001.png" print-width="2in"/></media></para>	
+</problem></exercise><exercise id="eip-444"><problem id="eip-813">		<para id="eip-585"><m:math>		<m:semantics>			<m:mrow>				<m:mn>4.1</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6.6</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>15.5</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math><newline/><media id="C06_S6-3_P262_006" display="block" alt="An xy coordinate plane with gridlines, labeled negative five and five on the both axes."><image mime-type="image/png" src="../../media/C06_S6-3_P256_001.png" print-width="2in"/></media></para>	
+</problem><solution id="zip-id14343575"><para id="zip-id14343576"><media id="zip-id14343577" alt="A graph of a line passing through two points with coordinates three point seven eight, zero and zero, negative two  point three five."><image mime-type="image/jpeg" src="../../media/C11_S11-6_P13_003.jpg" print-width="2in"/></media></para></solution></exercise><exercise id="eip-429"><problem id="eip-625">		<para id="eip-408"><m:math>		<m:semantics>			<m:mrow>				<m:mn>626.01</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>506.73</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2443.50</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math><newline/><media id="C06_S6-3_P262_007" display="block" alt="An xy coordinate plane with gridlines, labeled negative five and five on the both axes."><image mime-type="image/png" src="../../media/C06_S6-3_P256_001.png" print-width="2in"/></media></para>	
+</problem></exercise></section></section><section id="eip-651"><title>Exercises for Review</title><exercise id="eip-655"><problem id="eip-189">
+			<para id="eip-516"><emphasis>(<link document="m21895"/>)</emphasis> Name the property of real numbers that makes <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mn>4</m:mn><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math> a true statement.  </para>
+		</problem><solution id="zip-id17288508"><para id="zip-id18229921">commutative property of addition</para></solution>
+	</exercise><exercise id="eip-142"><problem id="eip-572">
+			<para id="eip-956"><emphasis>(<link document="m21876"/>)</emphasis> Supply the missing word. The absolute value of a number <m:math>
+					<m:semantics>
+						<m:mi>a</m:mi>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math>, denoted <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mrow><m:mo>|</m:mo>
+								<m:mi>a</m:mi>
+								<m:mo>|</m:mo></m:mrow>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math>, is the <space count="10" effect="underline"/> from <m:math>
+					<m:semantics>
+						<m:mi>a</m:mi>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math> to <m:math>
+					<m:semantics>
+						<m:mn>0</m:mn>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math> on the number line.</para>
+		</problem>
+	</exercise><exercise id="eip-785"><problem id="eip-261">
+			<para id="eip-313"><emphasis>(<link document="m21852"/>)</emphasis> Find the product <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mrow><m:mo>(</m:mo>
+								<m:mrow>
+									<m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn>
+								</m:mrow>
+								<m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+								<m:mrow>
+									<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn>
+								</m:mrow>
+								<m:mo>)</m:mo></m:mrow>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math>.  </para>
+		</problem><solution id="zip-id10936333"><para id="zip-id10936334"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mn>3</m:mn><m:msup>
+								<m:mi>x</m:mi>
+								<m:mn>2</m:mn>
+							</m:msup>
+							<m:mo>−</m:mo><m:mn>19</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>14</m:mn>
+						</m:mrow>
+					</m:semantics></m:math></para></solution></exercise><exercise id="eip-133"><problem id="eip-538">
+			<para id="eip-407">
+				<emphasis>(<link document="m21992"/>)</emphasis> Solve the equation <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mn>3</m:mn><m:mrow><m:mo>[</m:mo>
+								<m:mrow>
+									<m:mn>3</m:mn><m:mrow><m:mo>(</m:mo>
+										<m:mrow>
+											<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn>
+										</m:mrow>
+										<m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi>
+								</m:mrow>
+								<m:mo>]</m:mo></m:mrow><m:mo>−</m:mo><m:mn>24</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics></m:math>.  </para>
+		</problem></exercise><exercise id="eip-733"><problem id="eip-631">
+			<para id="eip-126"><emphasis>(<link document="m21993"/>)</emphasis> Supply the missing word. The coordinate axes divide the plane into four equal regions called <space count="10" effect="underline"/>.  </para>
+		</problem><solution id="zip-id10798300"><para id="zip-id10798301">quadrants</para></solution></exercise></section></content></document>

@@ -1,0 +1,45 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+
+<title>Objectives</title>
+<metadata>
+  <md:content-id>m22788</md:content-id><md:title>Objectives</md:title>
+  <md:abstract>This module is from Elementary Algebra by Denny Burzynski and Wade Ellis, Jr.
+The symbols, notations, and properties of numbers that form the basis of algebra, as well as exponents and the rules of exponents, are introduced in this chapter. Each property of real numbers and the rules of exponents are expressed both symbolically and literally. Literal explanations are included because symbolic explanations alone may be difficult for a student to interpret.
+This module contains the objectives of the chapter "Basic Properties of Real Numbers".</md:abstract>
+  <md:uuid>d6ef6088-d00d-49fb-827a-ea63e8c48606</md:uuid>
+</metadata>
+
+<content>
+  <para id="eip-949">After completing this chapter, you should</para><list id="eip-846"><title>Symbols and Notations (<link document="m18872"/>)</title><item>understand the difference between variables and constants</item>
+<item>be familiar with the symbols of operation, equality, and inequality</item>
+<item>be familiar with grouping symbols</item>
+<item>be able to correctly use the order of operations</item></list>
+
+  <list id="bullet2"><title>The Real Number Line and the Real Numbers (<link document="m21895"/>)</title>
+    <item>be familiar with the real number line and the real numbers</item>
+    <item>understand the ordering of the real numbers</item>
+  </list>
+
+  <list id="bullet3"><title>Properties of the Real Numbers (<link document="m21894"/>)</title>
+    <item>understand the closure, commutative, associative, and distributive properties</item>
+    <item>understand the identity and inverse properties</item>
+  </list>
+
+  <list id="bullet4"><title>Exponents (<link document="m21883"/>)</title>
+    <item>understand exponential notation</item>
+    <item>be able to read exponential notation</item>
+    <item>understand how to use exponential notation with the order of operations</item>
+  </list>
+ 
+  <list id="bullet5"><title>Rules of Exponents (<link document="m21900"/>)</title>
+    <item>understand the product and quotient rules for exponents</item>
+    <item>understand the meaning of zero as an exponent</item>
+  </list>
+
+  <list id="bullet6"><title>The Power Rules for Exponents (<link document="m21897"/>)</title>
+    <item>understand the power rules for powers, products, and quotients</item>
+  </list>
+
+</content>
+
+</document>

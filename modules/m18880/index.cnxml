@@ -1,0 +1,405 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml"><title>Solving Quadratic Equations </title><metadata>
+  <md:content-id>m18880</md:content-id><md:title>Solving Quadratic Equations </md:title>
+  <md:abstract>This module is from Elementary Algebra&lt;/link&gt; by Denny Burzynski and Wade Ellis, Jr.
+Methods of solving quadratic equations as well as the logic underlying each method are discussed. Factoring, extraction of roots, completing the square, and the quadratic formula are carefully developed. The zero-factor property of real numbers is reintroduced. The chapter also includes graphs of quadratic equations based on the standard parabola, y = x^2, and applied problems from the areas of manufacturing, population, physics, geometry, mathematics (numbers and volumes), and astronomy, which are solved using the five-step method.
+Objectives of this module: be able to place a quadratic equation into standard form, be familiar with the zero-factor property of real numbers.</md:abstract>
+  <md:uuid>3a0b0d90-31c7-4886-9a85-9514d709c476</md:uuid>
+</metadata>
+
+<content><section id="fs-id23897136">      <title>Overview</title>      <list id="fs-id25649058" list-type="bulleted"><item>          Standard Form of A Quadratic Equation        </item>	<item>          Zero-Factor Property of Real Numbers        </item></list>    </section><section id="fs-id16701367">      <title>Standard Form of A Quadratic Equation</title><para id="fs-id24336815">In Chapter (<link document="m22801"/>) we studied linear equations in one and two variables and methods for solving them. We observed that a linear equation in one variable was any equation that could be written in the form <m:math> <m:semantics>  <m:mrow>   <m:mi>a</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>  </m:mrow>   </m:semantics></m:math> and a linear equation in two variables was any equation that could be written in the form <m:math> <m:semantics>  <m:mrow>   <m:mi>a</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>c</m:mi><m:mo>,</m:mo>  </m:mrow>   </m:semantics></m:math> where <m:math> <m:semantics>  <m:mi>a</m:mi>   </m:semantics></m:math> and <m:math> <m:semantics>  <m:mi>b</m:mi>   </m:semantics></m:math> are not both 0. We now wish to study quadratic equations in one variable.</para><para id="fs-id20575428" class="highlight"><title>Quadratic Equation</title>A <term>quadratic equation</term> is an equation of the form <m:math> <m:semantics>  <m:mrow>   <m:mi>a</m:mi><m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>0.</m:mn>  </m:mrow>   </m:semantics></m:math></para><para id="fs-id3932296">The <term>standard form</term> of the quadratic equation is <m:math> <m:semantics>  <m:mrow>   <m:mi>a</m:mi><m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>0.</m:mn>  </m:mrow>   </m:semantics></m:math></para><para id="fs-id3364094">For a quadratic equation in standard form <m:math> <m:semantics>  <m:mrow>   <m:mi>a</m:mi><m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>  </m:mrow>   </m:semantics></m:math></para><para id="fs-id25097897"><m:math> <m:semantics>  <m:mi>a</m:mi>   </m:semantics></m:math> is the coefficient of <m:math> <m:semantics>  <m:mrow>   <m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>.</m:mo>  </m:mrow>   </m:semantics></m:math><newline/><m:math> <m:semantics>  <m:mi>b</m:mi>   </m:semantics></m:math> is the coefficient of <m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>.</m:mo>  </m:mrow>   </m:semantics></m:math><newline/><m:math> <m:semantics>  <m:mi>c</m:mi>   </m:semantics></m:math> is the constant term.</para></section><section id="fs-id23815996"><title>Sample Set A</title><para id="fs-id25449728">The following <emphasis>are</emphasis> quadratic equations.</para><example id="fs-id23652531"><para id="fs-id23652532"><m:math display="block"> <m:semantics>  <m:mrow>   <m:mtable columnalign="left">    <m:mtr>     <m:mtd>      <m:mrow>       <m:mn>3</m:mn><m:msup>        <m:mi>x</m:mi>        <m:mn>2</m:mn>       </m:msup>       <m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0.</m:mn>      </m:mrow>     </m:mtd>     <m:mtd>      <m:mrow/>     </m:mtd>     <m:mtd>      <m:mrow>       <m:mi>a</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>1.</m:mn>      </m:mrow>     </m:mtd>    </m:mtr>       </m:mtable>  </m:mrow>   </m:semantics></m:math></para></example><example id="fs-id25622191"><para id="fs-id25622192"><m:math display="block"> <m:semantics>  <m:mrow>   <m:mtable columnalign="left">    <m:mtr>     <m:mtd>      <m:mrow>       <m:mn>5</m:mn><m:msup>        <m:mi>x</m:mi>        <m:mn>2</m:mn>       </m:msup>       <m:mo>+</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0.</m:mn>      </m:mrow>     </m:mtd>     <m:mtd>      <m:mrow/>     </m:mtd>     <m:mtd>      <m:mrow>       <m:mi>a</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>8</m:mn><m:mo>,</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0.</m:mn>      </m:mrow>     </m:mtd>    </m:mtr>       </m:mtable>  </m:mrow>   </m:semantics></m:math><newline/>Notice that this equation could be written <m:math> <m:semantics>  <m:mrow>   <m:mn>5</m:mn><m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>+</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>0</m:mn><m:mo>=</m:mo><m:mn>0.</m:mn>  </m:mrow>   </m:semantics></m:math> Now it is clear that <m:math> <m:semantics>  <m:mrow>   <m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0.</m:mn>  </m:mrow>   </m:semantics></m:math></para></example><example id="fs-id21474660"><para id="fs-id13997245"><m:math display="block"> <m:semantics>  <m:mrow>   <m:mtable columnalign="left">    <m:mtr>     <m:mtd>      <m:mrow>       <m:msup>        <m:mi>x</m:mi>        <m:mn>2</m:mn>       </m:msup>       <m:mo>+</m:mo><m:mn>7</m:mn><m:mo>=</m:mo><m:mn>0.</m:mn>      </m:mrow>     </m:mtd>     <m:mtd>      <m:mrow/>     </m:mtd>     <m:mtd>      <m:mrow>       <m:mi>a</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>7.</m:mn>      </m:mrow>     </m:mtd>    </m:mtr>       </m:mtable>  </m:mrow>   </m:semantics></m:math><newline/>Notice that this equation could be written <m:math> <m:semantics>  <m:mrow>   <m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>+</m:mo><m:mn>0</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mo>=</m:mo><m:mn>0.</m:mn>  </m:mrow>   </m:semantics></m:math> Now it is clear that <m:math> <m:semantics>  <m:mrow>   <m:mi>b</m:mi><m:mo>=</m:mo><m:mn>0.</m:mn>  </m:mrow>   </m:semantics></m:math></para></example><para id="fs-id24527309">The following are <emphasis>not</emphasis> quadratic equations.</para><example id="fs-id22168517"><para id="fs-id22168518"><m:math display="block"> <m:semantics>  <m:mrow>   <m:mtable columnalign="left">    <m:mtr>     <m:mtd>      <m:mrow>       <m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>0.</m:mn>      </m:mrow>     </m:mtd>     <m:mtd>      <m:mrow/>     </m:mtd>     <m:mtd>      <m:mrow>       <m:mi>a</m:mi><m:mo>=</m:mo><m:mn>0.</m:mn>      </m:mrow>     </m:mtd>     <m:mtd>      <m:mrow/>     </m:mtd>     <m:mtd>      <m:mrow>       <m:mtext>This equation is linear</m:mtext><m:mtext>.</m:mtext>      </m:mrow>     </m:mtd>    </m:mtr>       </m:mtable>  </m:mrow>   </m:semantics></m:math></para></example><example id="fs-id24672696"><para id="fs-id24672697"><m:math> <m:semantics>  <m:mrow>   <m:mn>8</m:mn><m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>+</m:mo><m:mfrac>    <m:mn>3</m:mn>    <m:mi>x</m:mi>   </m:mfrac>   <m:mo>−</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>0.</m:mn>  </m:mrow>   </m:semantics></m:math><newline/>The expression on the left side of the equal sign has a variable in the denominator and, therefore, is not a quadratic.</para></example></section><section id="fs-id24748574">  <title>Practice Set A</title><para id="fs-id24446530">Which of the following equations are quadratic equations? Answer “yes” or “no” to each equation.</para><exercise id="fs-id23983473"><problem id="fs-id23983474"><para id="fs-id23983475"><m:math> <m:semantics>  <m:mrow>   <m:mn>6</m:mn><m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>−</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>9</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="fs-id24069792"><para id="fs-id9614860">yes</para></solution></exercise><exercise id="fs-id9614863"><problem id="fs-id9614864"><para id="fs-id24635828"><m:math> <m:semantics>  <m:mrow>   <m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="fs-id23387381"><para id="fs-id19142549">no</para></solution></exercise><exercise id="fs-id19142552"><problem id="fs-id19142553"><para id="fs-id23891322"><m:math> <m:semantics>  <m:mrow>   <m:mn>4</m:mn><m:msup>    <m:mi>x</m:mi>    <m:mn>3</m:mn>   </m:msup>   <m:mo>−</m:mo><m:mn>5</m:mn><m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>+</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>8</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="fs-id24339020"><para id="fs-id24339021">no</para></solution></exercise><exercise id="fs-id25364778"><problem id="fs-id25364779"><para id="fs-id25364780"><m:math> <m:semantics>  <m:mrow>   <m:mn>4</m:mn><m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>1</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="fs-id3303040"><para id="fs-id3303041">yes</para></solution></exercise><exercise id="fs-id25352465"><problem id="fs-id25352466"><para id="fs-id25352467"><m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mn>2</m:mn>    <m:mi>x</m:mi>   </m:mfrac>   <m:mo>−</m:mo><m:mn>5</m:mn><m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>=</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="fs-id25352552"><para id="fs-id25352553">no</para></solution></exercise><exercise id="fs-id4412657"><problem id="fs-id4412658"><para id="fs-id4412659"><m:math> <m:semantics>  <m:mrow>   <m:mn>9</m:mn><m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>4</m:mn><m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>+</m:mo><m:mn>8</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="fs-id24262424"><para id="fs-id24262425">yes</para></solution></exercise></section><section id="fs-id20943825">      <title>Zero-Factor Property</title><para id="fs-id22815232">Our goal is to solve quadratic equations. The method for solving quadratic equations is based on the <emphasis>zero-factor</emphasis> property of real numbers. We were introduced to the zero-factor property in Section <link document="m18878"/>. We state it again.</para><para id="fs-id21192616" class="highlight"><title>Zero-Factor Property</title>If two numbers <m:math> <m:semantics>  <m:mi>a</m:mi>   </m:semantics></m:math> and <m:math> <m:semantics>  <m:mi>b</m:mi>   </m:semantics></m:math> are multiplied together and the resulting product is 0, then at least one of the numbers must be 0. Algebraically, if <m:math> <m:semantics>  <m:mrow>   <m:mi>a</m:mi><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>  </m:mrow>   </m:semantics></m:math> then <m:math> <m:semantics>  <m:mrow>   <m:mi>a</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math> or <m:math> <m:semantics>  <m:mrow>   <m:mi>b</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>  </m:mrow>   </m:semantics></m:math> or both <m:math> <m:semantics>  <m:mrow>   <m:mi>a</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math> and <m:math> <m:semantics>  <m:mrow>   <m:mi>b</m:mi><m:mo>=</m:mo><m:mn>0.</m:mn>  </m:mrow>   </m:semantics></m:math></para></section><section id="fs-id22847242"><title>Sample Set B</title><para id="fs-id22847247">Use the zero-factor property to solve each equation.</para><example id="fs-id22902653"><para id="fs-id22902654">If <m:math> <m:semantics>  <m:mrow>   <m:mn>9</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mtext>then </m:mtext><m:mi>x</m:mi><m:mtext> must be </m:mtext><m:mn>0.</m:mn>  </m:mrow>   </m:semantics></m:math></para></example><example id="fs-id21449115"><para id="fs-id3887168">If <m:math> <m:semantics>  <m:mrow>   <m:mo>−</m:mo><m:mn>2</m:mn><m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>  </m:mrow>   </m:semantics></m:math> then <m:math> <m:semantics>  <m:mrow>   <m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0.</m:mn>  </m:mrow>   </m:semantics></m:math></para></example><example id="fs-id4288058"><para id="fs-id5376554">If <m:math>		<m:semantics>			<m:mn>5</m:mn><m:mrow><m:mo>(</m:mo>				<m:mrow>					<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>				</m:mrow>				<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>		</m:semantics>	</m:math> then <m:math>		<m:semantics>			<m:mrow>				<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>			</m:mrow>		</m:semantics>	</m:math> must be 0, since 5 is not zero.<newline/><newline/><m:math display="block">		<m:semantics>			<m:mrow>				<m:mtable columnalign="left">					<m:mtr>						<m:mtd>							<m:mrow>								<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>							</m:mrow>						</m:mtd>						<m:mtd>							<m:mo>=</m:mo>						</m:mtd>						<m:mtd>							<m:mn>0</m:mn>						</m:mtd>					</m:mtr>					<m:mtr>						<m:mtd columnalign="right">							<m:mi>x</m:mi>						</m:mtd>						<m:mtd>							<m:mo>=</m:mo>						</m:mtd>						<m:mtd>							<m:mn>1</m:mn>						</m:mtd>					</m:mtr>				</m:mtable>			</m:mrow>		</m:semantics>	</m:math></para></example><example id="fs-id22116044"><para id="fs-id23520440">If <m:math>		<m:semantics>			<m:mrow>				<m:mi>x</m:mi><m:mrow><m:mo>(</m:mo>					<m:mrow>						<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn>					</m:mrow>					<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>			</m:mrow>		</m:semantics>	</m:math> then<newline/><newline/><m:math display="block">		<m:semantics>			<m:mrow>				<m:mtable columnalign="left">					<m:mtr>						<m:mtd>							<m:mi>x</m:mi>						</m:mtd>						<m:mtd>							<m:mo>=</m:mo>						</m:mtd>						<m:mtd>							<m:mn>0</m:mn>						</m:mtd>						<m:mtd>							<m:mrow/>						</m:mtd>						<m:mtd>							<m:mrow>								<m:mtext>or</m:mtext>							</m:mrow>						</m:mtd>						<m:mtd>							<m:mrow/>						</m:mtd>						<m:mtd>							<m:mrow>								<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn>							</m:mrow>						</m:mtd>						<m:mtd>							<m:mo>=</m:mo>						</m:mtd>						<m:mtd>							<m:mn>0</m:mn>						</m:mtd>					</m:mtr>					<m:mtr>						<m:mtd>							<m:mrow/>						</m:mtd>						<m:mtd>							<m:mrow/>						</m:mtd>						<m:mtd>							<m:mrow/>						</m:mtd>						<m:mtd>							<m:mrow/>						</m:mtd>						<m:mtd>							<m:mrow/>						</m:mtd>						<m:mtd>							<m:mrow/>						</m:mtd>						<m:mtd columnalign="right">							<m:mi>x</m:mi>						</m:mtd>						<m:mtd>							<m:mo>=</m:mo>						</m:mtd>						<m:mtd>							<m:mrow>								<m:mo>−</m:mo><m:mn>6</m:mn>							</m:mrow>						</m:mtd>					</m:mtr>					<m:mtr>						<m:mtd>							<m:mi>x</m:mi>						</m:mtd>						<m:mtd>							<m:mo>=</m:mo>						</m:mtd>						<m:mtd>							<m:mrow>								<m:mn>0</m:mn><m:mo>,</m:mo>							</m:mrow>						</m:mtd>						<m:mtd>							<m:mrow>								<m:mo>−</m:mo><m:mn>6.</m:mn>							</m:mrow>						</m:mtd>						<m:mtd>							<m:mrow/>						</m:mtd>						<m:mtd>							<m:mrow/>						</m:mtd>						<m:mtd>							<m:mrow/>						</m:mtd>						<m:mtd>							<m:mrow/>						</m:mtd>						<m:mtd>							<m:mrow/>						</m:mtd>					</m:mtr>				</m:mtable>			</m:mrow>		</m:semantics>	</m:math></para></example><example id="fs-id20128101"><para id="fs-id20128102">If <m:math>		<m:semantics>			<m:mrow>				<m:mrow><m:mo>(</m:mo>					<m:mrow>						<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn>					</m:mrow>					<m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>					<m:mrow>						<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>					</m:mrow>					<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>			</m:mrow>		</m:semantics>	</m:math> then<newline/><newline/><m:math display="block">		<m:semantics>			<m:mrow>				<m:mtable columnalign="left">					<m:mtr>						<m:mtd columnalign="right">							<m:mrow>								<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn>							</m:mrow>						</m:mtd>						<m:mtd>							<m:mo>=</m:mo>						</m:mtd>						<m:mtd>							<m:mn>0</m:mn>						</m:mtd>						<m:mtd>							<m:mrow/>						</m:mtd>						<m:mtd>							<m:mrow>								<m:mtext>or</m:mtext>							</m:mrow>						</m:mtd>						<m:mtd>							<m:mrow/>						</m:mtd>						<m:mtd columnalign="right">							<m:mrow>								<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>							</m:mrow>						</m:mtd>						<m:mtd>							<m:mo>=</m:mo>						</m:mtd>						<m:mtd>							<m:mn>0</m:mn>						</m:mtd>					</m:mtr>					<m:mtr>						<m:mtd columnalign="right">							<m:mi>x</m:mi>						</m:mtd>						<m:mtd>							<m:mo>=</m:mo>						</m:mtd>						<m:mtd>							<m:mrow>								<m:mo>−</m:mo><m:mn>2</m:mn>							</m:mrow>						</m:mtd>						<m:mtd>							<m:mrow/>						</m:mtd>						<m:mtd>							<m:mrow/>						</m:mtd>						<m:mtd>							<m:mrow/>						</m:mtd>						<m:mtd columnalign="right">							<m:mi>x</m:mi>						</m:mtd>						<m:mtd>							<m:mo>=</m:mo>						</m:mtd>						<m:mtd>							<m:mrow>								<m:mo>−</m:mo><m:mn>3</m:mn>							</m:mrow>						</m:mtd>					</m:mtr>					<m:mtr>						<m:mtd columnalign="right">							<m:mi>x</m:mi>						</m:mtd>						<m:mtd>							<m:mo>=</m:mo>						</m:mtd>						<m:mtd>							<m:mrow>								<m:mo>−</m:mo><m:mn>2</m:mn><m:mo>,</m:mo>							</m:mrow>						</m:mtd>						<m:mtd>							<m:mrow>								<m:mo>−</m:mo><m:mn>3.</m:mn>							</m:mrow>						</m:mtd>						<m:mtd>							<m:mrow/>						</m:mtd>						<m:mtd>							<m:mrow/>						</m:mtd>						<m:mtd>							<m:mrow/>						</m:mtd>						<m:mtd>							<m:mrow/>						</m:mtd>						<m:mtd>							<m:mrow/>						</m:mtd>					</m:mtr>				</m:mtable>			</m:mrow>		</m:semantics>	</m:math></para></example><example id="fs-id18335027"><para id="fs-id18335028">If <m:math>		<m:semantics>			<m:mrow>				<m:mrow><m:mo>(</m:mo>					<m:mrow>						<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>10</m:mn>					</m:mrow>					<m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>					<m:mrow>						<m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn>					</m:mrow>					<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo>			</m:mrow>		</m:semantics>	</m:math> then<newline/><newline/><m:math display="block">		<m:semantics>			<m:mrow>				<m:mtable columnalign="right">					<m:mtr>						<m:mtd>							<m:mrow>								<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>10</m:mn>							</m:mrow>						</m:mtd>						<m:mtd>							<m:mo>=</m:mo>						</m:mtd>						<m:mtd columnalign="left">							<m:mn>0</m:mn>						</m:mtd>						<m:mtd>							<m:mrow/>						</m:mtd>						<m:mtd>							<m:mrow>								<m:mtext>or</m:mtext>							</m:mrow>						</m:mtd>						<m:mtd>							<m:mrow/>						</m:mtd>						<m:mtd>							<m:mrow>								<m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn>							</m:mrow>						</m:mtd>						<m:mtd>							<m:mo>=</m:mo>						</m:mtd>						<m:mtd>							<m:mn>0</m:mn>						</m:mtd>					</m:mtr>					<m:mtr>						<m:mtd>							<m:mi>x</m:mi>						</m:mtd>						<m:mtd>							<m:mo>=</m:mo>						</m:mtd>						<m:mtd columnalign="left">							<m:mrow>								<m:mo>−</m:mo><m:mn>10</m:mn>							</m:mrow>						</m:mtd>						<m:mtd>							<m:mrow/>						</m:mtd>						<m:mtd>							<m:mrow/>						</m:mtd>						<m:mtd>							<m:mrow/>						</m:mtd>						<m:mtd>							<m:mrow>								<m:mn>4</m:mn><m:mi>x</m:mi>							</m:mrow>						</m:mtd>						<m:mtd>							<m:mo>=</m:mo>						</m:mtd>						<m:mtd>							<m:mn>5</m:mn>						</m:mtd>					</m:mtr>					<m:mtr>						<m:mtd>							<m:mrow/>						</m:mtd>						<m:mtd>							<m:mrow/>						</m:mtd>						<m:mtd>							<m:mrow/>						</m:mtd>						<m:mtd>							<m:mrow/>						</m:mtd>						<m:mtd>							<m:mrow/>						</m:mtd>						<m:mtd>							<m:mrow/>						</m:mtd>						<m:mtd>							<m:mi>x</m:mi>						</m:mtd>						<m:mtd>							<m:mo>=</m:mo>						</m:mtd>						<m:mtd>							<m:mrow>								<m:mfrac>									<m:mn>5</m:mn>									<m:mn>4</m:mn>								</m:mfrac>							</m:mrow>						</m:mtd>					</m:mtr>					<m:mtr>						<m:mtd>							<m:mi>x</m:mi>						</m:mtd>						<m:mtd>							<m:mo>=</m:mo>						</m:mtd>						<m:mtd columnalign="left">							<m:mrow>								<m:mo>−</m:mo><m:mn>10</m:mn><m:mo>,</m:mo><m:mfrac>									<m:mn>5</m:mn>									<m:mn>4</m:mn>								</m:mfrac>								<m:mo>.</m:mo>							</m:mrow>						</m:mtd>						<m:mtd>							<m:mrow/>						</m:mtd>						<m:mtd>							<m:mrow/>						</m:mtd>						<m:mtd>							<m:mrow/>						</m:mtd>						<m:mtd>							<m:mrow/>						</m:mtd>						<m:mtd>							<m:mrow/>						</m:mtd>						<m:mtd>							<m:mrow/>						</m:mtd>					</m:mtr>				</m:mtable>			</m:mrow>		</m:semantics>	</m:math></para></example></section><section id="fs-id22231680"> <title>Practice Set B</title><para id="fs-id13244788">Use the zero-factor property to solve each equation.</para><exercise id="fs-id13244793"><problem id="fs-id13244794"><para id="fs-id13244795"><m:math> <m:semantics>  <m:mrow>   <m:mn>6</m:mn><m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mi>a</m:mi><m:mo>−</m:mo><m:mn>4</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="fs-id20134297"><para id="fs-id20134298"><m:math> <m:semantics>  <m:mrow>   <m:mi>a</m:mi><m:mo>=</m:mo><m:mn>4</m:mn>  </m:mrow>   </m:semantics></m:math></para></solution></exercise><exercise id="fs-id22836183"><problem id="fs-id22836184"><para id="fs-id22836185"><m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mi>y</m:mi><m:mo>+</m:mo><m:mn>6</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mi>y</m:mi><m:mo>−</m:mo><m:mn>7</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="fs-id20807373"><para id="fs-id20807374"><m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>7</m:mn>  </m:mrow>   </m:semantics></m:math></para></solution></exercise><exercise id="fs-id3446115"><problem id="fs-id3446116"><para id="fs-id3446117"><m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="fs-id21310104"><para id="fs-id21310105"><m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mfrac>    <m:mn>4</m:mn>    <m:mn>3</m:mn>   </m:mfrac>     </m:mrow>   </m:semantics></m:math></para></solution></exercise></section>
+
+<section id="fs-id13707660" class="homework"><title>Exercises</title><para id="fs-id22360473">For the following problems, write the values of <m:math> <m:semantics>  <m:mrow>   <m:mi>a</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>b</m:mi><m:mo>,</m:mo>  </m:mrow>   </m:semantics></m:math> and <m:math> <m:semantics>  <m:mi>c</m:mi>   </m:semantics></m:math> in quadratic equations.</para><exercise id="fs-id22846084"><problem id="fs-id22846085"><para id="fs-id22175278"><m:math> <m:semantics>  <m:mrow>   <m:mn>3</m:mn><m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id23203471"><para id="zip-id23203472"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>7</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id14747837"><problem id="fs-id14747838"><para id="fs-id14747839"><m:math> <m:semantics>  <m:mrow>   <m:mn>7</m:mn><m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id4727152"><problem id="fs-id4727153"><para id="fs-id4727154"><m:math> <m:semantics>  <m:mrow>   <m:mn>2</m:mn><m:msup>    <m:mi>y</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id20651431"><para id="zip-id20651432"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>2</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>5</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id16352042"><problem id="fs-id16352043"><para id="fs-id16352044"><m:math> <m:semantics>  <m:mrow>   <m:mn>7</m:mn><m:msup>    <m:mi>a</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>+</m:mo><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>8</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id22535495"><problem id="fs-id22535496"><para id="fs-id22535497"><m:math> <m:semantics>  <m:mrow>   <m:mo>−</m:mo><m:mn>3</m:mn><m:msup>    <m:mi>a</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>+</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id22402654"><para id="zip-id22402655"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>1</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id22382629"><problem id="fs-id22382630"><para id="fs-id22382632"><m:math> <m:semantics>  <m:mrow>   <m:mn>7</m:mn><m:msup>    <m:mi>b</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>+</m:mo><m:mn>3</m:mn><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id22594094"><problem id="fs-id22594095"><para id="fs-id22594096"><m:math> <m:semantics>  <m:mrow>   <m:mn>2</m:mn><m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id16347435"><para id="zip-id16347436">2, 5, 0</para></solution></exercise><exercise id="fs-id22817168"><problem id="fs-id22236374"><para id="fs-id22236375"><m:math> <m:semantics>  <m:mrow>   <m:mn>4</m:mn><m:msup>    <m:mi>y</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>+</m:mo><m:mn>9</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id19952162"><problem id="fs-id19952163"><para id="fs-id19952164"><m:math> <m:semantics>  <m:mrow>   <m:mn>8</m:mn><m:msup>    <m:mi>a</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>−</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id32549036"><para id="zip-id8518408"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>8</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>0</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id22594127"><problem id="fs-id22594128"><para id="fs-id22594129"><m:math> <m:semantics>  <m:mrow>   <m:mn>6</m:mn><m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id20149937"><problem id="fs-id20149938"><para id="fs-id20149939"><m:math> <m:semantics>  <m:mrow>   <m:mn>4</m:mn><m:msup>    <m:mi>y</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id27085140"><para id="zip-id17911518">4, 0, 0</para></solution></exercise><exercise id="fs-id20552018"><problem id="fs-id20552019"><para id="fs-id20552020"><m:math> <m:semantics>  <m:mrow>   <m:mn>5</m:mn><m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>9</m:mn><m:mo>=</m:mo><m:mn>4</m:mn><m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>     </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id18929894"><problem id="fs-id18929895"><para id="fs-id18929896"><m:math> <m:semantics>  <m:mrow>   <m:mn>7</m:mn><m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>6</m:mn><m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>+</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>9</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id32517123"><para id="zip-id11570812">1, 1, 10</para></solution></exercise><exercise id="fs-id20940981"><problem id="fs-id20940982"><para id="fs-id20940983"><m:math> <m:semantics>  <m:mrow>   <m:mo>−</m:mo><m:mn>3</m:mn><m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>−</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>12</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id11347584"><problem id="fs-id11347585"><para id="fs-id11347586"><m:math> <m:semantics>  <m:mrow>   <m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>3</m:mn><m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>     </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id32285000"><para id="zip-id32285001"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>3</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>7</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id4331434"><problem id="fs-id4331435"><para id="fs-id4331436"><m:math> <m:semantics>  <m:mrow>   <m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi>  </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id20567520"><problem id="fs-id20567521"><para id="fs-id20567522"><m:math> <m:semantics>  <m:mrow>   <m:mn>0</m:mn><m:mo>=</m:mo><m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>+</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id22282897"><para id="zip-id22282898"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>1</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>1</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id7679070"><problem id="fs-id7679071"><para id="fs-id4053006"><m:math> <m:semantics>  <m:mrow>   <m:mn>9</m:mn><m:mo>=</m:mo><m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>     </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id19277833"><problem id="fs-id19277834"><para id="fs-id19277835"><m:math> <m:semantics>  <m:mrow>   <m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>   <m:mo>=</m:mo><m:mn>9</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id32606096"><para id="zip-id9935620"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>9</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id10822140"><problem id="fs-id10822141"><para id="fs-id10822142"><m:math> <m:semantics>  <m:mrow>   <m:mn>0</m:mn><m:mo>=</m:mo><m:mo>−</m:mo><m:msup>    <m:mi>x</m:mi>    <m:mn>2</m:mn>   </m:msup>     </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><para id="fs-id3961122">For the following problems, use the zero-factor property to solve the equations.</para><exercise id="fs-id22214717"><problem id="fs-id22214718"><para id="fs-id22214719"><m:math> <m:semantics>  <m:mrow>   <m:mn>4</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id5304507"><para id="zip-id5304508"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id11287224"><problem id="fs-id22174114"><para id="fs-id22174115"><m:math> <m:semantics>  <m:mrow>   <m:mn>16</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id18837108"><problem id="fs-id18837109"><para id="fs-id18837110"><m:math> <m:semantics>  <m:mrow>   <m:mn>9</m:mn><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id27083428"><para id="zip-id32580790"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>a</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>
+  </m:mrow>
+ 
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id19746041"><problem id="fs-id19746042"><para id="fs-id19746043"><m:math> <m:semantics>  <m:mrow>   <m:mn>4</m:mn><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id15496001"><problem id="fs-id15496002"><para id="fs-id15496004"><m:math> <m:semantics>  <m:mrow>   <m:mn>3</m:mn><m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mi>k</m:mi><m:mo>+</m:mo><m:mn>7</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id29277969"><para id="zip-id22112992"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>k</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>7</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id23634011"><problem id="fs-id23634012"><para id="fs-id23634013"><m:math> <m:semantics>  <m:mrow>   <m:mn>8</m:mn><m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mi>y</m:mi><m:mo>−</m:mo><m:mn>6</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id3878184"><problem id="fs-id3878185"><para id="fs-id3878186"><m:math> <m:semantics>  <m:mrow>   <m:mo>−</m:mo><m:mn>5</m:mn><m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id13463639"><para id="zip-id29633662"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id20255046"><problem id="fs-id20255047"><para id="fs-id20255048"><m:math> <m:semantics>  <m:mrow>   <m:mo>−</m:mo><m:mn>6</m:mn><m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mi>n</m:mi><m:mo>+</m:mo><m:mn>15</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id22189190"><problem id="fs-id22189191"><para id="fs-id22189192"><m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mi>y</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id32498113"><para id="zip-id29362036"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id22232464"><problem id="fs-id22232465"><para id="fs-id22232466"><m:math> <m:semantics>  <m:mrow>   <m:mi>a</m:mi><m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mi>a</m:mi><m:mo>−</m:mo><m:mn>6</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id17830229"><problem id="fs-id17830230"><para id="fs-id17830231"><m:math> <m:semantics>  <m:mrow>   <m:mi>n</m:mi><m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mi>n</m:mi><m:mo>+</m:mo><m:mn>4</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id28996411"><para id="zip-id9543823"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>n</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>4</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id19127296"><problem id="fs-id19127297"><para id="fs-id19127298"><m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id22209943"><problem id="fs-id22209944"><para id="fs-id22209945"><m:math> <m:semantics>  <m:mrow>   <m:mn>9</m:mn><m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mi>a</m:mi><m:mo>−</m:mo><m:mn>4</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id32271466"><para id="zip-id32271467"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>a</m:mi><m:mo>=</m:mo><m:mn>4</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id20603296"><problem id="fs-id20603297"><para id="fs-id20603298"><m:math> <m:semantics>  <m:mrow>   <m:mo>−</m:mo><m:mn>2</m:mn><m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mi>m</m:mi><m:mo>+</m:mo><m:mn>11</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id4403706"><problem id="fs-id3822245"><para id="fs-id3822246"><m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id20701960"><para id="zip-id32457145"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>7</m:mn><m:mtext> </m:mtext><m:mtext>or</m:mtext><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>
+  </m:mrow>
+ 
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id13729871"><problem id="fs-id22834744"><para id="fs-id22834745"><m:math> <m:semantics>  <m:mrow>   <m:mi>n</m:mi><m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mi>n</m:mi><m:mo>−</m:mo><m:mn>10</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id19278892"><problem id="fs-id3504679"><para id="fs-id3504680"><m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mi>y</m:mi><m:mo>−</m:mo><m:mn>4</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mi>y</m:mi><m:mo>−</m:mo><m:mn>8</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id22463804"><para id="zip-id28561400"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mtext> </m:mtext><m:mtext>or</m:mtext><m:mtext> </m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>8</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id4006595"><problem id="fs-id4006596"><para id="fs-id4006597"><m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mi>k</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mi>k</m:mi><m:mo>−</m:mo><m:mn>6</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id22202828"><problem id="fs-id22202830"><para id="fs-id22202831"><m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id33354131"><para id="zip-id13853665"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:mtext> </m:mtext><m:mtext>or</m:mtext><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>5</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id20555690"><problem id="fs-id20555691"><para id="fs-id20555692"><m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mi>y</m:mi><m:mo>+</m:mo><m:mn>6</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id16703360"><problem id="fs-id16703362"><para id="fs-id16703363"><m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id28989599"><para id="zip-id32339074"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac>
+    <m:mn>6</m:mn>
+    <m:mn>5</m:mn>
+   </m:mfrac>
+   <m:mtext> </m:mtext><m:mtext>or</m:mtext><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id8664978"><problem id="fs-id8664979"><para id="fs-id8664980"><m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mn>5</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mn>2</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>3</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id20118410"><problem id="fs-id20118411"><para id="fs-id20118412"><m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mn>6</m:mn><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>5</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mn>11</m:mn><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>6</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id32762166"><para id="zip-id32762167"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>m</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+    <m:mn>5</m:mn>
+    <m:mn>6</m:mn>
+   </m:mfrac>
+   <m:mtext> </m:mtext><m:mtext>or</m:mtext><m:mtext> </m:mtext><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac>
+    <m:mn>6</m:mn>
+    <m:mrow>
+     <m:mn>11</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id19734869"><problem id="fs-id19734870"><para id="fs-id19734871"><m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mn>2</m:mn><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mn>3</m:mn><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>8</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id20128077"><problem id="fs-id20128078"><para id="fs-id20128079"><m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id32474149"><para id="zip-id32474150"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mo>−</m:mo><m:mn>5</m:mn>
+    </m:mrow>
+    <m:mn>4</m:mn>
+   </m:mfrac>
+   <m:mo>,</m:mo><m:mtext> </m:mtext><m:mfrac>
+    <m:mn>7</m:mn>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id22162285"><problem id="fs-id22162286"><para id="fs-id22162287"><m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id3957408"><problem id="fs-id3957409"><para id="fs-id3957410"><m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mn>7</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>6</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mn>7</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>6</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id27506272"><para id="zip-id27506273"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>a</m:mi><m:mo>=</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mo>−</m:mo><m:mn>6</m:mn>
+    </m:mrow>
+    <m:mn>7</m:mn>
+   </m:mfrac>
+   <m:mo>,</m:mo><m:mtext> </m:mtext><m:mfrac>
+    <m:mn>6</m:mn>
+    <m:mn>7</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id10843211"><problem id="fs-id10843212"><para id="fs-id10843213"><m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mn>8</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>11</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id13226280"><problem id="fs-id13226281"><para id="fs-id13226282"><m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>14</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>10</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id30864418"><para id="zip-id30864419"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>14</m:mn>
+    </m:mrow>
+    <m:mn>5</m:mn>
+   </m:mfrac>
+   <m:mo>,</m:mo><m:mtext> </m:mtext><m:mfrac>
+    <m:mrow>
+     <m:mo>−</m:mo><m:mn>10</m:mn>
+    </m:mrow>
+    <m:mn>3</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id20551027"><problem id="fs-id20551028"><para id="fs-id20551030"><m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id20484326"><problem id="fs-id20484327"><para id="fs-id20484328"><m:math> <m:semantics>  <m:mrow>   <m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>5</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>5</m:mn>    </m:mrow>   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id20821879"><para id="zip-id33304723"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mo>−</m:mo><m:mn>5</m:mn>
+    </m:mrow>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise><exercise id="fs-id4548907"><problem id="fs-id4548908"><para id="fs-id4548909"><m:math> <m:semantics>  <m:mrow>   <m:msup>    <m:mrow>     <m:mrow><m:mo>(</m:mo>      <m:mrow>       <m:mn>7</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>2</m:mn>      </m:mrow>     <m:mo>)</m:mo></m:mrow>    </m:mrow>    <m:mn>2</m:mn>   </m:msup>   <m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem></exercise><exercise id="fs-id22193387"><problem id="fs-id18292082"><para id="fs-id18292083"><m:math> <m:semantics>  <m:mrow>   <m:msup>    <m:mrow>     <m:mrow><m:mo>(</m:mo>      <m:mrow>       <m:mn>5</m:mn><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>6</m:mn>      </m:mrow>     <m:mo>)</m:mo></m:mrow>    </m:mrow>    <m:mn>2</m:mn>   </m:msup>   <m:mo>=</m:mo><m:mn>0</m:mn>  </m:mrow>   </m:semantics></m:math></para>
+</problem><solution id="zip-id29048995"><para id="zip-id29048996"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac>
+    <m:mn>6</m:mn>
+    <m:mn>5</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise></section><section id="fs-id23080745"><title>Exercises For Review</title><exercise id="fs-id20462023"><problem id="fs-id20462024"><para id="fs-id20462026"><emphasis>(<link document="m21903"/>)</emphasis> Factor <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mn>12</m:mn><m:mi>a</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>2</m:mn>
+						</m:mrow>
+					</m:semantics></m:math> by grouping.</para>
+		</problem></exercise><exercise id="fs-id19890791"><problem id="fs-id19890792"><para id="fs-id19890793"><emphasis>(<link document="m22000"/>)</emphasis> Construct the graph of <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mn>6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>10</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>60</m:mn><m:mo>=</m:mo><m:mn>0.</m:mn>
+						</m:mrow>
+					</m:semantics></m:math><newline/><media id="fs-id22872237" alt="An xy coordinate plane with gridlines, labeled negative five and five with increments of one units on both axes.">
+					<image mime-type="image/jpeg" src="../../media/C09_S9-1_P06_001.jpg" print-width="2in"/>
+				</media></para>
+		</problem><solution id="zip-id32873358"><para id="zip-id32873359"><media id="zip-id34380119" alt="A graph of a line passing through two points coordinates zero, six and five, three.">
+					<image mime-type="image/jpeg" src="../../media/C11_S11-9_P23_001.jpg" print-width="2in"/>
+				</media>
+			</para></solution></exercise><exercise id="fs-id3398263"><problem id="fs-id3398264"><para id="fs-id3398265"><emphasis>(<link document="m21936"/>)</emphasis> Find the difference: <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mfrac>
+								<m:mn>1</m:mn>
+								<m:mrow>
+									<m:msup>
+										<m:mi>x</m:mi>
+										<m:mn>2</m:mn>
+									</m:msup>
+									<m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+								</m:mrow>
+							</m:mfrac>
+							<m:mo>−</m:mo><m:mfrac>
+								<m:mn>1</m:mn>
+								<m:mrow>
+									<m:msup>
+										<m:mi>x</m:mi>
+										<m:mn>2</m:mn>
+									</m:msup>
+									<m:mo>−</m:mo><m:mn>1</m:mn>
+								</m:mrow>
+							</m:mfrac>
+							<m:mo>.</m:mo>
+						</m:mrow>
+					</m:semantics></m:math></para>
+		</problem></exercise><exercise id="fs-id20221342"><problem id="fs-id20221343"><para id="fs-id20221344"><emphasis>(<link document="m21957"/>)</emphasis> Simplify <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:msqrt>
+								<m:mn>7</m:mn>
+							</m:msqrt>
+							<m:mrow><m:mo>(</m:mo>
+								<m:mrow>
+									<m:msqrt>
+										<m:mn>2</m:mn>
+									</m:msqrt>
+									<m:mo>+</m:mo><m:mn>2</m:mn>
+								</m:mrow>
+								<m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+						</m:mrow>
+					</m:semantics></m:math></para>
+		</problem><solution id="zip-id32282568"><para id="zip-id32282569"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:msqrt>
+								<m:mrow>
+									<m:mn>14</m:mn>
+								</m:mrow>
+							</m:msqrt>
+							<m:mo>+</m:mo><m:mn>2</m:mn><m:msqrt>
+								<m:mn>7</m:mn>
+							</m:msqrt>
+						</m:mrow>
+					</m:semantics>
+				</m:math>
+			</para></solution></exercise><exercise id="fs-id20223788"><problem id="fs-id20223789"><para id="fs-id20223790"><emphasis>(<link document="m21965"/>)</emphasis> Solve the radical equation <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:msqrt>
+								<m:mrow>
+									<m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>10</m:mn>
+								</m:mrow>
+							</m:msqrt>
+							<m:mo>=</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4.</m:mn>
+						</m:mrow>
+					</m:semantics></m:math></para>
+		</problem></exercise></section>  </content></document>

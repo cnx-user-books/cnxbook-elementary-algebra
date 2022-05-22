@@ -1,0 +1,71 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+
+<title>Summary of Key Concepts</title>
+<metadata>
+  <md:content-id>m21989</md:content-id><md:title>Summary of Key Concepts</md:title>
+  <md:abstract>This module is from Elementary Algebra by Denny Burzynski and Wade Ellis, Jr.
+Beginning with the graphical solution of systems, this chapter includes an interpretation of independent, inconsistent, and dependent systems and examples to illustrate the applications for these systems. The substitution method and the addition method of solving a system by elimination are explained, noting when to use each method. The five-step method is again used to illustrate the solutions of value and rate problems (coin and mixture problems), using drawings that correspond to the actual situation.
+This module presents a summary of the key concepts of the chapter "Systems of Linear Equations".</md:abstract>
+  <md:uuid>9fec63c5-7376-4539-8eee-232916bb75da</md:uuid>
+</metadata>
+
+<content>
+<section id="fs-id11729860"><title>Summary Of Key Concepts</title><para id="fs-id11737288"><title>System of Equations (<link document="m18881"/>)</title>A collection of two linear equations in two variables is called a <emphasis>system of equations.</emphasis></para>
+	<para id="fs-id11865711"><title>Solution to a System (<link document="m18881"/>)</title>An ordered pair that is a solution to both equations in a system is called a <emphasis>solution to the system of equations.</emphasis> The values <m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1</m:mn>
+				</m:mrow>
+			</m:semantics>
+		</m:math> are a solution to the system<newline/><newline/><m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mrow><m:mo>{</m:mo>
+						<m:mtable columnalign="left">
+							<m:mtr>
+								<m:mtd>
+									<m:mi>x</m:mi><m:mo>−</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn>
+								</m:mtd>
+							</m:mtr>
+							<m:mtr>
+								<m:mtd>
+									<m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn>
+								</m:mtd>
+							</m:mtr>
+						</m:mtable>
+					</m:mrow>
+				</m:mrow>
+			</m:semantics>
+		</m:math>
+	</para>
+	<para id="fs-id11731230"><title>Independent Systems (<link document="m18881"/>)</title>Systems in which the lines intersect at precisely one point are <emphasis>independent systems.</emphasis> In applications, independent systems can arise when the collected data are accurate and complete.</para>
+	<para id="fs-id11851105"><title>Inconsistent Systems (<link document="m18881"/>)</title>Systems in which the lines are parallel are <emphasis>inconsistent systems.</emphasis> In applications, inconsistent systems can arise when the collected data are contradictory.</para>
+	<para id="fs-id8951027"><title>Dependent Systems (<link document="m18881"/>)</title>Systems in which the lines are coincident (one on the other) are <emphasis>dependent systems.</emphasis> In applications, dependent systems can arise when the collected data are incomplete.</para>
+	<para id="fs-id10196866"><title>Solving a System by Graphing (<link document="m18881"/>)</title>To solve a system by graphing:<list id="fs-id10198040" list-type="enumerated" number-style="arabic" class="highlight"><item>Graph each equation of the same set of axes.</item>
+			<item>If the lines intersect, the solution is the point of intersection.</item></list></para>
+	<para id="fs-id5783193"><title>Solving a System by Substitution (<link document="m21984"/>)</title>To solve a system using substitution,<list id="fs-id6368592" list-type="enumerated" number-style="arabic" class="highlight"><item>Solve one of the equations for one of the variables.</item>
+			<item>Substitute the expression for the variable chosen in step 1 into the other equation.</item>
+			<item>Solve the resulting equation in one variable.</item>
+			<item>Substitute the value obtained in step 3 into the equation obtained in step 1 and solve to obtain the value of the other variable.</item>
+			<item>Check the solution in both equations.</item>
+			<item>Write the solution as an ordered pair.</item></list></para>
+	<para id="fs-id11700837"><title>Solving a System by Addition (<link document="m21986"/>)</title>To solve a system using addition,<list id="fs-id6447864" list-type="enumerated" number-style="arabic" class="highlight"><item>Write, if necessary, both equations in general form<newline/><newline/><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mi>a</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>c</m:mi>
+						</m:mrow>
+					</m:semantics>
+				</m:math>
+			</item>
+			<item>If necessary, multiply one or both equations by factors that will produce opposite coefficients for one of the variables.</item>
+			<item>Add the equations to eliminate one equation and one variable.</item>
+			<item>Solve the equation obtained in step 3.</item>
+			<item>Substitute the value obtained in step 4 into either of the original equations and solve to obtain the value of the other variable.</item>
+			<item>Check the solution in both equations.</item>
+			<item>Write the solution as an ordered pair.</item></list></para>
+	<para id="fs-id11891367"><title>Substitution and Addition and Parallel Lines (<link document="m21984"/>, <link document="m21986"/>)</title>If computations eliminate all variables and produce a contradiction, the two lines of the system are parallel and no solution exists. The system is inconsistent.</para>
+	<para id="fs-id9480520"><title>Substitution and Addition and Coincident Lines (<link document="m21984"/>, <link document="m21986"/>)</title>If computations eliminate all variables and produce an identity, the two lines of the system are coincident and the system has infinitely many solutions. The system is dependent.</para>
+	<para id="fs-id8570873"><title>Applications (<link document="m21983"/>)</title>The five-step method can be used to solve applied problems that involve linear systems that consist of two equations in two variables. The solutions of number problems, mixture problems, and value and rate problems are examined in this section. The rate problems have particular use in chemistry.</para>
+</section>
+  </content>
+</document>

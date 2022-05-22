@@ -1,0 +1,505 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml"><title>Proficiency Exam </title><metadata>
+  <md:content-id>m22015</md:content-id><md:title>Proficiency Exam </md:title>
+  <md:abstract>This module is from Elementary Algebra by Denny Burzynski and Wade Ellis, Jr.
+In this chapter the student is shown how graphs provide information that is not always evident from the equation alone. The chapter begins by establishing the relationship between the variables in an equation, the number of coordinate axes necessary to construct its graph, and the spatial dimension of both the coordinate system and the graph. Interpretation of graphs is also emphasized throughout the chapter, beginning with the plotting of points. The slope formula is fully developed, progressing from verbal phrases to mathematical expressions. The expressions are then formed into an equation by explicitly stating that a ratio is a comparison of two quantities of the same type (e.g., distance, weight, or money). This approach benefits students who take future courses that use graphs to display information.
+The student is shown how to graph lines using the intercept method, the table method, and the slope-intercept method, as well as how to distinguish, by inspection, oblique and horizontal/vertical lines.
+This module contains the proficiency exam for the chapter "Graphing Linear Equations and Inequalities in One and Two Variables".</md:abstract>
+  <md:uuid>82012aff-b2bc-4f11-a5a4-fabb1ab7a37c</md:uuid>
+</metadata>
+
+<content>  <section id="eip-787"><title>Proficiency Exam</title><para id="eip-408">For the following problems, construct a coordinate system and graph the inequality.</para><exercise id="eip-645"><problem id="eip-755">
+			<para id="eip-258"><emphasis>(<link document="m18877"/>)</emphasis>
+				<m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mo>−</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>&gt;</m:mo><m:mo>−</m:mo><m:mn>14</m:mn>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math></para>
+		</problem><solution id="zip-id19272918"><para id="zip-id19202372"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>3</m:mn>
+						</m:mrow>
+					</m:semantics></m:math><newline/><newline/><media id="zip-id17195173" alt="A number line labeled x with arrows on each end, labeled from negative three to four, in increments of one. There is an open circle at three. A dark line is orginating from this circle and heading  towards the left of three.  "><image mime-type="image/jpeg" src="../../media/C11_S11-6_P17_008.jpg" print-width="2.5in"/></media></para></solution>
+	</exercise><exercise id="eip-136"><problem id="eip-579">
+			<para id="eip-357"><emphasis>(<link document="m18877"/>)</emphasis>
+				<m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mo>−</m:mo><m:mn>8</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>≤</m:mo><m:mo>−</m:mo><m:mn>4</m:mn>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math>
+			</para>
+		</problem><solution id="zip-id10595948"><para id="zip-id19246169"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mo>−</m:mo><m:mn>14</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>≤</m:mo><m:mo>−</m:mo><m:mn>10</m:mn>
+						</m:mrow>
+					</m:semantics></m:math><newline/><newline/><media id="zip-id18666951" alt="A number line labeled x with arrows on each end, labeled at negative fourteen and negative ten. There is a closed circle at negative ten and an open circle at negative fourteen. These circles are connected by a black line"><image mime-type="image/jpeg" src="../../media/C11_S11-6_P17_009.jpg" print-width="2.5in"/></media></para></solution>
+	</exercise><exercise id="eip-819"><problem id="eip-389">
+			<para id="eip-0"><emphasis>(<link document="m18877"/>)</emphasis> Plot the ordered pairs <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math>.<newline/><newline/><media id="C6_S6-10_P305_019" display="block" alt="An xy-plane with gridlines, labeled negative five and five on the both axes.">
+					<image mime-type="image/png" src="../../media/C6_S6-10_P305_019.png" print-width="2in"/>
+				</media></para>
+		</problem><solution id="zip-id18808721"><para id="zip-id18808722"><media id="zip-id19213994" alt="Total four points plotted in an xy-coordinate plane. The coordinates of these points are negative two, negative two; negative two, four; zero, five and three, one."><image mime-type="image/jpeg" src="../../media/C11_S11-6_P17_002.jpg" print-width="2in"/></media></para></solution>
+	</exercise><exercise id="eip-39"><problem id="eip-435">
+			<para id="eip-221"><emphasis>(<link document="m21993"/>)</emphasis> As accurately as possible, label the coordinates of the points that have been plotted on the graph.<newline/><newline/><media id="C6_S6-10_P305_020" display="block" alt="Total four points plotted in an xy plane. The coordinates of these points are negative three, zero; zero, one; three, three and two, negative three.">
+					<image mime-type="image/png" src="../../media/C6_S6-10_P305_021.png" print-width="2in"/>
+				</media></para>
+		</problem><solution id="zip-id19317927"><para id="zip-id19317928"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mrow><m:mo>(</m:mo>
+								<m:mrow>
+									<m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn>
+								</m:mrow>
+								<m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo>
+								<m:mrow>
+									<m:mn>3</m:mn><m:mo>,</m:mo><m:mn>3</m:mn>
+								</m:mrow>
+								<m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo>
+								<m:mrow>
+									<m:mo>−</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>0</m:mn>
+								</m:mrow>
+								<m:mo>)</m:mo></m:mrow><m:mo>,</m:mo><m:mrow><m:mo>(</m:mo>
+								<m:mrow>
+									<m:mn>2</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>3</m:mn>
+								</m:mrow>
+								<m:mo>)</m:mo></m:mrow>
+						</m:mrow>
+					</m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-120"><problem id="eip-603">
+			<para id="eip-276"><emphasis>(<link document="m21995"/>)</emphasis> What is the geometric structure of the graph of all the solutions to the equation <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4</m:mn>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math>?</para>
+		</problem><solution id="zip-id16841320"><para id="zip-id16841322">straight line</para></solution>
+	</exercise><exercise id="eip-905"><problem id="eip-85">
+			<para id="eip-342"><emphasis>(<link document="m21995"/>)</emphasis> In what form is the linear equation in two variables <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mi>a</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>c</m:mi>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math>?</para>
+		</problem><solution id="zip-id16941166"><para id="zip-id16941167">general form</para></solution>
+	</exercise><exercise id="eip-555"><problem id="eip-25">
+			<para id="eip-793"><emphasis>(<link document="m22014"/>)</emphasis> In what form is the linear equation in two variables <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mi>y</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math>?</para>
+		</problem><solution id="zip-id4780650"><para id="zip-id4780651">slope-intercept</para></solution>
+	</exercise><exercise id="eip-580"><problem id="eip-925">
+			<para id="eip-286"><emphasis>(<link document="m21995"/>)</emphasis> If an ordered pair is a solution to a linear equation in two variables, where does it lie geometrically?</para>
+		</problem><solution id="zip-id15684288"><para id="zip-id16857320">It lies on the line.</para></solution>
+	</exercise><exercise id="eip-885"><problem id="eip-490">
+			<para id="eip-64"><emphasis>(<link document="m22014"/>)</emphasis> Consider the graph of <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac>
+								<m:mn>2</m:mn>
+								<m:mn>7</m:mn>
+							</m:mfrac>
+							<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>16</m:mn>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math>. If we were to place our pencil at any  point on the line and then move it horizontally <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mn>7</m:mn><m:mtext> </m:mtext><m:mtext>units</m:mtext>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math> to the right, how many units and in what direction would we have to move our pencil to get back on the line?</para>
+		</problem><solution id="zip-id18786156"><para id="zip-id18786157">2 units up</para></solution>
+	</exercise><para id="eip-542">For the following two problems, find the slope, if it exists, of the line containing the following points.</para><exercise id="eip-139"><problem id="eip-823">
+			<para id="eip-29"><emphasis>(<link document="m22014"/>)</emphasis>
+				<m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext><m:mtext>and</m:mtext><m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math>
+			</para>
+		</problem><solution id="zip-id12600591"><para id="zip-id12600592"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mfrac>
+								<m:mn>3</m:mn>
+								<m:mn>2</m:mn>
+							</m:mfrac>
+						</m:mrow>
+					</m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-118"><problem id="eip-183">
+			<para id="eip-495"><emphasis>(<link document="m22014"/>)</emphasis>
+				<m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>−</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext><m:mtext>and</m:mtext><m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>10</m:mn><m:mo stretchy="false">)</m:mo>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math>
+			</para>
+		</problem><solution id="zip-id18686255"><para id="zip-id18686256"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mtext>no slope; vertical line at </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn>
+						</m:mrow>
+					</m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-786"><problem id="eip-685">
+			<para id="eip-613"><emphasis>(<link document="m22014"/>)</emphasis> Determine the slope and <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mi>y</m:mi><m:mo>−</m:mo><m:mtext>intercept</m:mtext>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics></m:math> of the line <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math>.</para>
+		</problem><solution id="zip-id3423738"><para id="zip-id18743276"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mtext>slope</m:mtext><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+								<m:mn>2</m:mn>
+								<m:mn>3</m:mn>
+							</m:mfrac>
+							<m:mo>,</m:mo><m:mi>y</m:mi><m:mtext>-intercept is</m:mtext><m:mrow><m:mo>(</m:mo>
+								<m:mrow>
+									<m:mn>0</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mfrac>
+										<m:mn>1</m:mn>
+										<m:mn>3</m:mn>
+									</m:mfrac>
+								</m:mrow>
+								<m:mo>)</m:mo></m:mrow>
+						</m:mrow>
+					</m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-612"><problem id="eip-134">
+			<para id="eip-637"><emphasis>(<link document="m22014"/>)</emphasis> As we look at a graph left to right, do lines with a positive slope rise or decline?</para>
+		</problem><solution id="zip-id16763543"><para id="zip-id16763544">rise</para></solution>
+	</exercise><para id="eip-140">For the following problems, find the equation of the line using the information provided. Write the equation in slope-intercept form.</para><exercise id="eip-21"><problem id="eip-731">
+			<para id="eip-51"><emphasis>(<link document="m21998"/>)</emphasis>
+				<m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mtext>Slope</m:mtext><m:mtext> </m:mtext><m:mtext>=</m:mtext><m:mtext> </m:mtext><m:mtext>4,</m:mtext><m:mtable>
+								<m:mtr>
+									<m:mtd>
+										<m:mrow/>
+									</m:mtd>
+									<m:mtd>
+										<m:mrow/>
+									</m:mtd>
+								</m:mtr>
+							</m:mtable><m:mi>y</m:mi><m:mtext>-intercept</m:mtext><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>-3</m:mn>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math>.	</para>
+		</problem><solution id="zip-id16553431"><para id="zip-id16553432"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn>
+						</m:mrow>
+					</m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-104"><problem id="eip-518">
+			<para id="eip-737"><emphasis>(<link document="m21998"/>)</emphasis>
+				<m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mtext>Slope</m:mtext><m:mtext> </m:mtext><m:mtext>=</m:mtext><m:mtext> </m:mtext><m:mo>−</m:mo><m:mfrac>
+								<m:mn>3</m:mn>
+								<m:mn>2</m:mn>
+							</m:mfrac>
+							<m:mtext>,</m:mtext><m:mtable>
+								<m:mtr>
+									<m:mtd>
+										<m:mrow/>
+									</m:mtd>
+									<m:mtd>
+										<m:mrow/>
+									</m:mtd>
+								</m:mtr>
+							</m:mtable><m:mi>y</m:mi><m:mtext>-intercept</m:mtext><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mfrac>
+								<m:mn>4</m:mn>
+								<m:mn>3</m:mn>
+							</m:mfrac>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math>.</para>
+		</problem><solution id="zip-id18971830"><para id="zip-id18971831"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+								<m:mn>3</m:mn>
+								<m:mn>2</m:mn>
+							</m:mfrac>
+							<m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac>
+								<m:mn>4</m:mn>
+								<m:mn>3</m:mn>
+							</m:mfrac>
+						</m:mrow>
+					</m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-531"><problem id="eip-312">
+			<para id="eip-942"><emphasis>(<link document="m21998"/>)</emphasis>
+				<m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mtext>slope</m:mtext><m:mtext> </m:mtext><m:mtext>=</m:mtext><m:mtext> </m:mtext><m:mfrac>
+								<m:mtext>2</m:mtext>
+								<m:mtext>3</m:mtext>
+							</m:mfrac>
+							<m:mo>,</m:mo><m:mtable>
+								<m:mtr>
+									<m:mtd>
+										<m:mrow/>
+									</m:mtd>
+									<m:mtd>
+										<m:mrow/>
+									</m:mtd>
+								</m:mtr>
+							</m:mtable><m:mtext>passes</m:mtext><m:mtext> </m:mtext><m:mtext>through</m:mtext><m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math>.</para>
+		</problem><solution id="zip-id15112127"><para id="zip-id15112128"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac>
+								<m:mn>2</m:mn>
+								<m:mn>3</m:mn>
+							</m:mfrac>
+							<m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac>
+								<m:mn>8</m:mn>
+								<m:mn>3</m:mn>
+							</m:mfrac>
+						</m:mrow>
+					</m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-809"><problem id="eip-988">
+			<para id="eip-448"><emphasis>(<link document="m21998"/>)</emphasis>
+				<m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mtext>slope</m:mtext><m:mtext> </m:mtext><m:mtext>=</m:mtext><m:mtext> </m:mtext><m:mtext>7,</m:mtext><m:mtable>
+								<m:mtr>
+									<m:mtd>
+										<m:mrow/>
+									</m:mtd>
+									<m:mtd>
+										<m:mrow/>
+									</m:mtd>
+								</m:mtr>
+							</m:mtable><m:mtext>passes</m:mtext><m:mtext> </m:mtext><m:mtext>through</m:mtext><m:mtext> </m:mtext><m:mtext>(0,</m:mtext><m:mtext> </m:mtext><m:mtext>0)</m:mtext></m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math>.</para>
+		</problem><solution id="zip-id3749192"><para id="zip-id3749193"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mi>y</m:mi><m:mo>=</m:mo><m:mn>7</m:mn><m:mi>x</m:mi>
+						</m:mrow>
+					</m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-904"><problem id="eip-143">
+			<para id="eip-791"><emphasis>(<link document="m21998"/>)</emphasis> passes through the points <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math> and <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math>.</para>
+		</problem><solution id="zip-id16927646"><para id="zip-id16927647"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac>
+								<m:mn>1</m:mn>
+								<m:mn>3</m:mn>
+							</m:mfrac>
+							<m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac>
+								<m:mn>1</m:mn>
+								<m:mn>3</m:mn>
+							</m:mfrac>
+						</m:mrow>
+					</m:semantics></m:math></para></solution>
+	</exercise><para id="eip-686"><newline/>For the following problems, graph the equation of inequality.</para><exercise id="eip-431"><problem id="eip-762">
+			<para id="eip-776"><emphasis>(<link document="m21995"/>-<link document="m22000"/>)</emphasis>
+				<m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mi>y</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mfrac>
+								<m:mn>1</m:mn>
+								<m:mn>3</m:mn>
+							</m:mfrac>
+							<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math><newline/><newline/><media id="C6_S6-10_P305_030" display="block" alt="An xy-plane with gridlines, labeled negative five and five on the both axes.">
+					<image mime-type="image/png" src="../../media/C6_S6-10_P305_019.png" print-width="2in"/>
+				</media></para>
+		</problem><solution id="zip-id19307264"><para id="zip-id19307265"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac>
+								<m:mn>1</m:mn>
+								<m:mn>3</m:mn>
+							</m:mfrac>
+							<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn>
+						</m:mrow>
+					</m:semantics></m:math><newline/><newline/><media id="zip-id19287306" alt="A graph of a line passing through two points with coordinates zero, negative two and three, negative one."><image mime-type="image/jpeg" src="../../media/C11_S11-6_P17_005.jpg" print-width="2in"/></media></para></solution>
+	</exercise><exercise id="eip-989"><problem id="eip-798">
+			<para id="eip-683"><emphasis>(<link document="m21995"/>-<link document="m22000"/>)</emphasis>
+				<m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mn>5</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>15</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math><newline/><newline/><media id="C6_S6-10_P305_031" display="block" alt="An xy-plane with gridlines, labeled negative five and five on the both axes.">
+					<image mime-type="image/png" src="../../media/C6_S6-10_P305_019.png" print-width="2in"/>
+				</media></para>
+		</problem><solution id="zip-id3238966"><para id="zip-id3238968"><media id="zip-id3238969" alt="A graph of a line passing through two points with coordinates zero, negative three and five, negative one."><image mime-type="image/jpeg" src="../../media/C11_S11-6_P17_007.jpg" print-width="2in"/></media></para></solution>
+	</exercise><exercise id="eip-166"><problem id="eip-964">
+			<para id="eip-525"><emphasis>(<link document="m21995"/>-<link document="m22000"/>)</emphasis>
+				<m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>8</m:mn>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math><newline/><newline/><media id="C6_S6-10_P305_032" display="block" alt="An xy-plane with gridlines, labeled negative five and five on the both axes.">
+					<image mime-type="image/png" src="../../media/C6_S6-10_P305_019.png" print-width="2in"/>
+				</media></para>
+		</problem><solution id="zip-id15663097"><para id="zip-id3269623"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mn>4</m:mn><m:mrow><m:mo>(</m:mo>
+								<m:mrow>
+									<m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi>
+								</m:mrow>
+								<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>8</m:mn>
+						</m:mrow>
+					</m:semantics></m:math><newline/><newline/><media id="zip-id3296155" alt="A graph of a line passing through four points with coordinates negative two, four; zero, two; two, zero; and four, negative two."><image mime-type="image/jpeg" src="../../media/C11_S11-6_P17_010.jpg" print-width="2in"/></media></para></solution>
+	</exercise><exercise id="eip-479"><problem id="eip-986">
+			<para id="eip-816"><emphasis>(<link document="m21995"/>—<link document="m22000"/>)</emphasis>
+				<m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mfrac>
+								<m:mn>3</m:mn>
+								<m:mn>2</m:mn>
+							</m:mfrac>
+							<m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>0</m:mn>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math><newline/><newline/><media id="C6_S6-10_P305_033" display="block" alt="An xy-plane with gridlines, labeled negative five and five on the both axes.">
+					<image mime-type="image/png" src="../../media/C6_S6-10_P305_019.png" print-width="2in"/>
+				</media></para>
+		</problem><solution id="zip-id16752223"><para id="zip-id18985847"><media id="zip-id18985848" alt="A graph of a line parallel to x-axis and passing through a point with coordinates zero, negative four over three."><image mime-type="image/jpeg" src="../../media/C11_S11-6_P18_001.jpg" print-width="2in"/></media></para></solution>
+	</exercise><exercise id="eip-69"><problem id="eip-691">
+			<para id="eip-60"><emphasis>(<link document="m21995"/>—<link document="m22000"/>)</emphasis>
+				<m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math><newline/><newline/><media id="C6_S6-10_P305_034" display="block" alt="An xy-plane with gridlines, labeled negative five and five on the both axes.">
+					<image mime-type="image/png" src="../../media/C6_S6-10_P305_019.png" print-width="2in"/>
+				</media></para>
+		</problem><solution id="zip-id4790522"><para id="zip-id16941842"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn>
+						</m:mrow>
+					</m:semantics></m:math><newline/><newline/><media id="zip-id16740382" alt="A graph of a line parallel to y-axis in an xy plane. The line crosses the x-axis at x equals negative two."><image mime-type="image/jpeg" src="../../media/C11_S11-7_P19_002.jpg" print-width="2in"/></media></para></solution>
+	</exercise><exercise id="eip-1000"><problem id="eip-551">
+			<para id="eip-325"><emphasis>(<link document="m22008"/>)</emphasis>
+				<m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>&gt;</m:mo><m:mn>6</m:mn>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math><newline/><newline/><media id="C6_S6-10_P305_035" display="block" alt="An xy-plane with gridlines, labeled negative five and five on the both axes.">
+					<image mime-type="image/png" src="../../media/C6_S6-10_P305_019.png" print-width="2in"/>
+				</media></para>
+		</problem><solution id="zip-id18690873"><para id="zip-id18690874"><media id="zip-id18690875" alt="A dashed line in an xy plane passing through two points with coordinates zero,  two and three, zero. The region above the line is shaded."><image mime-type="image/jpeg" src="../../media/C11_S11-7_P19_003.jpg" print-width="2in"/></media></para></solution>
+	</exercise><exercise id="eip-517"><problem id="eip-604">
+			<para id="eip-709"><emphasis>(<link document="m21998"/>)</emphasis> Reading only from the graph, determine the equation of the line.<newline/><newline/><media id="C6_S6-10_P308_021" display="block" alt="A graph of a line sloped up and to the left.">
+		<image mime-type="image/png" src="../../media/C6_S6-10_P305_020.png" print-width="2in"/>
+	</media></para>
+		</problem><solution id="zip-id4437343"><para id="zip-id4437344"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+								<m:mn>1</m:mn>
+								<m:mn>3</m:mn>
+							</m:mfrac>
+							<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+						</m:mrow>
+					</m:semantics></m:math><newline/><newline/><media id="zip-id16833421" alt="A graph of a line passing through two points with coordinates negative three, four and three, two."><image mime-type="image/jpeg" src="../../media/C11_S11-7_P19_004.jpg" print-width="2in"/></media></para></solution>
+	</exercise></section></content></document>

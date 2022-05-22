@@ -1,0 +1,3419 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+
+<title>Applications </title>
+<metadata>
+  <md:content-id>m21938</md:content-id><md:title>Applications </md:title>
+  <md:abstract>&lt;para&gt;This module is from &lt;link document="col10614"&gt;Elementary Algebra&lt;/link&gt; by Denny Burzynski and Wade Ellis, Jr.&lt;/para&gt;
+&lt;para&gt;A detailed study of arithmetic operations with rational expressions is presented in this chapter, beginning with the definition of a rational expression and then proceeding immediately to a discussion of the domain. The process of reducing a rational expression and illustrations of multiplying, dividing, adding, and subtracting rational expressions are also included. Since the operations of addition and subtraction can cause the most difficulty, they are given particular attention. We have tried to make the written explanation of the examples clearer by using a "freeze frame" approach, which walks the student through the operation step by step.&lt;/para&gt;
+&lt;para&gt;The five-step method of solving applied problems is included in this chapter to show the problem-solving approach to number problems, work problems, and geometry problems. The chapter also illustrates simplification of complex rational expressions, using the combine-divide method and the LCD-multiply-divide method.&lt;/para&gt;
+&lt;para&gt;Objectives of this module: be able to use the five-step method to solve various applied problems.&lt;/para&gt;</md:abstract>
+  <md:uuid>c989bbe6-e915-4b8d-9110-9cd52cbd0142</md:uuid>
+</metadata>
+
+<content>
+    <section id="id8420064">
+      <title>Overview</title>
+      <list id="id8443876" list-type="bulleted"><item>
+          The Five-Step Method
+        </item>
+        
+      </list>
+    </section>
+    <section id="id8435335">
+      <title>The Five-Step Method</title>
+      <para id="id12682801">We are now in a position to study some applications of rational equations. Some of these problems will have practical applications while others are intended as logic developers.</para>	  
+<para id="fs-id16620105">We will apply the five-step method for solving word problems. 
+</para>
+<para id="fs-id15666060" class="highlight">
+  <title>Five-Step Method</title>
+  <list id="fs-id24514125" list-type="enumerated" number-style="arabic" class="highlight">
+        <item>Represent all unknown quantities in terms of <m:math>
+ <m:semantics>
+  <m:mi>x</m:mi>
+ </m:semantics>
+</m:math>
+ or some other letter.</item><item>Translate the verbal phrases to mathematical symbols and form an equation.</item><item>Solve this equation.</item><item>Check the solution by substituting the result into the original statement of the problem.</item><item>Write the conclusion.</item></list>  
+</para>
+<para id="fs-id25919324">Remember, step 1 is very important: always</para>
+<para id="fs-id21379514" class="highlight"><term>Introduce a variable.</term></para>
+</section>
+<section id="fs-id3971034">
+      <title>Sample Set A</title>
+<example id="fs-id26000534"><para id="fs-id11925945">When the same number is added to the numerator and denominator of the fraction <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>5</m:mn>
+   </m:mfrac>
+   <m:mo>,</m:mo>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math> the result is <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>7</m:mn>
+    <m:mn>9</m:mn>
+   </m:mfrac>
+   <m:mo>.</m:mo>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math> What is the number that is added?<newline/><newline/>
+Step 1: Let <m:math><m:mi>x</m:mi><m:mo>=</m:mo></m:math> the number being added.
+
+<m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mtable columnalign="left">
+    <m:mtr>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>Step 2:</m:mtext>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mfrac>
+        <m:mrow>
+         <m:mn>3</m:mn><m:mo>+</m:mo><m:mi>x</m:mi>
+        </m:mrow>
+        <m:mrow>
+         <m:mn>5</m:mn><m:mo>+</m:mo><m:mi>x</m:mi>
+        </m:mrow>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mfrac>
+        <m:mn>7</m:mn>
+        <m:mn>9</m:mn>
+       </m:mfrac>
+       <m:mo>.</m:mo>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>Step 3:</m:mtext>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mfrac>
+        <m:mrow>
+         <m:mn>3</m:mn><m:mo>+</m:mo><m:mi>x</m:mi>
+        </m:mrow>
+        <m:mrow>
+         <m:mn>5</m:mn><m:mo>+</m:mo><m:mi>x</m:mi>
+        </m:mrow>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mfrac>
+        <m:mn>7</m:mn>
+        <m:mn>9</m:mn>
+       </m:mfrac>
+       <m:mo>.</m:mo>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+         <m:mtext>An excluded value is </m:mtext><m:mo>−</m:mo><m:mtext>5</m:mtext><m:mtext>.</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mtext>The LCD is 9</m:mtext><m:mrow><m:mo>(</m:mo>
+          <m:mrow>
+           <m:mn>5</m:mn><m:mo>+</m:mo><m:mi>x</m:mi>
+          </m:mrow>
+         <m:mo>)</m:mo></m:mrow><m:mtext>. </m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mtext>Multiply each term by 9</m:mtext><m:mrow><m:mo>(</m:mo>
+          <m:mrow>
+           <m:mn>5</m:mn><m:mo>+</m:mo><m:mi>x</m:mi>
+          </m:mrow>
+         <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+
+    <m:mtr>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mn>9</m:mn><m:mrow><m:mo>(</m:mo>
+        <m:mrow>
+         <m:mn>5</m:mn><m:mo>+</m:mo><m:mi>x</m:mi>
+        </m:mrow>
+       <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mfrac>
+        <m:mrow>
+         <m:mn>3</m:mn><m:mo>+</m:mo><m:mi>x</m:mi>
+        </m:mrow>
+        <m:mrow>
+         <m:mn>5</m:mn><m:mo>+</m:mo><m:mi>x</m:mi>
+        </m:mrow>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mn>9</m:mn><m:mrow><m:mo>(</m:mo>
+        <m:mrow>
+         <m:mn>5</m:mn><m:mo>+</m:mo><m:mi>x</m:mi>
+        </m:mrow>
+       <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mfrac>
+        <m:mn>7</m:mn>
+        <m:mn>9</m:mn>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mn>9</m:mn><m:mrow><m:mo>(</m:mo>
+        <m:mrow>
+         <m:mn>3</m:mn><m:mo>+</m:mo><m:mi>x</m:mi>
+        </m:mrow>
+       <m:mo>)</m:mo></m:mrow>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mn>7</m:mn><m:mrow><m:mo>(</m:mo>
+        <m:mrow>
+         <m:mn>5</m:mn><m:mo>+</m:mo><m:mi>x</m:mi>
+        </m:mrow>
+       <m:mo>)</m:mo></m:mrow>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mn>27</m:mn><m:mo>+</m:mo><m:mn>9</m:mn><m:mi>x</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mn>35</m:mn><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>x</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mn>2</m:mn><m:mi>x</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mn>8</m:mn>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mi>x</m:mi>
+     </m:mtd>
+     <m:mtd>
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mn>4</m:mn>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mtext>Check this potential solution</m:mtext><m:mtext>.</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>Step 4:</m:mtext>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mfrac>
+        <m:mrow>
+         <m:mn>3</m:mn><m:mo>+</m:mo><m:mn>4</m:mn>
+        </m:mrow>
+        <m:mrow>
+         <m:mn>5</m:mn><m:mo>+</m:mo><m:mn>4</m:mn>
+        </m:mrow>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd>
+      <m:mrow>
+       <m:mo>=</m:mo>
+      
+     </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mn>7</m:mn>
+       <m:mn>9</m:mn>
+      </m:mfrac>
+      <m:mo>.</m:mo>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd>
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd>
+     <m:mrow><m:mtext>Yes, this is correct.</m:mtext></m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mtext>Step 5:</m:mtext>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd>
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd>
+     <m:mrow>
+      <m:mtext>The number added is 4</m:mtext><m:mtext>.</m:mtext>
+     </m:mrow>
+    </m:mtd>
+    <m:mtd>
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd>
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd>
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd>
+     <m:mrow/>
+    </m:mtd>
+   </m:mtr>
+   
+  </m:mtable>
+ </m:mrow>
+ 
+</m:semantics>
+</m:math>
+
+</para></example>
+</section>
+<section id="fs-id26722709">
+      <title>Practice Set A</title>
+	  <para id="fs-id8280290">The same number is added to the numerator and denominator of the fraction <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>4</m:mn>
+    <m:mn>9</m:mn>
+   </m:mfrac>
+   <m:mo>.</m:mo>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math> The result is <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mn>3</m:mn>
+   </m:mfrac>
+   <m:mo>.</m:mo>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math> What is the number that is added?</para>
+ <exercise id="fs-id3830753">
+ <problem id="fs-id3830755">
+<para id="fs-id27135411">Step 1:   Let <m:math>
+ <m:semantics>
+  <m:mi>x</m:mi>
+ </m:semantics>
+</m:math> =</para>
+<para id="fs-id24496390">Step 2:<newline/><newline/><newline/></para>
+<para id="fs-id24810835">Step 3:<newline/><newline/><newline/><newline/><newline/><newline/></para>
+<para id="fs-id23964288">Step 4:<newline/><newline/><newline/><newline/></para>
+<para id="fs-id7039838">Step 5:   The number added is<space count="10" effect="underline"/>.</para></problem>
+<solution id="fs-id26191201"><para id="fs-id24736282">The number added is 6.</para></solution>
+</exercise>
+</section>
+<section id="fs-id18421964">
+      <title>Sample Set B</title>
+<example id="fs-id26251045"><para id="fs-id26251046">Two thirds of a number added to the reciprocal of the number yields <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>25</m:mn>
+    </m:mrow>
+    <m:mn>6</m:mn>
+   </m:mfrac>
+   <m:mo>.</m:mo>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math> What is the number?<newline/><newline/>Step 1:    Let <m:math>
+ <m:semantics>
+  <m:mi>x</m:mi>
+ </m:semantics>
+</m:math> = the number.<newline/><newline/>
+Step 2:    Recall that the reciprocal of a number <m:math>
+ <m:semantics>
+  <m:mi>x</m:mi>
+ </m:semantics>
+</m:math> is the number <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mi>x</m:mi>
+   </m:mfrac>
+  </m:mrow>
+ </m:semantics>
+</m:math>.<newline/><newline/>      <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mn>3</m:mn>
+   </m:mfrac>
+   <m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mi>x</m:mi>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>25</m:mn>
+    </m:mrow>
+    <m:mn>6</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+ </m:semantics>
+</m:math><newline/><newline/>
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable columnalign="left">
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>Step 3:</m:mtext>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mfrac>
+        <m:mn>2</m:mn>
+        <m:mn>3</m:mn>
+       </m:mfrac>
+       <m:mtext> </m:mtext><m:mi>·</m:mi><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac>
+        <m:mn>1</m:mn>
+        <m:mi>x</m:mi>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mfrac>
+        <m:mrow>
+         <m:mn>25</m:mn>
+        </m:mrow>
+        <m:mn>6</m:mn>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>The LCD is</m:mtext><m:mi> </m:mi><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>.</m:mo><m:mi> </m:mi><m:mtext>Multiply each term by</m:mtext><m:mi> </m:mi><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>.</m:mo>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mn>6</m:mn><m:mi>x</m:mi><m:mtext> </m:mtext><m:mi>·</m:mi><m:mtext> </m:mtext><m:mfrac>
+        <m:mn>2</m:mn>
+        <m:mn>3</m:mn>
+       </m:mfrac>
+       <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mtext> </m:mtext><m:mi>·</m:mi><m:mtext> </m:mtext><m:mfrac>
+        <m:mn>1</m:mn>
+        <m:mi>x</m:mi>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mn>6</m:mn><m:mi>x</m:mi><m:mtext> </m:mtext><m:mi>·</m:mi><m:mtext> </m:mtext><m:mfrac>
+        <m:mrow>
+         <m:mn>25</m:mn>
+        </m:mrow>
+        <m:mn>6</m:mn>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mn>4</m:mn><m:msup>
+        <m:mi>x</m:mi>
+        <m:mn>2</m:mn>
+       </m:msup>
+       <m:mo>+</m:mo><m:mn>6</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mn>25</m:mn><m:mi>x</m:mi>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtable columnalign="left">
+        <m:mtr columnalign="left">
+         <m:mtd columnalign="left">
+          <m:mrow>
+           <m:mtext>Solve this nonfractional quadratic equation to obtain the </m:mtext>
+          </m:mrow>
+         </m:mtd>
+        </m:mtr>
+        <m:mtr columnalign="left">
+         <m:mtd columnalign="left">
+          <m:mrow>
+           <m:mtext>potential solutions</m:mtext><m:mtext>. (Use the zero-factor property</m:mtext><m:mtext>.)</m:mtext>
+          </m:mrow>
+         </m:mtd>
+        </m:mtr>
+        
+       </m:mtable>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mn>4</m:mn><m:msup>
+        <m:mi>x</m:mi>
+        <m:mn>2</m:mn>
+       </m:msup>
+       <m:mo>−</m:mo><m:mn>25</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mn>0</m:mn>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mo>=</m:mo>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mn>0</m:mn>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac>
+        <m:mn>1</m:mn>
+        <m:mn>4</m:mn>
+       </m:mfrac>
+       <m:mo>,</m:mo>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mo/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mn>6</m:mn>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>Check these potential solutions</m:mtext><m:mtext>.</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math><newline/><newline/>Step 4:    Substituting into the original equation, it can be that both solutions check.
+<newline/><newline/>Step 5:    There are two solutions: <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>4</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+ </m:semantics>
+</m:math> and 6.
+</para></example>
+</section>
+<section id="fs-id7076923">
+      <title>Practice Set B</title>
+	  <para id="fs-id19280460">Seven halves of a number added to the reciprocal of the number yields <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>23</m:mn>
+    </m:mrow>
+    <m:mn>6</m:mn>
+   </m:mfrac>
+   <m:mo>.</m:mo>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math> What is the number?</para>
+ <exercise id="fs-id23639787">
+ <problem id="fs-id16320881">
+<para id="fs-id16320883">Step 1:   Let <m:math>
+ <m:semantics>
+  <m:mi>x</m:mi>
+ </m:semantics>
+</m:math> =</para>
+<para id="fs-id24080307">Step 2:<newline/><newline/><newline/></para>
+<para id="fs-id6977919">Step 3:<newline/><newline/><newline/><newline/><newline/><newline/></para>
+<para id="fs-id19997726">Step 4:<newline/><newline/><newline/><newline/></para>
+<para id="fs-id23878618">Step 5:   The number is<space count="10" effect="underline"/>.</para></problem>
+<solution id="fs-id6884753"><para id="fs-id6884754">There are two numbers: <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>7</m:mn>
+   </m:mfrac>
+   <m:mo>,</m:mo><m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mn>3</m:mn>
+   </m:mfrac>
+   <m:mo>.</m:mo>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution>
+</exercise>
+</section>
+<section id="fs-id10644288">
+      <title>Sample Set C</title>
+<example id="fs-id11801023"><para id="fs-id19844296">Person A, working alone, can pour a concrete walkway in 6 hours. Person B, working alone, can pour the same walkway in 4 hours. How long will it take both people to pour the concrete walkway working together?</para>
+<para id="fs-id13506621">Step 1:  Let <m:math>
+ <m:semantics>
+  <m:mi>x</m:mi>
+ </m:semantics>
+</m:math> = the number of hours to pour the concrete walkway working together (since this is what we’re looking for).</para>
+<para id="fs-id20150428">Step 2:  If person A can complete the job in 6 hours, A can complete <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>6</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math> of the job in 1 hour.<newline/>
+If person B can complete the job in 4 hours, B can complete <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>4</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math> of the job in 1 hour.<newline/>
+If A and B, working together, can complete the job in <m:math>
+ <m:semantics>
+  <m:mi>x</m:mi>
+ </m:semantics>
+</m:math> hours, they can complete <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mi>x</m:mi>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math> of the job in 1 hour. Putting these three facts into equation form, we have<newline/><newline/><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>6</m:mn>
+   </m:mfrac>
+   <m:mo>+</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>4</m:mn>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mi>x</m:mi>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math><newline/><m:math>
+ <m:semantics>
+  <m:mtable columnalign="left">
+   <m:mtr>
+    <m:mtd columnalign="left">
+     <m:mtable>
+      <m:mtr>
+       <m:mtd columnalign="left">
+        <m:mrow>
+         <m:mtext>Step 3:</m:mtext>
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="right">
+        <m:mrow>
+         <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mn>6</m:mn>
+         </m:mfrac>
+         <m:mo>+</m:mo><m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mn>4</m:mn>
+         </m:mfrac>
+         
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mo>=</m:mo>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow>
+         <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mi>x</m:mi>
+         </m:mfrac>
+         <m:mo>.</m:mo>
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mtable columnalign="left">
+         <m:mtr>
+          <m:mtd columnalign="left">
+           <m:mtext>An excluded value is 0</m:mtext><m:mtext>. </m:mtext>
+          </m:mtd>
+         </m:mtr>
+         <m:mtr>
+          <m:mtd columnalign="left">
+           <m:mtext>The LCD is 12</m:mtext><m:mi>x</m:mi><m:mtext>. Multiply each term by 12</m:mtext><m:mi>x</m:mi><m:mtext>.</m:mtext>
+          </m:mtd>
+         </m:mtr>
+        </m:mtable>
+        
+       </m:mtd>
+      </m:mtr>
+      <m:mtr>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow>
+         <m:mn>12</m:mn><m:mi>x</m:mi><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mn>6</m:mn>
+         </m:mfrac>
+         <m:mo>+</m:mo><m:mn>12</m:mn><m:mi>x</m:mi><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mn>4</m:mn>
+         </m:mfrac>
+         
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mo>=</m:mo>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow>
+         <m:mn>12</m:mn><m:mi>x</m:mi><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mi>x</m:mi>
+         </m:mfrac>
+         
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+      </m:mtr>
+      <m:mtr>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="right">
+        <m:mrow>
+         <m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi>
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mo>=</m:mo>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow>
+         <m:mn>12</m:mn>
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mtable columnalign="left">
+         <m:mtr>
+          <m:mtd columnalign="left">
+           <m:mtext>Solve this nonfractional </m:mtext>
+          </m:mtd>
+         </m:mtr>
+         <m:mtr>
+          <m:mtd columnalign="left">
+           <m:mtext>equation to obtain the potential solutions</m:mtext><m:mtext>.</m:mtext>
+          </m:mtd>
+         </m:mtr>
+        </m:mtable>
+        
+       </m:mtd>
+      </m:mtr>
+      <m:mtr>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="right">
+        <m:mrow>
+         <m:mn>5</m:mn><m:mi>x</m:mi>
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mo>=</m:mo>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow>
+         <m:mn>12</m:mn>
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+      </m:mtr>
+      <m:mtr>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="right">
+        <m:mi>x</m:mi>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mo>=</m:mo>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow>
+         <m:mfrac>
+          <m:mrow>
+           <m:mn>12</m:mn>
+          </m:mrow>
+          <m:mn>5</m:mn>
+         </m:mfrac>
+         <m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext>or</m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mfrac>
+          <m:mn>2</m:mn>
+          <m:mn>5</m:mn>
+         </m:mfrac>
+         
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow>
+         <m:mtext>Check this potential solution</m:mtext><m:mtext>.</m:mtext>
+        </m:mrow>
+       </m:mtd>
+      </m:mtr>
+      <m:mtr>
+       <m:mtd columnalign="left">
+        <m:mrow>
+         <m:mtext>Step 4:</m:mtext>
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="right">
+        <m:mrow>
+         <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mn>6</m:mn>
+         </m:mfrac>
+         <m:mo>+</m:mo><m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mn>4</m:mn>
+         </m:mfrac>
+         
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mo>=</m:mo>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow>
+         <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mi>x</m:mi>
+         </m:mfrac>
+         
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+      </m:mtr>
+      <m:mtr>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="right">
+        <m:mrow>
+         <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mn>6</m:mn>
+         </m:mfrac>
+         <m:mo>+</m:mo><m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mn>4</m:mn>
+         </m:mfrac>
+         
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow>
+         <m:mo>=</m:mo>
+        
+       </m:mrow>
+      </m:mtd>
+      <m:mtd columnalign="left">
+       <m:mrow>
+        <m:mfrac>
+         <m:mrow>
+          <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:mrow>
+            <m:mn>12</m:mn>
+           </m:mrow>
+          </m:mfrac>
+          
+         </m:mrow>
+         <m:mn>5</m:mn>
+        </m:mfrac>
+        <m:mo>.</m:mo>
+       </m:mrow>
+      </m:mtd>
+      <m:mtd columnalign="left">
+       <m:mrow/>
+      </m:mtd>
+      <m:mtd columnalign="left">
+       <m:mrow><m:mtext>Is this correct?</m:mtext></m:mrow>
+      </m:mtd>
+     </m:mtr>
+     <m:mtr>
+      <m:mtd columnalign="left">
+       <m:mrow/>
+      </m:mtd>
+      <m:mtd columnalign="left">
+       <m:mrow/>
+      </m:mtd>
+      <m:mtd columnalign="right">
+       <m:mrow>
+        <m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mn>6</m:mn>
+        </m:mfrac>
+        <m:mo>+</m:mo><m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mn>4</m:mn>
+        </m:mfrac>
+        
+       </m:mrow>
+      </m:mtd>
+      <m:mtd columnalign="left">
+       <m:mrow>
+        <m:mo>=</m:mo>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mfrac>
+        <m:mn>5</m:mn>
+        <m:mrow>
+         <m:mn>12</m:mn>
+        </m:mrow>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>The LCD is 12. </m:mtext><m:mtext> Is this correct?</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mfrac>
+        <m:mn>2</m:mn>
+        <m:mrow>
+         <m:mn>12</m:mn>
+        </m:mrow>
+       </m:mfrac>
+       <m:mo>+</m:mo><m:mfrac>
+        <m:mn>3</m:mn>
+        <m:mrow>
+         <m:mn>12</m:mn>
+        </m:mrow>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mo>=</m:mo>
+      
+     </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mn>5</m:mn>
+       <m:mrow>
+        <m:mn>12</m:mn>
+       </m:mrow>
+      </m:mfrac>
+      
+     </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow><m:mtext>Is this correct?</m:mtext></m:mrow>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="left">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="right">
+     <m:mrow>
+      <m:mfrac>
+       <m:mn>5</m:mn>
+       <m:mrow>
+        <m:mn>12</m:mn>
+       </m:mrow>
+      </m:mfrac>
+      
+     </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mo>=</m:mo>
+     
+    </m:mrow>
+   </m:mtd>
+   <m:mtd columnalign="left">
+    <m:mrow>
+     <m:mfrac>
+      <m:mn>5</m:mn>
+      <m:mrow>
+       <m:mn>12</m:mn>
+      </m:mrow>
+     </m:mfrac>
+     
+    </m:mrow>
+   </m:mtd>
+   <m:mtd columnalign="left">
+    <m:mrow/>
+   </m:mtd>
+   <m:mtd columnalign="left">
+   <m:mrow><m:mtext>Is this correct?</m:mtext></m:mrow>
+   </m:mtd>
+  </m:mtr>
+ 
+ </m:mtable>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+ <m:mtd columnalign="left">
+  <m:mtext>Step 5:</m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext>Working together, A and B can pour the concrete walkway in 2</m:mtext><m:mfrac>
+   <m:mn>2</m:mn>
+   <m:mn>5</m:mn>
+  </m:mfrac>
+  <m:mtext> hours</m:mtext><m:mtext>.</m:mtext>
+ </m:mtd>
+</m:mtr>
+</m:mtable>
+
+
+</m:semantics>
+</m:math>
+</para></example>
+</section>
+<section id="fs-id26262856">
+      <title>Practice Set C</title>
+	  <para id="fs-id26262862">Person A, working alone, can pour a concrete walkway in 9 hours. Person B, working alone, can pour the same walkway in 6 hours. How long will it take both people to pour the concrete walkway working together?</para>
+ <exercise id="fs-id26283889">
+ <problem id="fs-id26283891">
+<para id="fs-id26283893">Step 1:</para>
+<para id="fs-id18478458">Step 2:<newline/><newline/><newline/><newline/></para>
+<para id="fs-id25264383">Step 3:<newline/><newline/><newline/><newline/><newline/><newline/></para>
+<para id="fs-id13724815">Step 4:<newline/><newline/><newline/></para>
+<para id="fs-id26607968">Step 5:   Working together, A and B<space count="10" effect="underline"/>.</para></problem>
+<solution id="fs-id27411956"><para id="fs-id27411957">Working together, A and B can pour the concrete walkway in <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>3</m:mn><m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>5</m:mn>
+   </m:mfrac>
+   <m:mtext>hr</m:mtext><m:mtext>.</m:mtext>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution>
+</exercise>
+</section>
+<section id="fs-id27509619">
+      <title>Sample Set D</title>
+<example id="fs-id27518163"><para id="fs-id27518164">An inlet pipe can fill a water tank in 12 hours. An outlet pipe can drain the tank in 20 hours. If both pipes are open, how long will it take to fill the tank?</para>
+<para id="fs-id22054228">Step 1:  Let <m:math>
+ <m:semantics>
+  <m:mi>x</m:mi>
+ </m:semantics>
+</m:math> = the number of hours required to fill the tank.</para>
+<para id="fs-id26560305">Step 2:  If the inlet pipe can fill the tank in 12 hours, it can fill <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mrow>
+     <m:mn>12</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math> of the tank in 1 hour.<newline/>If the outlet pipe can drain the tank in 20 hours, it can drain <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mrow>
+     <m:mn>20</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math> of the tank in 1 hour.<newline/>If both pipes are open, it takes <m:math>
+ <m:semantics>
+  <m:mi>x</m:mi>
+ </m:semantics>
+</m:math> hours to fill the tank. So <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mi>x</m:mi>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math> of the tank will be filled in 1 hour.<newline/>Since water is being added (inlet pipe) and subtracted (outlet pipe) we get<newline/><newline/><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mrow>
+     <m:mn>12</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   <m:mo>−</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mrow>
+     <m:mn>20</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mi>x</m:mi>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math><newline/><m:math>
+ <m:semantics>
+  <m:mtable columnalign="left">
+   <m:mtr>
+    <m:mtd columnalign="left">
+     <m:mtable>
+      <m:mtr>
+       <m:mtd columnalign="left">
+        <m:mrow>
+         <m:mtext>Step 3:</m:mtext>
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="right">
+        <m:mrow>
+         <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mrow>
+           <m:mn>12</m:mn>
+          </m:mrow>
+         </m:mfrac>
+         <m:mo>−</m:mo><m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mrow>
+           <m:mn>20</m:mn>
+          </m:mrow>
+         </m:mfrac>
+         
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mo>=</m:mo>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow>
+         <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mi>x</m:mi>
+         </m:mfrac>
+         <m:mo>.</m:mo>
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mtable columnalign="left">
+         <m:mtr>
+          <m:mtd columnalign="left">
+           <m:mtext>An excluded value is 0</m:mtext><m:mtext>. The LCD is 60</m:mtext><m:mi>x</m:mi><m:mtext>. </m:mtext>
+          </m:mtd>
+         </m:mtr>
+         <m:mtr>
+          <m:mtd columnalign="left">
+           <m:mtext>Multiply each term by 60</m:mtext><m:mi>x</m:mi><m:mtext>.</m:mtext>
+          </m:mtd>
+         </m:mtr>
+        </m:mtable>
+        
+       </m:mtd>
+      </m:mtr>
+      <m:mtr>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="right">
+        <m:mrow>
+         <m:mn>60</m:mn><m:mi>x</m:mi><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mrow>
+           <m:mn>12</m:mn>
+          </m:mrow>
+         </m:mfrac>
+         <m:mo>−</m:mo><m:mn>60</m:mn><m:mi>x</m:mi><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mrow>
+           <m:mn>20</m:mn>
+          </m:mrow>
+         </m:mfrac>
+         
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mo>=</m:mo>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow>
+         <m:mn>60</m:mn><m:mi>x</m:mi><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mi>x</m:mi>
+         </m:mfrac>
+         
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+      </m:mtr>
+      <m:mtr>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="right">
+        <m:mrow>
+         <m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi>
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mo>=</m:mo>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow>
+         <m:mn>60</m:mn>
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mtable columnalign="left">
+         <m:mtr>
+          <m:mtd columnalign="left">
+           <m:mtext>Solve this nonfractional equation to obtain </m:mtext>
+          </m:mtd>
+         </m:mtr>
+         <m:mtr>
+          <m:mtd columnalign="left">
+           <m:mtext>the potential solutions</m:mtext><m:mtext>.</m:mtext>
+          </m:mtd>
+         </m:mtr>
+        </m:mtable>
+        
+       </m:mtd>
+      </m:mtr>
+      <m:mtr>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="right">
+        <m:mrow>
+         <m:mn>2</m:mn><m:mi>x</m:mi>
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mo>=</m:mo>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow>
+         <m:mn>60</m:mn>
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+      </m:mtr>
+      <m:mtr>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="right">
+        <m:mi>x</m:mi>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mo>=</m:mo>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow>
+         <m:mn>30</m:mn>
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow>
+         <m:mtext>Check this potential solution</m:mtext><m:mtext>.</m:mtext>
+        </m:mrow>
+       </m:mtd>
+      </m:mtr>
+      <m:mtr>
+       <m:mtd columnalign="left">
+        <m:mrow>
+         <m:mtext>Step 4:</m:mtext>
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="right">
+        <m:mrow>
+         <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mrow>
+           <m:mn>12</m:mn>
+          </m:mrow>
+         </m:mfrac>
+         <m:mo>−</m:mo><m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mrow>
+           <m:mn>20</m:mn>
+          </m:mrow>
+         </m:mfrac>
+         
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mo>=</m:mo>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow>
+         <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mi>x</m:mi>
+         </m:mfrac>
+         
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+      </m:mtr>
+      <m:mtr>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="right">
+        <m:mrow>
+         <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mrow>
+           <m:mn>12</m:mn>
+          </m:mrow>
+         </m:mfrac>
+         <m:mo>−</m:mo><m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mrow>
+           <m:mn>20</m:mn>
+          </m:mrow>
+         </m:mfrac>
+         
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow>
+         <m:mo>=</m:mo>
+        
+       </m:mrow>
+      </m:mtd>
+      <m:mtd columnalign="left">
+       <m:mrow>
+        <m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mrow>
+          <m:mn>30</m:mn>
+         </m:mrow>
+        </m:mfrac>
+        <m:mo>.</m:mo>
+       </m:mrow>
+      </m:mtd>
+      <m:mtd columnalign="left">
+       <m:mrow/>
+      </m:mtd>
+      <m:mtd columnalign="left">
+       <m:mrow>
+        <m:mtext>The LCD is 60</m:mtext><m:mtext>. </m:mtext> <m:mtext>Is this correct?</m:mtext>
+       </m:mrow>
+      </m:mtd>
+     </m:mtr>
+     <m:mtr>
+      <m:mtd columnalign="left">
+       <m:mrow/>
+      </m:mtd>
+      <m:mtd columnalign="left">
+       <m:mrow/>
+      </m:mtd>
+      <m:mtd columnalign="right">
+       <m:mrow>
+        <m:mfrac>
+         <m:mn>5</m:mn>
+         <m:mrow>
+          <m:mn>60</m:mn>
+         </m:mrow>
+        </m:mfrac>
+        <m:mo>−</m:mo><m:mfrac>
+         <m:mn>3</m:mn>
+         <m:mrow>
+          <m:mn>60</m:mn>
+         </m:mrow>
+        </m:mfrac>
+        
+       </m:mrow>
+      </m:mtd>
+      <m:mtd columnalign="left">
+       <m:mrow>
+        <m:mo>=</m:mo>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mfrac>
+        <m:mn>1</m:mn>
+        <m:mrow>
+         <m:mn>30</m:mn>
+        </m:mrow>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow><m:mtext>Is this correct?</m:mtext></m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="right">
+      <m:mrow>
+       <m:mfrac>
+        <m:mn>1</m:mn>
+        <m:mrow>
+         <m:mn>30</m:mn>
+        </m:mrow>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mo>=</m:mo>
+      
+     </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow>
+      <m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mrow>
+        <m:mn>30</m:mn>
+       </m:mrow>
+      </m:mfrac>
+      
+     </m:mrow>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow/>
+    </m:mtd>
+    <m:mtd columnalign="left">
+     <m:mrow><m:mtext>Yes, this is correct.</m:mtext></m:mrow>
+    </m:mtd>
+   </m:mtr>
+   
+  </m:mtable>
+ </m:mtd>
+</m:mtr>
+<m:mtr>
+ <m:mtd columnalign="left">
+  <m:mtext>Step 5:</m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext>With both pipes open, it will take 30 hours to fill the water tank</m:mtext><m:mtext>.</m:mtext>
+ </m:mtd>
+</m:mtr>
+</m:mtable>
+
+
+</m:semantics>
+</m:math>
+</para></example>
+</section>
+<section id="fs-id23541148">
+      <title>Practice Set D</title>
+	  <para id="fs-id25518680">An inlet pipe can fill a water tank in 8 hours and an outlet pipe can drain the tank in 10 hours. If both pipes are open, how long will it take to fill the tank?</para>
+  <exercise id="fs-id14723805">
+ <problem id="fs-id25518682">
+<para id="fs-id19316781">Step 1:</para>
+<para id="fs-id19316785">Step 2:<newline/><newline/><newline/><newline/></para>
+<para id="fs-id25998137">Step 3:<newline/><newline/><newline/><newline/><newline/><newline/></para>
+<para id="fs-id7848806">Step 4:<newline/><newline/><newline/></para>
+<para id="fs-id23961007">Step 5:</para></problem>
+<solution id="fs-id23961011"><para id="fs-id23961012">It will take 40 hr to fill the tank.</para></solution>
+</exercise>
+</section>
+
+<section id="fs-id19427098">
+      <title>Sample Set E</title>
+<example id="fs-id12535978"><para id="fs-id12535980">It takes person A 3 hours longer than person B to complete a certain job. Working together, both can complete the job in 2 hours. How long does it take each person to complete the job working alone?</para>
+<para id="fs-id19308835">Step 1:  Let <m:math>
+ <m:semantics>
+  <m:mi>x</m:mi>
+ </m:semantics>
+</m:math> = time required for B to complete the job working alone. Then, <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math> time required for A to complete the job working alone.<newline/><m:math>
+ <m:semantics>
+  <m:mtable columnalign="left">
+   <m:mtr>
+    <m:mtd columnalign="left">
+     <m:mtable>
+      <m:mtr>
+       <m:mtd columnalign="left">
+        <m:mrow>
+         <m:mtext>Step 2:</m:mtext>
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="right">
+        <m:mrow>
+         <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mi>x</m:mi>
+         </m:mfrac>
+         <m:mo>+</m:mo><m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mrow>
+           <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+          </m:mrow>
+         </m:mfrac>
+         
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mo>=</m:mo>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow>
+         <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mn>2</m:mn>
+         </m:mfrac>
+         <m:mo>.</m:mo>
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+      </m:mtr>
+      <m:mtr>
+       <m:mtd columnalign="left">
+        <m:mrow>
+         <m:mtext>Step 3:</m:mtext>
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="right">
+        <m:mrow>
+         <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mi>x</m:mi>
+         </m:mfrac>
+         <m:mo>+</m:mo><m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mrow>
+           <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+          </m:mrow>
+         </m:mfrac>
+         
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mo>=</m:mo>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow>
+         <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mn>2</m:mn>
+         </m:mfrac>
+         <m:mo>.</m:mo>
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mtable columnalign="left">
+         <m:mtr>
+          <m:mtd columnalign="left">
+           <m:mtext>The two excluded values are 0 and </m:mtext><m:mo>−</m:mo><m:mn>3.</m:mn>
+          </m:mtd>
+         </m:mtr>
+         <m:mtr>
+          <m:mtd columnalign="left">
+           <m:mtext>The LCD is </m:mtext><m:mn>2</m:mn><m:mi>x</m:mi><m:mrow><m:mo>(</m:mo>
+            <m:mrow>
+             <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+            </m:mrow>
+           <m:mo>)</m:mo></m:mrow><m:mtext>. </m:mtext>
+          </m:mtd>
+         </m:mtr>
+        </m:mtable>
+        
+       </m:mtd>
+      </m:mtr>
+      <m:mtr>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="right">
+        <m:mrow>
+         <m:mn>2</m:mn><m:mi>x</m:mi><m:mrow><m:mo>(</m:mo>
+          <m:mrow>
+           <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+          </m:mrow>
+         <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mi>x</m:mi>
+         </m:mfrac>
+         <m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mrow><m:mo>(</m:mo>
+          <m:mrow>
+           <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+          </m:mrow>
+         <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mrow>
+           <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+          </m:mrow>
+         </m:mfrac>
+         
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mo>=</m:mo>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow>
+         <m:mn>2</m:mn><m:mi>x</m:mi><m:mrow><m:mo>(</m:mo>
+          <m:mrow>
+           <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+          </m:mrow>
+         <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mn>2</m:mn>
+         </m:mfrac>
+         
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+      </m:mtr>
+      <m:mtr>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="right">
+        <m:mrow>
+         <m:mn>2</m:mn><m:mrow><m:mo>(</m:mo>
+          <m:mrow>
+           <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+          </m:mrow>
+         <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi>
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mo>=</m:mo>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow>
+         <m:mi>x</m:mi><m:mrow><m:mo>(</m:mo>
+          <m:mrow>
+           <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+          </m:mrow>
+         <m:mo>)</m:mo></m:mrow>
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+      </m:mtr>
+      <m:mtr>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="right">
+        <m:mrow>
+         <m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi>
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mo>=</m:mo>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow>
+         <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+         </m:msup>
+         <m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi>
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mtable columnalign="left">
+         <m:mtr>
+          <m:mtd columnalign="left">
+           <m:mtext>This is a quadratic equation that can </m:mtext>
+          </m:mtd>
+         </m:mtr>
+         <m:mtr>
+          <m:mtd columnalign="left">
+           <m:mtext>be solved using the zero-factor property</m:mtext><m:mtext>.</m:mtext>
+          </m:mtd>
+         </m:mtr>
+        </m:mtable>
+        
+       </m:mtd>
+      </m:mtr>
+      <m:mtr>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="right">
+        <m:mrow>
+         <m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn>
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mo>=</m:mo>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow>
+         <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+         </m:msup>
+         <m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi>
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+      </m:mtr>
+      <m:mtr>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="right">
+        <m:mrow>
+         <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+         </m:msup>
+         <m:mo>−</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn>
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mo>=</m:mo>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mn>0</m:mn>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+      </m:mtr>
+      <m:mtr>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="right">
+        <m:mrow>
+         <m:mrow><m:mo>(</m:mo>
+          <m:mrow>
+           <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn>
+          </m:mrow>
+         <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+          <m:mrow>
+           <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn>
+          </m:mrow>
+         <m:mo>)</m:mo></m:mrow>
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mo>=</m:mo>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mn>0</m:mn>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+      </m:mtr>
+      <m:mtr>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="right">
+        <m:mi>x</m:mi>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mo>=</m:mo>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow>
+         <m:mn>3</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mo>−</m:mo><m:mn>2</m:mn>
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow>
+         <m:mtext>Check these potential solutions</m:mtext><m:mtext>.</m:mtext>
+        </m:mrow>
+       </m:mtd>
+      </m:mtr>
+     </m:mtable>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="left">
+     <m:mtext>Step 4:</m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext>If </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mtext> the equation checks, but does not even make physical sense</m:mtext><m:mtext>.</m:mtext>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="left">
+     <m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext>If </m:mtext><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mtext>, the equation checks</m:mtext><m:mtext>.</m:mtext>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="left">
+     <m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext>and</m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>6</m:mn>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd columnalign="left">
+     <m:mtext>Step 5:</m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext>Person B can do the job in 3 hours and person A can do the job in 6 hours</m:mtext><m:mtext>.</m:mtext>
+    </m:mtd>
+   </m:mtr>
+  </m:mtable>
+  
+  
+ </m:semantics>
+</m:math>
+</para></example>
+</section>
+<section id="fs-id14892710">
+      <title>Practice Set E</title>
+	  <para id="fs-id18289261">It takes person A 4 hours less than person B to complete a certain task. Working together, both can complete the task in <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>8</m:mn>
+    <m:mn>3</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math> hours. How long does it take each person to complete the task working alone?</para>
+ <exercise id="fs-id16406384">
+ <problem id="fs-id16406386">
+<para id="fs-id15822056">Step 1:<newline/><newline/></para>
+<para id="fs-id14842309">Step 2:<newline/><newline/><newline/><newline/><newline/><newline/></para>
+<para id="fs-id18308435">Step 3:<newline/><newline/><newline/><newline/><newline/><newline/></para>
+<para id="fs-id16333894">Step 4:<newline/><newline/><newline/><newline/></para>
+<para id="fs-id19415976">Step 5:</para></problem>
+<solution id="fs-id27514336"><para id="fs-id27514337">Person A, 4 hr to complete the task; person B, 8 hr complete the task. </para></solution>
+</exercise>
+</section>
+
+<section id="fs-id18731692">
+      <title>Sample Set F</title>
+<example id="fs-id25745812"><para id="fs-id25745813">The width of a rectangle is <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>3</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math> its length. Find the dimensions (length and width) if the perimeter is 16 cm.</para>
+<para id="fs-id27520713">Step 1:  Let <m:math>
+ <m:semantics>
+  <m:mi>x</m:mi>
+ </m:semantics>
+</m:math> = length. Then, <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mi>x</m:mi>
+    <m:mn>3</m:mn>
+   </m:mfrac>
+   <m:mo>=</m:mo>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math> width.
+</para><para id="fs-id27411524">Step 2:  Make a sketch of the rectangle.<newline/><media id="fs-id15115996" display="block" alt="A rectangle with the length as &quot; x&quot; and the breadth as a stacked fraction with the numerator &quot; x&quot; and the denominator &quot; three&quot;.">
+		<image mime-type="image/jpeg" src="../../media/C07_S7-6_P69_001.jpg" print-width="2.75in"/>
+	</media><newline/>The perimeter of a figure is the total length around the figure.<newline/><m:math>
+		<m:semantics>
+			<m:mtable columnalign="left">
+				<m:mtr>
+					<m:mtd columnalign="left">
+						<m:mtable>
+							<m:mtr>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac>
+											<m:mi>x</m:mi>
+											<m:mn>3</m:mn>
+										</m:mfrac>
+										<m:mo>+</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac>
+											<m:mi>x</m:mi>
+											<m:mn>3</m:mn>
+										</m:mfrac>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mo>=</m:mo>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mn>16</m:mn>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+							</m:mtr>
+							<m:mtr>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="right">
+									<m:mrow>
+										<m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac>
+											<m:mrow>
+												<m:mn>2</m:mn><m:mi>x</m:mi>
+											</m:mrow>
+											<m:mn>3</m:mn>
+										</m:mfrac>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mo>=</m:mo>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mn>16</m:mn>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+							</m:mtr>
+							<m:mtr>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mtext>Step 3:</m:mtext>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="right">
+									<m:mrow>
+										<m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac>
+											<m:mrow>
+												<m:mn>2</m:mn><m:mi>x</m:mi>
+											</m:mrow>
+											<m:mn>3</m:mn>
+										</m:mfrac>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mo>=</m:mo>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mn>16.</m:mn>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mtext>The LCD is 3</m:mtext><m:mtext>.</m:mtext>
+									</m:mrow>
+								</m:mtd>
+							</m:mtr>
+							<m:mtr>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mfrac>
+											<m:mrow>
+												<m:mn>2</m:mn><m:mi>x</m:mi>
+											</m:mrow>
+											<m:mn>3</m:mn>
+										</m:mfrac>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mo>=</m:mo>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>·</m:mo><m:mtext> </m:mtext><m:mn>16</m:mn>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+							</m:mtr>
+							<m:mtr>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="right">
+									<m:mrow>
+										<m:mn>6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mo>=</m:mo>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mn>48</m:mn>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+							</m:mtr>
+							<m:mtr>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="right">
+									<m:mrow>
+										<m:mn>8</m:mn><m:mi>x</m:mi>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mo>=</m:mo>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mn>48</m:mn>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+							</m:mtr>
+							<m:mtr>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="right">
+									<m:mi>x</m:mi>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mo>=</m:mo>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mn>6</m:mn>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mtext>Check this potential solution</m:mtext><m:mtext>.</m:mtext>
+									</m:mrow>
+								</m:mtd>
+							</m:mtr>
+							<m:mtr>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mtext>Step 4:</m:mtext>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mn>6</m:mn><m:mo>+</m:mo><m:mfrac>
+											<m:mn>6</m:mn>
+											<m:mn>3</m:mn>
+										</m:mfrac>
+										<m:mo>+</m:mo><m:mn>6</m:mn><m:mo>+</m:mo><m:mfrac>
+											<m:mn>6</m:mn>
+											<m:mn>3</m:mn>
+										</m:mfrac>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mo>=</m:mo>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mn>16</m:mn>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow><m:mtext>Is this correct?</m:mtext></m:mrow>
+								</m:mtd>
+							</m:mtr>
+							<m:mtr>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mn>6</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>+</m:mo><m:mn>2</m:mn>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow><m:mo>=</m:mo>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mn>16</m:mn>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow><m:mtext>Is this correct?</m:mtext></m:mrow>
+								</m:mtd>
+							</m:mtr>
+							<m:mtr>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="right">
+									<m:mrow>
+										<m:mn>16</m:mn>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mo>=</m:mo>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mn>16</m:mn>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow><m:mtext>Yes, this is correct.</m:mtext></m:mrow>
+								</m:mtd>
+							</m:mtr>
+							<m:mtr>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="right">
+									<m:mrow>
+										<m:mtext>Since </m:mtext><m:mi>x</m:mi>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mo>=</m:mo>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mn>6</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mfrac>
+											<m:mi>x</m:mi>
+											<m:mn>3</m:mn>
+										</m:mfrac>
+										<m:mo>=</m:mo><m:mfrac>
+											<m:mn>6</m:mn>
+											<m:mn>3</m:mn>
+										</m:mfrac>
+										<m:mo>=</m:mo><m:mn>2</m:mn>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+							</m:mtr>
+						</m:mtable>
+					</m:mtd>
+				</m:mtr>
+				<m:mtr>
+					<m:mtd columnalign="left">
+						<m:mtext>Step 5</m:mtext><m:mo>:</m:mo><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext>The length = 6 cm and the width = 2 cm</m:mtext><m:mtext>.</m:mtext>
+					</m:mtd>
+				</m:mtr>
+			</m:mtable>
+		</m:semantics>
+	</m:math>
+</para></example>
+</section>
+<section id="fs-id26559424">
+      <title>Practice Set F</title>
+	  <para id="fs-id26263808">The width of a rectangle is <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mrow>
+     <m:mn>12</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math> its length. Find the dimensions (length and width) if the perimeter is 78 feet.</para>
+ <exercise id="fs-id14703535">
+ <problem id="fs-id14703537">
+<para id="fs-id18565101">Step 1:<newline/><newline/><newline/><newline/></para>
+<para id="fs-id12246509">Step 2:<newline/><newline/><newline/><newline/><newline/></para>
+<para id="fs-id27512373">Step 3:<newline/><newline/><newline/><newline/><newline/></para>
+<para id="fs-id18422326">Step 4:<newline/><newline/><newline/><newline/></para>
+<para id="fs-id25259435">Step 5:</para></problem>
+<solution id="fs-id26249092"><para id="fs-id26249093">length = 36 ft, width = 3 ft.</para></solution>
+</exercise>
+</section>
+
+<section id="fs-id19339137">
+<title>Exercises</title>
+<para id="fs-id8024640">For the following problems, solve using the five-step method.</para>
+<exercise id="fs-id23869353"><problem id="fs-id23869354"><para id="fs-id23869355">When the same number is added to both the numerator and denominator of the fraction <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>7</m:mn>
+   </m:mfrac>
+   <m:mo>,</m:mo>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math> the result is <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mn>3</m:mn>
+   </m:mfrac>
+   <m:mo>.</m:mo>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math> What is the number?</para></problem>
+<solution id="zip-id10930445"><para id="zip-id10930446">The number added is 5.</para></solution></exercise>
+<exercise id="fs-id25982422"><problem id="fs-id25982423"><para id="fs-id25982424">When the same number is added to both the numerator and denominator of the fraction <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>5</m:mn>
+    <m:mn>8</m:mn>
+   </m:mfrac>
+   <m:mo>,</m:mo>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math> the result is <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>4</m:mn>
+   </m:mfrac>
+   <m:mo>.</m:mo>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math> What is the number?</para></problem></exercise>
+<exercise id="fs-id14791185"><problem id="fs-id14791186"><para id="fs-id14791187">When the same number is added to both the numerator and denominator of the fraction <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>8</m:mn>
+   </m:mfrac>
+   <m:mo>,</m:mo>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math> the result is <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>6</m:mn>
+   </m:mfrac>
+   <m:mo>.</m:mo>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math> What is the number?</para></problem>
+<solution id="zip-id10660455"><para id="zip-id10660456">The number added is <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mn>2.</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math></para></solution></exercise>
+<exercise id="fs-id19094076"><problem id="fs-id19094077"><para id="fs-id18494766">When the same number is added to both the numerator and denominator of the fraction <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>7</m:mn>
+    <m:mn>9</m:mn>
+   </m:mfrac>
+   <m:mo>,</m:mo>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math> the result is <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mn>3</m:mn>
+   </m:mfrac>
+   <m:mo>.</m:mo>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math> What is the number?</para></problem></exercise>
+<exercise id="fs-id26000196"><problem id="fs-id11933572"><para id="fs-id11933573">When the same number is subtracted from both the numerator and denominator of <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mrow>
+     <m:mn>10</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   <m:mo>,</m:mo>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math> the result is <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mn>3</m:mn>
+   </m:mfrac>
+   <m:mo>.</m:mo>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math> What is the number?</para></problem><solution id="zip-id10660587"><para id="zip-id10660588">The number subtracted is <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mn>17.</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id26626480"><problem id="fs-id26626481"><para id="fs-id26626482">When the same number is subtracted from both the numerator and denominator of <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>4</m:mn>
+   </m:mfrac>
+   <m:mo>,</m:mo>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math> the result is <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>5</m:mn>
+    <m:mn>6</m:mn>
+   </m:mfrac>
+   <m:mo>.</m:mo>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math> What is the number?</para></problem></exercise>
+<exercise id="fs-id25497095"><problem id="fs-id25497096"><para id="fs-id19328460">One third of a number added to the reciprocal of number yields <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>13</m:mn>
+    </m:mrow>
+    <m:mn>6</m:mn>
+   </m:mfrac>
+   <m:mo>.</m:mo>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math> What is the number?</para></problem><solution id="zip-id10920247"><para id="zip-id10920248"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+   <m:mo>,</m:mo><m:mn>6</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id25258355"><problem id="fs-id25258356"><para id="fs-id19558788">Four fifths of a number added to the reciprocal of number yields <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>81</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>10</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   <m:mo>.</m:mo>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math> What is the number?</para></problem></exercise>
+<exercise id="fs-id26603812"><problem id="fs-id26603813"><para id="fs-id26603814">One half of a number added to twice the reciprocal of the number yields 2. What is the number?</para></problem><solution id="zip-id10920330"><para id="zip-id10920331">2</para></solution></exercise>
+<exercise id="fs-id14828127"><problem id="fs-id14828128"><para id="fs-id14828129">One fourth of a number added to four times the reciprocal of the number yields <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mo>−</m:mo><m:mn>10</m:mn>
+    </m:mrow>
+    <m:mn>3</m:mn>
+   </m:mfrac>
+   <m:mo>.</m:mo>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math> What is the number?</para></problem></exercise>
+<exercise id="fs-id18315269"><problem id="fs-id18315270"><para id="fs-id18315271">One inlet pipe can fill a tank in 8 hours. Another inlet pipe can fill the tank in 5 hours. How long does it take both pipes working together to fill the tank?</para></problem><solution id="zip-id10933603"><para id="zip-id10933604"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>3</m:mn><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mrow>
+     <m:mn>13</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   <m:mtext> hours</m:mtext>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id23532220"><problem id="fs-id23532221"><para id="fs-id18315273">One pipe can drain a pool in 12 hours. Another pipe can drain the pool in 15 hours. How long does it take both pipes working together to drain the pool?</para></problem></exercise>
+<exercise id="fs-id27404870"><problem id="fs-id27404871"><para id="fs-id26594736">A faucet can fill a bathroom sink in 1 minute. The drain can empty the sink in 2 minutes. If both the faucet and drain are open, how long will it take to fill the sink?</para></problem><solution id="zip-id10933658"><para id="zip-id10933659">two minutes</para></solution></exercise>
+<exercise id="fs-id6710744"><problem id="fs-id6710745"><para id="fs-id6710746">A faucet can fill a bathtub in <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>6</m:mn><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math> minutes. The drain can empty the tub in <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>8</m:mn><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>3</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math> minutes. If both the faucet and drain are open, how long will it take to fill the bathtub?</para></problem></exercise>
+<exercise id="fs-id5074392"><problem id="fs-id26587863"><para id="fs-id26587864">An inlet pipe can fill a tank in 5 hours. An outlet pipe can empty the tank in 4 hours. If both pipes are open, can the tank be filled? Explain.</para></problem><solution id="zip-id10933728"><para id="zip-id10933729">No. <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>20</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math> hours.</para></solution></exercise>
+<exercise id="fs-id24385163"><problem id="fs-id24385164"><para id="fs-id24385165">An inlet pipe can fill a tank in <m:math>
+ <m:semantics>
+  <m:mi>a</m:mi>
+ </m:semantics>
+</m:math> units of time. An outlet pipe can empty the tank in <m:math>
+ <m:semantics>
+  <m:mi>b</m:mi>
+ </m:semantics>
+</m:math>
+ units of time. If both pipes are open, how many units of time are required to fill the tank? Are there any restrictions on <m:math>
+ <m:semantics>
+  <m:mi>a</m:mi>
+ </m:semantics>
+</m:math> and <m:math>
+ <m:semantics>
+  <m:mi>b</m:mi>
+ </m:semantics>
+</m:math>
+?</para></problem></exercise>
+<exercise id="fs-id25245916"><problem id="fs-id25245917"><para id="fs-id16496768">A delivery boy, working alone, can deliver all his goods in 6 hours. Another delivery boy, working alone, can deliver the same goods in 5 hours. How long will it take the boys to deliver all the goods working together?</para></problem>
+<solution id="zip-id10933818"><para id="zip-id10933819"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>2</m:mn><m:mfrac>
+    <m:mn>8</m:mn>
+    <m:mrow>
+     <m:mn>11</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   <m:mtext> hours</m:mtext>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id7959617"><problem id="fs-id7959618"><para id="fs-id7959619">A Space Shuttle astronaut can perform a certain experiment in 2 hours. Another Space Shuttle astronaut who is not as familiar with the experiment can perform it in <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>2</m:mn><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math> hours. Working together, how long will it take both astronauts to perform the experiment?</para></problem></exercise>
+<exercise id="fs-id18288516"><problem id="fs-id18288517"><para id="fs-id18288518">One person can complete a task 8 hours sooner than another person. Working together, both people can perform the task in 3 hours. How many hours does it take each person to complete the task working alone?</para></problem><solution id="zip-id9974328"><para id="zip-id9974329">First person: 12 hours; second person: 4 hours</para></solution></exercise>
+<exercise id="fs-id19321273"><problem id="fs-id18288520"><para id="fs-id16287349">Find two consecutive integers such that two thirds of the smaller number added to the other yields 11.</para></problem></exercise>
+<exercise id="fs-id16287354"><problem id="fs-id18456303"><para id="fs-id18456304">Find two consecutive integers such that three fourths of the smaller number added to the other yields 29.</para></problem>
+<solution id="zip-id9974356"><para id="zip-id9974357"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>16</m:mn><m:mo>,</m:mo><m:mn>17</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id15104081"><problem id="fs-id15104082"><para id="fs-id15104083">The width of a rectangle is <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mn>5</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math> its length. Find the dimensions if the perimeter is 42 meters.</para></problem></exercise>
+<exercise id="fs-id15048434"><problem id="fs-id15048435"><para id="fs-id15048436">The width of a rectangle is <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>7</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math> the length. Find the dimensions if the perimeter is 60 feet.</para></problem>
+<solution id="zip-id9974436"><para id="zip-id9974437"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable columnalign="left">
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>width</m:mtext><m:mo>=</m:mo><m:mn>9</m:mn><m:mtext> ft;</m:mtext>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>length</m:mtext><m:mo>=</m:mo><m:mn>21</m:mn><m:mtext> ft</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id24321826"><problem id="fs-id24321827"><para id="fs-id24321828">Two sides of a triangle have the same length. The third side is twice as long as either of the other two sides. The perimeter of the triangle is 56 inches. What is the length of each side?</para></problem></exercise>
+<exercise id="fs-id27411679"><problem id="fs-id27411680"><para id="fs-id24321830">In a triangle, the second side is 3 inches longer than first side. The third side is <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>4</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math> the length of the second side. If the perimeter is 30 inches, how long is each side?</para></problem><solution id="zip-id9974545"><para id="zip-id9974546"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable columnalign="left">
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>side </m:mtext><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>9</m:mn><m:mtext> inches</m:mtext><m:mo>;</m:mo>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>side </m:mtext><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>12</m:mn><m:mtext> inches</m:mtext><m:mo>;</m:mo>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>side </m:mtext><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>9</m:mn><m:mtext> inches</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id26435007"><problem id="fs-id26435008"><para id="fs-id26435009">The pressure due to surface tension in a spherical drop of liquid is given by <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>2</m:mn><m:mi>T</m:mi>
+    </m:mrow>
+    <m:mi>r</m:mi>
+   </m:mfrac>
+   <m:mo>,</m:mo>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math> where <m:math>
+ <m:semantics>
+  <m:mi>T</m:mi>
+ </m:semantics>
+</m:math> is the surface tension of the liquid and <m:math>
+ <m:semantics>
+  <m:mi>r</m:mi>
+ </m:semantics>
+</m:math> is the radius of the drop. If the liquid is a bubble, it has two surfaces and the surface tension is given by<newline/><newline/><m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>2</m:mn><m:mi>T</m:mi>
+    </m:mrow>
+    <m:mi>r</m:mi>
+   </m:mfrac>
+   <m:mo>+</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>2</m:mn><m:mi>T</m:mi>
+    </m:mrow>
+    <m:mi>r</m:mi>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>4</m:mn><m:mi>T</m:mi>
+    </m:mrow>
+    <m:mi>r</m:mi>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math><newline/>(a) Determine the pressure due to surface tension within a soap bubble of radius 2 inches and surface tension 28.<newline/>(b) Determine the radius of a bubble if the pressure due to surface tension is 52 and the surface tension is 39.</para></problem></exercise>
+<exercise id="fs-id20425106"><problem id="fs-id20425107"><para id="fs-id20425108">The equation <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mfrac>
+					<m:mn>1</m:mn>
+					<m:mi>p</m:mi>
+				</m:mfrac>
+				<m:mo>+</m:mo><m:mfrac>
+					<m:mn>1</m:mn>
+					<m:mi>q</m:mi>
+				</m:mfrac>
+				<m:mo>=</m:mo><m:mfrac>
+					<m:mn>1</m:mn>
+					<m:mi>f</m:mi>
+				</m:mfrac>
+			</m:mrow>
+		</m:semantics>
+	</m:math> relates the distance <m:math>
+		<m:semantics>
+			<m:mi>p</m:mi>
+		</m:semantics>
+	</m:math> of an object from a lens and the image distance <m:math>
+		<m:semantics>
+			<m:mi>q</m:mi>
+		</m:semantics>
+	</m:math> from the lens to the focal length <m:math>
+		<m:semantics>
+			<m:mi>f</m:mi>
+		</m:semantics>
+	</m:math>
+ of the lens.<newline/><media id="fs-id24879928" display="block" alt="A convex lens with a horizontal line passing through its center. There is a small vertical line placed over the horizontal line on the left side of the lens, and is labeled &quot;object.&quot; The distance between the lens and the object is indicated by a curly brace between them, and is labeled &quot;p.&quot; There is a small vertical line placed below the horizontal line on the right side of the lens, and is labeled as &quot;image.&quot; The distance between the lens and the image is indicated by a curly brace between them and is labeled as &quot;q.&quot;">
+		<image mime-type="image/jpeg" src="../../media/C07_S7-7_P74_001.jpg" print-width="3in"/>
+	</media>
+	<newline/>(a) Determine the focal length of a lens in which an object 10 feet away produces an image 6 feet away.<newline/>(b) Determine how far an object is from a lens if the focal length of the lens is 6 inches and the image distance is 10 inches.<newline/>(c) Determine how far an image will be from a lens that has a focal length of <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>4</m:mn><m:mfrac>
+					<m:mn>4</m:mn>
+					<m:mn>5</m:mn>
+				</m:mfrac>
+			</m:mrow>
+		</m:semantics>
+	</m:math> cm and the object is 12 cm away from the lens.</para></problem>
+	<solution id="zip-id9974921"><para id="zip-id9974922">(a) <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>f</m:mi><m:mo>=</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>15</m:mn>
+    </m:mrow>
+    <m:mn>4</m:mn>
+   </m:mfrac>
+   <m:mtext> ft</m:mtext>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>  (b) <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>p</m:mi><m:mo>=</m:mo><m:mn>15</m:mn><m:mtext> inches</m:mtext>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>  (c) <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>q</m:mi><m:mo>=</m:mo><m:mn>8</m:mn><m:mtext> cm</m:mtext>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id16556938"><problem id="fs-id16556939"><para id="fs-id16556940">Person A can complete a task in 4 hours, person B can complete the task in 6 hours, and person C can complete the task in 3 hours. If all three people are working together, how long will it take to complete the task?</para></problem></exercise>
+<exercise id="fs-id22972368"><problem id="fs-id16556943"><para id="fs-id25948655">Three inlet pipes can fill a storage tank in 4, 6, and 8 hours, respectively. How long will it take all three pipes to fill the tank?</para></problem><solution id="zip-id9975019"><para id="zip-id9975020"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>1</m:mtext><m:mfrac>
+    <m:mrow>
+     <m:mn>11</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>13</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   <m:mtext> hours</m:mtext>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id23329391"><problem id="fs-id23329392"><para id="fs-id23329393">An inlet pipe can fill a tank in 10 hours. The tank has two drain pipes, each of which can empty the tank in 30 hours. If all three pipes are open, can the tank be filled? If so, how long will it take?</para></problem></exercise>
+<exercise id="fs-id14682180"><problem id="fs-id23329395"><para id="fs-id23329396">An inlet pipe can fill a tank in 4 hours. The tank has three drain pipes. Two of the drain pipes can empty the tank in 12 hours, and the third can empty the tank in 20 hours. If all four pipes are open, can the tank be filled? If so, how long will it take?</para></problem><solution id="zip-id9975080"><para id="zip-id9975081"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>30 hours</m:mtext>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+</section>
+
+<section id="fs-id14896331"><title>Exercises For Review</title><exercise id="fs-id14682894"><problem id="fs-id14682895"><para id="fs-id14682896"><emphasis>(<link document="m21912"/>)</emphasis> Factor <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mn>12</m:mn><m:msup>
+								<m:mi>a</m:mi>
+								<m:mn>2</m:mn>
+							</m:msup>
+							<m:mo>+</m:mo><m:mn>13</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>4.</m:mn>
+						</m:mrow>
+					</m:semantics>
+				</m:math></para>
+		</problem></exercise>
+	<exercise id="fs-id15094901"><problem id="fs-id25918980"><para id="fs-id25918981"><emphasis>(<link document="m22014"/>)</emphasis> Find the slope of the line passing through the points <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mrow><m:mo>(</m:mo>
+								<m:mrow>
+									<m:mn>4</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>3</m:mn>
+								</m:mrow>
+								<m:mo>)</m:mo></m:mrow>
+						</m:mrow>
+					</m:semantics>
+				</m:math> and <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mrow><m:mo>(</m:mo>
+								<m:mrow>
+									<m:mn>1</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>6</m:mn>
+								</m:mrow>
+								<m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+						</m:mrow>
+					</m:semantics>
+				</m:math>
+			</para>
+		</problem><solution id="zip-id9975226"><para id="zip-id9975227"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mi>m</m:mi><m:mo>=</m:mo><m:mn>1</m:mn>
+						</m:mrow>
+					</m:semantics>
+				</m:math>
+			</para></solution></exercise>
+	<exercise id="fs-id25496021"><problem id="fs-id25496022"><para id="fs-id25496023"><emphasis>(<link document="m21964"/>)</emphasis> Find the quotient: <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mfrac>
+								<m:mrow>
+									<m:mn>2</m:mn><m:msup>
+										<m:mi>x</m:mi>
+										<m:mn>2</m:mn>
+									</m:msup>
+									<m:mo>−</m:mo><m:mn>11</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn>
+								</m:mrow>
+								<m:mrow>
+									<m:msup>
+										<m:mi>x</m:mi>
+										<m:mn>2</m:mn>
+									</m:msup>
+									<m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>24</m:mn>
+								</m:mrow>
+							</m:mfrac>
+							<m:mo>÷</m:mo><m:mfrac>
+								<m:mrow>
+									<m:mn>2</m:mn><m:msup>
+										<m:mi>x</m:mi>
+										<m:mn>2</m:mn>
+									</m:msup>
+									<m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn>
+								</m:mrow>
+								<m:mrow>
+									<m:msup>
+										<m:mi>x</m:mi>
+										<m:mn>2</m:mn>
+									</m:msup>
+									<m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn>
+								</m:mrow>
+							</m:mfrac>
+							<m:mo>.</m:mo>
+						</m:mrow>
+					</m:semantics>
+				</m:math>
+			</para>
+		</problem></exercise>
+	<exercise id="fs-id26580403"><problem id="fs-id26580404"><para id="fs-id26580405"><emphasis>(<link document="m21936"/>)</emphasis> Find the difference: <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mfrac>
+								<m:mrow>
+									<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn>
+								</m:mrow>
+								<m:mrow>
+									<m:msup>
+										<m:mi>x</m:mi>
+										<m:mn>2</m:mn>
+									</m:msup>
+									<m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn>
+								</m:mrow>
+							</m:mfrac>
+							<m:mo>−</m:mo><m:mfrac>
+								<m:mrow>
+									<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+								</m:mrow>
+								<m:mrow>
+									<m:msup>
+										<m:mi>x</m:mi>
+										<m:mn>2</m:mn>
+									</m:msup>
+									<m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+								</m:mrow>
+							</m:mfrac>
+							<m:mo>.</m:mo>
+						</m:mrow>
+					</m:semantics>
+				</m:math>
+			</para>
+		</problem><solution id="zip-id9975489"><para id="zip-id9975490">0</para></solution></exercise>
+	<exercise id="fs-id23284802"><problem id="fs-id23284803"><para id="fs-id23284804"><emphasis>(<link document="m21951"/>)</emphasis> Solve the equation <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mfrac>
+								<m:mn>9</m:mn>
+								<m:mrow>
+									<m:mn>2</m:mn><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>5</m:mn>
+								</m:mrow>
+							</m:mfrac>
+							<m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2.</m:mn>
+						</m:mrow>
+					</m:semantics>
+				</m:math>
+			</para>
+		</problem></exercise>
+</section>
+  </content>
+</document>

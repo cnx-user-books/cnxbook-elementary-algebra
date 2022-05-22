@@ -1,0 +1,502 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+
+<title>Summary of Key Concepts </title>
+<metadata>
+  <md:content-id>m21887</md:content-id><md:title>Summary of Key Concepts </md:title>
+  <md:abstract>This module is from Elementary Algebra by Denny Burzynski and Wade Ellis, Jr.
+The symbols, notations, and properties of numbers that form the basis of algebra, as well as exponents and the rules of exponents, are introduced in this chapter. Each property of real numbers and the rules of exponents are expressed both symbolically and literally. Literal explanations are included because symbolic explanations alone may be difficult for a student to interpret.
+This module provides a summary of the key concepts of the chapter "Basic Properties of Real Numbers".</md:abstract>
+  <md:uuid>607a3e88-6da1-47c6-9132-e3f890885d97</md:uuid>
+</metadata>
+
+<content>
+  <section id="eip-381"><title>Summary of Key Concepts</title><para id="eip-315"><title>Variables and Constants <emphasis>(<link document="m18872"/>)</emphasis></title>A <emphasis>variable</emphasis> is a letter or symbol that represents any member of a collection of two or more numbers. A <emphasis>constant</emphasis> is a letter or symbol that represents a specific number.</para><para id="eip-40"><title>Binary Operation <emphasis>(<link document="m18872"/>)</emphasis></title>A <emphasis>binary operation</emphasis> is a process that assigns two numbers to a single number. <m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mo>+</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>−</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>×</m:mo><m:mo>,</m:mo><m:mtext> </m:mtext><m:mo>÷</m:mo>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math> are binary operations.</para><para id="eip-616"><title>Grouping Symbols <emphasis>(<link document="m18872"/>)</emphasis></title>Grouping symbols are used to indicate that a particular collection of numbers and meaningful operations is to be considered as a single number (<m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mn>5</m:mn><m:mo>÷</m:mo><m:mn>0</m:mn>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math> is not meaningful). Grouping symbols can also direct us in operations when more than two operations are to be performed. Common algebraic grouping symbols are
+</para><para id="eip-303"><m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mtable columnalign="left">
+						<m:mtr columnalign="left">
+							<m:mtd columnalign="left">
+								<m:mrow>
+									<m:mtext>Parentheses</m:mtext><m:mo>:</m:mo>
+								</m:mrow>
+							</m:mtd>
+							<m:mtd columnalign="left">
+								<m:mrow>
+									<m:mo stretchy="false">(</m:mo><m:mtable>
+										<m:mtr>
+											<m:mtd>
+												<m:mrow/>
+											</m:mtd>
+											<m:mtd>
+												<m:mrow/>
+											</m:mtd>
+										</m:mtr>
+									</m:mtable><m:mo stretchy="false">)</m:mo>
+								</m:mrow>
+							</m:mtd>
+						</m:mtr>
+						<m:mtr columnalign="left">
+							<m:mtd columnalign="left">
+								<m:mrow>
+									<m:mtext>Brackets</m:mtext><m:mo>:</m:mo>
+								</m:mrow>
+							</m:mtd>
+							<m:mtd columnalign="left">
+								<m:mrow>
+									<m:mo stretchy="false">[</m:mo><m:mtable>
+										<m:mtr>
+											<m:mtd>
+												<m:mrow/>
+											</m:mtd>
+											<m:mtd>
+												<m:mrow/>
+											</m:mtd>
+										</m:mtr>
+									</m:mtable><m:mo stretchy="false">]</m:mo>
+								</m:mrow>
+							</m:mtd>
+						</m:mtr>
+						<m:mtr columnalign="left">
+							<m:mtd columnalign="left">
+								<m:mrow>
+									<m:mtext>Braces</m:mtext><m:mo>:</m:mo>
+								</m:mrow>
+							</m:mtd>
+							<m:mtd columnalign="left">
+								<m:mrow>
+									<m:mo>{</m:mo><m:mtable>
+										<m:mtr>
+											<m:mtd>
+												<m:mrow/>
+											</m:mtd>
+											<m:mtd>
+												<m:mrow/>
+											</m:mtd>
+										</m:mtr>
+									</m:mtable><m:mo>}</m:mo>
+								</m:mrow>
+							</m:mtd>
+						</m:mtr>
+						<m:mtr columnalign="left">
+							<m:mtd columnalign="left">
+								<m:mrow>
+									<m:mtext>Bar</m:mtext><m:mo>:</m:mo>
+								</m:mrow>
+							</m:mtd>
+							<m:mtd columnalign="left">
+								<m:mrow>
+									<m:mtext> </m:mtext><m:mtext> </m:mtext><m:munder accentunder="true">
+										<m:mrow>
+											<m:mtable>
+												<m:mtr>
+													<m:mtd>
+														<m:mrow/>
+													</m:mtd>
+													<m:mtd>
+														<m:mrow/>
+													</m:mtd>
+												</m:mtr>
+											</m:mtable>
+										</m:mrow>
+										<m:mo stretchy="true">¯</m:mo>
+									</m:munder>
+								</m:mrow>
+							</m:mtd>
+						</m:mtr>
+					</m:mtable>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math>
+	</para><para id="eip-866"><title>Order of Operations <emphasis>(<link document="m18872"/>, <link document="m21883"/>)</emphasis></title>When two or more operations are to be performed on a collection of numbers, the correct value can be obtained only by using the correct order of operations.</para><para id="eip-12"><title>The Real Number Line <emphasis>(<link document="m21895"/>)</emphasis></title>The <emphasis>real number line</emphasis> allows us to visually display some of the numbers in which we are interested.</para><para id="eip-391"><media id="C1_S1-7_P36_001" display="block" alt="A real number line with arrows on each end, labeled from negative four to four in  increments of one.">
+			<image mime-type="image/png" src="../../media/C1_S1-7_P36_001.png" print-width="3in"/>
+		</media></para><para id="eip-812"><title>Coordinate and Graph <emphasis>(<link document="m21895"/>)</emphasis></title>The number associated with a point on the number line is called the <emphasis>coordinate</emphasis> of the point. The point associated with a number is called the <emphasis>graph</emphasis> of the number.</para><para id="eip-328"><title>Real Number <emphasis>(<link document="m21895"/>)</emphasis></title>A <emphasis>real number</emphasis> is any number that is the coordinate of a point on the real number line.</para><para id="eip-886"><title>Types of Real Numbers <emphasis>(<link document="m21895"/>)</emphasis></title>The collection of real numbers has many subcollections. The ones of most interest to us are
+<list id="typesrealnumbers" list-type="labeled-item"><item>
+			<label>
+   the <emphasis>natural numbers</emphasis>
+			</label>
+			<m:math>
+				<m:mo>{</m:mo>
+				<m:mn>1</m:mn>
+				<m:mo>,</m:mo>
+				<m:mn>2</m:mn>
+				<m:mo>,</m:mo>
+				<m:mn>3</m:mn>
+				<m:mo>,</m:mo>
+				<m:mi>…</m:mi>
+				<m:mo>}</m:mo>
+			</m:math>
+		</item>
+		<item>
+			<label>
+   the <emphasis>whole numbers</emphasis>
+			</label>
+			<m:math>
+				<m:mo>{</m:mo>
+				<m:mn>0</m:mn>
+				<m:mo>,</m:mo>
+				<m:mn>1</m:mn>
+				<m:mo>,</m:mo>
+				<m:mn>2</m:mn>
+				<m:mo>,</m:mo>
+				<m:mn>3</m:mn>
+				<m:mo>,</m:mo>
+				<m:mi>…</m:mi>
+				<m:mo>}</m:mo>
+			</m:math>
+		</item>
+		<item>
+			<label>
+   the <emphasis>integers</emphasis>
+			</label>
+			<m:math>
+				<m:mo>{</m:mo>
+				<m:mi>…</m:mi>
+				<m:mo>,</m:mo>
+				<m:mn>-3</m:mn>
+				<m:mo>,</m:mo>
+				<m:mn>-2</m:mn>
+				<m:mo>,</m:mo>
+				<m:mn>-1</m:mn>
+				<m:mo>,</m:mo>
+				<m:mn>0</m:mn>
+				<m:mo>,</m:mo>
+				<m:mn>1</m:mn>
+				<m:mo>,</m:mo>
+				<m:mn>2</m:mn>
+				<m:mo>,</m:mo>
+				<m:mn>3</m:mn>
+				<m:mo>,</m:mo>
+				<m:mi>…</m:mi>
+				<m:mo>}</m:mo>
+			</m:math>
+		</item>
+		<item>
+			<label>
+  the <emphasis>rational numbers</emphasis>
+			</label>
+ {all numbers that can be expressed as the quotient of two integers}
+</item>
+		<item>
+			<label>
+  the <emphasis>irrational numbers</emphasis>
+			</label>
+ {all numbers that have nonending and nonrepeating decimal representations}
+</item>
+	</list>
+</para><para id="eip-699"><title>Properties of Real Numbers <emphasis>(<link document="m21894"/>)</emphasis></title><list id="proprealnumbers" list-type="labeled-item"><item>
+				<label>
+					<emphasis>Closure</emphasis>
+				</label>
+  If <m:math><m:mi>a</m:mi></m:math> and <m:math><m:mi>b</m:mi></m:math> are real numbers, then 
+  <m:math><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:math> and 
+  <m:math><m:mi>a</m:mi><m:mo>⋅</m:mo><m:mi>b</m:mi></m:math> are unique real numbers.
+ </item>
+			<item>
+				<label>
+					<emphasis>Commutative</emphasis>
+				</label>
+				<m:math>
+					<m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi>
+					<m:mo>=</m:mo>
+					<m:mi>b</m:mi><m:mo>+</m:mo><m:mi>a</m:mi>
+				</m:math>
+  and
+  <m:math>
+					<m:mi>a</m:mi><m:mo>⋅</m:mo><m:mi>b</m:mi>
+					<m:mo>=</m:mo>
+					<m:mi>b</m:mi><m:mo>⋅</m:mo><m:mi>a</m:mi>
+				</m:math>
+			</item>
+			<item>
+				<label>
+					<emphasis>Associative</emphasis>
+				</label>
+				<m:math>
+					<m:mi>a</m:mi><m:mo>+</m:mo><m:mo>(</m:mo><m:mi>b</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>)</m:mo>
+					<m:mo>=</m:mo>
+					<m:mo>(</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>c</m:mi>
+				</m:math> and
+  <m:math>
+					<m:mi>a</m:mi><m:mo>⋅</m:mo><m:mo>(</m:mo><m:mi>b</m:mi><m:mo>⋅</m:mo><m:mi>c</m:mi><m:mo>)</m:mo>
+					<m:mo>=</m:mo>
+					<m:mo>(</m:mo><m:mi>a</m:mi><m:mo>⋅</m:mo><m:mi>b</m:mi><m:mo>)</m:mo><m:mo>⋅</m:mo><m:mi>c</m:mi>
+				</m:math>
+			</item>
+			<item>
+				<label>
+					<emphasis>Distributive</emphasis>
+				</label>
+				<m:math>
+					<m:mi>a</m:mi><m:mo>(</m:mo>
+					<m:mi>b</m:mi><m:mo>+</m:mo><m:mi>c</m:mi>
+					<m:mo>)</m:mo>
+					<m:mo>=</m:mo>
+					<m:mi>a</m:mi><m:mo>⋅</m:mo><m:mi>b</m:mi>
+					<m:mo>+</m:mo>
+					<m:mi>a</m:mi><m:mo>⋅</m:mo><m:mi>c</m:mi>
+				</m:math>
+			</item>
+			<item>
+				<label>
+					<emphasis>Additive identity</emphasis>
+				</label>
+  0 is the additive identity. 
+  <m:math>
+					<m:mi>a</m:mi><m:mo>+</m:mo><m:mn>0</m:mn>
+					<m:mo>=</m:mo><m:mi>a</m:mi>
+				</m:math>
+  and
+  <m:math>
+					<m:mn>0</m:mn><m:mo>+</m:mo><m:mi>a</m:mi>
+					<m:mo>=</m:mo><m:mi>a</m:mi>
+				</m:math>.  
+ </item>
+			<item>
+				<label>
+					<emphasis>Multiplicative identity</emphasis>
+				</label>
+  1 is the multiplicative identity. 
+  <m:math>
+					<m:mi>a</m:mi><m:mo>⋅</m:mo><m:mn>1</m:mn>
+					<m:mo>=</m:mo><m:mi>a</m:mi>
+				</m:math>
+  and
+  <m:math>
+					<m:mn>1</m:mn><m:mo>⋅</m:mo><m:mi>a</m:mi>
+					<m:mo>=</m:mo><m:mi>a</m:mi>
+				</m:math>.  
+ </item>
+			<item>
+				<label>
+					<emphasis>Additive inverse</emphasis>
+				</label>
+  For each real number <m:math><m:mi>a</m:mi></m:math>
+  there is exactly one number <m:math><m:mi>-a</m:mi></m:math>
+  such that 
+  <m:math>
+					<m:mi>a</m:mi><m:mo>+</m:mo>
+					<m:mo>(</m:mo><m:mi>-a</m:mi><m:mo>)</m:mo>
+					<m:mo>=</m:mo><m:mn>0</m:mn>
+				</m:math>and
+  <m:math>
+					<m:mo>(</m:mo><m:mi>-a</m:mi><m:mo>)</m:mo>
+					<m:mo>+</m:mo><m:mi>a</m:mi>
+					<m:mo>=</m:mo><m:mn>0</m:mn>
+				</m:math>.
+ </item>
+			<item>
+				<label>
+					<emphasis>Multiplicative inverse</emphasis>
+				</label>
+  For each nonzero real number <m:math><m:mi>a</m:mi></m:math>
+  there is exactly one nonzero real number 
+  <m:math>
+					<m:mfrac>
+						<m:mn>1</m:mn>
+						<m:mi>a</m:mi>
+					</m:mfrac>
+				</m:math>
+  such that 
+  <m:math>
+					<m:mi>a</m:mi>
+					<m:mo>⋅</m:mo>
+					<m:mfrac>
+						<m:mn>1</m:mn>
+						<m:mi>a</m:mi>
+					</m:mfrac>
+					<m:mo>=</m:mo>
+					<m:mn>1</m:mn>
+				</m:math>
+  and
+  <m:math>
+					<m:mfrac>
+						<m:mn>1</m:mn>
+						<m:mi>a</m:mi>
+					</m:mfrac>
+					<m:mo>⋅</m:mo>
+					<m:mi>a</m:mi>
+					<m:mo>=</m:mo>
+					<m:mn>1</m:mn>
+				</m:math>.
+   
+   
+ </item>
+		</list></para><para id="eip-377"><title>Exponents <emphasis>(<link document="m21883"/>)</emphasis></title>Exponents record the number of identical factors that appear in a multiplication.</para><para id="eip-300"><m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:munder>
+						<m:munder>
+							<m:mrow>
+								<m:mi>x</m:mi><m:mtext> </m:mtext><m:mo>⋅</m:mo><m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext><m:mo>⋅</m:mo><m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext><m:mo>⋅</m:mo><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mo>.</m:mo><m:mtext> </m:mtext><m:mo>.</m:mo><m:mtext> </m:mtext><m:mo>.</m:mo><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mo>⋅</m:mo><m:mtext> </m:mtext><m:mi>x</m:mi>
+							</m:mrow>
+							<m:mo stretchy="true">︸</m:mo>
+						</m:munder>
+						<m:mrow>
+							<m:mi>n</m:mi><m:mtext> </m:mtext><m:mtext>factors</m:mtext><m:mtext> </m:mtext><m:mtext>of</m:mtext><m:mtext> </m:mtext><m:mi>x</m:mi>
+						</m:mrow>
+					</m:munder>
+					<m:mo>=</m:mo><m:msup>
+						<m:mi>x</m:mi>
+						<m:mi>n</m:mi>
+					</m:msup>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math>
+	</para><para id="eip-890"><title>Rules of Exponents (<link document="m21900"/>, <link document="m21897"/>)</title>If <m:math>
+			<m:semantics>
+				<m:mi>x</m:mi>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math> is a real number and <m:math>
+			<m:semantics>
+				<m:mi>n</m:mi>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math> and <m:math>
+			<m:semantics>
+				<m:mi>m</m:mi>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math> are natural numbers, then
+
+
+</para><para id="eip-518"><list id="rulesofexponents" list-type="labeled-item">
+			<item><label/>
+				<m:math>
+					<m:msup>
+						<m:mi>x</m:mi>
+						<m:mi>n</m:mi>
+					</m:msup>
+					<m:mo>⋅</m:mo>
+					<m:msup>
+						<m:mi>x</m:mi>
+						<m:mi>m</m:mi>
+					</m:msup>
+					<m:mo>=</m:mo>
+					<m:msup>
+						<m:mi>x</m:mi>
+						<m:mrow>
+							<m:mi>n</m:mi><m:mo>+</m:mo><m:mi>m</m:mi>
+						</m:mrow>
+					</m:msup>
+				</m:math>
+			</item>
+			<item>
+				<label/>
+				<m:math>
+					<m:mfrac>
+						<m:mrow>
+							<m:msup>
+								<m:mi>x</m:mi>
+								<m:mi>n</m:mi>
+							</m:msup>
+						</m:mrow>
+						<m:mrow>
+							<m:msup>
+								<m:mi>x</m:mi>
+								<m:mi>m</m:mi>
+							</m:msup>
+						</m:mrow>
+					</m:mfrac>
+					<m:mo>=</m:mo>
+					<m:msup>
+						<m:mi>x</m:mi>
+						<m:mrow>
+							<m:mi>n</m:mi><m:mo>−</m:mo><m:mi>m</m:mi>
+						</m:mrow>
+					</m:msup>
+				</m:math>, <m:math>
+					<m:mi>x</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn>
+				</m:math>
+			</item>
+			<item>
+				<label/>
+				<m:math>
+					<m:msup>
+						<m:mi>x</m:mi>
+						<m:mn>0</m:mn>
+					</m:msup>
+					<m:mo>=</m:mo>
+					<m:mn>1</m:mn></m:math>, <m:math>
+					<m:mi>x</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn>
+				</m:math>
+			</item>
+			<item>
+				<label/>
+				<m:math>
+					<m:msup>
+						<m:mrow>
+							<m:mo stretchy="false">(</m:mo>
+							<m:msup>
+								<m:mi>x</m:mi>
+								<m:mi>n</m:mi>
+							</m:msup>
+							<m:mo stretchy="false">)</m:mo>
+						</m:mrow>
+						<m:mi>m</m:mi>
+					</m:msup>
+					<m:mo>=</m:mo>
+					<m:msup>
+						<m:mi>x</m:mi>
+						<m:mrow>
+							<m:mi>n</m:mi><m:mo>⋅</m:mo><m:mi>m</m:mi>
+						</m:mrow>
+					</m:msup>
+				</m:math>
+			</item>
+			<item>
+				<label/>
+				<m:math>
+					<m:msup>
+						<m:mrow>
+							<m:mo>(</m:mo>
+							<m:mfrac>
+								<m:mi>x</m:mi>
+								<m:mi>y</m:mi>
+							</m:mfrac>
+							<m:mo>)</m:mo>
+						</m:mrow>
+						<m:mi>n</m:mi>
+					</m:msup>
+					<m:mo>=</m:mo>
+					<m:mfrac>
+						<m:msup>
+							<m:mi>x</m:mi>
+							<m:mi>n</m:mi>
+						</m:msup>
+						<m:msup>
+							<m:mi>y</m:mi>
+							<m:mi>n</m:mi>
+						</m:msup>
+					</m:mfrac></m:math>, <m:math>
+					<m:mi>y</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn>
+				</m:math>
+			</item>
+		</list></para></section>
+</content>
+
+</document>

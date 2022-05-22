@@ -1,0 +1,611 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml"><title>Finding the Equation of a Line </title><metadata>
+  <md:content-id>m21998</md:content-id><md:title>Finding the Equation of a Line </md:title>
+  <md:abstract>This module is from Elementary Algebra by Denny Burzynski and Wade Ellis, Jr.
+In this chapter the student is shown how graphs provide information that is not always evident from the equation alone. The chapter begins by establishing the relationship between the variables in an equation, the number of coordinate axes necessary to construct its graph, and the spatial dimension of both the coordinate system and the graph. Interpretation of graphs is also emphasized throughout the chapter, beginning with the plotting of points. The slope formula is fully developed, progressing from verbal phrases to mathematical expressions. The expressions are then formed into an equation by explicitly stating that a ratio is a comparison of two quantities of the same type (e.g., distance, weight, or money). This approach benefits students who take future courses that use graphs to display information.
+The student is shown how to graph lines using the intercept method, the table method, and the slope-intercept method, as well as how to distinguish, by inspection, oblique and horizontal/vertical lines.
+Objectives of this module: be able to find the equation of a line using either the slope-intercept form or the point-slope form of a line.</md:abstract>
+  <md:uuid>d1422e56-4e21-4e72-b79c-6d21730518a6</md:uuid>
+</metadata>
+
+<content>  <section id="eip-615"><title>Overview</title><list id="eip-824"><item>The Slope-Intercept and Point-Slope Forms</item></list></section><section id="eip-304"><title>The Slope-Intercept and Point-Slope Forms</title><para id="eip-416">In the pervious sections we have been given an equation and have constructed the line to which it corresponds. Now, however, suppose we're given some geometric information about the line and we wish to construct the corresponding equation. We wish to find the equation of a line.</para><para id="eip-830">We know that the formula for the slope of a line is <m:math> <m:semantics>  <m:mrow>   <m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac>    <m:mrow>     <m:msub>      <m:mi>y</m:mi>      <m:mn>2</m:mn>     </m:msub>     <m:mo>-</m:mo><m:msub>      <m:mi>y</m:mi>      <m:mn>1</m:mn>     </m:msub>         </m:mrow>    <m:mrow>     <m:msub>      <m:mi>x</m:mi>      <m:mn>2</m:mn>     </m:msub>     <m:mo>-</m:mo><m:msub>      <m:mi>x</m:mi>      <m:mn>1</m:mn>     </m:msub>         </m:mrow>   </m:mfrac>   <m:mo>.</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>We can find the equation of a line using the slope formula in either of two ways:</para><example id="eip-41"><para id="eip-850">If we’re given the slope, <m:math>		<m:semantics>			<m:mi>m</m:mi>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>, and <emphasis>any</emphasis> point <m:math>		<m:semantics>			<m:mrow>				<m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mmultiscripts>					<m:mo>,</m:mo>					<m:mprescripts/>					<m:mn>1</m:mn>					<m:none/>				</m:mmultiscripts>				<m:msub>					<m:mi>y</m:mi>					<m:mn>1</m:mn>				</m:msub>				<m:mo stretchy="false">)</m:mo>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math> on the line, we can substitute this information into the formula for slope.<newline/>Let <m:math>		<m:semantics>			<m:mrow>				<m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mmultiscripts>					<m:mo>,</m:mo>					<m:mprescripts/>					<m:mn>1</m:mn>					<m:none/>				</m:mmultiscripts>				<m:msub>					<m:mi>y</m:mi>					<m:mn>1</m:mn>				</m:msub>				<m:mo stretchy="false">)</m:mo>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math> be the known point on the line and let <m:math>		<m:semantics>			<m:mrow>				<m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math> be any other point on the line. Then </para><para id="eip-540"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mtable columnalign="left">
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="right">
+							<m:mi>m</m:mi>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mo>=</m:mo>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mfrac>
+									<m:mrow>
+										<m:mi>y</m:mi><m:mo>-</m:mo><m:msub>
+											<m:mi>y</m:mi>
+											<m:mn>1</m:mn>
+										</m:msub>
+									</m:mrow>
+									<m:mrow>
+										<m:mi>x</m:mi><m:mo>-</m:mo><m:msub>
+											<m:mi>x</m:mi>
+											<m:mn>1</m:mn>
+										</m:msub>
+									</m:mrow>
+								</m:mfrac>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>Multiply </m:mtext><m:mtext> </m:mtext><m:mtext>both </m:mtext><m:mtext> </m:mtext><m:mtext>sides </m:mtext><m:mtext> </m:mtext><m:mtext>by</m:mtext><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>-</m:mo><m:msub>
+									<m:mi>x</m:mi>
+									<m:mn>1</m:mn>
+								</m:msub>
+								<m:mo>.</m:mo>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:msub>
+									<m:mi>x</m:mi>
+									<m:mn>1</m:mn>
+								</m:msub>
+								<m:mo stretchy="false">)</m:mo>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mo>=</m:mo>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:menclose notation="updiagonalstrike">
+									<m:mrow>
+										<m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:msub>
+											<m:mi>x</m:mi>
+											<m:mn>1</m:mn>
+										</m:msub>
+										<m:mo stretchy="false">)</m:mo>
+									</m:mrow>
+								</m:menclose>
+								<m:mo>·</m:mo><m:mfrac>
+									<m:mrow>
+										<m:mi>y</m:mi><m:mo>-</m:mo><m:msub>
+											<m:mi>y</m:mi>
+											<m:mn>1</m:mn>
+										</m:msub>
+									</m:mrow>
+									<m:mrow>
+										<m:menclose notation="updiagonalstrike">
+											<m:mrow>
+												<m:mi>x</m:mi><m:mo>-</m:mo><m:msub>
+													<m:mi>x</m:mi>
+													<m:mn>1</m:mn>
+												</m:msub>
+											</m:mrow>
+										</m:menclose>
+									</m:mrow>
+								</m:mfrac>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:msub>
+									<m:mi>x</m:mi>
+									<m:mn>1</m:mn>
+								</m:msub>
+								<m:mo stretchy="false">)</m:mo>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mo>=</m:mo>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mi>y</m:mi><m:mo>-</m:mo><m:msub>
+									<m:mi>y</m:mi>
+									<m:mn>1</m:mn>
+								</m:msub>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>For </m:mtext><m:mtext>convenience, </m:mtext><m:mtext> </m:mtext><m:mtext>we'll </m:mtext><m:mtext/><m:mtext>rewrite </m:mtext><m:mtext/><m:mtext>the </m:mtext><m:mtext/><m:mtext>equation</m:mtext><m:mo>.</m:mo>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="right">
+							<m:mrow>
+								<m:mi>y</m:mi><m:mo>-</m:mo><m:msub>
+									<m:mi>y</m:mi>
+									<m:mn>1</m:mn>
+								</m:msub>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mo>=</m:mo>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:msub>
+									<m:mi>x</m:mi>
+									<m:mn>1</m:mn>
+								</m:msub>
+								<m:mo stretchy="false">)</m:mo>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+					</m:mtr>
+				</m:mtable>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics></m:math></para><para id="eip-482">Since this equation was derived using a point and the slope of a line, it is called the <term>point-slope</term> form of a line.</para></example><example id="eip-901"><para id="eip-228">If we are given the slope, <m:math>		<m:semantics>			<m:mi>m</m:mi>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>, <m:math>		<m:semantics>			<m:mrow>				<m:mtext>y-intercept</m:mtext><m:mo>, </m:mo><m:mtext/><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>, we can substitute this information into the formula for slope.<newline/>Let <m:math>		<m:semantics>			<m:mrow>				<m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math> be the <m:math>		<m:semantics>			<m:mrow>				<m:mtext>y-intercept </m:mtext><m:mtext/><m:mtext>and </m:mtext><m:mtext/><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math> be any other point on the line. Then,</para><para id="eip-780"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mtable columnalign="left">
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="right">
+							<m:mi>m</m:mi>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mo>=</m:mo>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mfrac>
+									<m:mrow>
+										<m:mi>y</m:mi><m:mo>-</m:mo><m:mi>b</m:mi>
+									</m:mrow>
+									<m:mrow>
+										<m:mi>x</m:mi><m:mo>-</m:mo><m:mn>0</m:mn>
+									</m:mrow>
+								</m:mfrac>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="right">
+							<m:mi>m</m:mi>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mo>=</m:mo>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mfrac>
+									<m:mrow>
+										<m:mi>y</m:mi><m:mo>-</m:mo><m:mi>b</m:mi>
+									</m:mrow>
+									<m:mi>x</m:mi>
+								</m:mfrac>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>Multiply </m:mtext><m:mtext/><m:mtext>
+								</m:mtext><m:mtext>both </m:mtext><m:mtext/><m:mtext>
+								</m:mtext><m:mtext>sides </m:mtext><m:mtext/><m:mtext>
+								</m:mtext><m:mtext>by </m:mtext><m:mtext/><m:mtext>
+								</m:mtext><m:mi>x</m:mi><m:mtext>.</m:mtext>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="right">
+							<m:mrow>
+								<m:mi>m</m:mi><m:mo>·</m:mo><m:mi>x</m:mi>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mo>=</m:mo>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:menclose notation="updiagonalstrike">
+									<m:mi>x</m:mi>
+								</m:menclose>
+								<m:mo>·</m:mo><m:mfrac>
+									<m:mrow>
+										<m:mi>y</m:mi><m:mo>-</m:mo><m:mi>b</m:mi>
+									</m:mrow>
+									<m:mrow>
+										<m:menclose notation="updiagonalstrike">
+											<m:mi>x</m:mi>
+										</m:menclose>
+									</m:mrow>
+								</m:mfrac>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="right">
+							<m:mrow>
+								<m:mi>m</m:mi><m:mi>x</m:mi>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mo>=</m:mo>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mi>y</m:mi><m:mo>-</m:mo><m:mi>b</m:mi>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>Solve </m:mtext><m:mtext/><m:mtext>for </m:mtext><m:mtext/><m:mi>y</m:mi><m:mo>.</m:mo>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mo>=</m:mo>
+						</m:mtd>
+						<m:mtd columnalign="right">
+							<m:mi>y</m:mi>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>For </m:mtext><m:mtext/><m:mtext>convenience,  </m:mtext><m:mtext/><m:mtext/><m:mtext>we'll </m:mtext><m:mtext/><m:mtext>rewrite </m:mtext><m:mtext/><m:mtext>this </m:mtext><m:mtext/><m:mtext>equation</m:mtext><m:mtext>.</m:mtext>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="right">
+							<m:mi>y</m:mi>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mo>=</m:mo>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+					</m:mtr>
+				</m:mtable>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math></para><para id="eip-972">Since this equation was derived using the slope and the intercept, it was called the <term>slope-intercept</term> form of a line.</para></example>	<para id="eip-908">We summarize these two derivations as follows.</para><para id="eip-703" class="highlight"><title>Forms of the Equation of a Line</title>We can find the equation of a line if we’re given either of the following sets of information:<list id="fs-id17600908" list-type="enumerated" number-style="arabic"><item>The slope, <m:math>				<m:semantics>					<m:mrow>						<m:mi>m</m:mi><m:mo>,</m:mo>					</m:mrow>					<m:annotation encoding="MathType-MTEF">					</m:annotation>				</m:semantics>			</m:math>and the <m:math>				<m:semantics>					<m:mrow>						<m:mi>y</m:mi><m:mtext>-intercept, </m:mtext><m:mtext/><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo>					</m:mrow>					<m:annotation encoding="MathType-MTEF">					</m:annotation>				</m:semantics>			</m:math>by substituting these values into<para id="fs-id17634986"><m:math>					<m:semantics>						<m:mrow>							<m:mtable frame="solid"><m:mrow>									<m:mi>y</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi>								</m:mrow></m:mtable>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para>			<para id="fs-id17039602">This is the slope-intercept form.</para></item>		<item>The slope, <m:math>				<m:semantics>					<m:mrow>						<m:mi>m</m:mi><m:mo>,</m:mo>					</m:mrow>					<m:annotation encoding="MathType-MTEF">					</m:annotation>				</m:semantics>			</m:math>and any point, <m:math>				<m:semantics>					<m:mrow>						<m:mo stretchy="false">(</m:mo><m:msub>							<m:mi>x</m:mi>							<m:mn>1</m:mn>						</m:msub>						<m:mo>,</m:mo><m:msub>							<m:mi>y</m:mi>							<m:mn>1</m:mn>						</m:msub>						<m:mo stretchy="false">)</m:mo><m:mo>,</m:mo>					</m:mrow>					<m:annotation encoding="MathType-MTEF">					</m:annotation>				</m:semantics>			</m:math>by substituting these values into <para id="fs-id12778085">				<m:math>					<m:semantics>						<m:mrow>							<m:mtable frame="solid"><m:mrow>									<m:mi>y</m:mi><m:mo>-</m:mo><m:msub>										<m:mi>y</m:mi>										<m:mn>1</m:mn>									</m:msub>									<m:mo>=</m:mo><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:msub>										<m:mi>x</m:mi>										<m:mn>1</m:mn>									</m:msub>									<m:mo stretchy="false">)</m:mo>								</m:mrow></m:mtable>						</m:mrow>						<m:annotation encoding="MathType-MTEF">						</m:annotation>					</m:semantics>				</m:math>			</para><para id="fs-id10970800">This is the point-slope form. </para></item></list></para><para id="eip-656">Notice that both forms rely on knowing the slope. If we are given two points on the line we may still find the equation of the line passing through them by first finding the slope of the line, then using the point-slope form.</para><para id="eip-994">It is customary to use either the slope-intercept form or the general form for the final form of the line. We will use the slope-intercept form as the final form.</para></section><section id="eip-785"><title>Sample Set  A</title><para id="eip-136">Find the equation of the line using the given information. </para><example id="eip-339"><para id="eip-863"><m:math>		<m:semantics>			<m:mrow>				<m:mi>m</m:mi><m:mo>=</m:mo><m:mn>6    </m:mn><m:mo>,</m:mo><m:mtext/><m:mtext/><m:mtext/><m:mtext/><m:mi>y</m:mi><m:mtext>-intercept </m:mtext><m:mtext/><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math></para><para id="eip-498">Since we’re given the slope and the <m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mtext>-intercept,</m:mtext>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>we’ll use the slope-intercept form. <m:math>		<m:semantics>			<m:mrow>				<m:mi>m</m:mi><m:mo>=</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>4.</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math></para><para id="eip-579"><m:math>		<m:semantics>			<m:mrow>				<m:mtable columnalign="left">					<m:mtr columnalign="left">						<m:mtd columnalign="left">							<m:mrow>								<m:mi>y</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi>							</m:mrow>						</m:mtd>					</m:mtr>					<m:mtr columnalign="left">						<m:mtd columnalign="left">							<m:mrow>								<m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn>							</m:mrow>						</m:mtd>					</m:mtr>				</m:mtable>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math></para></example><example id="eip-282"><para id="eip-8"><m:math>		<m:semantics>			<m:mrow>				<m:mi>m</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mfrac>					<m:mn>3</m:mn>					<m:mn>4</m:mn>				</m:mfrac>				<m:mo>,    </m:mo><m:mtext/><m:mtext/><m:mtext/><m:mtext/><m:mi>y</m:mi><m:mtext>-intercept </m:mtext><m:mtext/><m:mrow><m:mo>(</m:mo>					<m:mrow>						<m:mn>0</m:mn><m:mo>,</m:mo><m:mfrac>							<m:mn>1</m:mn>							<m:mn>8</m:mn>						</m:mfrac>					</m:mrow>					<m:mo>)</m:mo></m:mrow>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math></para><para id="eip-103">Since we’re given the slope and the <m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mtext>-intercept,</m:mtext>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>we’ll use the slope-intercept form. <m:math>		<m:semantics>			<m:mrow>				<m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac>					<m:mrow>						<m:mo>-</m:mo><m:mn>3</m:mn>					</m:mrow>					<m:mn>4</m:mn>				</m:mfrac>				<m:mo>,</m:mo>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math></para><para id="eip-138"><m:math>		<m:semantics>			<m:mrow>				<m:mtable>					<m:mtr>						<m:mtd>							<m:mi>b</m:mi>						</m:mtd>						<m:mtd>							<m:mo>=</m:mo>						</m:mtd>						<m:mtd>							<m:mrow>								<m:mfrac>									<m:mn>1</m:mn>									<m:mn>8</m:mn>								</m:mfrac>								<m:mo>.</m:mo>							</m:mrow>						</m:mtd>					</m:mtr>					<m:mtr>						<m:mtd>							<m:mi>y</m:mi>						</m:mtd>						<m:mtd>							<m:mo>=</m:mo>						</m:mtd>						<m:mtd>							<m:mrow>								<m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi>							</m:mrow>						</m:mtd>					</m:mtr>					<m:mtr>						<m:mtd>							<m:mi>y</m:mi>						</m:mtd>						<m:mtd>							<m:mo>=</m:mo>						</m:mtd>						<m:mtd>							<m:mrow>								<m:mo>-</m:mo><m:mfrac>									<m:mn>3</m:mn>									<m:mn>4</m:mn>								</m:mfrac>								<m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac>									<m:mn>1</m:mn>									<m:mn>8</m:mn>								</m:mfrac>							</m:mrow>						</m:mtd>					</m:mtr>				</m:mtable>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math></para></example><example id="eip-78"><para id="eip-121"><m:math> <m:semantics>  <m:mrow>   <m:mtable>    <m:mtr>     <m:mtd>      <m:mrow>       <m:mi>m</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>,</m:mo>      </m:mrow>     </m:mtd>     <m:mtd>      <m:mrow>       <m:mtext>the </m:mtext><m:mtext/><m:mtext>point</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>      </m:mrow>     </m:mtd>    </m:mtr>       </m:mtable>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math><newline/>Write the equation in slope-intercept form.</para><para id="eip-261">Since we’re given the slope and some point, we’ll use the point-slope form. </para><para id="eip-845"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mtable columnalign="left">
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mi>y</m:mi><m:mo>-</m:mo><m:msub>
+									<m:mi>y</m:mi>
+									<m:mn>1</m:mn>
+								</m:msub>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mo>=</m:mo>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:msub>
+									<m:mi>x</m:mi>
+									<m:mn>1</m:mn>
+								</m:msub>
+								<m:mo stretchy="false">)</m:mo>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>Let </m:mtext><m:mtext/><m:mo stretchy="false">(</m:mo><m:msub>
+									<m:mi>x</m:mi>
+									<m:mn>1</m:mn>
+								</m:msub>
+								<m:mo>,</m:mo><m:msub>
+									<m:mi>y</m:mi>
+									<m:mn>1</m:mn>
+								</m:msub>
+								<m:mo stretchy="false">) </m:mo><m:mtext/><m:mtext>be </m:mtext><m:mtext/><m:mtext>(4,3)</m:mtext><m:mtext>.</m:mtext>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mi>y</m:mi><m:mo>-</m:mo><m:mn>3</m:mn>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mo>=</m:mo>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>Put </m:mtext><m:mtext/><m:mtext>this </m:mtext><m:mtext/><m:mtext>equation </m:mtext><m:mtext/><m:mtext>in </m:mtext><m:mtext/><m:mtext>slope-intercept </m:mtext><m:mtext/><m:mtext>form </m:mtext><m:mtext/><m:mtext>by </m:mtext><m:mtext/><m:mtext>solving </m:mtext><m:mtext/><m:mtext>for </m:mtext><m:mtext/><m:mi>y</m:mi><m:mo>.</m:mo>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mi>y</m:mi><m:mo>-</m:mo><m:mn>3</m:mn>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mo>=</m:mo>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>8</m:mn>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="right">
+							<m:mi>y</m:mi>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mo>=</m:mo>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>5</m:mn>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+					</m:mtr>
+				</m:mtable>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics></m:math></para></example><example id="eip-536"><para id="eip-330"><m:math>		<m:semantics>			<m:mrow>				<m:mtable>					<m:mtr>						<m:mtd>							<m:mrow>								<m:mi>m</m:mi><m:mo>=</m:mo><m:mn>-5</m:mn><m:mo>,</m:mo>							</m:mrow>						</m:mtd>						<m:mtd>							<m:mrow>								<m:mtext>the </m:mtext><m:mtext/><m:mtext>point</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>-3</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>							</m:mrow>						</m:mtd>					</m:mtr>				</m:mtable>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math><newline/>Write the equation in slope-intercept form.</para><para id="eip-453">Since we’re given the slope and some point, we’ll use the point-slope form. </para><para id="eip-353"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mtable columnalign="left">
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mi>y</m:mi><m:mo>-</m:mo><m:msub>
+									<m:mi>y</m:mi>
+									<m:mn>1</m:mn>
+								</m:msub>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mo>=</m:mo>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:msub>
+									<m:mi>x</m:mi>
+									<m:mn>1</m:mn>
+								</m:msub>
+								<m:mo stretchy="false">)</m:mo>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>Let </m:mtext><m:mtext/><m:mo stretchy="false">(</m:mo><m:msub>
+									<m:mi>x</m:mi>
+									<m:mn>1</m:mn>
+								</m:msub>
+								<m:mo>,</m:mo><m:msub>
+									<m:mi>y</m:mi>
+									<m:mn>1</m:mn>
+								</m:msub>
+								<m:mo stretchy="false">) </m:mo><m:mtext/><m:mtext>be </m:mtext><m:mtext/><m:mtext>(-3,0)</m:mtext><m:mtext>.</m:mtext>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mi>y</m:mi><m:mo>-</m:mo><m:mn>0</m:mn>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mo>=</m:mo>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mo>-</m:mo><m:mn>5</m:mn><m:mrow><m:mo>[</m:mo>
+									<m:mrow>
+										<m:mi>x</m:mi><m:mo>-</m:mo><m:mo stretchy="false">(</m:mo><m:mo>-</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo>
+									</m:mrow>
+									<m:mo>]</m:mo></m:mrow>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="right">
+							<m:mi>y</m:mi>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mo>=</m:mo>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mo>-</m:mo><m:mn>5</m:mn><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>Solve </m:mtext><m:mtext/><m:mtext>for </m:mtext><m:mtext/><m:mi>y</m:mi><m:mo>.</m:mo>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="right">
+							<m:mi>y</m:mi>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mo>=</m:mo>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mo>-</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>15</m:mn>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+					</m:mtr>
+				</m:mtable>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics></m:math></para></example><example id="eip-558"><para id="eip-523"><m:math>		<m:semantics>			<m:mrow>				<m:mtable>					<m:mtr>						<m:mtd>							<m:mrow>								<m:mi>m</m:mi><m:mo>=</m:mo><m:mn>-1</m:mn><m:mo>,</m:mo>							</m:mrow>						</m:mtd>						<m:mtd>							<m:mrow>								<m:mtext>the </m:mtext><m:mtext/><m:mtext>point</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>							</m:mrow>						</m:mtd>					</m:mtr>				</m:mtable>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math><newline/>Write the equation in slope-intercept form.</para><para id="eip-97">We’re given the slope and a point, but careful observation reveals that this point is actually the <m:math>		<m:semantics>			<m:mrow>				<m:mi>y</m:mi><m:mtext>-intercept</m:mtext><m:mtext>.</m:mtext>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math> Thus, we’ll use the slope-intercept form. If we had not seen that this point was the <m:math>		<m:semantics>			<m:mrow>				<m:mi>y</m:mi><m:mtext>-intercept</m:mtext>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>we would have proceeded with the point-slope form. This would create slightly more work, but still give the same result.</para><para id="eip-240"><m:math>		<m:semantics>			<m:mrow>				<m:mtable columnalign="left">					<m:mtr columnalign="left">						<m:mtd columnalign="left">							<m:mrow>								<m:munder accentunder="true">									<m:mrow>										<m:mtext>Slope-intercept </m:mtext><m:mtext/><m:mtext>form</m:mtext>									</m:mrow>									<m:mo stretchy="true">¯</m:mo>								</m:munder>							</m:mrow>						</m:mtd>						<m:mtd columnalign="left">							<m:mrow>								<m:munder accentunder="true">									<m:mrow>										<m:mtext>Point-slope </m:mtext><m:mtext/><m:mtext>form</m:mtext>									</m:mrow>									<m:mo stretchy="true">¯</m:mo>								</m:munder>							</m:mrow>						</m:mtd>					</m:mtr>					<m:mtr columnalign="left">						<m:mtd columnalign="left">							<m:mrow>								<m:mtable columnalign="left">									<m:mtr columnalign="left">										<m:mtd columnalign="left">											<m:mi>y</m:mi>										</m:mtd>										<m:mtd columnalign="left">											<m:mo>=</m:mo>										</m:mtd>										<m:mtd columnalign="left">											<m:mrow>												<m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi>											</m:mrow>										</m:mtd>									</m:mtr>									<m:mtr columnalign="left">										<m:mtd columnalign="left">											<m:mi>y</m:mi>										</m:mtd>										<m:mtd columnalign="left">											<m:mo>=</m:mo>										</m:mtd>										<m:mtd columnalign="left">											<m:mrow>												<m:mo>-</m:mo><m:mn>1</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn>											</m:mrow>										</m:mtd>									</m:mtr>									<m:mtr columnalign="left">										<m:mtd columnalign="left">											<m:mi>y</m:mi>										</m:mtd>										<m:mtd columnalign="left">											<m:mo>=</m:mo>										</m:mtd>										<m:mtd columnalign="left">											<m:mrow>												<m:mo>-</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn>											</m:mrow>										</m:mtd>									</m:mtr>									<m:mtr columnalign="left">										<m:mtd columnalign="left">											<m:mrow/>										</m:mtd>										<m:mtd columnalign="left">											<m:mo/>										</m:mtd>										<m:mtd columnalign="left">											<m:mrow/>										</m:mtd>									</m:mtr>								</m:mtable>							</m:mrow>						</m:mtd>						<m:mtd columnalign="left">							<m:mrow>								<m:mtable columnalign="left">									<m:mtr columnalign="left">										<m:mtd columnalign="left">											<m:mrow>												<m:mi>y</m:mi><m:mo>-</m:mo><m:msub>													<m:mi>y</m:mi>													<m:mn>1</m:mn>												</m:msub>											</m:mrow>										</m:mtd>										<m:mtd columnalign="left">											<m:mo>=</m:mo>										</m:mtd>										<m:mtd columnalign="left">											<m:mrow>												<m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:msub>													<m:mi>x</m:mi>													<m:mn>1</m:mn>												</m:msub>												<m:mo stretchy="false">)</m:mo>											</m:mrow>										</m:mtd>									</m:mtr>									<m:mtr columnalign="left">										<m:mtd columnalign="left">											<m:mrow>												<m:mi>y</m:mi><m:mo>-</m:mo><m:mn>7</m:mn>											</m:mrow>										</m:mtd>										<m:mtd columnalign="left">											<m:mo>=</m:mo>										</m:mtd>										<m:mtd columnalign="left">											<m:mrow>												<m:mo>-</m:mo><m:mn>1</m:mn><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo>											</m:mrow>										</m:mtd>									</m:mtr>									<m:mtr columnalign="left">										<m:mtd columnalign="left">											<m:mrow>												<m:mi>y</m:mi><m:mo>-</m:mo><m:mn>7</m:mn>											</m:mrow>										</m:mtd>										<m:mtd columnalign="left">											<m:mo>=</m:mo>										</m:mtd>										<m:mtd columnalign="left">											<m:mrow>												<m:mo>-</m:mo><m:mi>x</m:mi>											</m:mrow>										</m:mtd>									</m:mtr>									<m:mtr columnalign="left">										<m:mtd columnalign="left">											<m:mi>y</m:mi>										</m:mtd>										<m:mtd columnalign="left">											<m:mo>=</m:mo>										</m:mtd>										<m:mtd columnalign="left">											<m:mrow>												<m:mo>-</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn>											</m:mrow>										</m:mtd>									</m:mtr>								</m:mtable>							</m:mrow>						</m:mtd>					</m:mtr>				</m:mtable>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math></para></example><example id="eip-909"><para id="eip-587">The two points <m:math>		<m:semantics>			<m:mrow>				<m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>and <m:math>		<m:semantics>			<m:mrow>				<m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math><newline/>Write the equation in slope-intercept form. </para><para id="eip-728">Since we’re given two points, we’ll find the slope first.</para><para id="eip-770"><m:math>			<m:semantics>				<m:mrow>					<m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac>						<m:mrow>							<m:msub>								<m:mi>y</m:mi>								<m:mn>2</m:mn>							</m:msub>							<m:mo>-</m:mo><m:msub>								<m:mi>y</m:mi>								<m:mn>1</m:mn>							</m:msub>						</m:mrow>						<m:mrow>							<m:msub>								<m:mi>x</m:mi>								<m:mn>2</m:mn>							</m:msub>							<m:mo>-</m:mo><m:msub>								<m:mi>x</m:mi>								<m:mn>1</m:mn>							</m:msub>						</m:mrow>					</m:mfrac>					<m:mo>=</m:mo><m:mfrac>						<m:mrow>							<m:mn>5</m:mn><m:mo>-</m:mo><m:mn>1</m:mn>						</m:mrow>						<m:mrow>							<m:mn>3</m:mn><m:mo>-</m:mo><m:mn>4</m:mn>						</m:mrow>					</m:mfrac>					<m:mo>=</m:mo><m:mfrac>						<m:mn>4</m:mn>						<m:mrow>							<m:mo>-</m:mo><m:mn>1</m:mn>						</m:mrow>					</m:mfrac>					<m:mo>=</m:mo><m:mo>-</m:mo><m:mn>4</m:mn>				</m:mrow>				<m:annotation encoding="MathType-MTEF">				</m:annotation>			</m:semantics>		</m:math>	</para><para id="eip-359">Now, we have the slope and two points. We can use either point and the point-slope form. </para>	<table id="eip-166" summary="Table" frame="bottom">		<tgroup cols="2" colsep="0" rowsep="0"><tbody>				<row rowsep="1">					<entry align="center"><emphasis>Using <m:math>								<m:semantics>									<m:mrow>										<m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>, </m:mo><m:mtext/><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>									</m:mrow>									<m:annotation encoding="MathType-MTEF">									</m:annotation>								</m:semantics>							</m:math>						</emphasis></entry>					<entry align="center"><emphasis>Using <m:math> <m:semantics>  <m:mrow>   <m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo>, </m:mo><m:mtext/><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></emphasis></entry>				</row>				<row>					<entry><m:math> <m:semantics>  <m:mrow>   <m:mtable columnalign="left">    <m:mtr columnalign="left">     <m:mtd columnalign="left">      <m:mrow>       <m:mi>y</m:mi><m:mo>-</m:mo><m:msub>        <m:mi>y</m:mi>        <m:mn>1</m:mn>       </m:msub>             </m:mrow>     </m:mtd>     <m:mtd columnalign="left">      <m:mo>=</m:mo>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow>       <m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:msub>        <m:mi>x</m:mi>        <m:mn>1</m:mn>       </m:msub>       <m:mo stretchy="false">)</m:mo>      </m:mrow>     </m:mtd>    </m:mtr>    <m:mtr columnalign="left">     <m:mtd columnalign="left">      <m:mrow>       <m:mi>y</m:mi><m:mo>-</m:mo><m:mn>1</m:mn>      </m:mrow>     </m:mtd>     <m:mtd columnalign="left">      <m:mo>=</m:mo>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow>       <m:mo>-</m:mo><m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo>      </m:mrow>     </m:mtd>    </m:mtr>    <m:mtr columnalign="left">     <m:mtd columnalign="left">      <m:mrow>       <m:mi>y</m:mi><m:mo>-</m:mo><m:mn>1</m:mn>      </m:mrow>     </m:mtd>     <m:mtd columnalign="left">      <m:mo>=</m:mo>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow>       <m:mo>-</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>16</m:mn>      </m:mrow>     </m:mtd>    </m:mtr>    <m:mtr columnalign="left">     <m:mtd columnalign="left">      <m:mi>y</m:mi>     </m:mtd>     <m:mtd columnalign="left">      <m:mo>=</m:mo>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow>       <m:mo>-</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>17</m:mn>      </m:mrow>     </m:mtd>    </m:mtr>       </m:mtable>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>				</entry>					<entry><m:math> <m:semantics>  <m:mrow>   <m:mtable columnalign="left">    <m:mtr columnalign="left">     <m:mtd columnalign="left">      <m:mrow>       <m:mi>y</m:mi><m:mo>-</m:mo><m:msub>        <m:mi>y</m:mi>        <m:mn>1</m:mn>       </m:msub>             </m:mrow>     </m:mtd>     <m:mtd columnalign="left">      <m:mo>=</m:mo>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow>       <m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:msub>        <m:mi>x</m:mi>        <m:mn>1</m:mn>       </m:msub>       <m:mo stretchy="false">)</m:mo>      </m:mrow>     </m:mtd>    </m:mtr>    <m:mtr columnalign="left">     <m:mtd columnalign="left">      <m:mrow>       <m:mi>y</m:mi><m:mo>-</m:mo><m:mn>5</m:mn>      </m:mrow>     </m:mtd>     <m:mtd columnalign="left">      <m:mo>=</m:mo>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow>       <m:mo>-</m:mo><m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo>      </m:mrow>     </m:mtd>    </m:mtr>    <m:mtr columnalign="left">     <m:mtd columnalign="left">      <m:mrow>       <m:mi>y</m:mi><m:mo>-</m:mo><m:mn>5</m:mn>      </m:mrow>     </m:mtd>     <m:mtd columnalign="left">      <m:mo>=</m:mo>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow>       <m:mo>-</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>12</m:mn>      </m:mrow>     </m:mtd>    </m:mtr>    <m:mtr columnalign="left">     <m:mtd columnalign="left">      <m:mi>y</m:mi>     </m:mtd>     <m:mtd columnalign="left">      <m:mo>=</m:mo>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow>       <m:mo>-</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>17</m:mn>      </m:mrow>     </m:mtd>    </m:mtr>       </m:mtable>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>					</entry>				</row>			</tbody>		</tgroup>	</table><para id="eip-891">We can see that the use of either point gives the same result. </para></example></section><section id="eip-803"><title>Practice Set A</title><para id="eip-2">Find the equation of each line given the following information. Use the slope-intercept form as the final form of the equation.</para><exercise id="eip-300"><problem id="eip-784">		<para id="eip-875"><m:math> <m:semantics>  <m:mrow>   <m:mi>m</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>, </m:mo><m:mtext/><m:mi>y</m:mi><m:mtext>-intercept </m:mtext><m:mtext/><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem>	<solution id="eip-856">		<para id="eip-157"><m:math>				<m:semantics>					<m:mrow>						<m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn>					</m:mrow>					<m:annotation encoding="MathType-MTEF">					</m:annotation>				</m:semantics>			</m:math>		</para>	</solution></exercise><exercise id="eip-700"><problem id="eip-531">		<para id="eip-214"><m:math> <m:semantics>  <m:mrow>   <m:mi>m</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>8</m:mn><m:mo>, </m:mo><m:mtext/><m:mi>y</m:mi><m:mtext>-intercept </m:mtext><m:mtext/><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem>	<solution id="eip-813">		<para id="eip-838"><m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	</solution></exercise><exercise id="eip-112"><problem id="eip-773">		<para id="eip-133"><m:math> <m:semantics>  <m:mrow>   <m:mi>m</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>, </m:mo><m:mtext/><m:mi>y</m:mi><m:mtext>-intercept </m:mtext><m:mtext/><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mo>-</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem>	<solution id="eip-560">		<para id="eip-292"><m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>7</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	</solution></exercise><exercise id="eip-916"><problem id="eip-210">		<para id="eip-123"><m:math> <m:semantics>  <m:mrow>   <m:mi>m</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>, </m:mo><m:mtext/><m:mi>y</m:mi><m:mtext>-intercept </m:mtext><m:mtext/><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem>	<solution id="eip-425">		<para id="eip-155"><m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	</solution></exercise><exercise id="eip-241"><problem id="eip-376">		<para id="eip-224"><m:math> <m:semantics>  <m:mrow>   <m:mi>m</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>, </m:mo><m:mtext/><m:mi>y</m:mi><m:mtext>-intercept </m:mtext><m:mtext/><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mo>-</m:mo><m:mn>10</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem>	<solution id="eip-418">		<para id="eip-95"><m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>10</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	</solution></exercise><exercise id="eip-686"><problem id="eip-325">		<para id="eip-44"><m:math>		<m:semantics>			<m:mrow>				<m:mi>m</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>,</m:mo>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>the point <m:math>		<m:semantics>			<m:mrow>				<m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math></para>	
+</problem>	<solution id="eip-374">		<para id="eip-927"><m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>18</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	</solution></exercise><exercise id="eip-552"><problem id="eip-160">		<para id="eip-610"><m:math>		<m:semantics>			<m:mrow>				<m:mi>m</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>6</m:mn><m:mo>,</m:mo>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>the point <m:math>		<m:semantics>			<m:mrow>				<m:mo stretchy="false">(</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math></para>	
+</problem>	<solution id="eip-382">		<para id="eip-194"><m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>6</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	</solution></exercise><exercise id="eip-931"><problem id="eip-389">		<para id="eip-955"><m:math>		<m:semantics>			<m:mrow>				<m:mi>m</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>,</m:mo>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>the point <m:math>		<m:semantics>			<m:mrow>				<m:mo stretchy="false">(</m:mo><m:mo>-</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mo>-</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math></para>	
+</problem>	<solution id="eip-17">		<para id="eip-59"><m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>10</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	</solution></exercise><exercise id="eip-182"><problem id="eip-667">		<para id="eip-801">The two points <m:math>		<m:semantics>			<m:mrow>				<m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>and <m:math>		<m:semantics>			<m:mrow>				<m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math></para>	
+</problem>	<solution id="eip-815">		<para id="eip-278"><m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>7</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	</solution></exercise><exercise id="eip-42"><problem id="eip-371">		<para id="eip-584">The two points <m:math>		<m:semantics>			<m:mrow>				<m:mo stretchy="false">(</m:mo><m:mo>-</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>and <m:math>		<m:semantics>			<m:mrow>				<m:mo stretchy="false">(</m:mo><m:mo>-</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math></para>	
+</problem>	<solution id="eip-649">		<para id="eip-413"><m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>20</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	</solution></exercise></section><section id="eip-929"><title>Sample Set B</title><example id="eip-757"><para id="eip-855">Find the equation of the line passing through the point <m:math>		<m:semantics>			<m:mrow>				<m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mo>-</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>having slope 0. </para><para id="eip-971">We’re given the slope and some point, so we’ll use the point-slope form. With <m:math>		<m:semantics>			<m:mrow>				<m:mi>m</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>and <m:math>		<m:semantics>			<m:mrow>				<m:mo stretchy="false">(</m:mo><m:msub>					<m:mi>x</m:mi>					<m:mn>1</m:mn>				</m:msub>				<m:mo>,</m:mo><m:msub>					<m:mi>y</m:mi>					<m:mn>1</m:mn>				</m:msub>				<m:mo stretchy="false">)</m:mo>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>as <m:math>		<m:semantics>			<m:mrow>				<m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mo>-</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo><m:mo>,</m:mo>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>we have </para><para id="eip-154"><m:math> <m:semantics>  <m:mrow>   <m:mtable columnalign="left">    <m:mtr columnalign="left">     <m:mtd columnalign="left">      <m:mrow>       <m:mi>y</m:mi><m:mo>-</m:mo><m:msub>        <m:mi>y</m:mi>        <m:mn>1</m:mn>       </m:msub>             </m:mrow>     </m:mtd>     <m:mtd columnalign="left">      <m:mo>=</m:mo>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow>       <m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:msub>        <m:mi>x</m:mi>        <m:mn>1</m:mn>       </m:msub>       <m:mo stretchy="false">)</m:mo>      </m:mrow>     </m:mtd>    </m:mtr>    <m:mtr columnalign="left">     <m:mtd columnalign="left">      <m:mrow>       <m:mi>y</m:mi><m:mo>-</m:mo><m:mo stretchy="false">(</m:mo><m:mo>-</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo>      </m:mrow>     </m:mtd>     <m:mtd columnalign="left">      <m:mo>=</m:mo>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow>       <m:mn>0</m:mn><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo>      </m:mrow>     </m:mtd>    </m:mtr>    <m:mtr columnalign="left">     <m:mtd columnalign="left">      <m:mrow>       <m:mi>y</m:mi><m:mo>+</m:mo><m:mn>7</m:mn>      </m:mrow>     </m:mtd>     <m:mtd columnalign="left">      <m:mo>=</m:mo>     </m:mtd>     <m:mtd columnalign="left">      <m:mn>0</m:mn>     </m:mtd>    </m:mtr>    <m:mtr columnalign="left">     <m:mtd columnalign="left">      <m:mi>y</m:mi>     </m:mtd>     <m:mtd columnalign="left">      <m:mo>=</m:mo>     </m:mtd>     <m:mtd columnalign="left">      <m:mrow>       <m:mo>-</m:mo><m:mn>7</m:mn>      </m:mrow>     </m:mtd>    </m:mtr>       </m:mtable>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para><para id="eip-958">This is a horizontal line. </para></example><example id="eip-70"><para id="eip-467">Find the equation of the line passing through the point <m:math>		<m:semantics>			<m:mrow>				<m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>given that the line is vertical.</para><para id="eip-607">Since the line is vertical, the slope does not exist. Thus, we cannot use either the slope-intercept form or the point-slope form. We must recall what we know about vertical lines. The equation of this line is simply <m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1.</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para></example></section><section id="eip-578"><title>Practice Set B</title><exercise id="eip-120"><problem id="eip-608">		<para id="eip-991">Find the equation of the line passing through the point <m:math>		<m:semantics>			<m:mrow>				<m:mo stretchy="false">(</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>9</m:mn><m:mo stretchy="false">)</m:mo>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>having slope 0.</para>	
+</problem>	<solution id="eip-533">		<para id="eip-173"><m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>9</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	</solution></exercise><exercise id="eip-107"><problem id="eip-854">		<para id="eip-232">Find the equation of the line passing through the point <m:math>		<m:semantics>			<m:mrow>				<m:mo stretchy="false">(</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>given that the line is vertical.</para>	
+</problem>	<solution id="eip-351">		<para id="eip-532"><m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>1</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	</solution></exercise></section><section id="eip-547"><title>Sample Set C</title><example id="eip-162"><para id="eip-149">  Reading only from the graph, determine the equation of the line. </para><para id="eip-401">The slope of the line is <m:math>		<m:semantics>			<m:mrow>				<m:mfrac>					<m:mn>2</m:mn>					<m:mn>3</m:mn>				</m:mfrac>				<m:mo>,</m:mo>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math> and the line crosses the <m:math>		<m:semantics>			<m:mrow>				<m:mi>y</m:mi><m:mtext>-axis</m:mtext>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>at the point <m:math>		<m:semantics>			<m:mrow>				<m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mo>-</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math>Using the slope-intercept form we get </para><para id="eip-736"><m:math>		<m:semantics>			<m:mrow>				<m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac>					<m:mn>2</m:mn>					<m:mn>3</m:mn>				</m:mfrac>				<m:mi>x</m:mi><m:mo>-</m:mo><m:mn>3</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math></para><para id="eip-267"><media id="C06_S6-6_P288_001" display="block" alt="A graph of a line sloped up and to the right. The line is labelled 'm equals two thirds', with arrows illustrating an upward change of two units with a horizontal change of three units to the right.">		<image mime-type="image/png" src="../../media/C06_S6-6_P288_001.png" print-width="2in"/>	</media></para></example></section><section id="eip-161"><title>Practice Set C</title><exercise id="eip-368"><problem id="eip-89">		<para id="eip-975">Reading only from the graph, determine the equation of the line.<newline/><media id="C06_S6-6_P289_001" display="block" alt="A graph of a line sloped down and to the right. The line crosses the y-axis at y equals four, and appears to approach the x-axis at x equals six.">		<image mime-type="image/png" src="../../media/C06_S6-6_P289_001.png" print-width="2in"/>	</media></para>
+</problem>	<solution id="eip-819">		<para id="eip-574"><m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac>    <m:mrow>     <m:mo>-</m:mo><m:mn>2</m:mn>    </m:mrow>    <m:mn>3</m:mn>   </m:mfrac>   <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	</solution></exercise></section>
+<section id="eip-151" class="homework"><title>Exercises</title><para id="eip-385">For the following problems, write the equation of the line using the given information in slope-intercept form. </para><exercise id="eip-953"><problem id="eip-616">		<para id="eip-528"><m:math> <m:semantics>  <m:mrow>   <m:mi>m</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>, </m:mo><m:mtext/><m:mi>y</m:mi><m:mtext>-intercept </m:mtext><m:mtext/><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem><solution id="zip-id15136565"><para id="zip-id15136566"><m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn>  </m:mrow>   </m:semantics></m:math></para></solution>	</exercise><exercise id="eip-940"><problem id="eip-515">		<para id="eip-287"><m:math> <m:semantics>  <m:mrow>   <m:mi>m</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>, </m:mo><m:mtext/><m:mi>y</m:mi><m:mtext>-intercept </m:mtext><m:mtext/><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem>	</exercise><exercise id="eip-930"><problem id="eip-464">		<para id="eip-190"><m:math> <m:semantics>  <m:mrow>   <m:mi>m</m:mi><m:mo>=</m:mo><m:mn>8</m:mn><m:mo>, </m:mo><m:mtext/><m:mi>y</m:mi><m:mtext>-intercept </m:mtext><m:mtext/><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem><solution id="zip-id15963928"><para id="zip-id15963929"><m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>  </m:mrow>  </m:semantics></m:math></para></solution>	</exercise><exercise id="eip-258"><problem id="eip-775">		<para id="eip-986"><m:math> <m:semantics>  <m:mrow>   <m:mi>m</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>, </m:mo><m:mtext/><m:mi>y</m:mi><m:mtext>-intercept </m:mtext><m:mtext/><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mo>-</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem>	</exercise><exercise id="eip-807"><problem id="eip-281">		<para id="eip-800"><m:math> <m:semantics>  <m:mrow>   <m:mi>m</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>6</m:mn><m:mo>, </m:mo><m:mtext/><m:mi>y</m:mi><m:mtext>-intercept </m:mtext><m:mtext/><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem><solution id="zip-id15962403"><para id="zip-id15962404"><m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn>  </m:mrow>  </m:semantics></m:math></para></solution>	</exercise><exercise id="eip-935"><problem id="eip-113">		<para id="eip-178"><m:math> <m:semantics>  <m:mrow>   <m:mi>m</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>4</m:mn><m:mo>, </m:mo><m:mtext/><m:mi>y</m:mi><m:mtext>-intercept </m:mtext><m:mtext/><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem>	</exercise><exercise id="eip-390"><problem id="eip-695">		<para id="eip-472"><m:math> <m:semantics>  <m:mrow>   <m:mi>m</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mfrac>    <m:mn>3</m:mn>    <m:mn>2</m:mn>   </m:mfrac>   <m:mo>, </m:mo><m:mtext/><m:mi>y</m:mi><m:mtext>-intercept </m:mtext><m:mtext/><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem><solution id="zip-id16136449"><para id="zip-id16136450"><m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mfrac>    <m:mn>3</m:mn>    <m:mn>2</m:mn>   </m:mfrac>   <m:mi>x</m:mi>  </m:mrow>  </m:semantics></m:math></para></solution>	</exercise><exercise id="eip-98"><problem id="eip-324">		<para id="eip-665"><m:math> <m:semantics>  <m:mrow>   <m:mi>m</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>, </m:mo><m:mtext/><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem>	</exercise><exercise id="eip-550"><problem id="eip-188">		<para id="eip-223"><m:math> <m:semantics>  <m:mrow>   <m:mi>m</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>, </m:mo><m:mtext/><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem><solution id="zip-id16393714"><para id="zip-id16393715"><m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn>  </m:mrow>   </m:semantics></m:math></para></solution>	</exercise><exercise id="eip-659"><problem id="eip-756">		<para id="eip-907"><m:math> <m:semantics>  <m:mrow>   <m:mi>m</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>, </m:mo><m:mtext/><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem>	</exercise><exercise id="eip-555"><problem id="eip-215">		<para id="eip-150"><m:math> <m:semantics>  <m:mrow>   <m:mi>m</m:mi><m:mo>=</m:mo><m:mn>8</m:mn><m:mo>, </m:mo><m:mtext/><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem><solution id="zip-id12567328"><para id="zip-id12567329"><m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>32</m:mn>  </m:mrow>  </m:semantics></m:math></para></solution>	</exercise><exercise id="eip-139"><problem id="eip-238">		<para id="eip-641"><m:math> <m:semantics>  <m:mrow>   <m:mi>m</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>3</m:mn><m:mo>, </m:mo><m:mtext/><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem>	</exercise><exercise id="eip-94"><problem id="eip-313">		<para id="eip-146"><m:math> <m:semantics>  <m:mrow>   <m:mi>m</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>, </m:mo><m:mtext/><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem><solution id="zip-id16145920"><para id="zip-id16145921"><m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn>  </m:mrow>   </m:semantics></m:math></para></solution>	</exercise><exercise id="eip-612"><problem id="eip-544">		<para id="eip-553"><m:math> <m:semantics>  <m:mrow>   <m:mi>m</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>6</m:mn><m:mo>, </m:mo><m:mtext/><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem>	</exercise><exercise id="eip-982"><problem id="eip-77">		<para id="eip-861"><m:math> <m:semantics>  <m:mrow>   <m:mi>m</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>, </m:mo><m:mtext/><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem><solution id="zip-id16119967"><para id="zip-id16119968"><m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>  </m:mrow> </m:semantics></m:math></para></solution>	</exercise><exercise id="eip-455"><problem id="eip-926">		<para id="eip-280"><m:math> <m:semantics>  <m:mrow>   <m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>, </m:mo><m:mtext/><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem>	</exercise><exercise id="eip-61"><problem id="eip-904">		<para id="eip-905"><m:math> <m:semantics>  <m:mrow>   <m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>, </m:mo><m:mtext/><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem><solution id="zip-id4408985"><para id="zip-id4408986"><m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac>    <m:mn>8</m:mn>    <m:mn>5</m:mn>   </m:mfrac>   <m:mi>x</m:mi>  </m:mrow>  </m:semantics></m:math></para></solution>	</exercise><exercise id="eip-272"><problem id="eip-378">		<para id="eip-229"><m:math> <m:semantics>  <m:mrow>   <m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>, </m:mo><m:mtext/><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem>	</exercise><exercise id="eip-356"><problem id="eip-447">		<para id="eip-60"><m:math> <m:semantics>  <m:mrow>   <m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>, </m:mo><m:mtext/><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem><solution id="zip-id15987947"><para id="zip-id15987948"><m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>  </m:mrow>  </m:semantics></m:math></para></solution>	</exercise><exercise id="eip-409"><problem id="eip-373">		<para id="eip-633"><m:math> <m:semantics>  <m:mrow>   <m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mo>-</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>, </m:mo><m:mtext/><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem>	</exercise><exercise id="eip-244"><problem id="eip-687">		<para id="eip-829"><m:math> <m:semantics>  <m:mrow>   <m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>, </m:mo><m:mtext/><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem><solution id="zip-id7983098"><para id="zip-id7983099"><m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3 </m:mn><m:mtext/><m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mtext>horizontal </m:mtext><m:mtext/><m:mtext>line</m:mtext>    </m:mrow>   <m:mo>)</m:mo></m:mrow>  </m:mrow>  </m:semantics></m:math></para></solution>	</exercise><exercise id="eip-910"><problem id="eip-47">		<para id="eip-760"><m:math> <m:semantics>  <m:mrow>   <m:mo stretchy="false">(</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>, </m:mo><m:mtext/><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem>	</exercise><exercise id="eip-758"><problem id="eip-679">		<para id="eip-395"><m:math> <m:semantics>  <m:mrow>   <m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>, </m:mo><m:mtext/><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem><solution id="zip-id16144846"><para id="zip-id16144847"><m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4 </m:mn><m:mtext/><m:mrow><m:mo>(</m:mo>    <m:mrow>     <m:mtext>vertical </m:mtext><m:mtext/><m:mtext>line</m:mtext>    </m:mrow>   <m:mo>)</m:mo></m:mrow>  </m:mrow>  </m:semantics></m:math></para></solution>	</exercise><exercise id="eip-16"><problem id="eip-489">		<para id="eip-106"><m:math> <m:semantics>  <m:mrow>   <m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo><m:mo>, </m:mo><m:mtext/><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem>	</exercise><exercise id="eip-828"><problem id="eip-902">		<para id="eip-25"><m:math> <m:semantics>  <m:mrow>   <m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>, </m:mo><m:mtext/><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem><solution id="zip-id16167242"><para id="zip-id16167243"><m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi>  </m:mrow>  </m:semantics></m:math></para></solution>	</exercise><exercise id="eip-28"><problem id="eip-620">		<para id="eip-750"><m:math> <m:semantics>  <m:mrow>   <m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>, </m:mo><m:mtext/><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem>	</exercise><exercise id="eip-742"><problem id="eip-969">		<para id="eip-102"><m:math> <m:semantics>  <m:mrow>   <m:mo stretchy="false">(</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo>, </m:mo><m:mtext/><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mo>-</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem><solution id="zip-id15409390"><para id="zip-id15409391"><m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mfrac>    <m:mn>9</m:mn>    <m:mn>5</m:mn>   </m:mfrac>   <m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac>    <m:mn>2</m:mn>    <m:mn>5</m:mn>   </m:mfrac>     </m:mrow>  </m:semantics></m:math></para></solution>	</exercise><exercise id="eip-72"><problem id="eip-471">		<para id="eip-500"><m:math> <m:semantics>  <m:mrow>   <m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo><m:mo>, </m:mo><m:mtext/><m:mo stretchy="false">(</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mo>-</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem>	</exercise><exercise id="eip-634"><problem id="eip-36">		<para id="eip-355"><m:math> <m:semantics>  <m:mrow>   <m:mo stretchy="false">(</m:mo><m:mn>14</m:mn><m:mo>,</m:mo><m:mn>12</m:mn><m:mo stretchy="false">)</m:mo><m:mo>, </m:mo><m:mtext/><m:mo stretchy="false">(</m:mo><m:mo>-</m:mo><m:mn>9</m:mn><m:mo>,</m:mo><m:mo>-</m:mo><m:mn>11</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem><solution id="zip-id15137013"><para id="zip-id15137014"><m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn>  </m:mrow>  </m:semantics></m:math></para></solution>	</exercise><exercise id="eip-119"><problem id="eip-218">		<para id="eip-22"><m:math> <m:semantics>  <m:mrow>   <m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mo>-</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo>, </m:mo><m:mtext/><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math></para>	
+</problem>	</exercise><para id="eip-834">For the following problems, read only from the graph and determine the equation of the lines. </para><exercise id="eip-122"><problem id="eip-727">		<para id="eip-718"><media id="C06_S6-6_P290_001" display="block" alt="A graph of a line sloped up and to the right. The line crosses the y-axis at y equals one, and crosses the x-axis and pass through the point one unit below the x-axis and five units to the left of the y-axis.">		<image mime-type="image/png" src="../../media/C06_S6-6_P290_001.png" print-width="2in"/>	</media></para>	
+</problem><solution id="zip-id16372583"><para id="zip-id16372584"><m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac>    <m:mn>2</m:mn>    <m:mn>5</m:mn>   </m:mfrac>   <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>  </m:mrow>  </m:semantics></m:math></para></solution>	</exercise><exercise id="eip-554"><problem id="eip-922">		<para id="eip-646"><media id="C06_S6-6_P290_002" display="block" alt="A graph of a line sloped up and to the right. The line crosses the y-axis at y equals one, and crosses the x-axis and pass through the point one unit below the x-axis and one unit to the left of the y-axis.">		<image mime-type="image/png" src="../../media/C06_S6-6_P290_002.png" print-width="2in"/>	</media></para>	
+</problem>	</exercise><exercise id="eip-177"><problem id="eip-809">		<para id="eip-66"><media id="C06_S6-6_P290_003" display="block" alt="A graph of a line sloped up and to the right. The line crosses the y-axis at y equals one, and crosses the x-axis at x equals negative four.">		<image mime-type="image/png" src="../../media/C06_S6-6_P290_003.png" print-width="2in"/>	</media></para>	
+</problem><solution id="zip-id15583766"><para id="zip-id15583767"><m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac>    <m:mn>1</m:mn>    <m:mn>4</m:mn>   </m:mfrac>   <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>  </m:mrow>  </m:semantics></m:math></para></solution>	</exercise><exercise id="eip-917"><problem id="eip-220">		<para id="eip-737"><media id="C06_S6-6_P291_001" display="block" alt="A graph of a line parallel to x-axis in an xy plane. The line crosses the y-axis at y equals two.">		<image mime-type="image/png" src="../../media/C06_S6-6_P291_001.png" print-width="2in"/>	</media></para>	
+</problem>	</exercise><exercise id="eip-575"><problem id="eip-996">		<para id="eip-62"><media id="C06_S6-6_P291_003_1" display="block" alt="A graph of a line parallel to y-axis in an xy plane. The line crosses the x-axis at x equals negative four.">		<image mime-type="image/png" src="../../media/C06_S6-6_P291_003.png" print-width="2in"/>	</media></para>	
+</problem><solution id="zip-id16336719"><para id="zip-id16336720"><m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>4</m:mn>  </m:mrow>  </m:semantics></m:math></para></solution>	</exercise><exercise id="eip-977"><problem id="eip-524">		<para id="eip-569"><media id="C06_S6-6_P291_002" display="block" alt="A graph of a line sloped down and to the right. The line crosses the y-axis at y equals three, and crosses the x-axis at x equals three.">		<image mime-type="image/png" src="../../media/C06_S6-6_P291_002.png" print-width="2in"/>	</media></para>	
+</problem>	</exercise><exercise id="eip-604"><problem id="eip-694">		<para id="eip-735"><media id="C06_S6-6_P291_004" display="block" alt="A graph of a line sloped down and to the right. The line crosses the y-axis at y equals negative one, and crosses the x-axis and pass through the point four units below the x-axis and one unit to the right of the y-axis .">		<image mime-type="image/png" src="../../media/C06_S6-6_P291_004.png" print-width="2in"/>	</media></para>	
+</problem><solution id="zip-id16168941"><para id="zip-id16168942"><m:math> <m:semantics>  <m:mrow>   <m:mi>y</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>1</m:mn>  </m:mrow>   </m:semantics></m:math></para></solution>	</exercise></section><section id="eip-713"><title>Exercises for Review</title><exercise id="eip-823"><problem id="eip-821">
+			<para id="eip-204"><emphasis>(<link document="m18877"/>)</emphasis> Graph the equation <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mi>x</m:mi><m:mo>-</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>0.</m:mn>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math><newline/><media id="C06_S6-6_P291_006" display="block" alt="A horizontal line with arrows on both ends.">
+					<image mime-type="image/png" src="../../media/C06_S6-6_P291_005.png" print-width="2.5in"/>
+				</media></para>
+		</problem>
+	</exercise><exercise id="eip-631"><problem id="eip-427">
+			<para id="eip-493"><emphasis>(<link document="m21995"/>)</emphasis>  Supply the missing word. The point at which a line crosses the <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mi>y</m:mi><m:mtext>-axis</m:mtext>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math>is called the <space count="10" effect="underline"/>.   </para>
+		</problem><solution id="zip-id16157247"><para id="zip-id16157248"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mi>y</m:mi><m:mtext>-intercept</m:mtext>
+						</m:mrow>
+					</m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-67"><problem id="eip-613">
+			<para id="eip-414"><emphasis>(<link document="m22014"/>)</emphasis> Supply the missing word. The <space count="10" effect="underline"/> of a line is a measure of the steepness of the line.  </para>
+		</problem>
+	</exercise><exercise id="eip-417"><problem id="eip-484">
+			<para id="eip-116"><emphasis>(<link document="m22014"/>)</emphasis> Find the slope of the line that passes through the points <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math>and <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mo stretchy="false">(</m:mo><m:mo>-</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mo>-</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics></m:math></para>
+		</problem><solution id="zip-id16152318"><para id="zip-id16135046"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mi>m</m:mi><m:mo>=</m:mo><m:mn>1</m:mn>
+						</m:mrow>
+					</m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-519"><problem id="eip-970">
+			<para id="eip-183"><emphasis>(<link document="m22000"/>)</emphasis> Graph the equation <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3.</m:mn>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math><newline/><media id="C06_S6-6_P291_005" display="block" alt="An xy coordinate plane with gridlines, labeled negative five and five on the both axes.">
+					<image mime-type="image/png" src="../../media/C06_S6-6_P291_006.png" print-width="2in"/>
+				</media></para>
+		</problem>
+	</exercise></section></content></document>

@@ -1,0 +1,1214 @@
+<?xml version="1.0"?>
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml/0.4" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:q="http://cnx.rice.edu/qml/1.0" id="new" cnxml-version="0.6" module-id="new">
+
+<title>6.1 Graphing Linear Equations and Inequalities in One Variable</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml/0.4">
+  <!-- WARNING! The 'metadata' section is read only. Do not edit below.
+       Changes to the metadata section in the source will not be saved. -->
+  <md:content-id>m18877</md:content-id>
+  <md:title>6.1 Graphing Linear Equations and Inequalities in One Variable</md:title>
+  <md:version>1.1</md:version>
+  <md:created>2008/12/08 17:12:04 US/Central</md:created>
+  <md:revised>2009/03/29 23:59:52.090 GMT-5</md:revised>
+  <md:authorlist>
+    <md:author id="wellis">
+        <md:firstname>Wade</md:firstname>
+        <md:surname>Ellis</md:surname>
+        <md:fullname>Wade Ellis</md:fullname>
+        <md:email>fgafaculty@gmail.com</md:email>
+    </md:author>
+    <md:author id="dennyburzynski">
+        <md:firstname>Denny</md:firstname>
+        <md:surname>Burzynski</md:surname>
+        <md:fullname>Denny Burzynski</md:fullname>
+        <md:email>denny_burzynski@westvalley.edu</md:email>
+    </md:author>
+  </md:authorlist>
+  <md:maintainerlist>
+    <md:maintainer id="wellis">
+        <md:firstname>Wade</md:firstname>
+        <md:surname>Ellis</md:surname>
+        <md:fullname>Wade Ellis</md:fullname>
+        <md:email>fgafaculty@gmail.com</md:email>
+    </md:maintainer>
+    <md:maintainer id="dennyburzynski">
+        <md:firstname>Denny</md:firstname>
+        <md:surname>Burzynski</md:surname>
+        <md:fullname>Denny Burzynski</md:fullname>
+        <md:email>denny_burzynski@westvalley.edu</md:email>
+    </md:maintainer>
+    <md:maintainer id="LearningMate">
+        <md:firstname>LearningMate</md:firstname>
+        <md:surname>LearningMate</md:surname>
+        <md:fullname>LearningMate LearningMate</md:fullname>
+        <md:email>abhijit.chaturvedi@learningmate.com</md:email>
+    </md:maintainer>
+    <md:maintainer id="mgardner">
+        <md:firstname>Matt</md:firstname>
+        <md:surname>Gardner</md:surname>
+        <md:fullname>Matt Gardner</md:fullname>
+        <md:email>mgardner@wordsandnumbers.com</md:email>
+    </md:maintainer>
+  </md:maintainerlist>
+  <md:license href="http://creativecommons.org/licenses/by/2.0/"/>
+  <md:licensorlist>
+    <md:licensor id="wellis">
+        <md:firstname>Wade</md:firstname>
+        <md:surname>Ellis</md:surname>
+        <md:fullname>Wade Ellis</md:fullname>
+        <md:email>fgafaculty@gmail.com</md:email>
+    </md:licensor>
+    <md:licensor id="dennyburzynski">
+        <md:firstname>Denny</md:firstname>
+        <md:surname>Burzynski</md:surname>
+        <md:fullname>Denny Burzynski</md:fullname>
+        <md:email>denny_burzynski@westvalley.edu</md:email>
+    </md:licensor>
+  </md:licensorlist>
+  <md:keywordlist>
+    <md:keyword>algebra</md:keyword>
+    <md:keyword>burzynski</md:keyword>
+    <md:keyword>elementary</md:keyword>
+    <md:keyword>ellis</md:keyword>
+  </md:keywordlist>
+  <md:subjectlist>
+    <md:subject>Mathematics and Statistics</md:subject>
+  </md:subjectlist>
+  <md:abstract>This module contains Chapter 6 of Elementary Algebra by Denny Burzynski and Wade Ellis, Jr.</md:abstract>
+  <md:language>en</md:language>
+  <!-- WARNING! The 'metadata' section is read only. Do not edit above.
+       Changes to the metadata section in the source will not be saved. -->
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="example">
+      <link url="06 Chapter.pdf" strength="3">Download Chapter 6</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+<section id="eip-48"><title>Overview</title><list id="eip-550" list-type="bulleted" bullet-style="bullet"><item>Graphs</item>
+	<item>Axes, Coordinate Systems, and Dimension</item>
+	<item>Graphing in One Dimension</item></list></section><section id="eip-398"><title>Graphs</title><para id="eip-191">We have, thus far in our study of algebra, developed and used several methods for obtaining solutions to linear equations in both one and two variables. Quite often it is helpful to obtain a picture of the solutions to an equation. These pictures are called <emphasis>graphs</emphasis> and they can reveal information that may not be evident from the equation alone.
+</para>
+
+<para id="eip-263"><title>The Graph of an Equation</title>The geometric representation (picture) of the solutions to an equation is called the <term>graph</term> of the equation.</para>
+
+</section><section id="eip-982"><title>Axes, Coordinate Systems, and Dimension</title><para id="eip-56"><title>Axis </title>The basic structure of the graph is the <emphasis>axis</emphasis>. It is with respect to the axis that all solutions to an equation are located. The most fundamental type of axis is the <emphasis>number line</emphasis>.
+</para>
+<para id="eip-96"><title>The Number Line is an Axis</title><media id="image-example" display="block" alt="A number line with arrows on each end and is labeled from negative five to five in increments of one. There is an arrow pointing towards the number line with the label, 'This number line is an axis.'">
+		<image mime-type="image/jpeg" src="C06_S6-1_P02_001.jpg"/>
+	</media></para>
+<para id="eip-763">We have the following general rules regarding axes.</para>
+<para id="eip-544"><title>Number of Variables and Number of Axes</title><list id="eip-696" list-type="labeled-item"><item>An equation in one variable requires one axis.</item>
+	<item>An equation in two variables requires two axes.</item>
+	<item>An equation in three variables requires three axes.</item>
+	<item>... An equation in <m:math><m:mi>n</m:mi></m:math> variables requires <m:math><m:mi>n</m:mi></m:math> axes. </item></list></para>
+<para id="eip-871">We shall always draw an axis as a straight line, and if more than one axis is required, we shall draw them so they are all mutually perpendicular (the lines forming the axes will be at <m:math>
+		<m:mrow>
+			<m:mn>90</m:mn><m:mi>°</m:mi>
+		</m:mrow>
+	</m:math> angles to one another). </para>
+
+
+<para id="eip-885"><title>Coordinate System</title>A system of axes constructed for graphing an equation is called a <term>coordinate system</term>.</para>
+<para id="eip-148"><title>The Phrase, Graphing an Equation </title>The phrase <term>graphing an equation</term> is used frequently and should be interpreted as meaning geometrically locating the solutions to an equation.</para>
+
+<section id="eip-598"><title>Relating the Number of Variables and the Number of Axes</title><para id="eip-896">We will not start actually graphing equations until Section 6.2, but in the following examples we will <emphasis>relate</emphasis> the number of variables in an equation to the number of axes in the coordinate system. </para>
+
+<list id="eip-68" list-type="labeled-item">
+
+<item><label>1. One-Dimensional Graphs</label>
+  <para id="jre1">If we wish to graph the equation <m:math>
+			<m:mrow>
+				<m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>17</m:mn>
+			</m:mrow>
+		</m:math>, we would need to construct a coordinate system consisting of a single axis (a single number line) since the equation consists of only one variable. We label the axis with the variable that appears in the equation. <newline count="2"/><media id="image-example1" display="block" alt="A number line with arrows on each side labeled from negative four to six in increments of one. The number line is labeled x. There is an arrow pointing towards the number line with the label, 'This axis is a line and lines are one dimensional length.' There is another arrow pointing towards the number three with a label, 'Graphs are points.'">
+			<image mime-type="image/jpeg" src="C06_S6-1_P03_001.jpg"/>
+		</media>
+	</para>
+
+<para id="eip-781">
+We might interpret an equation in one variable as giving information in one-dimensional space. Since we live in three-dimensional space, one-dimensional space might be hard to imagine. Objects in one-dimensional space would have only length, no width or depth.
+</para>
+</item>
+
+<item><label>2. Two-Dimensional Graphs</label>
+<para id="jre2">To graph an equation in two variables such as <m:math>
+			<m:mrow>
+				<m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>–</m:mo><m:mn>3</m:mn>
+			</m:mrow>
+		</m:math>, we would need to construct a coordinate system consisting of two mutually perpendicular number lines <emphasis>(axes).</emphasis> We call the intersection of the two axes the <emphasis>origin</emphasis> and label it with a 0. The two axes are simply number lines; one drawn horizontally, one drawn vertically. <newline count="2"/><media id="image-example2" display="block" alt="An xy plane with gridlines and a straight line passing through quadrants one, three, and four. There is an arrow pointing towards this line with the label 'In general, graphs are curves (straight or curved).' There is another arrow pointing towards the xy plane with the label 'This is a plane and planes are two-dimensional: length and width.'">
+			<image mime-type="image/jpeg" src="C06_S6-1_P03_002.jpg"/>
+		</media><newline count="2"/>Recall that an equation in two variables requires a solution to be a pair of numbers. The solutions can be written as ordered pairs <m:math>
+			<m:mrow>
+				<m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo>
+			</m:mrow>
+		</m:math>. Since the equation <m:math>
+			<m:mrow>
+				<m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>–</m:mo><m:mn>3</m:mn>
+			</m:mrow>
+		</m:math> involves the variables <m:math>
+			<m:mi>x</m:mi></m:math> and <m:math>
+			<m:mi>y</m:mi></m:math>, we label one axis <m:math>
+			<m:mi>x</m:mi></m:math> and the other axis <m:math>
+			<m:mi>y</m:mi></m:math>. In mathematics it is customary to label the horizontal axis with the independent variable and the vertical axis with the dependent variable. </para>
+<para id="eip-683">
+We might interpret equations in two variables as giving information in two-dimensional space. Objects in two-dimensional space would have length and width, but no depth. </para>
+</item>
+
+<item><label>3. Three-Dimensional Graphs</label>
+<para id="jre3">An equation in three variables, such as <m:math>
+			<m:mrow>
+				<m:mn>3</m:mn><m:msup>
+					<m:mi>x</m:mi>
+					<m:mn>2</m:mn>
+				</m:msup>
+				<m:mo>–</m:mo><m:mn>4</m:mn><m:msup>
+					<m:mi>y</m:mi>
+					<m:mn>2</m:mn>
+				</m:msup>
+				<m:mo>+</m:mo><m:mn>5</m:mn><m:mi>z</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>
+			</m:mrow>
+		</m:math>, requires three mutually perpendicular axes, one for each variable. We would construct the following coordinate system and graph. <newline count="2"/>
+		<media id="image-example3" display="block" alt="A three dimensional x y z plane and a graph of an arbitrary surface. There are arrows pointing towards the surface with the following labels: &#x2018;This is three dimensional: length, width, and depth. Graphs are surfaces. We won't consider these types of graphs as they are too complicated to draw.&#x2019;">
+			<image mime-type="image/jpeg" src="C06_S6-1_P03_003.jpg"/>
+		</media>
+	</para>
+<para id="eip-834">
+We might interpret equations in three variables as giving information about three-dimensional space. 
+</para>
+</item>
+
+<item><label>4. Four-Dimensional Graphs</label>
+<para id="jre4">To graph an equation in four variables, such as <m:math>
+ <m:mrow>
+  <m:mn>3</m:mn><m:mi>x</m:mi><m:mo>–</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>–</m:mo><m:mn>5</m:mn><m:mi>w</m:mi><m:mo>=</m:mo><m:mo>–</m:mo><m:mn>7</m:mn>
+ </m:mrow>
+</m:math>, would require four mutually perpendicular number lines. These graphs are left to the imagination.</para>
+<para id="eip-147">
+We might interpret equations in four variables as giving information in four-dimensional space. Four-dimensional objects would have length, width, depth, and some other dimension.
+</para>
+<para id="eip-339"><title>Black Holes</title>
+These other spaces are hard for us to imagine, but the existence of “black holes” makes the possibility of other universes of one-, two-, four-, or <foreign>n</foreign>-dimensions not entirely unlikely. Although it may be difficult for us “3-D” people to travel around in another dimensional space, at least we could be pretty sure that our mathematics would still work (since it is not restricted to only three dimensions)!
+</para>
+</item>
+</list>
+</section>
+
+
+
+</section>
+
+<section id="eip-367"><title>Graphing in One Dimension</title><para id="eip-247">
+Graphing a linear equation in one variable involves solving the equation, then locating the solution on the axis (number line), and marking a point at this location. We have observed that graphs may reveal information that may not be evident from the original equation. The graphs of linear equations in one variable do not yield much, if any, information, but they serve as a foundation to graphs of higher dimension (graphs of two variables and three variables). 
+</para></section>
+<section id="eip-319"><title>Sample Set A</title><example id="eip-473"><para id="eip-165">Graph the equation <m:math>
+		<m:mrow>
+			<m:mn>3</m:mn><m:mi>x</m:mi><m:mo>–</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>10</m:mn>
+		</m:mrow>
+	</m:math>.
+</para>
+<para id="eip-id21598590">Solve the equation for <m:math> 
+<m:mi>x</m:mi></m:math> and construct an axis. Since there is only one variable, we need only one axis. Label the axis <m:math> <m:mi>x</m:mi></m:math>. </para>
+<para id="eip-id19797460"><m:math display="block">
+		<m:mrow>
+			<m:mtable columnalign="left">
+				<m:mtr columnalign="left">
+					<m:mtd columnalign="left">
+						<m:mrow>
+							<m:mn>3</m:mn><m:mi>x</m:mi><m:mo>–</m:mo><m:mn>5</m:mn>
+						</m:mrow>
+					</m:mtd>
+					<m:mtd columnalign="left">
+						<m:mo>=</m:mo>
+					</m:mtd>
+					<m:mtd columnalign="left">
+						<m:mrow>
+							<m:mn>10</m:mn>
+						</m:mrow>
+					</m:mtd>
+				</m:mtr>
+				<m:mtr columnalign="left">
+					<m:mtd columnalign="left">
+						<m:mrow>
+							<m:mn>3</m:mn><m:mi>x</m:mi>
+						</m:mrow>
+					</m:mtd>
+					<m:mtd columnalign="left">
+						<m:mo>=</m:mo>
+					</m:mtd>
+					<m:mtd columnalign="left">
+						<m:mrow>
+							<m:mn>15</m:mn>
+						</m:mrow>
+					</m:mtd>
+				</m:mtr>
+				<m:mtr columnalign="left">
+					<m:mtd columnalign="left">
+						<m:mi>x</m:mi>
+					</m:mtd>
+					<m:mtd columnalign="left">
+						<m:mo>=</m:mo>
+					</m:mtd>
+					<m:mtd columnalign="left">
+						<m:mn>5</m:mn>
+					</m:mtd>
+				</m:mtr>
+			</m:mtable>
+		</m:mrow>
+	</m:math>
+
+<newline/>
+<media id="image-example5" display="block" alt="A number line labeled x with arrows on each end, labeled from negative three to seven, in increments of one. There is a closed circle on five.">
+		<image mime-type="image/jpeg" src="C06_S6-1_P04_001.jpg"/>
+	</media></para>
+</example><example id="eip-21"><para id="eip-890">Graph the equation <m:math>
+		<m:mrow>
+			<m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>–</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mn>8</m:mn><m:mo>=</m:mo><m:mn>31</m:mn>
+		</m:mrow>
+	</m:math>.
+</para>
+<para id="eip-id3614994">Solving the equation we get, </para>
+<para id="eip-id3614998"><m:math display="block">
+		<m:mrow>
+			<m:mtable columnalign="left">
+				<m:mtr columnalign="left">
+					<m:mtd columnalign="left">
+						<m:mrow>
+							<m:mn>10</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>11</m:mn>
+						</m:mrow>
+					</m:mtd>
+					<m:mtd columnalign="left">
+						<m:mo>=</m:mo>
+					</m:mtd>
+					<m:mtd columnalign="left">
+						<m:mrow>
+							<m:mn>31</m:mn>
+						</m:mrow>
+					</m:mtd>
+				</m:mtr>
+				<m:mtr columnalign="left">
+					<m:mtd columnalign="left">
+						<m:mrow>
+							<m:mn>10</m:mn><m:mi>x</m:mi>
+						</m:mrow>
+					</m:mtd>
+					<m:mtd columnalign="left">
+						<m:mo>=</m:mo>
+					</m:mtd>
+					<m:mtd columnalign="left">
+						<m:mrow>
+							<m:mn>20</m:mn>
+						</m:mrow>
+					</m:mtd>
+				</m:mtr>
+				<m:mtr columnalign="left">
+					<m:mtd columnalign="left">
+						<m:mi>x</m:mi>
+					</m:mtd>
+					<m:mtd columnalign="left">
+						<m:mo>=</m:mo>
+					</m:mtd>
+					<m:mtd columnalign="left">
+						<m:mn>2</m:mn>
+					</m:mtd>
+				</m:mtr>
+			</m:mtable>
+		</m:mrow>
+	</m:math>
+<newline/>
+<media id="image-example6" display="block" alt="A number line labeled x with arrows on each end, labeled from negative five to five, in increments of one. There is a closed circle on two.">
+		<image mime-type="image/jpeg" src="C06_S6-1_P04_002.jpg"/>
+	</media></para>
+</example></section><section id="eip-192"><title>Practice Set A</title><exercise id="eip-221"><problem id="eip-452">
+		<para id="eip-59">Graph the equation <m:math>
+		<m:mrow>
+			<m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>7</m:mn>
+		</m:mrow>
+	</m:math>.
+  <newline/>
+<media id="image-example7" display="block" alt="A horizontal line with arrows on both ends.">
+		<image mime-type="image/jpeg" src="C06_S6-1_P04_003.jpg"/>
+	</media></para>
+		
+	</problem>
+	<solution id="eip-62">
+		<para id="eip-813"><m:math>
+		<m:mrow>
+			<m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn>
+		</m:mrow>
+	</m:math>
+<newline/>
+<media id="image-example13" display="block" alt="A number line labeled x with arrows on each end, labeled from negative five to five, in increments of one. There is a closed circle on negative two.">
+		<image mime-type="image/jpeg" src="C06_S6-1_P07_001.jpg"/>
+	</media>
+</para>
+
+
+	</solution>
+</exercise></section><section id="eip-15"><title>Sample Set B</title><example id="eip-994"><para id="eip-639">Graph the linear inequality 
+<m:math>
+		<m:mrow>
+			<m:mn>4</m:mn><m:mi>x</m:mi><m:mo>≥</m:mo><m:mi>
+			</m:mi><m:mn>12</m:mn>
+		</m:mrow>
+	</m:math>.
+</para><para id="eip-799">We proceed by solving the inequality. </para><para id="eip-272"><m:math display="block">
+		<m:mrow>
+			<m:mtable columnalign="left">
+				<m:mtr columnalign="left">
+					<m:mtd columnalign="left">
+						<m:mrow>
+							<m:mn>4</m:mn><m:mi>x</m:mi>
+						</m:mrow>
+					</m:mtd>
+					<m:mtd columnalign="left">
+						<m:mo>≥</m:mo>
+					</m:mtd>
+					<m:mtd columnalign="left">
+						<m:mrow>
+							<m:mn>12</m:mn>
+						</m:mrow>
+					</m:mtd>
+					<m:mtd columnalign="left">
+						<m:mrow>
+							<m:mtext>Divide each side by 4</m:mtext><m:mtext>.</m:mtext>
+						</m:mrow>
+					</m:mtd>
+				</m:mtr>
+				<m:mtr columnalign="left">
+					<m:mtd columnalign="left">
+						<m:mi>x</m:mi>
+					</m:mtd>
+					<m:mtd columnalign="left">
+						<m:mo>≥</m:mo>					</m:mtd>
+					<m:mtd columnalign="left">
+						<m:mn>3</m:mn>
+					</m:mtd>
+					<m:mtd columnalign="left">
+						<m:mrow/>
+					</m:mtd>
+				</m:mtr>
+			</m:mtable>
+		</m:mrow>
+	</m:math></para><para id="eip-109">As we know, any value greater than or equal to 3 will satisfy the original inequality. Hence we have infinitely many solutions and, thus, infinitely many points to mark off on our graph. 
+<newline/>
+<media id="image-example8" display="block" alt="A number line labeled x with arrows on each end, labeled from negative four to six, in increments of one. There is a closed circle on three with a dark shaded arrow to the right of three.">
+		<image mime-type="image/jpeg" src="C06_S6-1_P05_001.jpg"/>
+	</media></para><para id="eip-465">The <emphasis>closed circle</emphasis> at 3 means that 3 is included as a solution. All the points beginning at 3 and in the direction of the arrow are solutions.</para>
+</example><example id="eip-350"><para id="eip-677">Graph the linear inequality <m:math>
+ <m:mrow>
+  <m:mo>–</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>–</m:mo><m:mn>1</m:mn><m:mo>&gt;</m:mo><m:mn>3</m:mn>
+ </m:mrow>
+</m:math>.
+</para><para id="eip-198">We first solve the inequality. </para><para id="eip-242"><m:math display="block">
+		<m:mrow>
+			<m:mtable columnalign="left">
+				<m:mtr columnalign="left">
+					<m:mtd columnalign="left">
+						<m:mrow>
+							<m:mo>–</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>–</m:mo><m:mn>1</m:mn>
+						</m:mrow>
+					</m:mtd>
+					<m:mtd columnalign="left">
+						<m:mo>&gt;</m:mo>
+					</m:mtd>
+					<m:mtd columnalign="left">
+						<m:mn>3</m:mn>
+					</m:mtd>
+					<m:mtd columnalign="left">
+						<m:mrow/>
+					</m:mtd>
+				</m:mtr>
+				<m:mtr columnalign="left">
+					<m:mtd columnalign="left">
+						<m:mrow>
+							<m:mo>–</m:mo><m:mn>2</m:mn><m:mi>y</m:mi>
+						</m:mrow>
+					</m:mtd>
+					<m:mtd columnalign="left">
+						<m:mo>&gt;</m:mo>
+					</m:mtd>
+					<m:mtd columnalign="left">
+						<m:mn>4</m:mn>
+					</m:mtd>
+					<m:mtd columnalign="left">
+						<m:mrow/>
+					</m:mtd>
+				</m:mtr>
+				<m:mtr columnalign="left">
+					<m:mtd columnalign="left">
+						<m:mi>y</m:mi>
+					</m:mtd>
+					<m:mtd columnalign="left">
+						<m:mo>&lt;</m:mo>
+					</m:mtd>
+					<m:mtd columnalign="left">
+						<m:mrow>
+							<m:mo>−</m:mo><m:mn>2</m:mn>
+						</m:mrow>
+					</m:mtd>
+					<m:mtd columnalign="left">
+						<m:mrow>
+							<m:mtext>The inequality symbol reversed direction because we divided by –2</m:mtext><m:mtext>.</m:mtext>
+						</m:mrow>
+					</m:mtd>
+				</m:mtr>
+			</m:mtable>
+		</m:mrow>
+	</m:math>
+</para><para id="eip-72">Thus, all numbers strictly less than <m:math>
+		<m:mrow>
+			<m:mo>−</m:mo><m:mn>2</m:mn>
+		</m:mrow>
+	</m:math> will satisfy the inequality and are thus solutions.</para><para id="eip-149">Since <m:math>
+		<m:mrow>
+			<m:mo>−</m:mo><m:mn>2</m:mn>
+		</m:mrow>
+	</m:math> itself is <emphasis>not</emphasis> to be included as a solution, we draw an <emphasis>open circle</emphasis> at <m:math>
+		<m:mrow>
+			<m:mo>−</m:mo><m:mn>2</m:mn>
+		</m:mrow>
+	</m:math>. The solutions are to the left of <m:math>
+		<m:mrow>
+			<m:mo>−</m:mo><m:mn>2</m:mn>
+		</m:mrow>
+	</m:math> so we draw an arrow pointing to the left of <m:math>
+		<m:mrow>
+			<m:mo>−</m:mo><m:mn>2</m:mn>
+		</m:mrow>
+	</m:math> to denote the region of solutions.</para><para id="eip-273"><media id="image-example10" display="block" alt="A number line labeled y with arrows on each end, labeled from negative five to five, in increments of one. There is a open circle on negative two with a dark shaded arrow to the left of negative two.">
+		<image mime-type="image/jpeg" src="C06_S6-1_P05_002.jpg"/>
+	</media></para>
+</example><example id="eip-843"><para id="eip-250">Graph the inequality <m:math>
+		<m:mrow>
+			<m:mo>–</m:mo><m:mn>2</m:mn><m:mo>≤</m:mo><m:mi> </m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>&lt;</m:mo><m:mn>1</m:mn>
+		</m:mrow>
+	</m:math>.
+</para><para id="eip-95">We recognize this inequality as a <emphasis>compound inequality</emphasis> and solve it by subtracting 1 from all three parts.</para><para id="eip-492"><m:math display="block">
+ <m:mtable columnalign="left">
+  <m:mtr>
+   <m:mtd>
+    <m:mo>–</m:mo><m:mn>2</m:mn><m:mo>≤</m:mo><m:mi> </m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>&lt;</m:mo><m:mn>1</m:mn>
+   </m:mtd>
+  </m:mtr>
+  <m:mtr>
+   <m:mtd>
+    <m:mo>–</m:mo><m:mn>3</m:mn><m:mo>≤</m:mo><m:mi> </m:mi><m:mi>y</m:mi><m:mo>&lt;</m:mo><m:mn>0</m:mn>
+   </m:mtd>
+  </m:mtr>
+ </m:mtable>
+ 
+</m:math>
+</para><para id="eip-404">Thus, the solution is all numbers between <m:math>
+ <m:mrow>
+  <m:mo>−</m:mo><m:mn>3</m:mn>
+ </m:mrow>
+</m:math> and 0, more precisely, all numbers greater than or equal to <m:math>
+ <m:mrow>
+  <m:mo>−</m:mo><m:mn>3</m:mn>
+ </m:mrow>
+</m:math> but strictly less than 0. </para><para id="eip-115"><media id="image-example11" display="block" alt="A number line labeled y with arrows on each end, and labeled from negative five to five in increments of one. There is a closed circle at negative three and an open circle at zero, with a black shaded line connecting the two circles.">
+		<image mime-type="image/jpeg" src="C06_S6-1_P05_003.jpg"/>
+	</media></para>
+</example><example id="eip-572"><para id="eip-472">Graph the linear equation <m:math>
+		<m:mrow>
+			<m:mn>5</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>–</m:mo><m:mn>125</m:mn>
+		</m:mrow>
+	</m:math>.
+</para><para id="eip-908">The solution is <m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mo>=</m:mo><m:mo>–</m:mo><m:mn>25</m:mn>
+ </m:mrow>
+</m:math>. Scaling the axis by units of 5 rather than 1, we obtain </para><para id="eip-329"><media id="image-example12" display="block" alt="A number line labeled x with arrows on each end, and labeled from negative fifty to fifty in increments of ten. There is a closed circle labeled negative twenty five, halfway between negative thirty and negative twenty.">
+		<image mime-type="image/jpeg" src="C06_S6-1_P05_004.jpg"/>
+	</media></para>
+</example></section>
+<section id="eip-233"><title>Practice Set B</title><exercise id="eip-581"><problem id="eip-20">
+		<para id="eip-579">Graph the inequality <m:math>
+		<m:mrow>
+			<m:mn>3</m:mn><m:mi>x</m:mi><m:mo>≤</m:mo><m:mn>18</m:mn>
+		</m:mrow>
+	</m:math>.<newline/>
+  <media id="image-example14" display="block" alt="A horizontal line with arrows on both ends.">
+		<image mime-type="image/jpeg" src="C06_S6-1_P06_001.jpg"/>
+	</media>
+</para>
+		
+	</problem>
+	<solution id="eip-295">
+		<para id="eip-345"><m:math>
+		<m:mrow>
+			<m:mi>x</m:mi><m:mo>≤</m:mo><m:mn>6</m:mn>
+		</m:mrow>
+	</m:math><newline/>
+<media id="eip-id27051430" display="block" alt="A number line labeled x with arrows on each end, labeled from negative two to eight, in increments of one. There is a closed circle on six with a dark shaded arrow to the left of six.">
+		<image mime-type="image/jpeg" src="C06_S6-1_P07_002.jpg"/>
+	</media>
+</para>
+
+
+	</solution>
+</exercise><exercise id="eip-395"><problem id="eip-346">
+		<para id="eip-525">Graph the inequality <m:math>
+		<m:mrow>
+			<m:mo>−</m:mo><m:mn>3</m:mn><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>&lt;</m:mo><m:mn>13</m:mn>
+		</m:mrow>
+	</m:math>.  
+<newline/>
+<media id="eip-id15161929" display="block" alt="A horizontal line with arrows on both ends.">
+		<image mime-type="image/jpeg" src="C06_S6-1_P06_001.jpg"/>
+	</media>
+</para>
+		
+	</problem>
+	<solution id="eip-929">
+		<para id="eip-636"><m:math>
+		<m:mrow>
+			<m:mi>m</m:mi><m:mo>&gt;</m:mo><m:mo>−</m:mo><m:mn>4</m:mn>
+		</m:mrow>
+	</m:math>
+<newline/>
+<media id="eip-id9678824" display="block" alt="A number line labeled m with arrows on each end, labeled from negative five to five, in increments of one. There is a open circle on negative four with a dark shaded arrow to the right of negative four.">
+		<image mime-type="image/jpeg" src="C06_S6-1_P07_003.jpg"/>
+	</media></para>
+		
+	</solution>
+</exercise>
+<exercise id="eip-454"><problem id="eip-289">
+		<para id="eip-413">Graph the inequality <m:math>
+		<m:mrow>
+			<m:mo>−</m:mo><m:mn>3</m:mn><m:mo>≤</m:mo><m:mi>
+			</m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo>&lt;</m:mo><m:mn>5</m:mn>
+		</m:mrow>
+	</m:math>. 
+
+<media id="eip-id8185666" display="block" alt="A horizontal line with arrows on both ends.">
+		<image mime-type="image/jpeg" src="C06_S6-1_P06_001.jpg"/>
+	</media></para>
+		
+	</problem>
+	<solution id="eip-106">
+		<para id="eip-815"><m:math>
+		<m:mrow>
+			<m:mn>2</m:mn><m:mo>≤</m:mo><m:mi>
+			</m:mi><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>10</m:mn>
+		</m:mrow>
+	</m:math><newline/>
+	<media id="eip-id8020721" display="block" alt="A number line labeled x with arrows on each end, and labeled from one to eleven in increments of one. There is a closed circle at two and an open circle at ten, with a black shaded line connecting the two circles.">
+		<image mime-type="image/jpeg" src="C06_S6-1_P07_004.jpg"/>
+	</media>
+</para>
+		
+	</solution>
+</exercise><exercise id="eip-634"><problem id="eip-548">
+		<para id="eip-14">Graph the linear equation <m:math>
+		<m:mrow>
+			<m:mo>−</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>480</m:mn>
+		</m:mrow>
+	</m:math>.
+
+<media id="eip-id43659509" display="block" alt="A horizontal line with arrows on both ends.">
+		<image mime-type="image/jpeg" src="C06_S6-1_P06_001.jpg"/>
+	</media>
+</para>
+		
+	</problem>
+	<solution id="eip-775">
+		<para id="eip-217"><m:math>
+		<m:mrow>
+			<m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>80</m:mn>
+		</m:mrow>
+	</m:math><newline/>
+<media id="eip-id8037757" display="block" alt="A number line labeled y with arrows on each end, labeled from negative hundred to zero, in increments of ten. There is a closed circle on negative eighty.">
+		<image mime-type="image/jpeg" src="C06_S6-1_P07_005.jpg"/>
+	</media>
+</para>
+		
+	</solution>
+</exercise></section><section id="eip-832" class="homework"><title>Exercises</title>
+<para id="eip-421">For problems 1 - 25, graph the linear equations and inequalities. </para><exercise id="eip-627"><problem id="eip-275">
+		<para id="eip-357"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mo>=</m:mo><m:mn>19</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math><newline/><media id="eip-id8872946" display="block" alt="A horizontal line with arrows on both ends."><image mime-type="image/jpeg" src="C06_S6-1_P06_002.jpg"/></media>
+</para>
+	</problem>
+</exercise>
+<exercise id="fs-id4843623"><problem id="fs-id4843624">
+		<para id="fs-id26627201"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>8</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>7</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+	<newline/><media id="fs-id26142534" display="block" alt="A horizontal line with arrows on both ends."><image mime-type="image/jpeg" src="C06_S6-1_P06_002.jpg"/></media>
+</para>
+	</problem>
+</exercise>
+
+
+
+
+<exercise id="fs-id23009704"><problem id="fs-id23009705">
+		<para id="fs-id23009707"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>4</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+	<newline/><media id="fs-id26479512" display="block" alt="A horizontal line with arrows on both ends."><image mime-type="image/jpeg" src="C06_S6-1_P06_002.jpg"/></media>
+</para>
+	</problem>
+</exercise>
+
+
+
+
+<exercise id="fs-id23002537"><problem id="fs-id23002538">
+		<para id="fs-id5829977"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>15</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+	<newline/><media id="fs-id21642203" display="block" alt="A horizontal line with arrows on both ends."><image mime-type="image/jpeg" src="C06_S6-1_P06_002.jpg"/></media>
+</para>
+	</problem>
+</exercise>
+
+
+
+
+<exercise id="fs-id26349531"><problem id="fs-id26349532">
+		<para id="fs-id26135161"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>6</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>8</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+	<newline/><media id="fs-id11150545" display="block" alt="A horizontal line with arrows on both ends."><image mime-type="image/jpeg" src="C06_S6-1_P06_002.jpg"/></media>
+</para>
+	</problem>
+</exercise>
+
+
+
+
+<exercise id="fs-id15334714"><problem id="fs-id15334716">
+		<para id="fs-id12927457"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>2</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+	<newline/><media id="fs-id26191317" display="block" alt="A horizontal line with arrows on both ends."><image mime-type="image/jpeg" src="C06_S6-1_P06_002.jpg"/></media>
+</para>
+	</problem>
+</exercise>
+
+
+
+
+<exercise id="fs-id22946389"><problem id="fs-id22946390">
+		<para id="fs-id6138309"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>4</m:mn><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>z</m:mi>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+	<newline/><media id="fs-id26470287" display="block" alt="A horizontal line with arrows on both ends."><image mime-type="image/jpeg" src="C06_S6-1_P06_002.jpg"/></media>
+</para>
+	</problem>
+</exercise>
+
+
+
+
+<exercise id="fs-id27112904"><problem id="fs-id27112906">
+		<para id="fs-id21791259"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac>
+					<m:mn>1</m:mn>
+					<m:mn>2</m:mn>
+				</m:mfrac>
+				<m:mo>=</m:mo><m:mfrac>
+					<m:mn>4</m:mn>
+					<m:mn>3</m:mn>
+				</m:mfrac>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+	<newline/><media id="fs-id6047568" display="block" alt="A horizontal line with arrows on both ends."><image mime-type="image/jpeg" src="C06_S6-1_P06_002.jpg"/></media>
+</para>
+	</problem>
+</exercise>
+
+
+
+
+<exercise id="fs-id3629876"><problem id="fs-id3629877">
+		<para id="fs-id23675323"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>7</m:mn><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac>
+					<m:mn>1</m:mn>
+					<m:mn>4</m:mn>
+				</m:mfrac>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+	<newline/><media id="fs-id14709166" display="block" alt="A horizontal line with arrows on both ends."><image mime-type="image/jpeg" src="C06_S6-1_P06_002.jpg"/></media>
+</para>
+	</problem>
+</exercise>
+
+
+
+
+<exercise id="fs-id24288479"><problem id="fs-id24288480">
+		<para id="fs-id24288482"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mfrac>
+					<m:mn>2</m:mn>
+					<m:mn>5</m:mn>
+				</m:mfrac>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+	<newline/><media id="fs-id6032982" display="block" alt="A horizontal line with arrows on both ends."><image mime-type="image/jpeg" src="C06_S6-1_P06_002.jpg"/></media>
+</para>
+	</problem>
+</exercise>
+
+
+
+
+
+<exercise id="fs-id23678404"><problem id="fs-id23678405">
+		<para id="fs-id23690330">
+			<m:math>
+				<m:semantics>
+					<m:mrow>
+						<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mo>≤</m:mo><m:mn>12</m:mn>
+					</m:mrow>
+					<m:annotation encoding="MathType-MTEF">
+					</m:annotation>
+				</m:semantics>
+			</m:math>
+			<newline/><media id="fs-id23625357" display="block" alt="A horizontal line with arrows on both ends."><image mime-type="image/jpeg" src="C06_S6-1_P06_002.jpg"/></media>
+		</para>
+	</problem>
+</exercise>
+
+
+
+
+
+<exercise id="fs-id11910527"><problem id="fs-id11910528">
+		<para id="fs-id4770033"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mi>y</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo>&lt;</m:mo><m:mn>3</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+	<newline/><media id="fs-id21809220" display="block" alt="A horizontal line with arrows on both ends."><image mime-type="image/jpeg" src="C06_S6-1_P06_002.jpg"/></media>
+</para>
+	</problem>
+</exercise>
+
+
+
+
+
+
+<exercise id="fs-id14673827"><problem id="fs-id14673828">
+		<para id="fs-id10811461"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>19</m:mn><m:mo>&gt;</m:mo><m:mn>2</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+	<newline/><media id="fs-id27102021" display="block" alt="A horizontal line with arrows on both ends."><image mime-type="image/jpeg" src="C06_S6-1_P06_002.jpg"/></media>
+</para>
+	</problem>
+</exercise>
+
+
+
+
+
+<exercise id="fs-id27107724"><problem id="fs-id27107725">
+		<para id="fs-id28801223"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mi>z</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>&gt;</m:mo><m:mn>11</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+	<newline/><media id="fs-id24285418" display="block" alt="A horizontal line with arrows on both ends."><image mime-type="image/jpeg" src="C06_S6-1_P06_002.jpg"/></media>
+</para>
+	</problem>
+</exercise>
+
+
+
+
+
+<exercise id="fs-id24285802"><problem id="fs-id24285803">
+		<para id="fs-id5484423"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>3</m:mn><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>7</m:mn><m:mo>≤</m:mo><m:mn>8</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+	<newline/><media id="fs-id11142051" display="block" alt="A horizontal line with arrows on both ends."><image mime-type="image/jpeg" src="C06_S6-1_P06_002.jpg"/></media>
+</para>
+	</problem>
+</exercise>
+
+
+
+
+
+<exercise id="fs-id23837159"><problem id="fs-id23837160">
+		<para id="fs-id22098136"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mo>−</m:mo><m:mn>5</m:mn><m:mi>t</m:mi><m:mo>≥</m:mo><m:mn>10</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+	<newline/><media id="fs-id11011151" display="block" alt="A horizontal line with arrows on both ends."><image mime-type="image/jpeg" src="C06_S6-1_P06_002.jpg"/></media>
+</para>
+	</problem>
+</exercise>
+
+
+
+
+
+<exercise id="fs-id5751832"><problem id="fs-id5751834">
+		<para id="fs-id8655964"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mo>−</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mo>≥</m:mo><m:mn>34</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+	<newline/><media id="fs-id21907159" display="block" alt="A horizontal line with arrows on both ends."><image mime-type="image/jpeg" src="C06_S6-1_P06_002.jpg"/></media>
+</para>
+	</problem>
+</exercise>
+
+
+
+
+
+<exercise id="fs-id23901384"><problem id="fs-id23901386">
+		<para id="fs-id23901388"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mfrac>
+					<m:mi>x</m:mi>
+					<m:mn>4</m:mn>
+				</m:mfrac>
+				<m:mo>&lt;</m:mo><m:mn>2</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+	<newline/><media id="fs-id3670274" display="block" alt="A horizontal line with arrows on both ends."><image mime-type="image/jpeg" src="C06_S6-1_P06_002.jpg"/></media>
+</para>
+	</problem>
+</exercise>
+
+
+
+
+
+<exercise id="fs-id23688099"><problem id="fs-id23688100">
+		<para id="fs-id3251008"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mfrac>
+					<m:mi>y</m:mi>
+					<m:mn>7</m:mn>
+				</m:mfrac>
+				<m:mo>≤</m:mo><m:mn>3</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+	<newline/><media id="fs-id26349602" display="block" alt="A horizontal line with arrows on both ends."><image mime-type="image/jpeg" src="C06_S6-1_P06_002.jpg"/></media>
+</para>
+	</problem>
+</exercise>
+
+
+
+
+
+
+<exercise id="fs-id10648818"><problem id="fs-id10648819">
+		<para id="fs-id21817093"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mfrac>
+					<m:mrow>
+						<m:mn>2</m:mn><m:mi>y</m:mi>
+					</m:mrow>
+					<m:mn>9</m:mn>
+				</m:mfrac>
+				<m:mo>≥</m:mo><m:mn>4</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+	<newline/><media id="fs-id5884718" display="block" alt="A horizontal line with arrows on both ends."><image mime-type="image/jpeg" src="C06_S6-1_P06_002.jpg"/></media>
+</para>
+	</problem>
+</exercise>
+
+
+
+
+
+<exercise id="fs-id4426647"><problem id="fs-id4426648">
+		<para id="fs-id4426650"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mfrac>
+					<m:mrow>
+						<m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi>
+					</m:mrow>
+					<m:mn>8</m:mn>
+				</m:mfrac>
+				<m:mo>≤</m:mo><m:mn>4</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+	<newline/><media id="fs-id22980455" display="block" alt="A horizontal line with arrows on both ends."><image mime-type="image/jpeg" src="C06_S6-1_P06_002.jpg"/></media>
+</para>
+	</problem>
+</exercise>
+
+
+
+
+
+<exercise id="fs-id27111309"><problem id="fs-id27111310">
+		<para id="fs-id23771569"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mfrac>
+					<m:mrow>
+						<m:mo>−</m:mo><m:mn>6</m:mn><m:mi>a</m:mi>
+					</m:mrow>
+					<m:mn>7</m:mn>
+				</m:mfrac>
+				<m:mo>&lt;</m:mo><m:mo>−</m:mo><m:mn>4</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+	<newline/><media id="fs-id21861038" display="block" alt="A horizontal line with arrows on both ends."><image mime-type="image/jpeg" src="C06_S6-1_P06_002.jpg"/></media>
+</para>
+	</problem>
+</exercise>
+
+
+
+
+
+<exercise id="fs-id22028848"><problem id="fs-id22028850">
+		<para id="fs-id26635806"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mo>−</m:mo><m:mn>1</m:mn><m:mo>≤</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>&lt;</m:mo><m:mn>0</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+	<newline/><media id="fs-id24170923" display="block" alt="A horizontal line with arrows on both ends."><image mime-type="image/jpeg" src="C06_S6-1_P06_002.jpg"/></media>
+</para>
+	</problem>
+</exercise>
+
+
+
+
+
+
+
+<exercise id="fs-id23752787"><problem id="fs-id23752788">
+		<para id="fs-id26652314"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>6</m:mn><m:mo>≤</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>≤</m:mo><m:mn>7</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+	<newline/><media id="fs-id11913280" display="block" alt="A horizontal line with arrows on both ends."><image mime-type="image/jpeg" src="C06_S6-1_P06_002.jpg"/></media>
+</para>
+	</problem>
+</exercise>
+
+
+
+
+
+<exercise id="fs-id27035953"><problem id="fs-id27035954">
+		<para id="fs-id27035956"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mo>−</m:mo><m:mn>12</m:mn><m:mo>&lt;</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>≤</m:mo><m:mo>−</m:mo><m:mn>8</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+	<newline/><media id="fs-id6319621" display="block" alt="A horizontal line with arrows on both ends."><image mime-type="image/jpeg" src="C06_S6-1_P06_002.jpg"/></media>
+</para>
+	</problem>
+</exercise>
+
+
+</section><section id="eip-377"><title>Exercises for Review</title><exercise id="eip-668"><problem id="eip-769">
+		<para id="eip-185"><emphasis>(1.5) 26.</emphasis> Simplify <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:msup>
+					<m:mrow>
+						<m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:msup>
+							<m:mi>x</m:mi>
+							<m:mn>8</m:mn>
+						</m:msup>
+						<m:msup>
+							<m:mi>y</m:mi>
+							<m:mn>2</m:mn>
+						</m:msup>
+						<m:mo stretchy="false">)</m:mo>
+					</m:mrow>
+					<m:mn>3</m:mn>
+				</m:msup>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>.
+</para>
+	</problem>
+</exercise><exercise id="eip-491"><problem id="eip-215">
+		<para id="eip-621"><emphasis>(3.1) 27.</emphasis> List, if any should appear, the common factors in the expression <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>10</m:mn><m:msup>
+					<m:mi>x</m:mi>
+					<m:mn>4</m:mn>
+				</m:msup>
+				<m:mo>−</m:mo><m:mn>15</m:mn><m:msup>
+					<m:mi>x</m:mi>
+					<m:mn>2</m:mn>
+				</m:msup>
+				<m:mo>+</m:mo><m:mn>5</m:mn><m:msup>
+					<m:mi>x</m:mi>
+					<m:mn>6</m:mn>
+				</m:msup>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>.
+</para>
+	</problem>
+</exercise><exercise id="eip-164"><problem id="eip-43">
+		<para id="eip-222"><emphasis>(4.6) 28.</emphasis> Solve the inequality <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>&lt;</m:mo><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>.
+</para>
+	</problem></exercise><exercise id="eip-373"><problem id="eip-89">
+		<para id="eip-281"><emphasis>(4.7) 29.</emphasis> Solve the equation <m:math>
+ <m:mrow>
+  <m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mtext> </m:mtext><m:mtext>if</m:mtext><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn>
+ </m:mrow>
+</m:math>.
+</para>
+	</problem>
+</exercise><exercise id="eip-497"><problem id="eip-402">
+		<para id="eip-0"><emphasis>(4.7) 30.</emphasis> Solve the equation <m:math>
+ <m:mrow>
+  <m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext><m:mtext>if</m:mtext><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>1</m:mn>
+ </m:mrow>
+</m:math>.
+
+</para>
+	</problem>
+</exercise></section></content>
+
+
+</document>

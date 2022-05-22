@@ -1,0 +1,1324 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+
+<title>Application II - Solving Problems </title>
+<metadata>
+  <md:content-id>m21980</md:content-id><md:title>Application II - Solving Problems </md:title>
+  <md:abstract>This module is from Elementary Algebra by Denny Burzynski and Wade Ellis, Jr.
+In this chapter, the emphasis is on the mechanics of equation solving, which clearly explains how to isolate a variable. The goal is to help the student feel more comfortable with solving applied problems. Ample opportunity is provided for the student to practice translating words to symbols, which is an important part of the "Five-Step Method" of solving applied problems (discussed in modules (&lt;link document="m21980"/&gt;) and (&lt;link document="m21979"/&gt;)).
+Objectives of this module: be able to solve various applied problems.</md:abstract>
+  <md:uuid>66a1153c-96af-409e-b97d-182e03fc83dd</md:uuid>
+</metadata>
+
+<content>
+  <section id="eip-512"><title>Overview</title><list id="eip-604"><item>Solving Applied Problems</item>
+</list></section><section id="eip-394"><title>Solving Applied Problems </title><para id="eip-668">Let’s study some interesting problems that involve linear equations in one variable. In order to solve such problems, we apply the following five-step method: 
+</para><para id="eip-id5539148" class="highlight"><title>Five-Step Method for Solving Word Problems </title>
+		<list id="write-numbers-list" start-value="1" mark-suffix="." list-type="enumerated"><item>Let <m:math>
+					<m:semantics>
+						<m:mi>x</m:mi>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math> (or some other letter) represent the unknown quantity. </item>
+			<item>Translate the words to mathematical symbols and form an equation. </item><item>Solve this equation.</item><item>Ask yourself "Does this result seem reasonable?" Check the solution by substituting the result into the original statement of the problem.<para id="eip-id13209110">If the answer doesn’t check, you have either solved the equation incorrectly, or you have developed the wrong equation. Check your method of solution first. If the result does not check, reconsider your equation.</para></item>
+			<item>Write the conclusion.</item>
+		</list></para>
+	<para id="eip-566">If it has been your experience that word problems are difficult, then follow the five-step method carefully. Most people have difficulty because they neglect step 1.</para><para id="eip-590" class="highlight">Always start by INTRODUCING A VARIABLE! 
+</para><para id="eip-383">Keep in mind what the variable is representing throughout the problem. </para></section><section id="eip-701"><title>Sample Set A </title><example id="eip-725"><para id="eip-576">This year an item costs <m:math>
+				<m:semantics>
+					<m:mrow>
+						<m:mi>$</m:mi><m:mn>44</m:mn>
+					</m:mrow>
+					<m:annotation encoding="MathType-MTEF">
+					</m:annotation>
+				</m:semantics>
+			</m:math>, an increase of <m:math>
+				<m:semantics>
+					<m:mrow>
+						<m:mi>$</m:mi><m:mn>3</m:mn>
+					</m:mrow>
+					<m:annotation encoding="MathType-MTEF">
+					</m:annotation>
+				</m:semantics>
+			</m:math> over last year’s price. What was last year’s price? </para><para id="eip-468"><m:math>
+		<m:semantics>
+			<m:mtable columnalign="left">
+				<m:mtr>
+					<m:mtd>
+						<m:mtable columnalign="left">
+							<m:mtr columnalign="left">
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mtext>Step</m:mtext><m:mtext> </m:mtext><m:mn>1</m:mn><m:mo>:</m:mo>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="right">
+									<m:mrow>
+										<m:mtext>Let</m:mtext><m:mtext> </m:mtext><m:mi>x</m:mi>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mo>=</m:mo>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mtext>last</m:mtext><m:mtext> </m:mtext><m:mtext>year's</m:mtext><m:mtext> </m:mtext><m:mtext>price</m:mtext><m:mtext>.</m:mtext>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+							</m:mtr>
+							<m:mtr columnalign="left">
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mtext>Step</m:mtext><m:mtext> </m:mtext><m:mn>2</m:mn><m:mo>:</m:mo>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="right">
+									<m:mrow>
+										<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mo>=</m:mo>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mn>44.</m:mn>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mtext> </m:mtext><m:mtext>represents</m:mtext><m:mtext> </m:mtext><m:mtext>the</m:mtext><m:mtext> </m:mtext><m:mtext>$3</m:mtext><m:mtext> </m:mtext><m:mtext>increase</m:mtext><m:mtext> </m:mtext><m:mtext>in</m:mtext><m:mtext> </m:mtext><m:mtext>price</m:mtext><m:mtext>.</m:mtext>
+									</m:mrow>
+								</m:mtd>
+							</m:mtr>
+							<m:mtr columnalign="left">
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mtext>Step</m:mtext><m:mtext> </m:mtext><m:mn>3</m:mn><m:mo>:</m:mo>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="right">
+									<m:mrow>
+										<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mo>=</m:mo>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mn>44</m:mn>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+							</m:mtr>
+							<m:mtr columnalign="left">
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="right">
+									<m:mrow>
+										<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>−</m:mo><m:mn>3</m:mn>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mo>=</m:mo>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mn>44</m:mn><m:mo>−</m:mo><m:mn>3</m:mn>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+							</m:mtr>
+							<m:mtr columnalign="left">
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="right">
+									<m:mi>x</m:mi>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mo>=</m:mo>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mn>41</m:mn>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+							</m:mtr>
+							<m:mtr columnalign="left">
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mtext>Step</m:mtext><m:mtext> </m:mtext><m:mn>4</m:mn><m:mo>:</m:mo>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="right">
+									<m:mrow>
+										<m:mn>41</m:mn><m:mo>+</m:mo><m:mn>3</m:mn>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mo>=</m:mo>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mtext>44</m:mtext>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mtext>Yes,</m:mtext><m:mtext> </m:mtext><m:mtext>this</m:mtext><m:mtext> </m:mtext><m:mtext>is</m:mtext><m:mtext> </m:mtext><m:mtext>correct</m:mtext><m:mtext>.</m:mtext>
+									</m:mrow>
+								</m:mtd>
+							</m:mtr>
+						</m:mtable>
+					</m:mtd>
+				</m:mtr>
+				<m:mtr>
+					<m:mtd>
+						<m:mtable columnalign="left">
+							<m:mtr columnalign="left">
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mtext>Step</m:mtext><m:mtext> </m:mtext><m:mn>5</m:mn><m:mo>:</m:mo>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mtext>Last</m:mtext><m:mtext> </m:mtext><m:mtext>year's</m:mtext><m:mtext> </m:mtext><m:mtext>price</m:mtext><m:mtext> </m:mtext><m:mtext>was</m:mtext><m:mtext> </m:mtext><m:mi>$</m:mi><m:mn>41.</m:mn>
+									</m:mrow>
+								</m:mtd>
+							</m:mtr>
+						</m:mtable>
+					</m:mtd>
+				</m:mtr>
+			</m:mtable>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+</para></example></section><section id="eip-653"><title>Practice Set A </title><exercise id="eip-339"><problem id="eip-69">
+			<para id="eip-343">This year an item costs <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mi>$</m:mi><m:mn>23</m:mn>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math>, an increase of <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mi>$</m:mi><m:mn>4</m:mn>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math> over last year’s price. What was last year’s price? 
+
+
+  </para><list id="eip-id15188880" mark-suffix=":" list-type="enumerated" number-style="arabic" class="stepwise"><item>Let <m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mi>x</m:mi><m:mo>=</m:mo>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math>
+	</item><item/><item/><item/><item>Last year's price was <space count="10" effect="underline"/>.</item></list></problem>
+		<solution id="eip-165">
+			<para id="eip-252">Last year's price was <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>$</m:mi><m:mn>19</m:mn>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+  </para>
+		</solution>
+	</exercise></section><section id="eip-545"><title>Sample Set B </title><example id="eip-127"><para id="eip-993">The perimeter (length around) of a square is 60 cm (centimeters). Find the length of a side. 
+</para><para id="eip-272"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable columnalign="left">
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>Step</m:mtext><m:mtext> </m:mtext><m:mtext>1:</m:mtext>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>Let</m:mtext><m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext> </m:mtext><m:mtext>=</m:mtext><m:mtext> </m:mtext><m:mtext>length</m:mtext><m:mtext> </m:mtext><m:mtext>of</m:mtext><m:mtext> </m:mtext><m:mtext>a</m:mtext><m:mtext> </m:mtext><m:mtext>side</m:mtext><m:mtext>.</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>Step</m:mtext><m:mtext> </m:mtext><m:mtext>2:</m:mtext>
+      </m:mrow>
+     </m:mtd>
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtext>We</m:mtext><m:mtext> </m:mtext><m:mtext>can</m:mtext><m:mtext> </m:mtext><m:mtext>draw</m:mtext><m:mtext> </m:mtext><m:mtext>a</m:mtext><m:mtext> </m:mtext><m:mtext>picture</m:mtext><m:mtext>.</m:mtext>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+ <m:annotation encoding="MathType-MTEF">
+ </m:annotation>
+ </m:semantics>
+</m:math>
+</para><para id="eip-515"><media id="eip-id14225959" display="block" alt="A square with side of length x and an equation x plus x plus x plus x equals sixty next to the square.">
+		<image mime-type="image/jpeg" src="../../media/C04_S4-5_P161_002.jpg" print-width="2in"/></media></para><para id="eip-139"><m:math>
+		<m:semantics>
+			<m:mtable columnalign="left">
+				<m:mtr>
+					<m:mtd>
+						<m:mtable columnalign="left">
+							<m:mtr columnalign="left">
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mtext>Step</m:mtext><m:mtext> </m:mtext><m:mn>3</m:mn><m:mo>:</m:mo>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="right">
+									<m:mrow>
+										<m:mi>x</m:mi><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>x</m:mi>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mo>=</m:mo>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mn>60</m:mn>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+							</m:mtr>
+							<m:mtr columnalign="left">
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="right">
+									<m:mrow>
+										<m:mn>4</m:mn><m:mi>x</m:mi>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mo>=</m:mo>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mn>60</m:mn>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mtext>Divide</m:mtext><m:mtext> </m:mtext><m:mtext>both</m:mtext><m:mtext> </m:mtext><m:mtext>sides</m:mtext><m:mtext> </m:mtext><m:mtext>by</m:mtext><m:mtext> </m:mtext><m:mn>4.</m:mn>
+									</m:mrow>
+								</m:mtd>
+							</m:mtr>
+							<m:mtr columnalign="left">
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="right">
+									<m:mi>x</m:mi>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mo>=</m:mo>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mn>15.</m:mn>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+							</m:mtr>
+							<m:mtr columnalign="left">
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mtext>Step</m:mtext><m:mtext> </m:mtext><m:mn>4</m:mn><m:mo>:</m:mo>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="right">
+									<m:mrow>
+										<m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:mn>15</m:mn><m:mo stretchy="false">)</m:mo>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mo>=</m:mo>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mn>60.</m:mn>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="right">
+									<m:mrow>
+										<m:mtext>Yes,</m:mtext><m:mtext> </m:mtext><m:mtext>this</m:mtext><m:mtext> </m:mtext><m:mtext>is</m:mtext><m:mtext> </m:mtext><m:mtext>correct</m:mtext><m:mtext>.</m:mtext>
+									</m:mrow>
+								</m:mtd>
+							</m:mtr>
+						</m:mtable>
+					</m:mtd>
+				</m:mtr>
+				<m:mtr>
+					<m:mtd>
+						<m:mtable columnalign="left">
+							<m:mtr columnalign="left">
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mtext>Step</m:mtext><m:mtext> </m:mtext><m:mn>5</m:mn><m:mo>:</m:mo>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mtext>The</m:mtext><m:mtext> </m:mtext><m:mtext>length</m:mtext><m:mtext> </m:mtext><m:mtext>of</m:mtext><m:mtext> </m:mtext><m:mtext>a</m:mtext><m:mtext> </m:mtext><m:mtext>side</m:mtext><m:mtext> </m:mtext><m:mtext>is</m:mtext><m:mtext> </m:mtext><m:mn>15</m:mn><m:mtext> </m:mtext><m:mtext>cm</m:mtext><m:mtext>.</m:mtext>
+									</m:mrow>
+								</m:mtd>
+							</m:mtr>
+						</m:mtable>
+					</m:mtd>
+				</m:mtr>
+			</m:mtable>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+</para></example></section><section id="eip-88"><title>Practice Set B </title><exercise id="eip-888"><problem id="eip-433">
+			<para id="eip-583">
+    The perimeter of a triangle is 54 inches. If each side has the same length, find the length of a side. 
+  </para><list id="eip-id24106094" mark-suffix=":" list-type="enumerated" number-style="arabic" class="stepwise"><item>Let <m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mi>x</m:mi><m:mo>=</m:mo>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math>
+	</item><item/><item/><item/><item>The length of a side is <space count="10" effect="underline"/> inches.</item></list>
+		</problem>
+		<solution id="eip-61">
+			<para id="eip-223">The length of a side is 18 inches.
+  </para>
+		</solution>
+	</exercise></section><section id="eip-877"><title>Sample Set C</title><example id="eip-328"><para id="eip-577">
+Six percent of a number is 54. What is the number? 
+</para>
+		<para id="eip-248"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mtable columnalign="left">
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>Step</m:mtext><m:mtext> </m:mtext><m:mn>1</m:mn><m:mo>:</m:mo>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>Let</m:mtext><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mtext> </m:mtext><m:mtext>the</m:mtext><m:mtext> </m:mtext><m:mtext>number</m:mtext>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>Step</m:mtext><m:mtext> </m:mtext><m:mn>2</m:mn><m:mo>:</m:mo>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>We</m:mtext><m:mtext> </m:mtext><m:mtext>must</m:mtext><m:mtext> </m:mtext><m:mtext>convert</m:mtext><m:mtext> </m:mtext><m:mn>6</m:mn><m:mi>%</m:mi><m:mtext> </m:mtext><m:mtext>to</m:mtext><m:mtext> </m:mtext><m:mtext>a</m:mtext><m:mtext> </m:mtext><m:mtext>decimal.</m:mtext>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+				</m:mtable><m:mtext> </m:mtext>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math><newline/><m:math>
+		<m:semantics>
+			<m:mtable columnalign="left">
+				<m:mtr>
+					<m:mtd>
+						<m:mtable columnalign="left">
+							<m:mtr columnalign="left">
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="right">
+									<m:mrow>
+										<m:mn>6</m:mn><m:mi>%</m:mi>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mo>=</m:mo>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mn>.06</m:mn>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+							</m:mtr>
+							<m:mtr columnalign="left">
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="right">
+									<m:mrow>
+										<m:mn>.06</m:mn><m:mi>x</m:mi>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mo>=</m:mo>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mn>54</m:mn>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mn>.06</m:mn><m:mi>x</m:mi><m:mtext> </m:mtext><m:mtext>occurs</m:mtext><m:mtext> </m:mtext><m:mtext>because</m:mtext><m:mtext> </m:mtext><m:mtext>we</m:mtext><m:mtext> </m:mtext><m:mtext>want</m:mtext><m:mtext> </m:mtext><m:mn>6</m:mn><m:mi>%</m:mi><m:mtext> </m:mtext><m:mtext>of</m:mtext><m:mtext> </m:mtext><m:mi>x</m:mi><m:mtext>.</m:mtext>
+									</m:mrow>
+								</m:mtd>
+							</m:mtr>
+							<m:mtr columnalign="left">
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mtext>Step</m:mtext><m:mtext> </m:mtext><m:mn>3</m:mn><m:mo>:</m:mo>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="right">
+									<m:mrow>
+										<m:mn>.06</m:mn><m:mi>x</m:mi>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mo>=</m:mo>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mn>54.</m:mn>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mtext>Divide</m:mtext><m:mtext> </m:mtext><m:mtext>both</m:mtext><m:mtext> </m:mtext><m:mtext>sides</m:mtext><m:mtext> </m:mtext><m:mtext>by</m:mtext><m:mtext> </m:mtext><m:mn>.06.</m:mn>
+									</m:mrow>
+								</m:mtd>
+							</m:mtr>
+							<m:mtr columnalign="left">
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="right">
+									<m:mi>x</m:mi>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mo>=</m:mo>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mfrac>
+											<m:mrow>
+												<m:mn>54</m:mn>
+											</m:mrow>
+											<m:mrow>
+												<m:mn>.06</m:mn>
+											</m:mrow>
+										</m:mfrac>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+							</m:mtr>
+							<m:mtr columnalign="left">
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="right">
+									<m:mi>x</m:mi>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mo>=</m:mo>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mn>900</m:mn>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+							</m:mtr>
+							<m:mtr columnalign="left">
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mtext>Step</m:mtext><m:mtext> </m:mtext><m:mn>4</m:mn><m:mo>:</m:mo>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mn>.06</m:mn><m:mo stretchy="false">(</m:mo><m:mn>900</m:mn><m:mo stretchy="false">)</m:mo>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mo>=</m:mo>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mn>54.</m:mn>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mtext>Yes,</m:mtext><m:mtext> </m:mtext><m:mtext>this</m:mtext><m:mtext> </m:mtext><m:mtext>is</m:mtext><m:mtext> </m:mtext><m:mtext>correct</m:mtext><m:mtext>.</m:mtext>
+									</m:mrow>
+								</m:mtd>
+							</m:mtr>
+						</m:mtable>
+					</m:mtd>
+				</m:mtr>
+				<m:mtr>
+					<m:mtd>
+						<m:mtable columnalign="left">
+							<m:mtr columnalign="left">
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mtext>Step</m:mtext><m:mtext> </m:mtext><m:mn>5</m:mn><m:mo>:</m:mo>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mtext>The</m:mtext><m:mtext> </m:mtext><m:mtext>number</m:mtext><m:mtext> </m:mtext><m:mtext>is</m:mtext><m:mtext> </m:mtext><m:mn>900.</m:mn>
+									</m:mrow>
+								</m:mtd>
+							</m:mtr>
+						</m:mtable>
+					</m:mtd>
+				</m:mtr>
+			</m:mtable>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+</para></example></section><section id="eip-847"><title>Practice Set C</title><exercise id="eip-530"><problem id="eip-543">
+			<para id="eip-585">
+    Eight percent of a number is 36. What is the number? 
+  </para><list id="eip-id13501593" mark-suffix=":" list-type="enumerated" number-style="arabic" class="stepwise"><item>Let <m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mi>x</m:mi><m:mo>=</m:mo>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math>
+	</item><item/><item/><item/><item>The number is <space count="10" effect="underline"/>.</item></list>
+		</problem>
+		<solution id="eip-355">
+			<para id="eip-107">The number is 450.</para>
+		</solution>
+	</exercise></section><section id="eip-113"><title>Sample Set D</title><example id="eip-90"><para id="eip-944">
+An astronomer notices that one star gives off about <m:math>
+				<m:semantics>
+					<m:mrow>
+						<m:mn>3.6</m:mn>
+					</m:mrow>
+					<m:annotation encoding="MathType-MTEF">
+					</m:annotation>
+				</m:semantics>
+			</m:math> times as much energy as another star. Together the stars give off <m:math>
+				<m:semantics>
+					<m:mrow>
+						<m:mn>55.844</m:mn>
+					</m:mrow>
+					<m:annotation encoding="MathType-MTEF">
+					</m:annotation>
+				</m:semantics>
+			</m:math> units of energy. How many units of energy does each star emit? 
+
+ </para>
+		<list id="eip-942" mark-suffix=":" list-type="enumerated" number-style="arabic" class="stepwise"><item>In this problem we have two unknowns and, therefore, we might think, two variables. However, notice that the energy given off by one star is given in terms of the other star. So, rather than introducing two variables, we introduce only one. The other unknown(s) is expressed in terms of this one. (We might call this quantity the base quantity.)<para id="eip-id25701967">Let <m:math>
+				<m:semantics>
+					<m:mrow>
+						<m:mi>x</m:mi><m:mo>=</m:mo>
+					</m:mrow>
+					<m:annotation encoding="MathType-MTEF">
+					</m:annotation>
+				</m:semantics>
+			</m:math> number of units of energy given off by the less energetic star. Then, <m:math>
+				<m:semantics>
+					<m:mrow>
+						<m:mn>3.6</m:mn><m:mi>x</m:mi><m:mo>=</m:mo>
+					</m:mrow>
+					<m:annotation encoding="MathType-MTEF">
+					</m:annotation>
+				</m:semantics>
+			</m:math> number of units of energy given off by the more energetic star. </para><para id="eip-133"><m:math>
+		<m:semantics>
+			<m:mtable columnalign="left">
+				<m:mtr>
+					<m:mtd>
+						<m:mtable columnalign="left">
+							<m:mtr columnalign="left">
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mtext>Step</m:mtext><m:mtext> </m:mtext><m:mtext>2:</m:mtext>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="right">
+									<m:mrow>
+										<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3.6</m:mn><m:mi>x</m:mi>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mtext>=</m:mtext>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mn>55.844.</m:mn>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+							</m:mtr>
+							<m:mtr columnalign="left">
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mtext>Step</m:mtext><m:mtext> </m:mtext><m:mtext>3:</m:mtext>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="right">
+									<m:mrow>
+										<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3.6</m:mn><m:mi>x</m:mi>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mtext>=</m:mtext>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mn>55.844</m:mn>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+							</m:mtr>
+							<m:mtr columnalign="left">
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="right">
+									<m:mrow>
+										<m:mn>4.6</m:mn><m:mi>x</m:mi>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mtext>=</m:mtext>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mn>55.844</m:mn>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mtext>Divide</m:mtext><m:mtext> </m:mtext><m:mtext>both</m:mtext><m:mtext> </m:mtext><m:mtext>sides</m:mtext><m:mtext> </m:mtext><m:mtext>by</m:mtext><m:mtext> </m:mtext><m:mtext>4</m:mtext><m:mtext>.6</m:mtext><m:mtext>.</m:mtext><m:mtext> </m:mtext><m:mtext>A</m:mtext><m:mtext> </m:mtext><m:mtext>calculator</m:mtext><m:mtext> </m:mtext><m:mtext>would</m:mtext><m:mtext> </m:mtext><m:mtext>be</m:mtext><m:mtext> </m:mtext><m:mtext>useful</m:mtext><m:mtext> </m:mtext><m:mtext>at</m:mtext><m:mtext> </m:mtext><m:mtext>this</m:mtext>
+									</m:mrow>
+								</m:mtd>
+							</m:mtr>
+							<m:mtr columnalign="left">
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mtext>point</m:mtext><m:mtext>.</m:mtext>
+									</m:mrow>
+								</m:mtd>
+							</m:mtr>
+							<m:mtr columnalign="left">
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="right">
+									<m:mi>x</m:mi>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mtext>=</m:mtext>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mfrac>
+											<m:mrow>
+												<m:mn>55.844</m:mn>
+											</m:mrow>
+											<m:mrow>
+												<m:mn>4.6</m:mn>
+											</m:mrow>
+										</m:mfrac>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+							</m:mtr>
+							<m:mtr columnalign="left">
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="right">
+									<m:mi>x</m:mi>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mtext>=</m:mtext>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mn>12.14</m:mn>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mtext>The</m:mtext><m:mtext> </m:mtext><m:mtext>wording</m:mtext><m:mtext> </m:mtext><m:mtext>of</m:mtext><m:mtext> </m:mtext><m:mtext>the</m:mtext><m:mtext> </m:mtext><m:mtext>problem</m:mtext><m:mtext> </m:mtext><m:mtext>implies</m:mtext><m:mtext> </m:mtext><m:mi>t</m:mi><m:mi>w</m:mi><m:mi>o</m:mi><m:mtext> </m:mtext><m:mtext>numbers</m:mtext><m:mtext> </m:mtext><m:mtext>are</m:mtext><m:mtext> </m:mtext><m:mtext>needed</m:mtext>
+									</m:mrow>
+								</m:mtd>
+							</m:mtr>
+							<m:mtr columnalign="left">
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mtext>=</m:mtext>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mtext>for</m:mtext><m:mtext> </m:mtext><m:mtext>a</m:mtext><m:mtext> </m:mtext><m:mtext>complete</m:mtext><m:mtext> </m:mtext><m:mtext>solution</m:mtext><m:mtext>.</m:mtext><m:mtext> </m:mtext><m:mtext>We</m:mtext><m:mtext> </m:mtext><m:mtext>need</m:mtext><m:mtext> </m:mtext><m:mtext>the</m:mtext><m:mtext> </m:mtext><m:mtext>number</m:mtext><m:mtext> </m:mtext><m:mtext>of</m:mtext><m:mtext> </m:mtext><m:mtext>units</m:mtext><m:mtext> </m:mtext><m:mtext>of</m:mtext>
+									</m:mrow>
+								</m:mtd>
+							</m:mtr>
+							<m:mtr columnalign="left">
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mtext>energy</m:mtext><m:mtext> </m:mtext><m:mtext>for</m:mtext><m:mtext> </m:mtext><m:mtext>the</m:mtext><m:mtext> </m:mtext><m:mtext>other</m:mtext><m:mtext> </m:mtext><m:mtext>star.</m:mtext>
+									</m:mrow>
+								</m:mtd>
+							</m:mtr>
+							<m:mtr columnalign="left">
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="right">
+									<m:mrow>
+										<m:mn>3.6</m:mn><m:mi>x</m:mi>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mtext>=</m:mtext>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mn>3.6</m:mn><m:mo stretchy="false">(</m:mo><m:mn>12.14</m:mn><m:mo stretchy="false">)</m:mo>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+							</m:mtr>
+							<m:mtr columnalign="left">
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mtext>=</m:mtext>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mn>43.704</m:mn>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow/>
+								</m:mtd>
+							</m:mtr>
+							<m:mtr columnalign="left">
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mtext>Step</m:mtext><m:mtext> </m:mtext><m:mtext>4:</m:mtext>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="right">
+									<m:mrow>
+										<m:mn>12.14</m:mn><m:mo>+</m:mo><m:mn>43.704</m:mn>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mtext>=</m:mtext>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mn>55.844.</m:mn>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mtext>Yes,</m:mtext><m:mtext> </m:mtext><m:mtext>this</m:mtext><m:mtext> </m:mtext><m:mtext>is</m:mtext><m:mtext> </m:mtext><m:mtext>correct</m:mtext><m:mtext>.</m:mtext><m:mtext> </m:mtext>
+									</m:mrow>
+								</m:mtd>
+							</m:mtr>
+						</m:mtable>
+					</m:mtd>
+				</m:mtr>
+				<m:mtr>
+					<m:mtd>
+						<m:mtable columnalign="left">
+							<m:mtr columnalign="left">
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mtext>Step</m:mtext><m:mtext> </m:mtext><m:mn>5</m:mn><m:mo>:</m:mo>
+									</m:mrow>
+								</m:mtd>
+								<m:mtd columnalign="left">
+									<m:mrow>
+										<m:mtext>One</m:mtext><m:mtext> </m:mtext><m:mtext>star</m:mtext><m:mtext> </m:mtext><m:mtext>gives</m:mtext><m:mtext> </m:mtext><m:mtext>off</m:mtext><m:mtext> </m:mtext><m:mn>12.14</m:mn><m:mtext> </m:mtext><m:mtext>units</m:mtext><m:mtext>​</m:mtext><m:mtext> </m:mtext><m:mtext>of</m:mtext><m:mtext> </m:mtext><m:mtext>energy</m:mtext><m:mtext> </m:mtext><m:mtext>and</m:mtext><m:mtext> </m:mtext><m:mtext>the</m:mtext><m:mtext> </m:mtext><m:mtext>other</m:mtext><m:mtext> </m:mtext><m:mtext>star</m:mtext><m:mtext> </m:mtext><m:mtext>gives</m:mtext><m:mtext> </m:mtext><m:mtext>off</m:mtext><m:mtext> </m:mtext><m:mn>43.704</m:mn><m:mtext> </m:mtext><m:mtext>units</m:mtext><m:mtext> </m:mtext><m:mtext>of</m:mtext><m:mtext> </m:mtext><m:mtext>energy</m:mtext><m:mtext>.</m:mtext>
+									</m:mrow>
+								</m:mtd>
+							</m:mtr>
+						</m:mtable>
+					</m:mtd>
+				</m:mtr>
+			</m:mtable>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+</para>
+	</item>
+	</list></example></section><section id="eip-174"><title>Practice Set D</title><exercise id="eip-191"><problem id="eip-98">
+			<para id="eip-810">Garden A produces <m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mn>5.8</m:mn>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math> times as many vegetables as garden B. Together the gardens produce 102 pounds of vegetables. How many pounds of vegetables does garden A produce?  </para><list id="eip-id9221806" mark-suffix=":" list-type="enumerated" number-style="arabic" class="stepwise"><item>Let <m:math>
+						<m:semantics>
+							<m:mrow>
+								<m:mi>x</m:mi><m:mo>=</m:mo>
+							</m:mrow>
+							<m:annotation encoding="MathType-MTEF">
+							</m:annotation>
+						</m:semantics>
+					</m:math>
+				</item><item/><item/><item/><item/></list>
+		</problem>
+		<solution id="eip-646">
+			<para id="eip-536">Garden A produces 87 pounds of vegetables.
+  </para>
+		</solution>
+	</exercise></section><section id="eip-945"><title>Sample Set E</title><example id="eip-574"><para id="eip-326">
+Two consecutive even numbers sum to 432. What are the two numbers? </para>
+		<para id="eip-717"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mtable columnalign="left">
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>Step</m:mtext><m:mtext> </m:mtext><m:mtext>1:</m:mtext>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>Let</m:mtext><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mtext> </m:mtext><m:mtext>the</m:mtext><m:mtext> </m:mtext><m:mtext>smaller</m:mtext><m:mtext> </m:mtext><m:mtext>even</m:mtext><m:mtext> </m:mtext><m:mtext>number</m:mtext><m:mtext>.</m:mtext><m:mtext> </m:mtext><m:mtext>Then</m:mtext><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mtext> </m:mtext><m:mtext>the</m:mtext><m:mtext> </m:mtext><m:mtext>next</m:mtext><m:mtext> </m:mtext><m:mtext>(consecutive)</m:mtext><m:mtext> </m:mtext><m:mtext>even</m:mtext><m:mtext> </m:mtext><m:mtext>number</m:mtext>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>since</m:mtext><m:mtext> </m:mtext><m:mtext>consecutive</m:mtext><m:mtext> </m:mtext><m:mtext>even</m:mtext><m:mtext> </m:mtext><m:mtext>numbers</m:mtext><m:mtext> </m:mtext><m:mtext>differ</m:mtext><m:mtext> </m:mtext><m:mtext>by</m:mtext><m:mtext> </m:mtext><m:mtext>2</m:mtext><m:mtext> </m:mtext><m:mtext>(as</m:mtext><m:mtext> </m:mtext><m:mtext>do</m:mtext><m:mtext> </m:mtext><m:mtext>consecutive</m:mtext><m:mtext> </m:mtext><m:mtext>odd</m:mtext><m:mtext> </m:mtext><m:mtext>numbers)</m:mtext><m:mtext>.</m:mtext>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+				</m:mtable>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math><newline/><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mtable columnalign="left">
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>Step</m:mtext><m:mtext> </m:mtext><m:mtext>2:</m:mtext>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="right">
+							<m:mrow>
+								<m:mi>x</m:mi><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mo>=</m:mo>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mn>432.</m:mn>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>Step</m:mtext><m:mtext> </m:mtext><m:mtext>3:</m:mtext>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="right">
+							<m:mrow>
+								<m:mi>x</m:mi><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mo>=</m:mo>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mn>432</m:mn>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+						<m:mtd columnalign="right">
+							<m:mrow>
+								<m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mo>=</m:mo>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mn>432</m:mn>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+						<m:mtd columnalign="right">
+							<m:mrow>
+								<m:mn>2</m:mn><m:mi>x</m:mi>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mo>=</m:mo>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mn>430</m:mn>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+						<m:mtd columnalign="right">
+							<m:mi>x</m:mi>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mo>=</m:mo>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mn>215.</m:mn>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>Also,</m:mtext><m:mtext> </m:mtext><m:mtext>since</m:mtext><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>215</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>217.</m:mn>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+				</m:mtable>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math><newline/><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mtable columnalign="left">
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>Step</m:mtext><m:mtext> </m:mtext><m:mn>4</m:mn><m:mo>:</m:mo>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mn>215</m:mn><m:mo>+</m:mo><m:mn>217</m:mn><m:mo>=</m:mo><m:mn>432</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mtext>but</m:mtext><m:mtext> </m:mtext><m:mn>215</m:mn><m:mtext> </m:mtext><m:mtext>and</m:mtext><m:mtext> </m:mtext><m:mn>217</m:mn><m:mtext> </m:mtext><m:mtext>are</m:mtext><m:mtext> </m:mtext><m:mtext>odd</m:mtext><m:mtext> </m:mtext><m:mtext>numbers</m:mtext><m:mtext> </m:mtext><m:mtext>and</m:mtext><m:mtext> </m:mtext><m:mtext>we</m:mtext><m:mtext> </m:mtext><m:mtext>are</m:mtext><m:mtext> </m:mtext><m:mtext>looking</m:mtext><m:mtext> </m:mtext><m:mtext>for</m:mtext><m:mtext> </m:mtext><m:mtext>even</m:mtext><m:mtext> </m:mtext><m:mtext>numbers</m:mtext><m:mtext>.</m:mtext>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>Upon</m:mtext><m:mtext> </m:mtext><m:mtext>checking</m:mtext><m:mtext> </m:mtext><m:mtext>our</m:mtext><m:mtext> </m:mtext><m:mtext>method</m:mtext><m:mtext> </m:mtext><m:mtext>of</m:mtext><m:mtext> </m:mtext><m:mtext>solution</m:mtext><m:mtext> </m:mtext><m:mtext>and</m:mtext><m:mtext> </m:mtext><m:mtext>reexamining</m:mtext><m:mtext> </m:mtext><m:mtext>our</m:mtext><m:mtext> </m:mtext><m:mtext>equation</m:mtext><m:mo>,</m:mo><m:mtext> </m:mtext><m:mtext>we</m:mtext><m:mtext> </m:mtext><m:mtext>find</m:mtext><m:mtext> </m:mtext><m:mtext>no</m:mtext>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>mistakes</m:mtext><m:mtext>.</m:mtext>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>Step</m:mtext><m:mtext> </m:mtext><m:mn>5</m:mn><m:mo>:</m:mo>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>We</m:mtext><m:mtext> </m:mtext><m:mtext>must</m:mtext><m:mtext> </m:mtext><m:mtext>conclude</m:mtext><m:mtext> </m:mtext><m:mtext>that</m:mtext><m:mtext> </m:mtext><m:mtext>this</m:mtext><m:mtext> </m:mtext><m:mtext>problem</m:mtext><m:mtext> </m:mtext><m:mtext>has</m:mtext><m:mtext> </m:mtext><m:mtext>no</m:mtext><m:mtext> </m:mtext><m:mtext>solution</m:mtext><m:mtext>.</m:mtext><m:mtext> </m:mtext><m:mtext>There</m:mtext><m:mtext> </m:mtext><m:mtext>are</m:mtext><m:mtext> </m:mtext><m:mtext>no</m:mtext><m:mtext> </m:mtext><m:mtext>two</m:mtext><m:mtext> </m:mtext><m:mtext>consecutive</m:mtext><m:mtext> </m:mtext><m:mi>e</m:mi><m:mi>v</m:mi><m:mi>e</m:mi><m:mi>n</m:mi>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>numbers</m:mtext><m:mtext> </m:mtext><m:mtext>that</m:mtext><m:mtext> </m:mtext><m:mtext>sum</m:mtext><m:mtext> </m:mtext><m:mtext>to</m:mtext><m:mtext> </m:mtext><m:mtext>432</m:mtext><m:mtext>.</m:mtext>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+				</m:mtable>
+			</m:mrow>
+			<m:annotation encoding="MathType-MTEF">
+			</m:annotation>
+		</m:semantics>
+	</m:math>
+</para></example></section><section id="eip-899"><title>Practice Set E</title><exercise id="eip-213"><problem id="eip-960">
+			<para id="eip-240">
+The sum of two consecutive even numbers is 498. What are the two numbers?</para> <list id="eip-id20600272" mark-suffix=":" list-type="enumerated" number-style="arabic" class="stepwise"><item>		</item><item/><item/><item/><item/></list>
+	
+		</problem>
+		<solution id="eip-863">
+			<para id="eip-351">The two numbers are 248 and 250.
+  </para>
+		</solution>
+	</exercise></section>
+<section id="eip-771" class="homework"><title>Exercises</title><para id="eip-426">Solve the following problems. Note that some of the problems may seem to have no practical applications and may  not seem very interesting. They, along with the other problems, will, however, help to develop your logic and problem-solving ability. </para><exercise id="eip-265"><problem id="eip-916">			<para id="eip-291">If eighteen is subtracted from some number the result is fifty-two. What is the number? <list id="eip-id17981004" mark-suffix=":" list-type="enumerated" number-style="arabic" class="stepwise"><item>Let <m:math>			<m:semantics>				<m:mrow>					<m:mi>x</m:mi><m:mo>=</m:mo>				</m:mrow>				<m:annotation encoding="MathType-MTEF">				</m:annotation>			</m:semantics>		</m:math>	</item><item> The equation is </item><item> (Solve the equation.)</item><item> (Check)</item><item> The number is <space count="10" effect="underline"/>.</item></list></para>		
+</problem><solution id="fs-id15830066"><para id="fs-id15830067">Step 1: Let <m:math><m:semantics> <m:mi>x</m:mi>  </m:semantics></m:math> = the unknown quantity.<newline/><newline/>Step 2: The equation is <m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>18</m:mn><m:mo>=</m:mo><m:mn>52.</m:mn>  </m:mrow>  </m:semantics></m:math><newline/><newline/>Step 3: (Solve the equation.) Add 18 to each side.<newline/><newline/>    <m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>18</m:mn><m:mo>+</m:mo><m:mn>18</m:mn><m:mo>=</m:mo><m:mn>52</m:mn><m:mo>+</m:mo><m:mn>18</m:mn>  </m:mrow>  </m:semantics></m:math><newline/><newline/>    <m:math> <m:semantics>  <m:mrow>   <m:mi>x</m:mi><m:mo>=</m:mo><m:mn>70</m:mn>  </m:mrow>  </m:semantics></m:math><newline/><newline/>Step 4: (Check) <m:math> <m:semantics>  <m:mrow><m:mn>70</m:mn><m:mo>−</m:mo><m:mn>18</m:mn><m:mo>=</m:mo><m:mn>52</m:mn><m:mo>;</m:mo> </m:mrow> </m:semantics></m:math> True.<newline/><newline/>Step 5: The number is 70.</para></solution>
+	</exercise><exercise id="eip-260"><problem id="eip-586">		<para id="eip-470">If nine more than twice a number is forty-six, what is the number? <list id="eip-id26303885" mark-suffix=":" list-type="enumerated" number-style="arabic" class="stepwise"><item>Let <m:math>			<m:semantics>				<m:mrow>					<m:mi>x</m:mi><m:mo>=</m:mo>				</m:mrow>				<m:annotation encoding="MathType-MTEF">				</m:annotation>			</m:semantics>		</m:math>	</item><item> The equation is </item><item> (Solve the equation.)</item><item> (Check)</item><item> The number is <space count="10" effect="underline"/>.</item></list></para>	
+</problem>	</exercise><exercise id="eip-605"><problem id="eip-283">		<para id="eip-230">    If nine less than three eighths of a number is two and one fourth, what is the number?  </para> <list id="eip-id18603653" mark-suffix=":" list-type="enumerated" number-style="arabic" class="stepwise"><item>Let <m:math>			<m:semantics>				<m:mrow>					<m:mi>x</m:mi><m:mo>=</m:mo>				</m:mrow>				<m:annotation encoding="MathType-MTEF">				</m:annotation>			</m:semantics>		</m:math>	</item><item/><item/><item/><item> The number is <space count="10" effect="underline"/>.</item></list>	
+</problem><solution id="fs-id6510346"><para id="fs-id14284940">Step 5: The number is 30.</para></solution>
+	</exercise><exercise id="eip-979"><problem id="eip-216">		<para id="eip-879">   Twenty percent of a number is 68. What is the number?   </para><list id="eip-id15736536" mark-suffix=":" list-type="enumerated" number-style="arabic" class="stepwise"><item>Let <m:math>			<m:semantics>				<m:mrow>					<m:mi>x</m:mi><m:mo>=</m:mo>				</m:mrow>				<m:annotation encoding="MathType-MTEF">				</m:annotation>			</m:semantics>		</m:math>	</item><item/><item/><item/><item> The number is <space count="10" effect="underline"/>.</item></list>	
+</problem>	</exercise><exercise id="eip-465"><problem id="eip-407">		<para id="eip-243">    Eight more than a quantity is 37. What is the original quantity?   </para><list id="eip-id14020719" mark-suffix=":" list-type="enumerated" number-style="arabic" class="stepwise"><item>Let <m:math>			<m:semantics>				<m:mrow>					<m:mi>x</m:mi><m:mo>=</m:mo>				</m:mrow>				<m:annotation encoding="MathType-MTEF">				</m:annotation>			</m:semantics>		</m:math>	</item><item/><item/><item/><item> The original quantity is <space count="10" effect="underline"/>.</item></list>	
+</problem><solution id="fs-id15814134"><para id="fs-id15881221">Step 5: The original quantity is 29.</para></solution>
+	</exercise><exercise id="eip-259"><problem id="eip-920">		<para id="eip-690">If a quantity plus <m:math>				<m:semantics>					<m:mrow>						<m:mn>85</m:mn><m:mi>%</m:mi>					</m:mrow>					<m:annotation encoding="MathType-MTEF">					</m:annotation>				</m:semantics>			</m:math> more of the quantity is <m:math>				<m:semantics>					<m:mrow>						<m:mn>62.9</m:mn>					</m:mrow>					<m:annotation encoding="MathType-MTEF">					</m:annotation>				</m:semantics>			</m:math>, what is the original quantity?   </para><list id="eip-id46775581" mark-suffix=":" list-type="enumerated" number-style="arabic" class="stepwise"><item>Let <m:math>			<m:semantics>				<m:mrow>					<m:mi>x</m:mi><m:mo>=</m:mo>				</m:mrow>				<m:annotation encoding="MathType-MTEF">				</m:annotation>			</m:semantics>		</m:math> original quantity. 	</item><item><m:math>			<m:semantics>				<m:mrow>					<m:mtable>						<m:mtr>							<m:mtd>								<m:mrow>									<m:munder>										<m:munder>											<m:mi>x</m:mi>											<m:mo stretchy="true">︸</m:mo>										</m:munder>										<m:mtable columnalign="left">											<m:mtr>												<m:mtd>													<m:mrow>														<m:mtext>original</m:mtext>													</m:mrow>												</m:mtd>											</m:mtr>											<m:mtr>												<m:mtd>													<m:mrow>														<m:mtext>quantity</m:mtext>													</m:mrow>												</m:mtd>											</m:mtr>										</m:mtable>									</m:munder>								</m:mrow>							</m:mtd>							<m:mtd>								<m:mo>+</m:mo>							</m:mtd>							<m:mtd>								<m:mrow>									<m:munder>										<m:munder>											<m:mrow>												<m:mn>.85</m:mn><m:mi>x</m:mi>											</m:mrow>											<m:mo stretchy="true">︸</m:mo>										</m:munder>										<m:mtable columnalign="left">											<m:mtr>												<m:mtd>													<m:mrow/>												</m:mtd>											</m:mtr>											<m:mtr>												<m:mtd>													<m:mrow>														<m:mtext>85%</m:mtext><m:mtext> </m:mtext><m:mtext>more</m:mtext>													</m:mrow>												</m:mtd>											</m:mtr>										</m:mtable>									</m:munder>								</m:mrow>							</m:mtd>							<m:mtd>								<m:mrow>									<m:mo>=</m:mo><m:mn>62.9</m:mn>								</m:mrow>							</m:mtd>						</m:mtr>					</m:mtable>				</m:mrow>				<m:annotation encoding="MathType-MTEF">				</m:annotation>			</m:semantics>		</m:math>	</item>	<item/><item/><item> The original quantity is <space count="10" effect="underline"/>.</item></list>	
+</problem>	</exercise><exercise id="eip-718"><problem id="eip-296">		<para id="eip-134">A company must increase production by <m:math>				<m:semantics>					<m:mrow>						<m:mn>12</m:mn><m:mi>%</m:mi>					</m:mrow>					<m:annotation encoding="MathType-MTEF">					</m:annotation>				</m:semantics>			</m:math> over last year’s production. The new output will be 56 items. What was last year’s output? </para><list id="eip-id5830651" mark-suffix=":" list-type="enumerated" number-style="arabic" class="stepwise"><item>Let <m:math>			<m:semantics>				<m:mrow>					<m:mi>P</m:mi><m:mo>=</m:mo>				</m:mrow>				<m:annotation encoding="MathType-MTEF">				</m:annotation>			</m:semantics>		</m:math>	</item><item/><item/><item/><item>Last year’s output was <space count="10" effect="underline"/> items.</item></list>
+</problem><solution id="fs-id16152227"><para id="fs-id15023788">Step 5: Last year's output was 50 items.</para></solution>
+	</exercise><exercise id="eip-319"><problem id="eip-330">		<para id="eip-1">A company has determined that it must increase production of a certain line of goods by <m:math>		<m:semantics>			<m:mrow>				<m:mn>1</m:mn><m:mfrac>					<m:mn>1</m:mn>					<m:mn>2</m:mn>				</m:mfrac>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math> times last year’s production. The new output will be 2885 items. What was last year’s output?   </para><list id="eip-id23108529" mark-suffix=":" list-type="enumerated" number-style="arabic" class="stepwise"><item/><item/><item/><item/><item>Last year’s output was <space count="10" effect="underline"/> items.</item></list>	
+</problem>	</exercise><exercise id="eip-971"><problem id="eip-353">		<para id="eip-678">A proton is about 1837 times as heavy as an electron. If an electron weighs <m:math>		<m:semantics>			<m:mrow>				<m:mn>2.68</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math> units, how many units does a proton weigh?  </para><list id="eip-id7427468" mark-suffix=":" list-type="enumerated" number-style="arabic" class="stepwise"><item>	</item><item/><item/><item/><item>A proton weighs <space count="10" effect="underline"/> units.</item></list>	
+</problem><solution id="fs-id14868479"><para id="fs-id14868480">Step 5: A proton weighs <m:math><m:semantics><m:mrow><m:mtext>4923</m:mtext><m:mtext>.16</m:mtext></m:mrow></m:semantics></m:math> units.</para></solution>
+	</exercise><exercise id="eip-175"><problem id="eip-827">		<para id="eip-398">    Neptune is about 30 times as far from the sun as is the Earth. If it takes light 8 minutes to travel from the sun to the Earth, how many minutes does it take to travel to Neptune?  </para> <list id="eip-id12691851" mark-suffix=":" list-type="enumerated" number-style="arabic" class="stepwise"><item>	</item><item/><item/><item/><item>Light takes <space count="10" effect="underline"/> minutes to reach Neptune.</item></list>	
+</problem>	</exercise><exercise id="eip-262"><problem id="eip-285">		<para id="eip-406">The radius of the sun is about 695,202 km (kilometers). That is about 109 times as big as the radius of the Earth. What is the radius of the earth?   </para><list id="eip-id5700197" mark-suffix=":" list-type="enumerated" number-style="arabic" class="stepwise"><item>	</item><item/><item/><item/><item>The radius of the earth is <space count="10" effect="underline"/> km.</item></list>	
+</problem><solution id="fs-id16622888"><para id="fs-id16622889">Step 5: The radius of the earth is 6378 km.</para></solution>
+	</exercise><exercise id="eip-961"><problem id="eip-374">		<para id="eip-114">The perimeter of a triangle is 105 cm. If each of the two legs is exactly twice the length of the base, how long is each leg?   </para><list id="eip-id5925985" mark-suffix=":" list-type="enumerated" number-style="arabic" class="stepwise"><item>Let <m:math>			<m:semantics>				<m:mrow>					<m:mi>x</m:mi><m:mo>=</m:mo>				</m:mrow>				<m:annotation encoding="MathType-MTEF">				</m:annotation>			</m:semantics>		</m:math><newline/>             Draw a picture. 	</item><item/><item/><item/><item>Each leg is <space count="10" effect="underline"/> cm long. The base is <space count="10" effect="underline"/>.</item></list>	
+</problem>	</exercise><exercise id="eip-804"><problem id="eip-941">		<para id="eip-341">A lumber company has contracted to cut boards into two pieces so that one piece is three times the length of the other piece. If a board is 12 feet long, what is the length of each piece after cutting? </para><list id="eip-id19913428" mark-suffix=":" list-type="enumerated" number-style="arabic" class="stepwise"><item>	</item><item/><item/><item/><item>The length of the shorter piece is <space count="10" effect="underline"/> feet, and the length of the longer piece is <space count="10" effect="underline"/> feet.</item></list>
+</problem><solution id="fs-id16447671"><para id="fs-id13604396">Step 5: The length of the shorter piece is 3 feet, and the length of the longer piece is 9 feet. </para></solution>
+	</exercise><exercise id="eip-149"><problem id="eip-316">		<para id="eip-965">A student doing a chemistry experiment has a beaker that contains 84 ml (milliliters) of an alcohol and water solution. Her lab directions tell her that there is <m:math>		<m:semantics>			<m:mrow>				<m:mn>4.6</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math> times as much water as alcohol in the solution. How many milliliters of alcohol are in the solution? How many milliliters of water?   </para><list id="eip-id40665762" mark-suffix=":" list-type="enumerated" number-style="arabic" class="stepwise"><item>	</item><item/><item/><item/><item>There are <space count="10" effect="underline"/> ml of alcohol in the solution. There are <space count="10" effect="underline"/> ml of water in the solution.</item></list>	
+</problem>	</exercise><exercise id="eip-740"><problem id="eip-743">		<para id="eip-59">    A statistician is collecting data to help him estimate the average income of accountants in California. He needs to collect 390 pieces of data and he is <m:math>				<m:semantics>					<m:mrow>						<m:mfrac>							<m:mtext>2</m:mtext>							<m:mtext>3</m:mtext>						</m:mfrac>					</m:mrow>					<m:annotation encoding="MathType-MTEF">					</m:annotation>				</m:semantics>			</m:math> done. How many pieces of data has the statistician collected?  </para><list id="eip-id11641657" mark-suffix=":" list-type="enumerated" number-style="arabic" class="stepwise"><item>	</item><item/><item/><item/><item>The statistician has collected <space count="10" effect="underline"/> pieces of data.<newline/>Suppose the statistician is 4 pieces of data short of being <m:math>			<m:semantics>				<m:mrow>					<m:mfrac>						<m:mtext>2</m:mtext>						<m:mtext>3</m:mtext>					</m:mfrac>				</m:mrow>				<m:annotation encoding="MathType-MTEF">				</m:annotation>			</m:semantics>		</m:math> done. How many pieces of data has he collected? </item></list>	
+</problem><solution id="fs-id16128650"><para id="fs-id14590477">Step 5: The statistician has collected 260 pieces of data.</para></solution>
+	</exercise><exercise id="eip-976"><problem id="eip-569">		<para id="eip-50">A television commercial advertises that a certain type of battery will last, on the average, 20 hours longer than twice the life of another type of battery. If consumer tests show that the advertised battery lasts 725 hours, how many hours must the other type of battery last for the advertiser’s claim to be valid? </para> <list id="eip-id4522794" mark-suffix=":" list-type="enumerated" number-style="arabic" class="stepwise"><item>	</item><item/><item/><item/><item>The other type of battery must last <space count="10" effect="underline"/> hours for the advertiser’s claim to be valid. </item></list>
+</problem>	</exercise><exercise id="eip-367"><problem id="eip-874">		<para id="eip-624">A 1000-ml flask containing a chloride solution will fill 3 beakers of the same size with 210 ml of  the solution left over. How many milliliters of the chloride solution will each beaker hold? </para> <list id="eip-id46813356" mark-suffix=":" list-type="enumerated" number-style="arabic" class="stepwise"><item>	</item><item/><item/><item/><item>Each beaker will hold <space count="10" effect="underline"/> ml of the chloride solution. </item></list>	
+</problem><solution id="fs-id15609470"><para id="fs-id15609471">Step 5: Each beaker will hold <m:math> <m:semantics>  <m:mrow>   <m:mtext>263</m:mtext><m:mfrac>    <m:mn>1</m:mn>    <m:mn>3</m:mn>   </m:mfrac>     </m:mrow>  </m:semantics></m:math> ml of chloride solution.</para></solution>
+	</exercise><exercise id="eip-792"><problem id="eip-253">		<para id="eip-529"> A star burns <m:math>				<m:semantics>					<m:mrow>						<m:mfrac>							<m:mtext>2</m:mtext>							<m:mtext>9</m:mtext>						</m:mfrac>					</m:mrow>					<m:annotation encoding="MathType-MTEF">					</m:annotation>				</m:semantics>			</m:math> of its original mass then blows off <m:math>				<m:semantics>					<m:mrow>						<m:mfrac>							<m:mtext>3</m:mtext>							<m:mtext>7</m:mtext>						</m:mfrac>					</m:mrow>					<m:annotation encoding="MathType-MTEF">					</m:annotation>				</m:semantics>			</m:math> of the remaining mass as a planetary nebula. If the final mass is 3 units of mass, what was the original mass?   </para><list id="eip-id5683552" mark-suffix=":" list-type="enumerated" number-style="arabic" class="stepwise"><item>	</item><item/><item/><item/><item>The original mass was <space count="10" effect="underline"/> units of mass.</item></list>	
+</problem>	</exercise><exercise id="eip-917"><problem id="eip-266">		<para id="eip-560">    The sum of a number and sixteen is forty-two. What is the number?  </para>	
+</problem><solution id="fs-id16150382"><para id="fs-id16150383">Step 5: The unknown number is 26.</para></solution>
+	</exercise><exercise id="eip-632"><problem id="eip-332">		<para id="eip-706">    When eleven is subtracted from a number, the result is 85. What is the number?  </para>	
+</problem>	</exercise><exercise id="eip-737"><problem id="eip-65">		<para id="eip-581">    Three times a number is divided by 6 and the result is <m:math> <m:semantics>  <m:mrow>   <m:mtext>10</m:mtext><m:mtext>.5</m:mtext>  </m:mrow> <m:annotation encoding="MathType-MTEF"> </m:annotation> </m:semantics></m:math>. What is the number?  </para>	
+</problem><solution id="fs-id16103545"><para id="fs-id15109287">Step 5: The unknown number is 21.</para></solution>
+	</exercise><exercise id="eip-122"><problem id="eip-317">		<para id="eip-197">  When a number is multiplied by itself, the result is 144. What is the number?  </para>	
+</problem>	</exercise><exercise id="eip-994"><problem id="eip-25">		<para id="eip-290">A number is tripled, then increased by seven. The result is 48. What is the number?  </para>	
+</problem><solution id="fs-id15394573"><para id="fs-id15394574">Step 5: The unknown number is <m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mrow>     <m:mn>41</m:mn>    </m:mrow>    <m:mn>3</m:mn>   </m:mfrac>   <m:mo>.</m:mo>  </m:mrow>  </m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-969"><problem id="eip-563">		<para id="eip-831">Eight times a number is decreased by three times the number, giving a difference of 22. What is the number?   </para>	
+</problem>	</exercise><exercise id="eip-64"><problem id="eip-193">		<para id="eip-257">    One number is fifteen more than another number. The sum of the two numbers is 27. What are they?  </para>	
+</problem><solution id="fs-id14513989"><para id="fs-id14513990">Step 5: One unknown number is 6; the other is 21. </para></solution>
+	</exercise><exercise id="eip-388"><problem id="eip-325">		<para id="eip-1000">The length of a rectangle is 6 meters more than three times the width. The perimeter of the rectangle is 44 meters What are the dimensions of  the rectangle?</para>	
+</problem>	</exercise><exercise id="eip-160"><problem id="eip-797">		<para id="eip-537">   Seven is added to the product of 41 and some number. The result, when divided by four, is 63. What is the number?  </para>	
+</problem><solution id="fs-id14241650"><para id="fs-id14241651">Step 5: The unknown number is <m:math> <m:semantics>  <m:mrow>   <m:mfrac>    <m:mrow>     <m:mn>245</m:mn>    </m:mrow>    <m:mn>41</m:mn>   </m:mfrac>   <m:mo>.</m:mo>  </m:mrow>  </m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-671"><problem id="eip-786">		<para id="eip-440">The second side of a triangle is five times the length of the smallest side. The third is twice the length of the second side. The perimeter of the triangle is 48 inches. Find the length of each side.  </para>	
+</problem>	</exercise><exercise id="eip-177"><problem id="eip-565">		<para id="eip-94">    Person A is four times as old as person B, who is six times as old as person C, who is twice as old as person D. How old is each person if their combined ages are 189 months?   </para>	
+</problem><solution id="fs-id15293319"><para id="fs-id15293320">Step 5: The age of D is 3 months; C is 6 months; B is 36 months; A is 144 months.</para></solution>
+	</exercise><exercise id="eip-557"><problem id="eip-651">		<para id="eip-370">    Two consecutive odd integers sum to 151. What are they?   </para>	
+</problem>	</exercise><exercise id="eip-254"><problem id="eip-28">		<para id="eip-842">    Three consecutive integers sum to 36. What are they?   </para>	
+</problem><solution id="fs-id14306856"><para id="fs-id14306857">Step 5: The first integer is 11; second is 12; third is 13. </para></solution>
+	</exercise><exercise id="eip-6"><problem id="eip-675">		<para id="eip-345">    Three consecutive even integers add up to 131. What are they?   </para>	
+</problem>	</exercise><exercise id="eip-336"><problem id="eip-401">		<para id="eip-104">As a consequence of Einstein’s theory of relativity, the rate of time passage is different for a person in a stationary position and a person in motion. (Hard to believe, but true!) To the moving observer, the rate of time passage is slower than that of the stationary observer, that is, the moving person ages slower than the stationary observer. (This fact has been proven many times by experiments with radioactive materials.) The effect is called “time dilation” and is really only noticeable when an object is traveling at near the speed of light (186,000 miles per second). Considering these ideas, try to solve the following problems:</para><para id="eip-id4868941">Two people have identical clocks. One is standing on the earth and the other is moving in a spacecraft at <m:math>		<m:semantics>			<m:mrow>				<m:mn>95</m:mn><m:mi>%</m:mi>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math> the speed of light, 176,700 miles per second. The moving person’s rate of time passage at this speed is about <m:math>		<m:semantics>			<m:mrow>				<m:mn>0.31</m:mn>			</m:mrow>			<m:annotation encoding="MathType-MTEF">			</m:annotation>		</m:semantics>	</m:math> times as fast as the person standing on earth.</para><list id="eip-id17657419" list-type="enumerated" number-style="lower-alpha"><item>If two days of earth time pass, how many days actually pass on the spacecraft?</item>	<item>If 30 years of earth time pass, how many years have actually passed on the spacecraft?<list id="eip-id11928968" mark-suffix=":" list-type="enumerated" number-style="arabic" class="stepwise"><item>	</item><item/><item/><item/><item><space count="10" effect="underline"/> years have passed on the spacecraft.</item></list></item>	<item>If 30 years have passed on the spacecraft, how many years have passed on the earth? </item><item>A space traveler makes a round-trip voyage to the star Capella. The trip takes her 120 years (traveling at 176,000 miles per second). If it is the year 2000 on earth when she leaves, what earth year will it be when she returns? </item></list>	
+</problem><solution id="fs-id14489831"><para id="fs-id14489832"><emphasis>(a)</emphasis> Step 5: The time passed in space is <m:math> <m:semantics>  <m:mrow>   <m:mn>0.62</m:mn>  </m:mrow> </m:semantics></m:math> days.<newline/><newline/><emphasis>(b)</emphasis> Step 5: <m:math> <m:semantics>  <m:mrow>   <m:mn>9.3</m:mn>  </m:mrow>   </m:semantics></m:math> years have passed on the spacecraft. <newline/><newline/><emphasis>(c)</emphasis> Step 5: <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>96.77</m:mn>
+  </m:mrow>
+ </m:semantics>
+</m:math> years have passed on the earth.<newline/><newline/><emphasis>(d)</emphasis> Step 5: Earth year when she returns will be 2387.</para></solution></exercise></section><section id="eip-858"><title>Exercises for Review </title><exercise id="eip-938"><problem id="eip-324">
+			<para id="eip-946"><emphasis>(<link document="m21849"/>)</emphasis> Specify the domain of the equation <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac>
+								<m:mrow>
+									<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+								</m:mrow>
+								<m:mrow>
+									<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn>
+								</m:mrow>
+							</m:mfrac>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics></m:math>.  </para>
+		</problem>
+	</exercise><exercise id="eip-34"><problem id="eip-631">
+			<para id="eip-970"><emphasis>(<link document="m18876"/>)</emphasis> Classify the equation <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>1</m:mn>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math> as an identity, a contradiction, or a conditional equation.  </para>
+		</problem>
+		<solution id="fs-id14305090"><para id="fs-id14305091">conditional</para></solution>
+	</exercise><exercise id="eip-919"><problem id="eip-386">
+			<para id="eip-463">
+				<emphasis>(<link document="m18876"/>)</emphasis> Classify the equation <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics></m:math> as an identity, a contradiction or a conditional equation.   </para>
+		</problem></exercise><exercise id="eip-697"><problem id="eip-268">
+			<para id="eip-871">
+				<emphasis>(<link document="m21992"/>)</emphasis> Solve the equation <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>12</m:mn><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo>
+						</m:mrow>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics></m:math>.  </para>
+		</problem>
+		<solution id="fs-id15356319"><para id="fs-id14287954"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn>
+						</m:mrow>
+					</m:semantics></m:math></para></solution>
+	</exercise><exercise id="eip-402"><problem id="eip-745">
+			<para id="eip-713"><emphasis>(<link document="m21978"/>)</emphasis> Translate the following sentence to a mathematical equation. Three less than an unknown number is multiplied by negative four. The result is two more than the original unknown number.   </para>
+		</problem></exercise></section></content></document>

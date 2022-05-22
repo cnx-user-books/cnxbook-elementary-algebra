@@ -1,0 +1,111 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+
+<title>Summary of Key Concepts</title>
+<metadata>
+  <md:content-id>m21914</md:content-id><md:title>Summary of Key Concepts</md:title>
+  <md:abstract>This module is from Elementary Algebra by Denny Burzynski and Wade Ellis, Jr.
+In this chapter, the emphasis is on the mechanics of equation solving, which clearly explains how to isolate a variable. The goal is to help the student feel more comfortable with solving applied problems. Ample opportunity is provided for the student to practice translating words to symbols, which is an important part of the "Five-Step Method" of solving applied problems (discussed in modules (&lt;link document="m21980"/&gt;) and (&lt;link document="m21979"/&gt;)).
+This module provides a summary of the key concepts of the chapter "Solving Linear Equations and Inequalities".</md:abstract>
+  <md:uuid>13d863bc-fe8b-4dd2-9dca-d5592d79a0e7</md:uuid>
+</metadata>
+
+<content>
+  <section id="eip-83"><title>Summary of Key Concepts</title><para id="eip-25"><title>Identity (<link document="m18876"/>)</title>An equation that is true for all acceptable values of the variable is called <emphasis>identity</emphasis>. <m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math> is an identity.</para><para id="eip-783"><title>Contradiction (<link document="m18876"/>)</title><emphasis>Contradictions</emphasis> are equations that are never true regardless of the value substituted for the variable. <m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mi>x</m:mi>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math> is a contradiction.</para><para id="eip-211"><title>Conditional Equation (<link document="m18876"/>)</title>An equation whose truth is conditional upon the value selected for the variable is called a <emphasis>conditional equation</emphasis>.</para><para id="eip-588"><title>Solutions and Solving an Equation (<link document="m18876"/>)</title>The collection of values that make an equation true are called the <emphasis>solutions</emphasis> of the equation. An equation is said to be <emphasis>solved</emphasis> when all its solutions have been found.</para><para id="eip-985"><title>Equivalent Equations (<link document="m18876"/>, <link document="m21981"/>)</title>Equations that have precisely the same collection of solutions are called <emphasis>equivalent equations</emphasis>.<newline/>An equivalent equation can be obtained from a particular equation by applying the <emphasis>same</emphasis> binary operation to <emphasis>both</emphasis> sides of the equation, that is,<list id="eip-689" list-type="enumerated" number-style="arabic"><item>adding or subtracting the <emphasis>same</emphasis> number to or from <emphasis>both</emphasis> sides of that particular equation.</item>
+			<item>multiplying or dividing <emphasis>both</emphasis> sides of that particular equation by the <emphasis>same non-zero</emphasis> number.</item>
+		</list></para><para id="eip-751"><title>Literal Equation (<link document="m18876"/>)</title>A <emphasis>literal equation</emphasis> is an equation that is composed of more than one variable.</para><para id="eip-787"><title>Recognizing an Identity (<link document="m21992"/>)</title>If, when solving an equation, all the variables are eliminated and a true statement results, the equation is an <emphasis>identity</emphasis>.</para><para id="eip-325"><title>Recognizing a Contradiction (<link document="m21992"/>)</title>If, when solving an equation, all the variables are eliminated and a false statement results, the equation is a <emphasis>contradiction</emphasis>.</para><para id="eip-97"><title>Translating from Verbal to Mathematical Expressions (<link document="m21978"/>)</title>When solving word problems it is absolutely necessary to know how certain words translate into mathematical symbols.</para><para id="eip-497"><title>Five-Step Method for Solving Word Problems (<link document="m21980"/>)</title><list id="eip-869" list-type="enumerated" number-style="arabic"><item>Let <m:math>
+					<m:semantics>
+						<m:mi>x</m:mi>
+						<m:annotation encoding="MathType-MTEF">
+						</m:annotation>
+					</m:semantics>
+				</m:math> (or some other letter) represent the unknown quantity.</item>
+			<item>Translate the words to mathematics and form an equation. A diagram may be helpful.</item>
+			<item>Solve the equation.</item>
+			<item>Check the solution by substituting the result into the original statement of the problem.</item>
+			<item>Write a conclusion.</item></list></para><para id="eip-153"><title>Linear Inequality (<link document="m21979"/>)</title>A <emphasis>linear inequality</emphasis> is a mathematical statement that one linear expression is greater than or less than another linear expression.</para><para id="eip-252"><title>Inequality Notation (<link document="m21979"/>)</title><m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mtable columnalign="left">
+						<m:mtr columnalign="left">
+							<m:mtd columnalign="left">
+								<m:mo>&gt;</m:mo>
+							</m:mtd>
+							<m:mtd columnalign="left">
+								<m:mrow>
+									<m:mtext>Strictly</m:mtext><m:mtext> </m:mtext><m:mtext>greater</m:mtext><m:mtext> </m:mtext><m:mtext>than</m:mtext>
+								</m:mrow>
+							</m:mtd>
+						</m:mtr>
+						<m:mtr columnalign="left">
+							<m:mtd columnalign="left">
+								<m:mo>&lt;</m:mo>
+							</m:mtd>
+							<m:mtd columnalign="left">
+								<m:mrow>
+									<m:mtext>Strictly</m:mtext><m:mtext> </m:mtext><m:mtext>less</m:mtext><m:mtext> </m:mtext><m:mtext>than</m:mtext>
+								</m:mrow>
+							</m:mtd>
+						</m:mtr>
+						<m:mtr columnalign="left">
+							<m:mtd columnalign="left">
+								<m:mo>≥</m:mo>
+							</m:mtd>
+							<m:mtd columnalign="left">
+								<m:mrow>
+									<m:mtext>Greater</m:mtext><m:mtext> </m:mtext><m:mtext>than</m:mtext><m:mtext> </m:mtext><m:mtext>or</m:mtext><m:mtext> </m:mtext><m:mtext>equal</m:mtext><m:mtext> </m:mtext><m:mtext>to</m:mtext>
+								</m:mrow>
+							</m:mtd>
+						</m:mtr>
+						<m:mtr columnalign="left">
+							<m:mtd columnalign="left">
+								<m:mo>≤</m:mo>
+							</m:mtd>
+							<m:mtd columnalign="left">
+								<m:mrow>
+									<m:mtext>Less</m:mtext><m:mtext> </m:mtext><m:mtext>than</m:mtext><m:mtext> </m:mtext><m:mtext>equal</m:mtext><m:mtext> </m:mtext><m:mtext>to</m:mtext>
+								</m:mrow>
+							</m:mtd>
+						</m:mtr>
+					</m:mtable>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math></para><para id="eip-79"><title>Compound Inequality (<link document="m21979"/>)</title>An inequality of the form<newline/><newline/><m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mi>a</m:mi><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mi>b</m:mi>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math><newline/><newline/>is called a <emphasis>compound inequality</emphasis>.
+</para><para id="eip-563"><title>Solution to an Equation in Two Variables and Ordered Pairs (<link document="m21982"/>)</title>A pair of values that when substituted into an equation in two variables produces a true statement is called a solution to the equation in two variables. These values are commonly written as an <emphasis>ordered pair</emphasis>. The expression <m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo>
+				</m:mrow>
+				<m:annotation encoding="MathType-MTEF">
+				</m:annotation>
+			</m:semantics>
+		</m:math> is an ordered pair. In an ordered pair, the independent variable is written first and the dependent variable is written second.
+</para></section>
+</content>
+
+</document>

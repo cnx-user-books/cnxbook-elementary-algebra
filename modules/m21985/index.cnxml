@@ -1,0 +1,594 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml"><title>Exercise Supplement</title><metadata>
+  <md:content-id>m21985</md:content-id><md:title>Exercise Supplement</md:title>
+  <md:abstract>This module is from Elementary Algebra by Denny Burzynski and Wade Ellis, Jr.
+Beginning with the graphical solution of systems, this chapter includes an interpretation of independent, inconsistent, and dependent systems and examples to illustrate the applications for these systems. The substitution method and the addition method of solving a system by elimination are explained, noting when to use each method. The five-step method is again used to illustrate the solutions of value and rate problems (coin and mixture problems), using drawings that correspond to the actual situation.
+This module contains the exercise supplement for the chapter "Systems of Linear Equations".</md:abstract>
+  <md:uuid>621f56f5-365f-45b5-9828-3c1b470abb56</md:uuid>
+</metadata>
+
+<content><section id="fs-id22819238"><title>Exercise Supplement</title><section id="fs-id22818277"><title>Solutions by Graphing (<link document="m18881"/>) - Elimination by Addition (<link document="m21986"/>)</title>
+<para id="fs-id19513750">For the following problems, solve the systems of equations.</para>
+	<exercise id="fs-id21910884"><problem id="fs-id23257100"><para id="fs-id3249361"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mrow><m:mo>{</m:mo>
+								<m:mtable>
+									<m:mtr>
+										<m:mtd>
+											<m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn>
+										</m:mtd>
+									</m:mtr>
+									<m:mtr>
+										<m:mtd>
+											<m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>13</m:mn>
+										</m:mtd>
+									</m:mtr>
+								</m:mtable>
+							</m:mrow>
+						</m:mrow>
+					</m:semantics></m:math></para>
+		</problem><solution id="zip-id14103293"><para id="zip-id15617857"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mrow><m:mo>(</m:mo>
+								<m:mrow>
+									<m:mn>2</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>3</m:mn>
+								</m:mrow>
+								<m:mo>)</m:mo></m:mrow>
+						</m:mrow>
+					</m:semantics>
+				</m:math>
+			</para></solution></exercise>
+	<exercise id="fs-id22587036"><problem id="fs-id23304610"><para id="fs-id23174163"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mrow><m:mo>{</m:mo>
+								<m:mtable>
+									<m:mtr>
+										<m:mtd>
+											<m:mo>−</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn>
+										</m:mtd>
+									</m:mtr>
+									<m:mtr>
+										<m:mtd>
+											<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>1</m:mn>
+										</m:mtd>
+									</m:mtr>
+								</m:mtable>
+							</m:mrow>
+						</m:mrow>
+					</m:semantics></m:math></para>
+		</problem></exercise>
+	<exercise id="fs-id22190602"><problem id="fs-id18302715"><para id="fs-id12819299"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mrow><m:mo>{</m:mo>
+								<m:mtable>
+									<m:mtr>
+										<m:mtd>
+											<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>17</m:mn>
+										</m:mtd>
+									</m:mtr>
+									<m:mtr>
+										<m:mtd>
+											<m:mn>8</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>46</m:mn>
+										</m:mtd>
+									</m:mtr>
+								</m:mtable>
+							</m:mrow>
+						</m:mrow>
+					</m:semantics></m:math></para>
+		</problem><solution id="zip-id15125028"><para id="zip-id15125029"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mrow><m:mo>(</m:mo>
+								<m:mrow>
+									<m:mfrac>
+										<m:mrow>
+											<m:mn>86</m:mn>
+										</m:mrow>
+										<m:mrow>
+											<m:mn>13</m:mn>
+										</m:mrow>
+									</m:mfrac>
+									<m:mo>,</m:mo><m:mo>−</m:mo><m:mfrac>
+										<m:mrow>
+											<m:mn>45</m:mn>
+										</m:mrow>
+										<m:mrow>
+											<m:mn>13</m:mn>
+										</m:mrow>
+									</m:mfrac>
+								</m:mrow>
+								<m:mo>)</m:mo></m:mrow>
+						</m:mrow>
+					</m:semantics>
+				</m:math>
+			</para></solution></exercise>
+	<exercise id="fs-id20042636"><problem id="fs-id21616333"><para id="fs-id23186157"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mrow><m:mo>{</m:mo>
+								<m:mtable>
+									<m:mtr>
+										<m:mtd>
+											<m:mn>6</m:mn><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>n</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>9</m:mn>
+										</m:mtd>
+									</m:mtr>
+									<m:mtr>
+										<m:mtd>
+											<m:mn>2</m:mn><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>14</m:mn>
+										</m:mtd>
+									</m:mtr>
+								</m:mtable>
+							</m:mrow>
+						</m:mrow>
+					</m:semantics>
+				</m:math></para>
+		</problem></exercise>
+	<exercise id="fs-id15784935"><problem id="fs-id13829593"><para id="fs-id22626677"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mrow><m:mo>{</m:mo>
+								<m:mtable>
+									<m:mtr>
+										<m:mtd>
+											<m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>9</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn>
+										</m:mtd>
+									</m:mtr>
+									<m:mtr>
+										<m:mtd>
+											<m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>
+										</m:mtd>
+									</m:mtr>
+								</m:mtable>
+							</m:mrow>
+						</m:mrow>
+					</m:semantics></m:math></para>
+		</problem><solution id="zip-id15194398"><para id="zip-id15128163">No solution.</para></solution></exercise>
+	<exercise id="fs-id23062718"><problem id="fs-id14634241"><para id="fs-id21337051"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mrow><m:mo>{</m:mo>
+								<m:mtable>
+									<m:mtr>
+										<m:mtd>
+											<m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn>
+										</m:mtd>
+									</m:mtr>
+									<m:mtr>
+										<m:mtd>
+											<m:mn>8</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>75</m:mn><m:mo>=</m:mo><m:mn>5</m:mn>
+										</m:mtd>
+									</m:mtr>
+								</m:mtable>
+							</m:mrow>
+						</m:mrow>
+					</m:semantics></m:math></para>
+		</problem></exercise>
+	<exercise id="fs-id14167477"><problem id="fs-id21732634"><para id="fs-id3205890"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mrow><m:mo>{</m:mo>
+								<m:mtable>
+									<m:mtr>
+										<m:mtd>
+											<m:mi>x</m:mi><m:mo>=</m:mo><m:mn>8</m:mn>
+										</m:mtd>
+									</m:mtr>
+									<m:mtr>
+										<m:mtd>
+											<m:mn>9</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>76</m:mn>
+										</m:mtd>
+									</m:mtr>
+								</m:mtable>
+							</m:mrow>
+						</m:mrow>
+					</m:semantics></m:math></para>
+		</problem><solution id="zip-id15698349"><para id="zip-id15698350"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mrow><m:mo>(</m:mo>
+								<m:mrow>
+									<m:mn>8</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>4</m:mn>
+								</m:mrow>
+								<m:mo>)</m:mo></m:mrow>
+						</m:mrow>
+					</m:semantics>
+				</m:math>
+			</para></solution></exercise>
+	<exercise id="fs-id18946072"><problem id="fs-id22543293"><para id="fs-id19550795"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mrow><m:mo>{</m:mo>
+								<m:mtable>
+									<m:mtr>
+										<m:mtd>
+											<m:mn>7</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn>
+										</m:mtd>
+									</m:mtr>
+									<m:mtr>
+										<m:mtd>
+											<m:mo>−</m:mo><m:mn>14</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>8</m:mn>
+										</m:mtd>
+									</m:mtr>
+								</m:mtable>
+							</m:mrow>
+						</m:mrow>
+					</m:semantics></m:math></para>
+		</problem></exercise>
+	<exercise id="fs-id22533110"><problem id="fs-id22656056"><para id="fs-id14867631"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mrow><m:mo>{</m:mo>
+								<m:mtable>
+									<m:mtr>
+										<m:mtd>
+											<m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn>
+										</m:mtd>
+									</m:mtr>
+									<m:mtr>
+										<m:mtd>
+											<m:mi>x</m:mi><m:mo>=</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>5</m:mn>
+										</m:mtd>
+									</m:mtr>
+								</m:mtable>
+							</m:mrow>
+						</m:mrow>
+					</m:semantics></m:math></para>
+		</problem><solution id="zip-id15617226"><para id="zip-id12271223"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mrow><m:mo>(</m:mo>
+								<m:mrow>
+									<m:mo>−</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>1</m:mn>
+								</m:mrow>
+								<m:mo>)</m:mo></m:mrow>
+						</m:mrow>
+					</m:semantics>
+				</m:math>
+			</para></solution></exercise>
+	<exercise id="fs-id14878630"><problem id="fs-id20846689"><para id="fs-id18984535"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mrow><m:mo>{</m:mo>
+								<m:mtable>
+									<m:mtr>
+										<m:mtd>
+											<m:mn>20</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>15</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>13</m:mn>
+										</m:mtd>
+									</m:mtr>
+									<m:mtr>
+										<m:mtd>
+											<m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>20</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>13</m:mn>
+										</m:mtd>
+									</m:mtr>
+								</m:mtable>
+							</m:mrow>
+						</m:mrow>
+					</m:semantics></m:math></para>
+		</problem></exercise>
+	<exercise id="fs-id23062310"><problem id="fs-id15742233"><para id="fs-id15742234"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mrow><m:mo>{</m:mo>
+								<m:mtable>
+									<m:mtr>
+										<m:mtd>
+											<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>12</m:mn>
+										</m:mtd>
+									</m:mtr>
+									<m:mtr>
+										<m:mtd>
+											<m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>18</m:mn>
+										</m:mtd>
+									</m:mtr>
+								</m:mtable>
+							</m:mrow>
+						</m:mrow>
+					</m:semantics></m:math></para>
+		</problem><solution id="zip-id14602156"><para id="zip-id14602157"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mrow><m:mo>(</m:mo>
+								<m:mrow>
+									<m:mn>6</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>1</m:mn>
+								</m:mrow>
+								<m:mo>)</m:mo></m:mrow>
+						</m:mrow>
+					</m:semantics>
+				</m:math>
+			</para></solution></exercise>
+	<exercise id="fs-id23957340"><problem id="fs-id23957341"><para id="fs-id20736266"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mrow><m:mo>{</m:mo>
+								<m:mtable>
+									<m:mtr>
+										<m:mtd>
+											<m:mn>8</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>9</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>
+										</m:mtd>
+									</m:mtr>
+									<m:mtr>
+										<m:mtd>
+											<m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>
+										</m:mtd>
+									</m:mtr>
+								</m:mtable>
+							</m:mrow>
+						</m:mrow>
+					</m:semantics></m:math></para>
+		</problem></exercise>
+	<exercise id="fs-id22586720"><problem id="fs-id17703501"><para id="fs-id17703502"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mrow><m:mo>{</m:mo>
+								<m:mtable>
+									<m:mtr>
+										<m:mtd>
+											<m:mo>−</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1</m:mn>
+										</m:mtd>
+									</m:mtr>
+									<m:mtr>
+										<m:mtd>
+											<m:mn>10</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn>
+										</m:mtd>
+									</m:mtr>
+								</m:mtable>
+							</m:mrow>
+						</m:mrow>
+					</m:semantics></m:math></para>
+		</problem><solution id="zip-id15347929"><para id="zip-id15347930">Dependent (same line)</para></solution></exercise>
+	<exercise id="fs-id14465134"><problem id="fs-id14465136"><para id="fs-id14396625"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mrow><m:mo>{</m:mo>
+								<m:mtable>
+									<m:mtr>
+										<m:mtd>
+											<m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn>
+										</m:mtd>
+									</m:mtr>
+									<m:mtr>
+										<m:mtd>
+											<m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>7</m:mn>
+										</m:mtd>
+									</m:mtr>
+								</m:mtable>
+							</m:mrow>
+						</m:mrow>
+					</m:semantics></m:math></para>
+		</problem></exercise>
+	<exercise id="fs-id23324267"><problem id="fs-id22702466"><para id="fs-id22702467"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mrow><m:mo>{</m:mo>
+								<m:mtable>
+									<m:mtr>
+										<m:mtd>
+											<m:mn>6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>14</m:mn>
+										</m:mtd>
+									</m:mtr>
+									<m:mtr>
+										<m:mtd>
+											<m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>32</m:mn>
+										</m:mtd>
+									</m:mtr>
+								</m:mtable>
+							</m:mrow>
+						</m:mrow>
+					</m:semantics></m:math></para>
+		</problem><solution id="zip-id15208382"><para id="zip-id15208383"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mrow><m:mo>(</m:mo>
+								<m:mrow>
+									<m:mn>4</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>2</m:mn>
+								</m:mrow>
+								<m:mo>)</m:mo></m:mrow>
+						</m:mrow>
+					</m:semantics>
+				</m:math>
+			</para></solution></exercise>
+	<exercise id="fs-id19522231"><problem id="fs-id19522232"><para id="fs-id15165264"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mrow><m:mo>{</m:mo>
+								<m:mtable>
+									<m:mtr>
+										<m:mtd>
+											<m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn>
+										</m:mtd>
+									</m:mtr>
+									<m:mtr>
+										<m:mtd>
+											<m:mn>10</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>14</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1</m:mn>
+										</m:mtd>
+									</m:mtr>
+								</m:mtable>
+							</m:mrow>
+						</m:mrow>
+					</m:semantics></m:math></para>
+		</problem></exercise>
+	<exercise id="fs-id18951256"><problem id="fs-id24426175"><para id="fs-id24426176"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mrow><m:mo>{</m:mo>
+								<m:mtable>
+									<m:mtr>
+										<m:mtd>
+											<m:mn>2</m:mn><m:mi>m</m:mi><m:mo>+</m:mo><m:mn>10</m:mn><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>
+										</m:mtd>
+									</m:mtr>
+									<m:mtr>
+										<m:mtd>
+											<m:mo>−</m:mo><m:mn>4</m:mn><m:mi>m</m:mi><m:mo>−</m:mo><m:mn>20</m:mn><m:mi>n</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>6</m:mn>
+										</m:mtd>
+									</m:mtr>
+								</m:mtable>
+							</m:mrow>
+						</m:mrow>
+					</m:semantics></m:math></para>
+		</problem><solution id="zip-id15331289"><para id="zip-id15331290">Inconsistent (parallel lines)</para></solution></exercise>
+	<exercise id="fs-id23561693"><problem id="fs-id23561694"><para id="fs-id23367183"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mrow><m:mo>{</m:mo>
+								<m:mtable>
+									<m:mtr>
+										<m:mtd>
+											<m:mn>7</m:mn><m:mi>r</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>s</m:mi><m:mo>=</m:mo><m:mn>6</m:mn>
+										</m:mtd>
+									</m:mtr>
+									<m:mtr>
+										<m:mtd>
+											<m:mo>−</m:mo><m:mn>3</m:mn><m:mi>r</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>s</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>15</m:mn>
+										</m:mtd>
+									</m:mtr>
+								</m:mtable>
+							</m:mrow>
+						</m:mrow>
+					</m:semantics></m:math></para>
+		</problem></exercise>
+	<exercise id="fs-id22287838"><problem id="fs-id21609328"><para id="fs-id21609329"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mrow><m:mo>{</m:mo>
+								<m:mtable>
+									<m:mtr>
+										<m:mtd>
+											<m:mn>28</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>21</m:mn><m:mi>b</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>19</m:mn>
+										</m:mtd>
+									</m:mtr>
+									<m:mtr>
+										<m:mtd>
+											<m:mn>21</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>15</m:mn>
+										</m:mtd>
+									</m:mtr>
+								</m:mtable>
+							</m:mrow>
+						</m:mrow>
+					</m:semantics></m:math></para>
+		</problem><solution id="zip-id13551182"><para id="zip-id13551183"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mrow><m:mo>(</m:mo>
+								<m:mrow>
+									<m:mfrac>
+										<m:mn>2</m:mn>
+										<m:mn>7</m:mn>
+									</m:mfrac>
+									<m:mo>,</m:mo><m:mfrac>
+										<m:mn>9</m:mn>
+										<m:mn>7</m:mn>
+									</m:mfrac>
+								</m:mrow>
+								<m:mo>)</m:mo></m:mrow>
+						</m:mrow>
+					</m:semantics>
+				</m:math>
+			</para></solution></exercise>
+	<exercise id="fs-id22199642"><problem id="fs-id22199643"><para id="fs-id23502954"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mrow><m:mo>{</m:mo>
+								<m:mtable>
+									<m:mtr>
+										<m:mtd>
+											<m:mn>72</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>108</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>21</m:mn>
+										</m:mtd>
+									</m:mtr>
+									<m:mtr>
+										<m:mtd>
+											<m:mn>18</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>36</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>25</m:mn>
+										</m:mtd>
+									</m:mtr>
+								</m:mtable>
+							</m:mrow>
+						</m:mrow>
+					</m:semantics></m:math></para>
+		</problem></exercise></section><section id="fs-id22209207"><title>Applications (<link document="m21983"/>)</title>
+<exercise id="fs-id22543283"><problem id="fs-id22543284"><para id="fs-id21227303">The sum of two numbers is 35. One number is 7 larger than the other. What are the numbers?</para>
+		</problem><solution id="zip-id15698704"><para id="zip-id15698705">The numbers are 14 and 21.</para></solution></exercise>
+	<exercise id="fs-id22819253"><problem id="fs-id22819254"><para id="fs-id22235863">The difference of two numbers is 48. One number is three times larger than the other. What are the numbers?</para>
+		</problem></exercise>
+	<exercise id="fs-id22281758"><problem id="fs-id22281759"><para id="fs-id22525227">A 35 pound mixture of two types of cardboard sells for <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mi>$</m:mi><m:mn>30.15</m:mn>
+						</m:mrow>
+					</m:semantics></m:math>. Type I cardboard sells for 90¢ a pound and type II cardboard sells for 75¢ a pound. How many pounds of each type of cardboard were used?</para>
+		</problem><solution id="zip-id14811334"><para id="zip-id14811335"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mn>26</m:mn><m:mtext> pounds at 90</m:mtext><m:mi>¢</m:mi><m:mo>;</m:mo><m:mtext>  9 pounds at 75</m:mtext><m:mi>¢</m:mi>
+						</m:mrow>
+					</m:semantics>
+				</m:math>
+			</para></solution></exercise>
+	<exercise id="fs-id8883117"><problem id="fs-id8883118"><para id="fs-id22302272">The cost of 34 calculators of two different types is $1139. Type I calculator sells for $35 each and type II sells for $32 each. How many of each type of calculators were used?</para>
+		</problem></exercise>
+	<exercise id="fs-id22731315"><problem id="fs-id23495309"><para id="fs-id23495310">A chemistry student needs 46 ml of a 15% salt solution. She has two salt solutions, A and B, to mix together to form the needed 46 ml solution. Salt solution A is 12% salt and salt solution B is 20% salt. How much of each solution should be used?</para>
+		</problem><solution id="zip-id15329972"><para id="zip-id15329974"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mn>28</m:mn><m:mfrac>
+								<m:mn>3</m:mn>
+								<m:mn>4</m:mn>
+							</m:mfrac>
+							<m:mtext> ml of solution </m:mtext><m:mi>A</m:mi><m:mtext>;  17</m:mtext><m:mfrac>
+								<m:mn>3</m:mn>
+								<m:mn>4</m:mn>
+							</m:mfrac>
+							<m:mtext> ml of solution </m:mtext><m:mi>B</m:mi><m:mo>.</m:mo>
+						</m:mrow>
+					</m:semantics>
+				</m:math>
+			</para></solution></exercise>
+	<exercise id="fs-id22302243"><problem id="fs-id22302244"><para id="fs-id21922779">A chemist needs 100 ml of a 78% acid solution. He has two acid solutions to mix together to form the needed 100-ml solution. One solution is 50% acid and the other solution is 90% acid. How much of each solution should be used?</para>
+		</problem></exercise>
+	<exercise id="fs-id22363704"><problem id="fs-id19414251"><para id="fs-id19414252">One third the sum of two numbers is 12 and half the difference is 14. What are the numbers?</para>
+		</problem><solution id="zip-id15331009"><para id="zip-id15331010"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mi>x</m:mi><m:mo>=</m:mo><m:mn>32</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4</m:mn>
+						</m:mrow>
+					</m:semantics>
+				</m:math>
+			</para></solution></exercise>
+	<exercise id="fs-id15719482"><problem id="fs-id22733065"><para id="fs-id22733066">Two angles are said to be complementary if their measures add to 90°. If one angle measures 8 more than four times the measure of its complement, find the measure of each of the angles.</para>
+		</problem></exercise>
+	<exercise id="fs-id19543343"><problem id="fs-id17651324"><para id="fs-id17651325">A chemist needs 4 liters of a 20% acid solution. She has two solutions to mix together to form the 20% solution. One solution is 30% acid and the other solution is 24% acid. Can the chemist form the needed 20% acid solution? If the chemist locates a 14% acid solution, how much would  have to be mixed with the 24% acid solution to obtain the needed 20% solution?</para>
+		</problem><solution id="zip-id15330073"><para id="zip-id15330074">(a) No solution<newline/><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mtable columnalign="left">
+								<m:mtr columnalign="left">
+									<m:mtd columnalign="left">
+										<m:mrow>
+											<m:mtext>(b)</m:mtext>
+										</m:mrow>
+									</m:mtd>
+									<m:mtd columnalign="left">
+										<m:mrow>
+											<m:mn>1.6</m:mn><m:mtext> liters </m:mtext><m:mo stretchy="false">(</m:mo><m:mn>1600</m:mn><m:mtext> ml</m:mtext><m:mo stretchy="false">)</m:mo><m:mtext> of the </m:mtext><m:mn>14</m:mn><m:mi>%</m:mi><m:mtext> solution;</m:mtext>
+										</m:mrow>
+									</m:mtd>
+								</m:mtr>
+								<m:mtr columnalign="left">
+									<m:mtd columnalign="left">
+										<m:mrow/>
+									</m:mtd>
+									<m:mtd columnalign="left">
+										<m:mrow>
+											<m:mn>2.4</m:mn><m:mtext> liters </m:mtext><m:mo stretchy="false">(</m:mo><m:mn>2400</m:mn><m:mtext> ml</m:mtext><m:mo stretchy="false">)</m:mo><m:mtext> of the </m:mtext><m:mn>24</m:mn><m:mi>%</m:mi><m:mtext> solution</m:mtext><m:mtext>.</m:mtext>
+										</m:mrow>
+									</m:mtd>
+								</m:mtr>
+							</m:mtable>
+						</m:mrow>
+					</m:semantics>
+				</m:math>
+			</para></solution></exercise>
+	<exercise id="fs-id19836216"><problem id="fs-id19836218"><para id="fs-id21915259">A chemist needs 80 ml of a 56% salt solution. She has a bottle of 60% salt solution. How much pure water and how much of the 60% salt solution should be mixed to dilute the 60% salt solution to a 56% salt solution?</para>
+		</problem></exercise></section></section></content></document>

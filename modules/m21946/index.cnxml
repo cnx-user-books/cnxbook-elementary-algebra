@@ -1,0 +1,4225 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+
+<title>Dividing Polynomials </title>
+<metadata>
+  <md:content-id>m21946</md:content-id><md:title>Dividing Polynomials </md:title>
+  <md:abstract>&lt;para&gt;This module is from &lt;link document="col10614"&gt;Elementary Algebra&lt;/link&gt; by Denny Burzynski and Wade Ellis, Jr.&lt;/para&gt;
+&lt;para&gt;A detailed study of arithmetic operations with rational expressions is presented in this chapter, beginning with the definition of a rational expression and then proceeding immediately to a discussion of the domain. The process of reducing a rational expression and illustrations of multiplying, dividing, adding, and subtracting rational expressions are also included. Since the operations of addition and subtraction can cause the most difficulty, they are given particular attention. We have tried to make the written explanation of the examples clearer by using a "freeze frame" approach, which walks the student through the operation step by step.&lt;/para&gt;
+&lt;para&gt;The five-step method of solving applied problems is included in this chapter to show the problem-solving approach to number problems, work problems, and geometry problems. The chapter also illustrates simplification of complex rational expressions, using the combine-divide method and the LCD-multiply-divide method.&lt;/para&gt;
+&lt;para&gt;Objectives of this module: be able to divide a polynomial by a monomial, understand the process and be able to divide a polynomial by a polynomial.&lt;/para&gt;</md:abstract>
+  <md:uuid>323142db-969b-40fa-9995-5cd8185c6750</md:uuid>
+</metadata>
+
+<content>
+  <section id="fs-id45726708">
+      <title>Overview</title>
+      <list id="fs-id45726714" list-type="bulleted"><item>
+		Dividing a Polynomial by a Monomial 
+	</item>
+	<item>
+		The Process of Division
+	</item>
+	<item>
+		Review of Subtraction of Polynomials
+	</item>
+	<item>
+		Dividing a Polynomial by a Polynomial
+	</item>
+</list>
+    </section>
+	<section id="fs-id45726746">
+      <title>Dividing A Polynomial By A Monomial</title>
+	  <para id="fs-id45726751">The following examples illustrate how to divide a polynomial by a monomial. The division process is quite simple and is based on addition of rational expressions.</para>
+	  
+
+
+<para id="fs-id45726760"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mi>a</m:mi>
+    <m:mi>c</m:mi>
+   </m:mfrac>
+   <m:mtext> </m:mtext><m:mo>+</m:mo><m:mtext> </m:mtext><m:mfrac>
+    <m:mi>b</m:mi>
+    <m:mi>c</m:mi>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi>
+    </m:mrow>
+    <m:mi>c</m:mi>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para>
+<para id="fs-id45726823">Turning this equation around we get</para>
+<para id="fs-id45726826"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi>
+    </m:mrow>
+    <m:mi>c</m:mi>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mfrac>
+    <m:mi>a</m:mi>
+    <m:mi>c</m:mi>
+   </m:mfrac>
+   <m:mo>+</m:mo><m:mfrac>
+    <m:mi>b</m:mi>
+    <m:mi>c</m:mi>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para>
+<para id="fs-id45726878">Now we simply divide <m:math>
+ <m:semantics>
+  <m:mi>c</m:mi></m:semantics></m:math> into <m:math><m:semantics><m:mi>a</m:mi></m:semantics></m:math>, and <m:math>
+ <m:semantics>
+  <m:mi>c</m:mi></m:semantics></m:math> into <m:math>
+ <m:semantics>
+  <m:mi>b</m:mi></m:semantics></m:math>. This should suggest a rule.</para>
+
+
+<para id="fs-id45726910" class="highlight"><title>Dividing a Polynomial By a Monomial</title>To divide a polynomial by a monomial, divide every term of the polynomial by the monomial.</para>
+	</section>
+
+<section id="fs-id45726920">
+<title>Sample Set A</title>
+<example id="fs-id45726926"><para id="fs-id45726927"><m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mtable columnalign="left">
+						<m:mtr columnalign="left">
+							<m:mtd columnalign="left">
+								<m:mrow>
+									<m:mtable columnalign="left">
+										<m:mtr columnalign="left">
+											<m:mtd columnalign="left">
+												<m:mrow>
+													<m:mfrac>
+														<m:mrow>
+															<m:mn>3</m:mn><m:msup>
+																<m:mi>x</m:mi>
+																<m:mn>2</m:mn>
+															</m:msup>
+															<m:mo>+</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>11</m:mn>
+														</m:mrow>
+														<m:mi>x</m:mi>
+													</m:mfrac>
+<m:mo>.</m:mo>
+												</m:mrow>
+											</m:mtd>
+											<m:mtd columnalign="left">
+												<m:mrow/>
+											</m:mtd>
+											<m:mtd columnalign="left">
+												<m:mrow>
+													<m:mtext>Divide every term of</m:mtext><m:mi> </m:mi><m:mn>3</m:mn><m:msup>
+														<m:mi>x</m:mi>
+														<m:mn>2</m:mn>
+													</m:msup>
+													<m:mi> </m:mi><m:mo>+</m:mo><m:mi> </m:mi><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>11</m:mn><m:mi> </m:mi><m:mtext>by</m:mtext><m:mi> </m:mi><m:mi>x</m:mi><m:mo>.</m:mo>
+												</m:mrow>
+											</m:mtd>
+										</m:mtr>
+									</m:mtable>
+								</m:mrow>
+							</m:mtd>
+						</m:mtr>
+						<m:mtr columnalign="left">
+							<m:mtd columnalign="left">
+								<m:mrow/>
+							</m:mtd>
+						</m:mtr>
+						<m:mtr columnalign="left">
+							<m:mtd columnalign="left">
+								<m:mrow>
+									<m:mfrac>
+										<m:mrow>
+											<m:mn>3</m:mn><m:msup>
+												<m:mi>x</m:mi>
+												<m:mn>2</m:mn>
+											</m:msup>
+										</m:mrow>
+										<m:mi>x</m:mi>
+									</m:mfrac>
+									<m:mo>+</m:mo><m:mfrac>
+										<m:mi>x</m:mi>
+										<m:mi>x</m:mi>
+									</m:mfrac>
+									<m:mo>−</m:mo><m:mfrac>
+										<m:mrow>
+											<m:mn>11</m:mn>
+										</m:mrow>
+										<m:mi>x</m:mi>
+									</m:mfrac>
+									<m:mo>=</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac>
+										<m:mrow>
+											<m:mn>11</m:mn>
+										</m:mrow>
+										<m:mi>x</m:mi>
+									</m:mfrac>
+								</m:mrow>
+							</m:mtd>
+						</m:mtr>
+					</m:mtable>
+				</m:mrow>
+			</m:semantics>
+		</m:math>
+	</para></example>
+<example id="fs-id45727142"><para id="fs-id45727143"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mtable columnalign="left">
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtable columnalign="left">
+									<m:mtr columnalign="left">
+										<m:mtd columnalign="left">
+											<m:mrow>
+												<m:mfrac>
+													<m:mrow>
+														<m:mn>8</m:mn><m:msup>
+															<m:mi>a</m:mi>
+															<m:mn>3</m:mn>
+														</m:msup>
+														<m:mo>+</m:mo><m:mn>4</m:mn><m:msup>
+															<m:mi>a</m:mi>
+															<m:mn>2</m:mn>
+														</m:msup>
+														<m:mo>−</m:mo><m:mn>16</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>9</m:mn>
+													</m:mrow>
+													<m:mrow>
+														<m:mn>2</m:mn><m:msup>
+															<m:mi>a</m:mi>
+															<m:mn>2</m:mn>
+														</m:msup>
+													</m:mrow>
+												</m:mfrac>
+												<m:mo>.</m:mo>
+											</m:mrow>
+										</m:mtd>
+										<m:mtd columnalign="left">
+											<m:mrow/>
+										</m:mtd>
+										<m:mtd columnalign="left">
+											<m:mrow>
+												<m:mtext>Divide every term of</m:mtext><m:mi> </m:mi><m:mn>8</m:mn><m:msup>
+													<m:mi>a</m:mi>
+													<m:mn>3</m:mn>
+												</m:msup>
+												<m:mi> </m:mi><m:mo>+</m:mo><m:mi> </m:mi><m:mn>4</m:mn><m:msup>
+													<m:mi>a</m:mi>
+													<m:mn>2</m:mn>
+												</m:msup>
+												<m:mo>−</m:mo><m:mn>16</m:mn><m:mi>a</m:mi><m:mi> </m:mi><m:mo>+</m:mo><m:mn>9</m:mn><m:mi> </m:mi><m:mtext>by</m:mtext><m:mi> </m:mi><m:mn>2</m:mn><m:msup>
+													<m:mi>a</m:mi>
+													<m:mn>2</m:mn>
+												</m:msup>
+												<m:mo>.</m:mo>
+											</m:mrow>
+										</m:mtd>
+									</m:mtr>
+								</m:mtable>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+					</m:mtr>
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mfrac>
+									<m:mrow>
+										<m:mn>8</m:mn><m:msup>
+											<m:mi>a</m:mi>
+											<m:mn>3</m:mn>
+										</m:msup>
+									</m:mrow>
+									<m:mrow>
+										<m:mn>2</m:mn><m:msup>
+											<m:mi>a</m:mi>
+											<m:mn>2</m:mn>
+										</m:msup>
+									</m:mrow>
+								</m:mfrac>
+								<m:mo>+</m:mo><m:mfrac>
+									<m:mrow>
+										<m:mn>4</m:mn><m:msup>
+											<m:mi>a</m:mi>
+											<m:mn>2</m:mn>
+										</m:msup>
+									</m:mrow>
+									<m:mrow>
+										<m:mn>2</m:mn><m:msup>
+											<m:mi>a</m:mi>
+											<m:mn>2</m:mn>
+										</m:msup>
+									</m:mrow>
+								</m:mfrac>
+								<m:mo>−</m:mo><m:mfrac>
+									<m:mrow>
+										<m:mn>16</m:mn><m:mi>a</m:mi>
+									</m:mrow>
+									<m:mrow>
+										<m:mn>2</m:mn><m:msup>
+											<m:mi>a</m:mi>
+											<m:mn>2</m:mn>
+										</m:msup>
+									</m:mrow>
+								</m:mfrac>
+								<m:mo>+</m:mo><m:mfrac>
+									<m:mn>9</m:mn>
+									<m:mrow>
+										<m:mn>2</m:mn><m:msup>
+											<m:mi>a</m:mi>
+											<m:mn>2</m:mn>
+										</m:msup>
+									</m:mrow>
+								</m:mfrac>
+								<m:mo>=</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>−</m:mo><m:mfrac>
+									<m:mn>8</m:mn>
+									<m:mi>a</m:mi>
+								</m:mfrac>
+								<m:mo>+</m:mo><m:mfrac>
+									<m:mn>9</m:mn>
+									<m:mrow>
+										<m:mn>2</m:mn><m:msup>
+											<m:mi>a</m:mi>
+											<m:mn>2</m:mn>
+										</m:msup>
+									</m:mrow>
+								</m:mfrac>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+				</m:mtable>
+			</m:mrow>
+		</m:semantics>
+	</m:math>
+</para></example>
+<example id="fs-id45734860"><para id="fs-id45734861"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtable columnalign="left">
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mtable columnalign="left">
+        <m:mtr columnalign="left">
+         <m:mtd columnalign="left">
+          <m:mrow>
+           <m:mfrac>
+            <m:mrow>
+             <m:mn>4</m:mn><m:msup>
+              <m:mi>b</m:mi>
+              <m:mn>6</m:mn>
+             </m:msup>
+             <m:mo>−</m:mo><m:mn>9</m:mn><m:msup>
+              <m:mi>b</m:mi>
+              <m:mn>4</m:mn>
+             </m:msup>
+             <m:mo>−</m:mo><m:mn>2</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>5</m:mn>
+            </m:mrow>
+            <m:mrow>
+             <m:mo>−</m:mo><m:mn>4</m:mn><m:msup>
+              <m:mi>b</m:mi>
+              <m:mn>2</m:mn>
+             </m:msup>
+             
+            </m:mrow>
+           </m:mfrac>
+           <m:mo>.</m:mo>
+          </m:mrow>
+         </m:mtd>
+         <m:mtd columnalign="left">
+          <m:mrow/>
+         </m:mtd>
+         <m:mtd columnalign="left">
+          <m:mrow>
+           <m:mtext>Divide every term of</m:mtext>
+          </m:mrow>
+         </m:mtd>
+        </m:mtr>
+        
+       </m:mtable><m:mn>4</m:mn><m:msup>
+        <m:mi>b</m:mi>
+        <m:mn>6</m:mn>
+       </m:msup>
+       <m:mo>−</m:mo><m:mn>9</m:mn><m:msup>
+        <m:mi>b</m:mi>
+        <m:mn>4</m:mn>
+       </m:msup>
+       <m:mo>−</m:mo><m:mn>2</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mtext> </m:mtext><m:mtext>by</m:mtext><m:mo>−</m:mo><m:mn>4</m:mn><m:msup>
+        <m:mi>b</m:mi>
+        <m:mn>2</m:mn>
+       </m:msup>
+       <m:mo>.</m:mo>
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow/>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr columnalign="left">
+     <m:mtd columnalign="left">
+      <m:mrow>
+       <m:mfrac>
+        <m:mrow>
+         <m:mn>4</m:mn><m:msup>
+          <m:mi>b</m:mi>
+          <m:mn>6</m:mn>
+         </m:msup>
+         
+        </m:mrow>
+        <m:mrow>
+         <m:mo>−</m:mo><m:mn>4</m:mn><m:msup>
+          <m:mi>b</m:mi>
+          <m:mn>2</m:mn>
+         </m:msup>
+         
+        </m:mrow>
+       </m:mfrac>
+       <m:mo>−</m:mo><m:mfrac>
+        <m:mrow>
+         <m:mn>9</m:mn><m:msup>
+          <m:mi>b</m:mi>
+          <m:mn>4</m:mn>
+         </m:msup>
+         
+        </m:mrow>
+        <m:mrow>
+         <m:mo>−</m:mo><m:mn>4</m:mn><m:msup>
+          <m:mi>b</m:mi>
+          <m:mn>2</m:mn>
+         </m:msup>
+         
+        </m:mrow>
+       </m:mfrac>
+       <m:mo>−</m:mo><m:mfrac>
+        <m:mrow>
+         <m:mn>2</m:mn><m:mi>b</m:mi>
+        </m:mrow>
+        <m:mrow>
+         <m:mo>−</m:mo><m:mn>4</m:mn><m:msup>
+          <m:mi>b</m:mi>
+          <m:mn>2</m:mn>
+         </m:msup>
+         
+        </m:mrow>
+       </m:mfrac>
+       <m:mo>+</m:mo><m:mfrac>
+        <m:mn>5</m:mn>
+        <m:mrow>
+         <m:mo>−</m:mo><m:mn>4</m:mn><m:msup>
+          <m:mi>b</m:mi>
+          <m:mn>2</m:mn>
+         </m:msup>
+         
+        </m:mrow>
+       </m:mfrac>
+       <m:mo>=</m:mo><m:mo>−</m:mo><m:msup>
+        <m:mi>b</m:mi>
+        <m:mn>4</m:mn>
+       </m:msup>
+       <m:mo>+</m:mo><m:mfrac>
+        <m:mn>9</m:mn>
+        <m:mn>4</m:mn>
+       </m:mfrac>
+       <m:msup>
+        <m:mi>b</m:mi>
+        <m:mn>2</m:mn>
+       </m:msup>
+       <m:mo>+</m:mo><m:mfrac>
+        <m:mn>1</m:mn>
+        <m:mrow>
+         <m:mn>2</m:mn><m:mi>b</m:mi>
+        </m:mrow>
+       </m:mfrac>
+       <m:mo>−</m:mo><m:mfrac>
+        <m:mn>5</m:mn>
+        <m:mrow>
+         <m:mn>4</m:mn><m:msup>
+          <m:mi>b</m:mi>
+          <m:mn>2</m:mn>
+         </m:msup>
+         
+        </m:mrow>
+       </m:mfrac>
+       
+      </m:mrow>
+     </m:mtd>
+    </m:mtr>
+    
+   </m:mtable>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+
+</para></example>
+</section>
+
+
+
+	<section id="fs-id45735290">
+ <title>Practice Set A</title>
+<para id="fs-id45735295">Perform the following divisions. </para>
+
+
+<exercise id="fs-id45735298">
+<problem id="fs-id45735300"><para id="fs-id45735301"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>2</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+    <m:mi>x</m:mi>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem>
+<solution id="fs-id45735344"><para id="fs-id45735345"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mi>x</m:mi>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution>
+</exercise>
+
+
+
+
+
+<exercise id="fs-id45735379">
+<problem id="fs-id45735381"><para id="fs-id45735382"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>3</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>4</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>10</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem>
+<solution id="fs-id45130638"><para id="fs-id45130639"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>+</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>10</m:mn>
+    </m:mrow>
+    <m:mi>x</m:mi>
+   </m:mfrac>
+   <m:mo>−</m:mo><m:mfrac>
+    <m:mn>4</m:mn>
+    <m:mrow>
+     <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+
+
+</para></solution>
+</exercise>
+
+
+
+
+<exercise id="fs-id45130697">
+<problem id="fs-id45130699"><para id="fs-id45130700"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mi>b</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>a</m:mi><m:msup>
+      <m:mi>b</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>2</m:mn><m:mi>b</m:mi>
+    </m:mrow>
+    <m:mrow>
+     <m:mi>a</m:mi><m:mi>b</m:mi>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem>
+<solution id="fs-id45130762"><para id="fs-id45130763"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>a</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>b</m:mi><m:mo>+</m:mo><m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mi>a</m:mi>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+
+
+</para></solution>
+</exercise>
+
+
+
+
+
+<exercise id="fs-id45130796">
+<problem id="fs-id45130798"><para id="fs-id45130799"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>14</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:msup>
+      <m:mi>y</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mi>y</m:mi>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>7</m:mn><m:mi>x</m:mi><m:mi>y</m:mi>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem>
+<solution id="fs-id45130859"><para id="fs-id45130860"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>2</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+
+
+</para></solution>
+</exercise>
+
+
+
+
+
+<exercise id="fs-id45130885">
+<problem id="fs-id45130887"><para id="fs-id45130888"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>10</m:mn><m:msup>
+      <m:mi>m</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:msup>
+      <m:mi>n</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>15</m:mn><m:msup>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:msup>
+      <m:mi>n</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>20</m:mn><m:mi>m</m:mi><m:mi>n</m:mi>
+    </m:mrow>
+    <m:mrow>
+     <m:mo>−</m:mo><m:mn>5</m:mn><m:mi>m</m:mi>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem>
+<solution id="fs-id45130972"><para id="fs-id45130973"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mn>2</m:mn><m:msup>
+    <m:mi>m</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:msup>
+    <m:mi>n</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo>−</m:mo><m:mn>3</m:mn><m:mi>m</m:mi><m:msup>
+    <m:mi>n</m:mi>
+    <m:mn>3</m:mn>
+   </m:msup>
+   <m:mo>+</m:mo><m:mn>4</m:mn><m:mi>n</m:mi>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+
+</para></solution>
+</exercise>
+	
+	</section>
+
+
+
+	<section id="fs-id45131035"> <title>The Process Of Division</title>
+	<para id="fs-id45131040">In Section <link document="m21953"/> we studied the method of reducing rational expressions. For example, we observed how to reduce an expression such as </para>
+	<para id="fs-id45131046"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para>
+	<para id="fs-id45131111">Our method was to factor both the numerator and denominator, then divide out common factors. </para>
+
+	<para id="fs-id45131116"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mrow><m:mo>(</m:mo>
+      <m:mrow>
+       <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn>
+      </m:mrow>
+     <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+      <m:mrow>
+       <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn>
+      </m:mrow>
+     <m:mo>)</m:mo></m:mrow>
+    </m:mrow>
+    <m:mrow>
+     <m:mrow><m:mo>(</m:mo>
+      <m:mrow>
+       <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn>
+      </m:mrow>
+     <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+      <m:mrow>
+       <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+      </m:mrow>
+     <m:mo>)</m:mo></m:mrow>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+ 
+ </m:semantics>
+</m:math>
+</para>
+	<para id="fs-id45131276"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:menclose notation="updiagonalstrike">
+      <m:mrow>
+       <m:mrow><m:mo>(</m:mo>
+        <m:mrow>
+         <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn>
+        </m:mrow>
+       <m:mo>)</m:mo></m:mrow>
+      </m:mrow>
+     </m:menclose>
+     <m:mrow><m:mo>(</m:mo>
+      <m:mrow>
+       <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn>
+      </m:mrow>
+     <m:mo>)</m:mo></m:mrow>
+    </m:mrow>
+    <m:mrow>
+     <m:menclose notation="updiagonalstrike">
+      <m:mrow>
+       <m:mrow><m:mo>(</m:mo>
+        <m:mrow>
+         <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn>
+        </m:mrow>
+       <m:mo>)</m:mo></m:mrow>
+      </m:mrow>
+     </m:menclose>
+     <m:mrow><m:mo>(</m:mo>
+      <m:mrow>
+       <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+      </m:mrow>
+     <m:mo>)</m:mo></m:mrow>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para>
+	<para id="fs-id45131386"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para>
+	<para id="fs-id45131422">When the numerator and denominator have no factors in common, the division may still occur, but the process is a little more involved than merely factoring. The method of dividing one polynomial by another is much the same as that of dividing one number by another. First, we’ll review the steps in dividing numbers.</para>
+
+	<list id="fs-id45131436" list-type="enumerated" number-style="arabic"><item><m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mfrac>
+						<m:mrow>
+							<m:mn>35</m:mn>
+						</m:mrow>
+						<m:mn>8</m:mn>
+					</m:mfrac>
+					<m:mo>.</m:mo>
+				</m:mrow>
+			</m:semantics>
+		</m:math> We are to divide 35 by 8. 
+</item><item><media id="eip-id1614200" alt="Long division showing eight dividing thirty five. This division is not performed completely. ">
+			<image mime-type="image/jpeg" src="../../media/C07_S7-9_P84_004.jpg"/>
+		</media>  We try 4, since 32 divided by 8 is 4. 
+</item><item><media id="eip-id25482038" alt="Long division showing eight dividing thirty five, with four at quotient's place. This division is not performed completely.">
+			<image mime-type="image/jpeg" src="../../media/C07_S7-9_P84_001.jpg"/>
+		</media>  Multiply 4 and 8. 
+</item><item><media id="eip-id25482050" alt="Long division showing eight dividing thirty five, with four at quotient's place. Thirty two is written under thirty five. This division is not performed completely">
+			<image mime-type="image/jpeg" src="../../media/C07_S7-9_P84_002.jpg" longdesc="C07_S7-9_P84_003.html"/>
+		</media>  Subtract 32 from 35. 
+</item><item><media id="eip-id25482063" alt="Long division showing eight dividing thirty five, with four at quotient's place. Thirty two is written under thirty five and three is written as the subtraction of thirty five and thirty two.">
+			<image mime-type="image/jpeg" src="../../media/C07_S7-9_P84_003.jpg" longdesc="C07_S7-9_P84_004.html"/>
+		</media>  Since the remainder 3 is less than the divisor 8, we are done with the
+32 division.  
+</item><item><m:math>
+			<m:semantics>
+				<m:mrow>
+					<m:mn>4</m:mn><m:mfrac>
+						<m:mn>3</m:mn>
+						<m:mn>8</m:mn>
+					</m:mfrac>
+					<m:mo>.</m:mo>
+				</m:mrow>
+			</m:semantics>
+		</m:math>  The quotient is expressed as a mixed number. 
+
+</item></list>
+
+<para id="fs-id45131735">The process was to divide, multiply, and subtract.</para>
+
+	
+	</section>
+
+	
+	
+	
+	
+<section id="fs-id45131740">
+ <title>Review Of Subtraction Of Polynomials</title>
+ <para id="fs-id45131746">A very important step in the process of dividing one polynomial by another is subtraction of polynomials. Let’s review the process of subtraction by observing a few examples. </para>
+ <para id="fs-id45131755">1. Subtract <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+from <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo>;</m:mo>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+that is, find <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn>
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn>
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow><m:mo>.</m:mo>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para>
+<para id="fs-id45131845"> Since <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>  x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+ is preceded by a minus sign, remove the parentheses, change the sign of each term, then add. </para>
+<para id="fs-id45131868"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mtable columnalign="left">
+     <m:mtr>
+      <m:mtd>
+       <m:mi>  x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn>
+      </m:mtd>
+     </m:mtr>
+     <m:mtr>
+      <m:mtd>
+       <m:mo>−</m:mo><m:mrow><m:mo>(</m:mo>
+        <m:mrow>
+         <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn>
+        </m:mrow>
+       <m:mo>)</m:mo></m:mrow>
+      </m:mtd>
+     </m:mtr>
+    </m:mtable>
+    
+    <m:mrow/>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mfrac>
+    <m:mtable columnalign="left">
+     <m:mtr>
+      <m:mtd>
+       <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn>
+      </m:mtd>
+     </m:mtr>
+     <m:mtr>
+      <m:mtd>
+       <m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn>
+      </m:mtd>
+     </m:mtr>
+    </m:mtable>
+    
+    <m:mrow>
+     <m:mo>−</m:mo><m:mn>3</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para>
+<para id="fs-id45131982">The result is <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mn>3.</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para>
+
+
+<para id="fs-id45132001">2. Subtract <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mi>x</m:mi>
+    <m:mn>3</m:mn>
+   </m:msup>
+   <m:mo>+</m:mo><m:mn>3</m:mn><m:msup>
+    <m:mi>x</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+
+ from <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mi>x</m:mi>
+    <m:mn>3</m:mn>
+   </m:msup>
+   <m:mo>+</m:mo><m:mn>4</m:mn><m:msup>
+    <m:mi>x</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo>+</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1.</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math></para>
+<para id="fs-id45132079"> Since <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mi>x</m:mi>
+    <m:mn>3</m:mn>
+   </m:msup>
+   <m:mo>+</m:mo><m:mn>3</m:mn><m:msup>
+    <m:mi>x</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+ is preceded by a minus sign, remove the parentheses, change the sign of each term, then add. </para>
+<para id="fs-id45132118"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mtable columnalign="left">
+     <m:mtr>
+      <m:mtd>
+       <m:msup>
+        <m:mi>x</m:mi>
+        <m:mn>3</m:mn>
+       </m:msup>
+       <m:mo>+</m:mo><m:mn>4</m:mn><m:msup>
+        <m:mi>x</m:mi>
+        <m:mn>2</m:mn>
+       </m:msup>
+       <m:mo>+</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+      </m:mtd>
+     </m:mtr>
+     <m:mtr>
+      <m:mtd>
+       <m:mo>−</m:mo><m:mrow><m:mo>(</m:mo>
+        <m:mrow>
+         <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>3</m:mn>
+         </m:msup>
+         <m:mo>+</m:mo><m:mn>3</m:mn><m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+         </m:msup>
+         
+        </m:mrow>
+       <m:mo>)</m:mo></m:mrow>
+      </m:mtd>
+     </m:mtr>
+    </m:mtable>
+    
+    <m:mrow/>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mfrac>
+    <m:mtable columnalign="left">
+     <m:mtr>
+      <m:mtd>
+       <m:msup>
+        <m:mi>x</m:mi>
+        <m:mn>3</m:mn>
+       </m:msup>
+       <m:mo>+</m:mo><m:mn>4</m:mn><m:msup>
+        <m:mi>x</m:mi>
+        <m:mn>2</m:mn>
+       </m:msup>
+       <m:mo>+</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+      </m:mtd>
+     </m:mtr>
+     <m:mtr>
+      <m:mtd>
+       <m:mo>−</m:mo><m:msup>
+        <m:mi>x</m:mi>
+        <m:mn>3</m:mn>
+       </m:msup>
+       <m:mo>−</m:mo><m:mn>3</m:mn><m:msup>
+        <m:mi>x</m:mi>
+        <m:mn>2</m:mn>
+       </m:msup>
+       
+      </m:mtd>
+     </m:mtr>
+    </m:mtable>
+    
+    <m:mrow>
+     <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para>
+<para id="fs-id45132329">The result is <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mtext>x</m:mtext>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo>+</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1.</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+ </para>
+
+ <para id="fs-id45132361">3. Subtract <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mi>x</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+ from <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mi>x</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo>+</m:mo><m:mn>1.</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math></para>
+ <para id="fs-id45132414"> We can write <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mi>x</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo>+</m:mo><m:mn>1</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+ as <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mi>x</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo>+</m:mo><m:mn>0</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1.</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para>
+ <para id="fs-id45132474"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mtable columnalign="left">
+     <m:mtr>
+      <m:mtd>
+       <m:msup>
+        <m:mi>x</m:mi>
+        <m:mn>2</m:mn>
+       </m:msup>
+       <m:mo>+</m:mo><m:mn>1</m:mn>
+      </m:mtd>
+     </m:mtr>
+     <m:mtr>
+      <m:mtd>
+       <m:mo>−</m:mo><m:mrow><m:mo>(</m:mo>
+        <m:mrow>
+         <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+         </m:msup>
+         <m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi>
+        </m:mrow>
+       <m:mo>)</m:mo></m:mrow>
+      </m:mtd>
+     </m:mtr>
+    </m:mtable>
+    
+    <m:mrow/>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mfrac>
+    <m:mtable columnalign="left">
+     <m:mtr>
+      <m:mtd>
+       <m:msup>
+        <m:mi>x</m:mi>
+        <m:mn>2</m:mn>
+       </m:msup>
+       <m:mo>+</m:mo><m:mn>0</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+      </m:mtd>
+     </m:mtr>
+     <m:mtr>
+      <m:mtd>
+       <m:mo>−</m:mo><m:mrow><m:mo>(</m:mo>
+        <m:mrow>
+         <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+         </m:msup>
+         <m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi>
+        </m:mrow>
+       <m:mo>)</m:mo></m:mrow>
+      </m:mtd>
+     </m:mtr>
+    </m:mtable>
+    
+    <m:mrow/>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mfrac>
+    <m:mtable columnalign="left">
+     <m:mtr>
+      <m:mtd>
+       <m:msup>
+        <m:mi>x</m:mi>
+        <m:mn>2</m:mn>
+       </m:msup>
+       <m:mo>+</m:mo><m:mn>0</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+      </m:mtd>
+     </m:mtr>
+     <m:mtr>
+      <m:mtd>
+       <m:mo>−</m:mo><m:msup>
+        <m:mi>x</m:mi>
+        <m:mn>2</m:mn>
+       </m:msup>
+       <m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi>
+      </m:mtd>
+     </m:mtr>
+    </m:mtable>
+    
+    <m:mrow>
+     <m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para>
+
+ </section>
+
+
+ 
+<section id="fs-id45132713">
+ <title>Dividing A Polynomial By A Polynomial</title>
+<para id="fs-id45132718">Now we’ll observe some examples of dividing one polynomial by another. The process is the same as the process used with whole numbers: divide, multiply, subtract, divide, multiply, subtract,....</para>
+<para id="fs-id45132728">The division, multiplication, and subtraction take place one term at a time. The process is concluded when the polynomial remainder is of lesser degree than the polynomial divisor. </para>
+</section>
+
+<section id="fs-id45132735"><title>Sample Set B</title><para id="fs-id45132738">Perform the division.</para>
+<example id="fs-id45132742"><para id="fs-id45132743"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mtable columnalign="left">
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mfrac>
+									<m:mrow>
+										<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn>
+									</m:mrow>
+									<m:mrow>
+										<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn>
+									</m:mrow>
+								</m:mfrac>
+								<m:mo>.</m:mo>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>We are to divide </m:mtext><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mtext> by </m:mtext><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2.</m:mn>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+				</m:mtable>
+			</m:mrow>
+		</m:semantics>
+	</m:math>
+	<newline/><newline/>
+	<media id="fs-id45132904" alt="Long division showing x minus two dividing x minus five with the comment 'Divide x into x' on the right side. This division is not performed completely. See the longdesc for a full description.">
+		<image mime-type="image/jpeg" src="../../media/C07_S7-9_P85_001.jpg" longdesc="C07_S7-9_P85_001.html"/>
+	</media>
+	<newline/><newline/>
+	<m:math>
+		<m:semantics>
+			<m:mtable columnalign="left">
+				<m:mtr>
+					<m:mtd>
+						<m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac>
+							<m:mn>3</m:mn>
+							<m:mrow>
+								<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn>
+							</m:mrow>
+						</m:mfrac>
+					</m:mtd>
+				</m:mtr>
+				<m:mtr>
+					<m:mtd>
+						<m:mtext>Thus,</m:mtext>
+					</m:mtd>
+				</m:mtr>
+				<m:mtr>
+					<m:mtd>
+						<m:mfrac>
+							<m:mrow>
+								<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn>
+							</m:mrow>
+							<m:mrow>
+								<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn>
+							</m:mrow>
+						</m:mfrac>
+						<m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac>
+							<m:mn>3</m:mn>
+							<m:mrow>
+								<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn>
+							</m:mrow>
+						</m:mfrac>
+					</m:mtd>
+				</m:mtr>
+			</m:mtable>
+		</m:semantics>
+	</m:math>
+</para></example>
+<example id="fs-id45133332"><para id="fs-id45133333"><m:math>
+		<m:semantics>
+			<m:mrow>
+				<m:mtable columnalign="left">
+					<m:mtr columnalign="left">
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mfrac>
+									<m:mrow>
+										<m:msup>
+											<m:mi>x</m:mi>
+											<m:mn>3</m:mn>
+										</m:msup>
+										<m:mo>+</m:mo><m:mn>4</m:mn><m:msup>
+											<m:mi>x</m:mi>
+											<m:mn>2</m:mn>
+										</m:msup>
+										<m:mo>+</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+									</m:mrow>
+									<m:mrow>
+										<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+									</m:mrow>
+								</m:mfrac>
+								<m:mo>.</m:mo>
+							</m:mrow>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow/>
+						</m:mtd>
+						<m:mtd columnalign="left">
+							<m:mrow>
+								<m:mtext>We are to divide </m:mtext><m:msup>
+									<m:mi>x</m:mi>
+									<m:mn>3</m:mn>
+								</m:msup>
+								<m:mo>+</m:mo><m:mn>4</m:mn><m:msup>
+									<m:mi>x</m:mi>
+									<m:mn>2</m:mn>
+								</m:msup>
+								<m:mo>+</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mtext> by </m:mtext><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3.</m:mn>
+							</m:mrow>
+						</m:mtd>
+					</m:mtr>
+				</m:mtable>
+			</m:mrow>
+		</m:semantics>
+	</m:math><newline/><newline/>
+	<media id="fs-id45133577" alt="Long division showing x plus three dividing x cube plus four x square plus x minus one with the comment 'Divide x into x cube' on the right side. This division is not performed completely. See the longdesc for a full description">
+		<image mime-type="image/jpeg" src="../../media/C07_S7-9_P85_002.jpg" longdesc="C07_S7-9_P85_002.html"/>
+	</media><newline/><newline/>
+	<m:math>
+		<m:semantics>
+			<m:mtable columnalign="left">
+				<m:mtr>
+					<m:mtd>
+						<m:msup>
+							<m:mi>x</m:mi>
+							<m:mn>2</m:mn>
+						</m:msup>
+						<m:mo>+</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mfrac>
+							<m:mn>5</m:mn>
+							<m:mrow>
+								<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+							</m:mrow>
+						</m:mfrac>
+					</m:mtd>
+				</m:mtr>
+				<m:mtr>
+					<m:mtd>
+						<m:mtext>Thus,</m:mtext>
+					</m:mtd>
+				</m:mtr>
+				<m:mtr>
+					<m:mtd>
+						<m:mfrac>
+							<m:mrow>
+								<m:msup>
+									<m:mi>x</m:mi>
+									<m:mn>3</m:mn>
+								</m:msup>
+								<m:mo>+</m:mo><m:mn>4</m:mn><m:msup>
+									<m:mi>x</m:mi>
+									<m:mn>2</m:mn>
+								</m:msup>
+								<m:mo>+</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+							</m:mrow>
+							<m:mrow>
+								<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+							</m:mrow>
+						</m:mfrac>
+						<m:mo>=</m:mo><m:msup>
+							<m:mi>x</m:mi>
+							<m:mn>2</m:mn>
+						</m:msup>
+						<m:mo>+</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mfrac>
+							<m:mn>5</m:mn>
+							<m:mrow>
+								<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+							</m:mrow>
+						</m:mfrac>
+					</m:mtd>
+				</m:mtr>
+			</m:mtable>
+		</m:semantics>
+	</m:math>
+</para></example>
+</section>
+
+<section id="fs-id45136028">
+ <title>Practice Set B</title>
+ <para id="fs-id45136034">Perform the following divisions.</para>
+
+<exercise id="fs-id45136037">
+<problem id="fs-id45136039"><para id="fs-id45136040"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem>
+<solution id="fs-id45136077"><para id="fs-id45136078"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac>
+    <m:mn>7</m:mn>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution>
+</exercise>
+
+
+
+
+<exercise id="fs-id45136112">
+<problem id="fs-id45136115"><para id="fs-id45136116"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem>
+<solution id="fs-id45136166"><para id="fs-id45136167"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac>
+    <m:mn>8</m:mn>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution>
+</exercise>
+
+
+
+
+<exercise id="fs-id45136206">
+<problem id="fs-id45136208"><para id="fs-id45136209"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem>
+<solution id="fs-id45136269"><para id="fs-id45136270"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mi>x</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo>−</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>55</m:mn><m:mo>−</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>442</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution>
+</exercise>
+
+
+
+
+
+<exercise id="fs-id45136326">
+<problem id="fs-id45136328"><para id="fs-id45136329"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem>
+<solution id="fs-id45136406"><para id="fs-id45136407"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>14</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>14</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>14</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution>
+</exercise>
+</section>
+
+
+<section id="fs-id45136502">
+ <title>Sample Set C</title>
+ <example id="fs-id45136507"><para id="fs-id45136508"><m:math>
+ <m:semantics>
+  <m:mtable columnalign="left">
+   <m:mtr>
+    <m:mtd>
+     <m:mtext>Divide </m:mtext><m:mn>2</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mtext> </m:mtext><m:mtext>by </m:mtext><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6.</m:mn>
+    </m:mtd>
+   </m:mtr>
+   <m:mtr>
+    <m:mtd>
+     <m:mtable columnalign="left">
+      <m:mtr columnalign="left">
+       <m:mtd columnalign="left">
+        <m:mrow>
+         <m:mfrac>
+          <m:mrow>
+           <m:mn>2</m:mn><m:msup>
+            <m:mi>x</m:mi>
+            <m:mn>3</m:mn>
+           </m:msup>
+           <m:mo>−</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+          </m:mrow>
+          <m:mrow>
+           <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn>
+          </m:mrow>
+         </m:mfrac>
+         
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mtable columnalign="left">
+         <m:mtr>
+          <m:mtd>
+           <m:mtext>Notice that the </m:mtext><m:msup>
+            <m:mi>x</m:mi>
+            <m:mn>2</m:mn>
+           </m:msup>
+           <m:mtext> term in the numerator is missing</m:mtext><m:mtext>. </m:mtext>
+          </m:mtd>
+         </m:mtr>
+         <m:mtr>
+          <m:mtd>
+           <m:mtext>We can avoid any confusion by writing</m:mtext>
+          </m:mtd>
+         </m:mtr>
+        </m:mtable>
+        
+       </m:mtd>
+      </m:mtr>
+      <m:mtr columnalign="left">
+       <m:mtd columnalign="left">
+        <m:mrow>
+         <m:mfrac>
+          <m:mrow>
+           <m:mn>2</m:mn><m:msup>
+            <m:mi>x</m:mi>
+            <m:mn>3</m:mn>
+           </m:msup>
+           <m:mo>+</m:mo><m:mn>0</m:mn><m:msup>
+            <m:mi>x</m:mi>
+            <m:mn>2</m:mn>
+           </m:msup>
+           <m:mo>−</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+          </m:mrow>
+          <m:mrow>
+           <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn>
+          </m:mrow>
+         </m:mfrac>
+         
+        </m:mrow>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow/>
+       </m:mtd>
+       <m:mtd columnalign="left">
+        <m:mrow>
+         <m:mtext>Divide, multiply, and subtract</m:mtext><m:mtext>.</m:mtext>
+        </m:mrow>
+       </m:mtd>
+      </m:mtr>
+      
+     </m:mtable>
+    </m:mtd>
+   </m:mtr>
+  </m:mtable>
+ </m:semantics>
+</m:math><newline/><newline/>
+<media id="fs-id45136781" alt="Steps of long division showing the quantity x plus six dividing the quantity two x cubed plus zero x squared minus four x minus plus one. See the longdesc for a full description">
+  <image mime-type="image/jpeg" src="../../media/C07_S7-9_P87_001.jpg" longdesc="C07_S7-9_P85_002.html"/>
+</media>
+
+<newline/><newline/><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>2</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mn>2</m:mn><m:msup>
+    <m:mi>x</m:mi>
+    <m:mn>3</m:mn>
+   </m:msup>
+   <m:mo>−</m:mo><m:mn>12</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>68</m:mn><m:mo>−</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>407</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+   </m:semantics>
+</m:math>
+</para></example>
+</section>
+<section id="fs-id45136895">
+ <title>Practice Set C</title>
+<para id="fs-id45136901">Perform the following divisions. </para>
+
+<exercise id="fs-id45136904">
+<problem id="fs-id45136906"><para id="fs-id45136908"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>3</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem>
+<solution id="fs-id45136952"><para id="fs-id45136953"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+
+</para></solution>
+</exercise>
+
+
+
+<exercise id="fs-id45136991">
+<problem id="fs-id45136993"><para id="fs-id45136994"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>4</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem>
+<solution id="fs-id45137041"><para id="fs-id45137042"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>12</m:mn><m:mo>+</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>35</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution>
+</exercise>
+
+
+
+
+<exercise id="fs-id45137086">
+<problem id="fs-id45137088"><para id="fs-id45137089"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem>
+<solution id="fs-id45137140"><para id="fs-id45137141"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mi>x</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>+</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>14</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution>
+</exercise>
+
+
+
+<exercise id="fs-id45137196">
+<problem id="fs-id45137198"><para id="fs-id45137200"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>6</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>5</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem>
+<solution id="fs-id45137262"><para id="fs-id45137263"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>3</m:mn><m:msup>
+    <m:mi>x</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>−</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>10</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution>
+</exercise>
+</section>
+
+
+
+
+
+
+
+<section id="fs-id45137324" class="homework">
+ <title>Exercises</title>
+<para id="fs-id45137332">For the following problems, perform the divisions.</para>
+<exercise id="fs-id45137337"><problem id="fs-id45137338"><para id="fs-id45137339"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>6</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>12</m:mn>
+    </m:mrow>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem><solution id="zip-id8620517"><para id="zip-id1170637895020"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>3</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>6</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id45137370"><problem id="fs-id45137371"><para id="fs-id45137372"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>12</m:mn><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>6</m:mn>
+    </m:mrow>
+    <m:mn>3</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id45137403"><problem id="fs-id45137404"><para id="fs-id45137405"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>8</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>4</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mo>−</m:mo><m:mn>4</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem><solution id="zip-id1170639879450"><para id="zip-id1170641462371"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id45137442"><problem id="fs-id45137443"><para id="fs-id45137444"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>21</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>9</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mo>−</m:mo><m:mn>3</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id45137481"><problem id="fs-id45137482"><para id="fs-id45137483"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>3</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>6</m:mn><m:mi>x</m:mi>
+    </m:mrow>
+    <m:mrow>
+     <m:mo>−</m:mo><m:mn>3</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem><solution id="zip-id1170645203150"><para id="zip-id1170638730580"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:mi>x</m:mi><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn>
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id45137530"><problem id="fs-id45137531"><para id="fs-id45137532"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>4</m:mn><m:msup>
+      <m:mi>y</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>2</m:mn><m:mi>y</m:mi>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id45137578"><problem id="fs-id45137579"><para id="fs-id45137580"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>9</m:mn><m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>3</m:mn><m:mi>a</m:mi>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>3</m:mn><m:mi>a</m:mi>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem><solution id="zip-id1170639409495"><para id="zip-id1170642734143"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>3</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id45137626"><problem id="fs-id45137627"><para id="fs-id45137628"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>20</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>10</m:mn><m:mi>x</m:mi>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>5</m:mn><m:mi>x</m:mi>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id45137674"><problem id="fs-id45137675"><para id="fs-id45137676"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>6</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>2</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>8</m:mn><m:mi>x</m:mi>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>2</m:mn><m:mi>x</m:mi>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem><solution id="zip-id1170637484737"><para id="zip-id1170646807729"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>3</m:mn><m:msup>
+    <m:mi>x</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo>+</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id45137736"><problem id="fs-id45137737"><para id="fs-id45137738"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>26</m:mn><m:msup>
+      <m:mi>y</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>13</m:mn><m:msup>
+      <m:mi>y</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>39</m:mn><m:mi>y</m:mi>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>13</m:mn><m:mi>y</m:mi>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id45137798"><problem id="fs-id45137799"><para id="fs-id45137800"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:msup>
+      <m:mi>b</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>4</m:mn><m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mi>b</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>a</m:mi><m:msup>
+      <m:mi>b</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>10</m:mn><m:mi>a</m:mi><m:mi>b</m:mi>
+    </m:mrow>
+    <m:mrow>
+     <m:mi>a</m:mi><m:mi>b</m:mi>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem><solution id="zip-id1170642452784"><para id="zip-id7514300"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>a</m:mi><m:mi>b</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>b</m:mi><m:mo>−</m:mo><m:mn>10</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id45137887"><problem id="fs-id45137888"><para id="fs-id45137890"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>7</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:mi>y</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:msup>
+      <m:mi>y</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:msup>
+      <m:mi>y</m:mi>
+      <m:mn>4</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mi>y</m:mi>
+    </m:mrow>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mi>y</m:mi>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id45137979"><problem id="fs-id45137980"><para id="fs-id45137982"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>5</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:msup>
+      <m:mi>y</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>15</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:msup>
+      <m:mi>y</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>20</m:mn><m:mi>x</m:mi><m:mi>y</m:mi>
+    </m:mrow>
+    <m:mrow>
+     <m:mo>−</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mi>y</m:mi>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem><solution id="zip-id1170637931485"><para id="zip-id1170642887471"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo>−</m:mo><m:msup>
+    <m:mi>x</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:msup>
+    <m:mi>y</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>4</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id45138067"><problem id="fs-id45138068"><para id="fs-id45138070"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>4</m:mn><m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:msup>
+      <m:mi>b</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>8</m:mn><m:mi>a</m:mi><m:msup>
+      <m:mi>b</m:mi>
+      <m:mn>4</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>12</m:mn><m:mi>a</m:mi><m:msup>
+      <m:mi>b</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     
+    </m:mrow>
+    <m:mrow>
+     <m:mo>−</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:msup>
+      <m:mi>b</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id45138161"><problem id="fs-id45138162"><para id="fs-id45138163"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>6</m:mn><m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:msup>
+      <m:mi>y</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>12</m:mn><m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mi>y</m:mi><m:mo>+</m:mo><m:mn>18</m:mn><m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     
+    </m:mrow>
+    <m:mrow>
+     <m:mn>24</m:mn><m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem><solution id="zip-id1170638776039"><para id="zip-id1170639706881"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>4</m:mn>
+   </m:mfrac>
+   <m:msup>
+    <m:mi>y</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo>+</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+   <m:mi>y</m:mi><m:mo>+</m:mo><m:mfrac>
+    <m:mn>3</m:mn>
+    <m:mn>4</m:mn>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+
+<exercise id="fs-id45138247"><problem id="fs-id45138248"><para id="fs-id45138249"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>3</m:mn><m:msup>
+      <m:mi>c</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:msup>
+      <m:mi>y</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>99</m:mn><m:msup>
+      <m:mi>c</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:msup>
+      <m:mi>y</m:mi>
+      <m:mn>4</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>12</m:mn><m:msup>
+      <m:mi>c</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:msup>
+      <m:mi>y</m:mi>
+      <m:mn>5</m:mn>
+     </m:msup>
+     
+    </m:mrow>
+    <m:mrow>
+     <m:mn>3</m:mn><m:msup>
+      <m:mi>c</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:msup>
+      <m:mi>y</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id45138360"><problem id="fs-id45138362"><para id="fs-id45138363"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>16</m:mn><m:mi>a</m:mi><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>20</m:mn><m:mi>a</m:mi><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>24</m:mn><m:mi>a</m:mi><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>4</m:mn>
+     </m:msup>
+     
+    </m:mrow>
+    <m:mrow>
+     <m:mn>6</m:mn><m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>4</m:mn>
+     </m:msup>
+     
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem><solution id="zip-id2546512"><para id="zip-id6384621"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>8</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>10</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>12</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>4</m:mn>
+     </m:msup>
+     
+    </m:mrow>
+    <m:mrow>
+     <m:mn>3</m:mn><m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     
+    </m:mrow>
+   </m:mfrac>
+   <m:mtext>or</m:mtext><m:mfrac>
+    <m:mrow>
+     <m:mn>12</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>4</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>10</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>8</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     
+    </m:mrow>
+    <m:mrow>
+     <m:mn>3</m:mn><m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id45138442"><problem id="fs-id45138443"><para id="fs-id45138444"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>21</m:mn><m:mi>a</m:mi><m:msup>
+      <m:mi>y</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>18</m:mn><m:mi>a</m:mi><m:msup>
+      <m:mi>y</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>15</m:mn><m:mi>a</m:mi><m:mi>y</m:mi>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>6</m:mn><m:mi>a</m:mi><m:msup>
+      <m:mi>y</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id45138519"><problem id="fs-id45138520"><para id="fs-id45138521"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mo>−</m:mo><m:mn>14</m:mn><m:msup>
+      <m:mi>b</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:msup>
+      <m:mi>c</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>21</m:mn><m:msup>
+      <m:mi>b</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:msup>
+      <m:mi>c</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>28</m:mn><m:msup>
+      <m:mi>c</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     
+    </m:mrow>
+    <m:mrow>
+     <m:mo>−</m:mo><m:mn>7</m:mn><m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:msup>
+      <m:mi>c</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem><solution id="zip-id1170648475413"><para id="zip-id3405986"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>2</m:mn><m:msup>
+      <m:mi>b</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>3</m:mn><m:msup>
+      <m:mi>b</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:mi>c</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>c</m:mi>
+    </m:mrow>
+    <m:mrow>
+     <m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mi>c</m:mi>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id45138628"><problem id="fs-id45138629"><para id="fs-id45138630"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mo>−</m:mo><m:mn>30</m:mn><m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:msup>
+      <m:mi>b</m:mi>
+      <m:mn>4</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>35</m:mn><m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:msup>
+      <m:mi>b</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>25</m:mn><m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     
+    </m:mrow>
+    <m:mrow>
+     <m:mo>−</m:mo><m:mn>5</m:mn><m:msup>
+      <m:mi>b</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id45138727"><problem id="fs-id45138728"><para id="fs-id45138729"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem><solution id="zip-id1170647684631"><para id="zip-id1170648443869"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac>
+    <m:mn>8</m:mn>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id45138766"><problem id="fs-id45138767"><para id="fs-id45138768"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mi>y</m:mi><m:mo>+</m:mo><m:mn>7</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mi>y</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id45138804"><problem id="fs-id45138805"><para id="fs-id45138806"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem><solution id="zip-id1170646984765"><para id="zip-id1170648282412"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>10</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id45138854"><problem id="fs-id45138855"><para id="fs-id45138856"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id45138907"><problem id="fs-id45138908"><para id="fs-id45138909"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem><solution id="zip-id1170642134694"><para id="zip-id1170651372484"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mfrac>
+    <m:mn>5</m:mn>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id45138957"><problem id="fs-id45138958"><para id="fs-id45138959"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id45139010"><problem id="fs-id45139011"><para id="fs-id45139012"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>2</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem><solution id="zip-id1170645849910"><para id="zip-id1170637604586"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id45139056"><problem id="fs-id45139057"><para id="fs-id45139058"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>6</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mi>a</m:mi><m:mo>+</m:mo><m:mn>2</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math></para>
+</problem></exercise>
+<exercise id="fs-id45139102"><problem id="fs-id45139103"><para id="fs-id45139104"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:msup>
+      <m:mi>y</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>4</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem><solution id="zip-id1170644698830"><para id="zip-id1170641357514"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mfrac>
+    <m:mn>8</m:mn>
+    <m:mrow>
+     <m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id45139148"><problem id="fs-id45139149"><para id="fs-id45139150"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>36</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem></exercise>
+
+<exercise id="fs-id45139194"><problem id="fs-id45139195"><para id="fs-id45139196"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem><solution id="zip-id1170645218350"><para id="zip-id1170648954962"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mi>x</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id45139240"><problem id="fs-id45139241"><para id="fs-id45139242"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>8</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mi>a</m:mi><m:mo>+</m:mo><m:mn>2</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id45139286"><problem id="fs-id45139287"><para id="fs-id45139288"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem><solution id="zip-id6811154"><para id="zip-id1170645169805"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mi>x</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo>+</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id45139332"><problem id="fs-id45139333"><para id="fs-id45139334"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>8</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mi>a</m:mi><m:mo>−</m:mo><m:mn>2</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id45139379"><problem id="fs-id45139380"><para id="fs-id45139381"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>3</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem><solution id="zip-id1170644906436"><para id="zip-id6533030"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mi>x</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>11</m:mn><m:mo>+</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>20</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id45139443"><problem id="fs-id45139444"><para id="fs-id45139445"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>2</m:mn><m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mi>a</m:mi><m:mo>−</m:mo><m:mn>3</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id45139508"><problem id="fs-id45139509"><para id="fs-id45139510"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>6</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mi>a</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem><solution id="zip-id3364368"><para id="zip-id3362479"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mi>a</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo>+</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mfrac>
+    <m:mn>8</m:mn>
+    <m:mrow>
+     <m:mi>a</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id45139558"><problem id="fs-id45139559"><para id="fs-id45139560"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem></exercise>
+
+<exercise id="fs-id45139611"><problem id="fs-id45139612"><para id="fs-id45139613"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:msup>
+      <m:mi>y</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>3</m:mn><m:msup>
+      <m:mi>y</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>4</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem><solution id="zip-id8893148"><para id="zip-id1170648388989"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mi>y</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo>+</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mfrac>
+    <m:mn>8</m:mn>
+    <m:mrow>
+     <m:mi>y</m:mi><m:mo>+</m:mo><m:mn>2</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id45139670"><problem id="fs-id45139671"><para id="fs-id45139672"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:msup>
+      <m:mi>y</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>5</m:mn><m:msup>
+      <m:mi>y</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>3</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mi>y</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id45139731"><problem id="fs-id45139732"><para id="fs-id45139733"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>3</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     
+    </m:mrow>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem><solution id="zip-id1170644937578"><para id="zip-id1170651460300"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mi>x</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id45139785"><problem id="fs-id45139786"><para id="fs-id45139787"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>2</m:mn><m:mi>a</m:mi>
+    </m:mrow>
+    <m:mrow>
+     <m:mi>a</m:mi><m:mo>+</m:mo><m:mn>2</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id45139833"><problem id="fs-id45139834"><para id="fs-id45139835"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem><solution id="zip-id1170653383305"><para id="zip-id5828167"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id45139898"><problem id="fs-id45139899"><para id="fs-id45139900"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>5</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>4</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>2</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id45139963"><problem id="fs-id45139964"><para id="fs-id45139965"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>2</m:mn><m:msup>
+      <m:mi>y</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:msup>
+      <m:mi>y</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>4</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem><solution id="zip-id1170642483479"><para id="zip-id1170649191582"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>2</m:mn><m:mo>+</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>11</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mi>y</m:mi><m:mo>−</m:mo><m:mn>4</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id45140031"><problem id="fs-id45140032"><para id="fs-id45140034"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>3</m:mn><m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>4</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>3</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math></para>
+</problem></exercise>
+<exercise id="fs-id45140100"><problem id="fs-id45140101"><para id="fs-id45140102"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>2</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem><solution id="zip-id8678442"><para id="zip-id1170641329618"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac>
+    <m:mn>4</m:mn>
+    <m:mrow>
+     <m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id45140155"><problem id="fs-id45140156"><para id="fs-id45140157"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>3</m:mn><m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>2</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>3</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>4</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id45140211"><problem id="fs-id45140212"><para id="fs-id45140214"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>6</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem><solution id="zip-id8501768"><para id="zip-id1170645554322"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mrow>
+     <m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id45140268"><problem id="fs-id45140269"><para id="fs-id45140270"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>20</m:mn><m:msup>
+      <m:mi>y</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>15</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>4</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>4</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem></exercise>
+
+<exercise id="fs-id45140325"><problem id="fs-id45140326"><para id="fs-id45140327"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>4</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>4</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem><solution id="zip-id1170645324197"><para id="zip-id6833406"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>2</m:mn><m:msup>
+    <m:mi>x</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mrow>
+     <m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id45140396"><problem id="fs-id45140397"><para id="fs-id45140398"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>9</m:mn><m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>18</m:mn><m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>8</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>3</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>2</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id45140467"><problem id="fs-id45140468"><para id="fs-id45140470"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>4</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>4</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>4</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>2</m:mn><m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem><solution id="zip-id1170650140360"><para id="zip-id1170644851291"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>4</m:mn><m:msup>
+    <m:mi>x</m:mi>
+    <m:mn>3</m:mn>
+   </m:msup>
+   <m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mrow>
+     <m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id45140551"><problem id="fs-id45140552"><para id="fs-id45140553"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>3</m:mn><m:msup>
+      <m:mi>y</m:mi>
+      <m:mn>4</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>9</m:mn><m:msup>
+      <m:mi>y</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>2</m:mn><m:msup>
+      <m:mi>y</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>4</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id45140633"><problem id="fs-id45140634"><para id="fs-id45140635"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>3</m:mn><m:msup>
+      <m:mi>y</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>5</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:msup>
+      <m:mi>y</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem><solution id="zip-id1170643159526"><para id="zip-id7592462"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>3</m:mn><m:mo>+</m:mo><m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mrow>
+     <m:msup>
+      <m:mi>y</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id45140699"><problem id="fs-id45140700"><para id="fs-id45140702"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>2</m:mn><m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id45140768"><problem id="fs-id45140769"><para id="fs-id45140770"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>8</m:mn><m:msup>
+      <m:mi>z</m:mi>
+      <m:mn>6</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>4</m:mn><m:msup>
+      <m:mi>z</m:mi>
+      <m:mn>5</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>8</m:mn><m:msup>
+      <m:mi>z</m:mi>
+      <m:mn>4</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>8</m:mn><m:msup>
+      <m:mi>z</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>3</m:mn><m:msup>
+      <m:mi>z</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>14</m:mn><m:mi>z</m:mi>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>2</m:mn><m:mi>z</m:mi><m:mo>−</m:mo><m:mn>3</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem><solution id="zip-id5980536"><para id="zip-id1170650978236"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>4</m:mn><m:msup>
+    <m:mi>z</m:mi>
+    <m:mn>5</m:mn>
+   </m:msup>
+   <m:mo>+</m:mo><m:mn>4</m:mn><m:msup>
+    <m:mi>z</m:mi>
+    <m:mn>4</m:mn>
+   </m:msup>
+   <m:mo>+</m:mo><m:mn>2</m:mn><m:msup>
+    <m:mi>z</m:mi>
+    <m:mn>3</m:mn>
+   </m:msup>
+   <m:mo>+</m:mo><m:mn>7</m:mn><m:msup>
+    <m:mi>z</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo>+</m:mo><m:mn>12</m:mn><m:mi>z</m:mi><m:mo>+</m:mo><m:mn>11</m:mn><m:mo>+</m:mo><m:mfrac>
+    <m:mrow>
+     <m:mn>33</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>2</m:mn><m:mi>z</m:mi><m:mo>−</m:mo><m:mn>3</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id45140876"><problem id="fs-id45140878"><para id="fs-id45140879"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>9</m:mn><m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>7</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>15</m:mn><m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>6</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>4</m:mn><m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>5</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:mn>3</m:mn><m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>4</m:mn>
+     </m:msup>
+     <m:mo>−</m:mo><m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>3</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mn>12</m:mn><m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mo>+</m:mo><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>5</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>3</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem></exercise>
+<exercise id="fs-id45140999"><problem id="fs-id45141000"><para id="fs-id45141001"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:msup>
+    <m:mi>x</m:mi>
+    <m:mn>5</m:mn>
+   </m:msup>
+   <m:mo>+</m:mo><m:mn>5</m:mn><m:msup>
+    <m:mi>x</m:mi>
+    <m:mn>4</m:mn>
+   </m:msup>
+   <m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext><m:mo>÷</m:mo><m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem><solution id="zip-id1170650329248"><para id="zip-id1170645394482"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mi>x</m:mi>
+    <m:mn>4</m:mn>
+   </m:msup>
+   <m:mo>−</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mrow>
+     <m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn>
+    </m:mrow>
+   </m:mfrac>
+   
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></solution></exercise>
+<exercise id="fs-id45141077"><problem id="fs-id45141078"><para id="fs-id45141079"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:msup>
+    <m:mi>a</m:mi>
+    <m:mn>4</m:mn>
+   </m:msup>
+   <m:mo>−</m:mo><m:mn>2</m:mn><m:msup>
+    <m:mi>a</m:mi>
+    <m:mn>3</m:mn>
+   </m:msup>
+   <m:mo>−</m:mo><m:mn>3</m:mn><m:msup>
+    <m:mi>a</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo>+</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mtext> </m:mtext><m:mo>÷</m:mo><m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>a</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>
+  </m:mrow>
+  
+ </m:semantics>
+</m:math>
+</para></problem></exercise>
+
+</section>
+<section id="fs-id45141175"><title>Exercises For Review</title><exercise id="fs-id45141181"><problem id="fs-id45141182"><para id="fs-id45141183"><emphasis>(<link document="m21964"/>)</emphasis> Find the product. <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mfrac>
+								<m:mrow>
+									<m:msup>
+										<m:mi>x</m:mi>
+										<m:mn>2</m:mn>
+									</m:msup>
+									<m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn>
+								</m:mrow>
+								<m:mrow>
+									<m:msup>
+										<m:mi>x</m:mi>
+										<m:mn>2</m:mn>
+									</m:msup>
+									<m:mo>−</m:mo><m:mn>9</m:mn>
+								</m:mrow>
+							</m:mfrac>
+							<m:mo>·</m:mo><m:mfrac>
+								<m:mrow>
+									<m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn>
+								</m:mrow>
+								<m:mrow>
+									<m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn>
+								</m:mrow>
+							</m:mfrac>
+							<m:mo>.</m:mo>
+						</m:mrow>
+					</m:semantics>
+				</m:math>
+			</para></problem><solution id="zip-id3064662"><para id="zip-id1170641263956"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mfrac>
+								<m:mrow>
+									<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn>
+								</m:mrow>
+								<m:mrow>
+									<m:mn>2</m:mn><m:mrow><m:mo>(</m:mo>
+										<m:mrow>
+											<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn>
+										</m:mrow>
+										<m:mo>)</m:mo></m:mrow>
+								</m:mrow>
+							</m:mfrac>
+						</m:mrow>
+					</m:semantics>
+				</m:math>
+			</para></solution></exercise>
+	<exercise id="fs-id45490806"><problem id="fs-id45490807"><para id="fs-id45490808"><emphasis>(<link document="m21936"/>)</emphasis> Find the sum. <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mfrac>
+								<m:mrow>
+									<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn>
+								</m:mrow>
+								<m:mrow>
+									<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn>
+								</m:mrow>
+							</m:mfrac>
+							<m:mo>+</m:mo><m:mfrac>
+								<m:mrow>
+									<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn>
+								</m:mrow>
+								<m:mrow>
+									<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn>
+								</m:mrow>
+							</m:mfrac>
+							<m:mo>.</m:mo>
+						</m:mrow>
+					</m:semantics>
+				</m:math></para></problem></exercise>
+	<exercise id="fs-id45490878"><problem id="fs-id45490879"><para id="fs-id45490880"><emphasis>(<link document="m21951"/>)</emphasis> Solve the equation <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mfrac>
+								<m:mn>1</m:mn>
+								<m:mrow>
+									<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn>
+								</m:mrow>
+							</m:mfrac>
+							<m:mo>+</m:mo><m:mfrac>
+								<m:mn>1</m:mn>
+								<m:mrow>
+									<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn>
+								</m:mrow>
+							</m:mfrac>
+							<m:mo>=</m:mo><m:mfrac>
+								<m:mn>1</m:mn>
+								<m:mrow>
+									<m:msup>
+										<m:mi>x</m:mi>
+										<m:mn>2</m:mn>
+									</m:msup>
+									<m:mo>−</m:mo><m:mn>9</m:mn>
+								</m:mrow>
+							</m:mfrac>
+							<m:mo>.</m:mo>
+						</m:mrow>
+					</m:semantics>
+				</m:math>
+			</para></problem><solution id="zip-id1170644814422"><para id="zip-id1170641186513"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac>
+								<m:mn>1</m:mn>
+								<m:mn>2</m:mn>
+							</m:mfrac>
+						</m:mrow>
+					</m:semantics>
+				</m:math>
+			</para></solution></exercise>
+	<exercise id="fs-id45490962"><problem id="fs-id45490963"><para id="fs-id45490964"><emphasis>(<link document="m21938"/>)</emphasis> When the same number is subtracted from both the numerator and denominator of <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mfrac>
+								<m:mn>3</m:mn>
+								<m:mrow>
+									<m:mn>10</m:mn>
+								</m:mrow>
+							</m:mfrac>
+						</m:mrow>
+					</m:semantics>
+				</m:math>, the result is <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mfrac>
+								<m:mn>1</m:mn>
+								<m:mrow>
+									<m:mn>8</m:mn>
+								</m:mrow>
+							</m:mfrac>
+						</m:mrow>
+					</m:semantics>
+				</m:math>. What is the number that is subtracted?</para></problem></exercise>
+	<exercise id="fs-id45491017"><problem id="fs-id45491018"><para id="fs-id45491019"><emphasis>(<link document="m21944"/>)</emphasis> Simplify <m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mfrac>
+								<m:mrow>
+									<m:mfrac>
+										<m:mn>1</m:mn>
+										<m:mrow>
+											<m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn>
+										</m:mrow>
+									</m:mfrac>
+								</m:mrow>
+								<m:mrow>
+									<m:mfrac>
+										<m:mn>4</m:mn>
+										<m:mrow>
+											<m:msup>
+												<m:mi>x</m:mi>
+												<m:mn>2</m:mn>
+											</m:msup>
+											<m:mo>−</m:mo><m:mn>25</m:mn>
+										</m:mrow>
+									</m:mfrac>
+								</m:mrow>
+							</m:mfrac>
+							<m:mo>.</m:mo>
+						</m:mrow>
+					</m:semantics>
+				</m:math>
+			</para></problem><solution id="zip-id1170648206790"><para id="zip-id1170637619086"><m:math>
+					<m:semantics>
+						<m:mrow>
+							<m:mfrac>
+								<m:mrow>
+									<m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn>
+								</m:mrow>
+								<m:mn>4</m:mn>
+							</m:mfrac>
+						</m:mrow>
+					</m:semantics>
+				</m:math>
+			</para></solution></exercise>
+</section>
+
+</content>
+
+</document>

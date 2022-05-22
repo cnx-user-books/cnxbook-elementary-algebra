@@ -1,0 +1,58 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+
+<title>Objectives</title>
+<metadata>
+  <md:content-id>m22786</md:content-id><md:title>Objectives</md:title>
+  <md:abstract>This module is from Elementary Algebra by Denny Burzynski and Wade Ellis, Jr.
+The basic operations with real numbers are presented in this chapter. The concept of absolute value is discussed both geometrically and symbolically. The geometric presentation offers a visual understanding of the meaning of |x|. The symbolic presentation includes a literal explanation of how to use the definition. Negative exponents are developed, using reciprocals and the rules of exponents the student has already learned. Scientific notation is also included, using unique and real-life examples.
+This module contains the objectives of the chapter "Basic Operations with Real Numbers".</md:abstract>
+  <md:uuid>411ac579-e00b-43fd-b987-786829109421</md:uuid>
+</metadata>
+
+<content>
+  <para id="delete_me">
+     After completing this chapter, you should
+  </para>
+
+  <list id="bullet1" type="bulleted">
+    <title>Signed Numbers (<link document="m18874"/>)</title>
+    <item>be familiar with positive and negative numbers and with the concept of opposites</item>
+  </list>
+
+  <list id="bullet2" type="bulleted">
+    <title>Absolute Value (<link document="m21876"/>)</title>
+    <item>understand the geometric and algebraic definitions of absolute value</item>
+  </list>
+
+  <list id="bullet3" type="bulleted">
+    <title>Addition of Signed Numbers (<link document="m21991"/>)</title>
+    <item>be able to add numbers with like signs and unlike signs</item>
+    <item>understand addition with zero</item>
+  </list>
+
+  <list id="bullet4" type="bulleted">
+    <title>Subtraction of Signed Numbers (<link document="m21877"/>)</title>
+    <item>understand the definition of subtraction</item>
+    <item>be able to subtract signed numbers</item>
+  </list>
+
+  <list id="bullet5" type="bulleted">
+    <title>Multiplication and Division of Signed Numbers (<link document="m21872"/>)</title>
+    <item>be able to multiply and divide signed numbers</item>
+  </list>
+
+  <list id="bullet6" type="bulleted">
+    <title>Negative Exponents (<link document="m21882"/>)</title>
+    <item>understand the concepts of reciprocals and negative exponents</item>
+    <item>be able to work with negative exponents</item>
+  </list>
+
+  <list id="bullet7" type="bulleted">
+    <title>Scientific Notation (<link document="m21879"/>)</title>
+    <item>be able to convert a number from standard form to scientific form and from scientific form to standard form</item>
+    <item>be able to work with numbers in scientific notation</item>
+  </list>
+
+</content>
+
+</document>

@@ -1,0 +1,59 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+
+<title>Objectives</title>
+<metadata>
+  <md:content-id>m22804</md:content-id><md:title>Objectives</md:title>
+  <md:abstract>This module is from Elementary Algebra by Denny Burzynski and Wade Ellis, Jr.
+Factoring is an essential skill for success in algebra and higher level mathematics courses. Therefore, we have taken great care in developing the student's understanding of the factorization process. The technique is consistently illustrated by displaying an empty set of parentheses and describing the thought process used to discover the terms that are to be placed inside the parentheses.
+The factoring scheme for special products is presented with both verbal and symbolic descriptions, since not all students can interpret symbolic descriptions alone. Two techniques, the standard "trial and error" method, and the "collect and discard" method (a method similar to the "ac" method), are presented for factoring trinomials with leading coefficients different from 1.
+This module contains the objectives of the chapter "Factoring Polynomials".</md:abstract>
+  <md:uuid>f30716fd-dc31-4df6-b236-0f3b2df906d2</md:uuid>
+</metadata>
+
+<content>
+  <para id="delete_me">
+     After completing this chapter, you should
+  </para>
+
+  <list id="bullet1" type="bulleted">
+    <title>Finding the Factors of a Monomial (<link document="m18870"/>)</title>
+    <item>be reminded of products of polynomials</item>
+    <item>be able to determine a second factor of a polynomial given a first factor</item>
+  </list>
+
+  <list id="bullet2" type="bulleted">
+    <title>Factoring a Monomial from a Polynomial (<link document="m21906"/>)</title>
+    <item>be able to factor a monomial from a polynomial</item>
+  </list>
+
+  <list id="bullet3" type="bulleted">
+    <title>The Greatest Common Factor (<link document="m21913"/>)</title>
+    <item>understand more clearly the factorization process</item>
+    <item>be able to determine the greatest common factor of two or more terms</item>
+  </list>
+
+  <list id="bullet4" type="bulleted">
+    <title>Factoring by Grouping (<link document="m21901"/>)</title>
+    <item>know how to factor a polynomial using the grouping method and when to try the grouping method</item>
+  </list>
+
+  <list id="bullet5" type="bulleted">
+    <title>Factoring Two Special Products (<link document="m21903"/>)</title>
+    <item>know the fundamental rules of factoring</item>
+    <item>be able to factor the difference of two squares and perfect square trinomials</item>
+  </list>
+
+  <list id="bullet6" type="bulleted">
+    <title>Factoring Trinomials with Leading Coefficient 1 (<link document="m21904"/>)</title>
+    <item>be able to factor trinomials with leading coefficient 1</item>
+    <item>become familiar with some factoring hints</item>
+  </list>
+
+  <list id="bullet7" type="bulleted">
+    <title>Factoring Trinomials with Leading Coefficient Other Than 1 (<link document="m21912"/>)</title>
+    <item>be able to factor trinomials with leading coefficient other than 1</item>
+  </list>
+
+</content>
+
+</document>
