@@ -1,0 +1,113 @@
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+    <md:content-id>col30343</md:content-id>
+    <md:title>EvCC Math 086: Essentials of Intermediate Algebra</md:title>
+    <md:language>en</md:language>
+    <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</md:license>
+    <md:uuid>84838f59-ebfe-4c1a-a569-cf70e4c6d41e</md:uuid>
+<md:slug>evcc-math-086-essentials-of-intermediate-algebra</md:slug>
+</metadata>
+  <col:content>
+    <col:subcollection>
+      <md:title>Foundations</md:title>
+      <col:content>
+        <col:module document="m60207"/>
+        <col:module document="m53060"/>
+        <col:module document="m80020"/>
+        <col:module document="m60247"/>
+        <col:module document="m60251"/>
+        <col:module document="m60196"/>
+        <col:module document="m60218"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Properties of Algebra</md:title>
+      <col:content>
+        <col:module document="m60186"/>
+        <col:module document="m60158"/>
+        <col:module document="m60215"/>
+        <col:module document="m60190"/>
+        <col:module document="m60194"/>
+        <col:module document="m60165"/>
+        <col:module document="m60180"/>
+        <col:module document="m60295"/>
+        <col:module document="m60220"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Solving Linear Equations and Inequalities</md:title>
+      <col:content>
+        <col:module document="m60216"/>
+        <col:module document="m60258"/>
+        <col:module document="m60249"/>
+        <col:module document="m60262"/>
+        <col:module document="m60275"/>
+        <col:module document="m60261"/>
+        <col:module document="m60231"/>
+        <col:module document="m60270"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Percents and Proportions</md:title>
+      <col:content>
+        <col:module document="m53077"/>
+        <col:module document="m66763"/>
+        <col:module document="m53082"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Math Models and Geometry</md:title>
+      <col:content>
+        <col:module document="m60222"/>
+        <col:module document="m60228"/>
+        <col:module document="m53137"/>
+        <col:module document="m53141"/>
+        <col:module document="m53144"/>
+        <col:module document="m53151"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Graphs</md:title>
+      <col:content>
+        <col:module document="m60319"/>
+        <col:module document="m60150"/>
+        <col:module document="m80018"/>
+        <col:module document="m60273"/>
+        <col:module document="m60278"/>
+        <col:module document="m60149"/>
+        <col:module document="m60151"/>
+        <col:module document="m60267"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Systems of Linear Equations</md:title>
+      <col:content>
+        <col:module document="m60153"/>
+        <col:module document="m60179"/>
+        <col:module document="m60159"/>
+        <col:module document="m60162"/>
+        <col:module document="m60155"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Roots and Radicals</md:title>
+      <col:content>
+        <col:module document="m60303"/>
+        <col:module document="m60328"/>
+        <col:module document="m60332"/>
+        <col:module document="m60336"/>
+        <col:module document="m60294"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Quadratic Equations</md:title>
+      <col:content>
+        <col:module document="m60335"/>
+        <col:module document="m60345"/>
+        <col:module document="m60340"/>
+        <col:module document="m60350"/>
+        <col:module document="m60338"/>
+      </col:content>
+    </col:subcollection>
+  </col:content>
+</col:collection>

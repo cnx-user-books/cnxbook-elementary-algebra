@@ -1,0 +1,307 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Weighted Means</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m80020</md:content-id>
+  <md:title>Weighted Means</md:title>
+  <md:abstract>An introduction to weighted means intended for an elementary/intermediate algebra course.  Includes examples related to calculating grades and GPA.</md:abstract>
+  <md:uuid>edce6a8e-e982-4b4d-a884-8b53a6d08b88</md:uuid>
+</metadata>
+
+<content>
+  <section id="eip-356"><title>Ordinary Means and Averages</title><para id="eip-917">There are a variety of means or averages throughout mathematics, which type to use depends on the set of data you are working with and what you are trying to describe about the data.  In this section we will focus on ordinary means and weighted means and their interpretations.   </para><para id="eip-627">An <emphasis effect="bold">ordinary mean</emphasis> or arithmetic mean is the mean or average that is most commonly used when people refer to a mean or average.  Given a collection of numbers you can find the ordinary mean by adding all the numbers together and then dividing the sum by the amount of numbers in the collection.  </para><exercise id="eip-477"><title>Average Quiz Score</title><problem id="eip-235">
+  <para id="eip-692">If Frank took 5 quizzes and earned scores of 50%, 70%, 80%, 85%, and 95%, then what was his average quiz score?
+  </para></problem>
+
+<solution id="eip-174">
+  <para id="eip-516">
+    To find Frank's average quiz score or mean quiz score we must add the scores together and then divide by the number of scores.
+ </para>
+
+<equation id="eip-idm1491901040"><m:math display="display"><m:apply><m:eq/><m:apply><m:divide/><m:apply><m:plus/><m:cn>50%</m:cn><m:cn>70%</m:cn><m:cn>80%</m:cn><m:cn>85%</m:cn><m:cn>95%</m:cn></m:apply><m:cn>5</m:cn></m:apply><m:apply><m:divide/><m:cn>380%</m:cn><m:cn>5</m:cn></m:apply><m:cn>76%</m:cn></m:apply></m:math> 
+  </equation><para id="eip-idm347945680">So Frank's average quiz score was 76%.
+</para></solution>
+</exercise><exercise id="eip-496"><title>Average Exam Score</title><problem id="eip-740">
+  <para id="eip-339">If Frank took 3 exams and earned scores of 73%, 81%, and 86%, then what was his average exam score?
+  </para>
+</problem>
+
+<solution id="eip-465">
+  <para id="eip-178">To find Frank's average exam score we must add the scores together and divide by the number of scores.</para>
+
+<equation id="eip-idm991848080"><m:math display="display"><m:apply><m:eq/><m:apply><m:divide/><m:apply><m:plus/><m:cn>73%</m:cn><m:cn>81%</m:cn><m:cn>86%</m:cn></m:apply><m:cn>3</m:cn></m:apply><m:apply><m:divide/><m:cn>240%</m:cn><m:cn>3</m:cn></m:apply><m:cn>80%</m:cn></m:apply></m:math></equation><para id="eip-idm206737600"> So Frank's average exam score was 80%.</para>
+
+</solution>
+</exercise></section><section id="eip-431"><title>Weighted Means and Averages</title><para id="eip-350">A <emphasis> Weighted Mean </emphasis> or Weighted Average (or Weighted Arithmetic Mean) is similar to the ordinary mean, however each number is assigned a weight, which allows some values to contribute more/less than others.  To compute a weighted mean we multiply all the numbers in the collection by their assigned weights, add those products together, and then we divide by the sum of the weights.  
+</para><exercise id="eip-2"><title>Frank's Final Grade</title><problem id="eip-70">
+  <para id="eip-883">In Frank's class quizzes are worth 40% of the final grade and exams are worth the remaining 60%.  Using Frank's average quiz and exam scores from the previous exercises find Frank's overall grade in the class.
+  </para>
+</problem>
+
+<solution id="eip-98">
+  <para id="eip-850">Frank's overall grade in the class is an example of a weighted average, with the weights being how much the quizzes and exams contribute to the overall grade.  To compute Frank's grade we must multiply the average scores by their weights, add those products together, and then divide by the sum of the weights. </para> 
+
+ <equation id="eip-idm680361984"><m:math display="display"><m:apply><m:eq/><m:apply><m:divide/><m:apply><m:plus/><m:apply><m:times/><m:cn>76%</m:cn><m:cn>40</m:cn></m:apply><m:apply><m:times/><m:cn>80%</m:cn><m:cn>60</m:cn></m:apply></m:apply><m:apply><m:plus/><m:cn>40</m:cn><m:cn>60</m:cn></m:apply></m:apply><m:apply><m:divide/><m:apply><m:plus/><m:cn>3040%</m:cn><m:cn>4800%</m:cn></m:apply><m:cn>100</m:cn></m:apply><m:apply><m:divide/><m:cn>7840%</m:cn><m:cn>100</m:cn></m:apply><m:cn>78.4%</m:cn></m:apply></m:math> </equation><para id="eip-idm243621904"> So Frank's overall grade in the class was 78.4%</para>
+
+<para id="eip-idm240314528"> <emphasis>Note:</emphasis> We could have expressed either the average scores, the weights, or both as percentages in their decimal forms (Ex: 40% = 0.40). What would happen to our answer for these different scenarios? </para> 
+
+</solution>
+</exercise><exercise id="eip-35"><title>Patricia's Final Grade</title><problem id="eip-13">
+  <para id="eip-175">Patricia is trying to calculate her final grade in a class.  Her grade is determined by 3 reports worth 20% each, participating in online discussions worth 10%, and a final project worth the remaining 30%.  If Patricia earned scores of 78%, 87%, and 84% on her reports along with 90% for the online discussion and 75% for the final project, then what is her overall percent grade in the class?
+  </para>
+</problem>
+
+<solution id="eip-638">
+  <para id="eip-515">To compute Patricia's overall grade we must multiply her scores by what their weights which are what they are worth, add the products together, and then divide by the sum of the weights.  We will express the weight percentages in their decimal form this time, but recall from the previous exercise that this should not affect our final answer. </para><equation id="eip-idm746415888"><m:math display="display"><m:apply><m:eq/><m:apply><m:divide/><m:apply><m:plus/><m:apply><m:times/><m:cn>78%</m:cn><m:cn>0.20</m:cn></m:apply><m:apply><m:times/><m:cn>87%</m:cn><m:cn>0.20</m:cn></m:apply><m:apply><m:times/><m:cn>84%</m:cn><m:cn>0.20</m:cn></m:apply><m:apply><m:times/><m:cn>90%</m:cn><m:cn>0.10</m:cn></m:apply><m:apply><m:times/><m:cn>75%</m:cn><m:cn>0.30</m:cn></m:apply></m:apply><m:apply><m:plus/><m:cn>0.20</m:cn><m:cn>0.20</m:cn><m:cn>0.20</m:cn><m:cn>0.10</m:cn><m:cn>0.30</m:cn></m:apply></m:apply><m:apply><m:divide/><m:apply><m:plus/><m:cn>15.60%</m:cn><m:cn>17.40%</m:cn><m:cn>16.80%</m:cn><m:cn>9.00%</m:cn><m:cn>22.50%</m:cn></m:apply><m:cn>1.00</m:cn></m:apply><m:apply><m:divide/><m:cn>81.30%</m:cn><m:cn>1.00</m:cn></m:apply><m:cn>81.30%</m:cn></m:apply></m:math></equation><para id="eip-idm1035434256">So Patricia's overall grade in the class was 81.3%, which usually corresponds to a B-.
+</para></solution>
+</exercise><exercise id="eip-588"><title>Patricia's Final Project</title><problem id="eip-78">
+  <para id="eip-965">Patricia from the previous problem really wanted an overall grade in the class that would get her an A- (90%) or better.  She thinks that if she scored an A-(90%) on the final project, then she would have gotten an A- in the class.  Would Patricia's overall grade have earned her an A- or better if she scored a 90% on the final project?
+  </para></problem>
+
+<solution id="eip-612">
+  <para id="eip-867">To determine what Patricia's overall grade would have been with a final project score of 90% we can use the same process as in the previous exercise, we just need to replace her score of 75% with the score of 90%.
+  </para><equation id="eip-idm1026306208"><m:math display="display"><m:apply><m:eq/><m:apply><m:divide/><m:apply><m:plus/><m:apply><m:times/><m:cn>78%</m:cn><m:cn>0.20</m:cn></m:apply><m:apply><m:times/><m:cn>87%</m:cn><m:cn>0.20</m:cn></m:apply><m:apply><m:times/><m:cn>84%</m:cn><m:cn>0.20</m:cn></m:apply><m:apply><m:times/><m:cn>90%</m:cn><m:cn>0.10</m:cn></m:apply><m:apply><m:times/><m:cn>90%</m:cn><m:cn>0.30</m:cn></m:apply></m:apply><m:apply><m:plus/><m:cn>0.20</m:cn><m:cn>0.20</m:cn><m:cn>0.20</m:cn><m:cn>0.10</m:cn><m:cn>0.30</m:cn></m:apply></m:apply><m:apply><m:divide/><m:apply><m:plus/><m:cn>15.60%</m:cn><m:cn>17.40%</m:cn><m:cn>16.80%</m:cn><m:cn>9.00%</m:cn><m:cn>27.00%</m:cn></m:apply><m:cn>1.00</m:cn></m:apply><m:apply><m:divide/><m:cn>85.80%</m:cn><m:cn>1.00</m:cn></m:apply><m:cn>85.80%</m:cn></m:apply></m:math></equation><para id="eip-idm946357664">If Patricia scored a 90% on the final project, then her overall grade would have ended up as 85.80%.  So she would not have earned an A- with a final project score of 90%.  
+</para></solution>
+</exercise><example id="eip-225"><title>Grade Point Average</title><para id="eip-136">Another example of a weighted mean is a Grade Point Average (GPA).  To calculate a GPA we multiply the earned grade point value for the class by the number of credits for the class, add those products together, and divide by the total number of credits.  The grade point value usually corresponds to the 4.0 scale found in the table below. 
+</para><table id="eip-254" summary="Grade Point Value Table"><title>Grade Point Value</title>
+<tgroup cols="2"><tbody>
+  <row>
+    <entry>A</entry>
+    <entry>4.0</entry>
+  </row>
+  <row>
+    <entry>A-</entry>
+    <entry>3.7</entry>
+  </row>
+  <row>
+    <entry>B+</entry>
+    <entry>3.3</entry>
+  </row>
+  <row>
+    <entry>B</entry>
+    <entry>3.0</entry>
+  </row>
+  <row>
+    <entry>B-</entry>
+    <entry>2.7</entry>
+  </row>
+  <row>
+    <entry>C+</entry>
+    <entry>2.3</entry>
+  </row>
+  <row>
+    <entry>C</entry>
+    <entry>2.0</entry>
+  </row>
+  <row>
+    <entry>C-</entry>
+    <entry>1.7</entry>
+  </row>
+  <row>
+    <entry>D+</entry>
+    <entry>1.3</entry>
+  </row>
+  <row>
+    <entry>D</entry>
+    <entry>1.0</entry>
+  </row>
+  <row>
+    <entry>F</entry>
+    <entry>0</entry>
+  </row>
+</tbody>
+
+
+
+</tgroup>
+</table><para id="eip-234">If a student earned a letter grade of C in their 5 credit Math class, a grade of B- in their 5 credit English class, a grade of B+ in their Photography class, and a grade of A in their 2 credit Yoga class, then we can find the student's GPA using a weighted average where the number of credits per class are the weights.  </para><para id="eip-159">To compute the student's GPA we must convert the letter grades to the corresponding Grade Point Value, multiply the Grade Point Values by the number of credits, add those products together, and then divide the sum by the total number of credits taken.</para>
+
+<equation id="eip-idm1197402112"><m:math display="display"><m:apply><m:eq/><m:apply><m:divide/><m:apply><m:plus/><m:apply><m:times/><m:cn>2.0</m:cn><m:cn>5</m:cn></m:apply><m:apply><m:times/><m:cn>2.7</m:cn><m:cn>5</m:cn></m:apply><m:apply><m:times/><m:cn>3.3</m:cn><m:cn>3</m:cn></m:apply><m:apply><m:times/><m:cn>4.0</m:cn><m:cn>2</m:cn></m:apply></m:apply><m:apply><m:plus/><m:cn>5</m:cn><m:cn>5</m:cn><m:cn>3</m:cn><m:cn>2</m:cn></m:apply></m:apply><m:apply><m:divide/><m:apply><m:plus/><m:cn>10</m:cn><m:cn>13.5</m:cn><m:cn>9.9</m:cn><m:cn>8</m:cn></m:apply><m:cn>15</m:cn></m:apply><m:apply><m:divide/><m:cn>41.4</m:cn><m:cn>15</m:cn></m:apply><m:cn>2.76</m:cn></m:apply></m:math></equation><para id="eip-598">So the student's GPA is 2.76.</para></example><exercise id="eip-782"><title>Finding a GPA</title><problem id="eip-105">
+  <para id="eip-318">Suppose a student earn an A- in their 5 credit English course, a B- in their 5 credit Biology course, and a C in their 2 credit Karate course one quarter.  What was student's GPA for that quarter?
+  </para></problem>
+
+<solution id="eip-686">
+  <para id="eip-512">To compute the student's GPA for the quarter we must convert the letter grades to the corresponding Grade Point Value, multiply the Grade Point Values by the number of credits, add those products together, and then divide the sum by the total number of credits taken.</para>
+
+<equation id="eip-idm970855968"><m:math display="display"><m:apply><m:eq/><m:apply><m:divide/><m:apply><m:plus/><m:apply><m:times/><m:cn>3.7</m:cn><m:cn>5</m:cn></m:apply><m:apply><m:times/><m:cn>2.7</m:cn><m:cn>5</m:cn></m:apply><m:apply><m:times/><m:cn>2.0</m:cn><m:cn>2</m:cn></m:apply></m:apply><m:apply><m:plus/><m:cn>5</m:cn><m:cn>5</m:cn><m:cn>2</m:cn></m:apply></m:apply><m:apply><m:divide/><m:apply><m:plus/><m:cn>18.5</m:cn><m:cn>13.5</m:cn><m:cn>4</m:cn></m:apply><m:cn>12</m:cn></m:apply><m:apply><m:divide/><m:cn>36</m:cn><m:cn>12</m:cn></m:apply><m:cn>3.0</m:cn></m:apply></m:math>
+</equation><para id="eip-idm867806208">
+So the student's GPA for the quarter was 3.0.
+</para>
+
+
+</solution>
+</exercise><example id="eip-203"><title>Average Salary</title><para id="eip-392">A small business wants to find out what the average salary of their employees is.  They've compiled the salary information into a frequency distribution table below.  
+</para><table id="eip-223" summary="The table says their are 5 employees who make $40,000 per year, 10 employees who make &gt;2,000 per year, and 1 employee that makes $70,000.">
+<tgroup cols="2"><tbody>
+  <row>
+    <entry>Number of Employees</entry>
+    <entry>Yearly Salary</entry>
+  </row>
+  <row>
+    <entry>5</entry>
+    <entry>$40,000</entry>
+  </row>
+  <row>
+    <entry>10</entry>
+    <entry>$32,000</entry>
+  </row>
+  <row>
+    <entry>1</entry>
+    <entry>$70,000</entry>
+  </row>
+</tbody>
+</tgroup>
+</table><para id="eip-359">To find the average salary of an employee we can treat the number of employees (the frequency) as the weight in our weighted mean.  So we will multiply the yearly salary values by the corresponding frequency value, add those products together, and divide by the sum of the weights which will be the total number of employees.</para><equation id="eip-205"><m:math display="display"><m:apply><m:eq/><m:apply><m:divide/><m:apply><m:plus/><m:apply><m:times/><m:cn>$40,000</m:cn><m:cn>5</m:cn></m:apply><m:apply><m:times/><m:cn>$32,000</m:cn><m:cn>10</m:cn></m:apply><m:apply><m:times/><m:cn>$70,000</m:cn><m:cn>1</m:cn></m:apply></m:apply><m:apply><m:plus/><m:cn>5</m:cn><m:cn>10</m:cn><m:cn>1</m:cn></m:apply></m:apply><m:apply><m:divide/><m:apply><m:plus/><m:cn>$200,000</m:cn><m:cn>320,000</m:cn><m:cn>$70,000</m:cn></m:apply><m:cn>16</m:cn></m:apply><m:apply><m:divide/><m:cn>$590,000</m:cn><m:cn>16</m:cn></m:apply><m:cn>$36,875</m:cn></m:apply></m:math></equation><para id="eip-257">So the average salary of an employee is $36,875.</para></example></section><section id="eip-409"><title>Additional Exercises</title><para id="eip-36">Below are some additional exercises to help you practice your skills in finding means and weighted means.
+</para><exercise id="eip-990"><problem id="eip-693">
+  <para id="eip-569">Describe in words the order of operations used to compute the average in Exercise 1: Frank's Final Grade.
+  </para></problem>
+
+<solution id="eip-560">
+  <para id="eip-315">
+    First we add the five quiz scores together and then we divide the sum by five.
+  </para>
+</solution>
+</exercise><exercise id="eip-138"><problem id="eip-634">
+  <para id="eip-393">Describe in words the order of operations used to compute the average in Exercise 2: Patricia's Final Grade.
+  </para></problem>
+
+<solution id="eip-67">
+  <para id="eip-317">
+    First we multiply the average quiz score by the quiz weight and the average exam score by the exam weight. Next we add the previous products together to simplify the numerator. After that we add the weights together to simplify the denominator.  To finish we divide the numerator by the denominator. 
+  </para>
+</solution>
+</exercise><exercise id="eip-32"><problem id="eip-891">
+  <para id="eip-262">Find the mean between the numbers 3, 7, 15, 21, 28, 37, and 47.  Round your answer to two decimal places if necessary.
+  </para></problem>
+
+<solution id="eip-802">
+  <para id="eip-736">22.57
+  </para></solution>
+</exercise><exercise id="eip-72"><problem id="eip-664">
+  <para id="eip-787">Find the average between the numbers 9.1, 12.45, 18.7, 23, and 24.4.  Round your answer to two decimal places if necessary.
+  </para></problem>
+
+
+</exercise><exercise id="eip-566"><problem id="eip-759">
+  <para id="eip-109">On Monday, Sheila gets 6 hours of sleep.  On Tuesday, Wednesday, and Thursday, she gets 8 hours of sleep. On Friday and Saturday, she only gets 4 hours of sleep.  On Sunday, she gets 9 hours of sleep.  Find the average number of hours Sheila sleeps each day. Round your answer to one decimal place if necessary.
+  </para></problem>
+
+<solution id="eip-435">
+  <para id="eip-734">6.7 hours</para></solution>
+</exercise><exercise id="eip-17"><problem id="eip-227">
+  <para id="eip-655">Suppose a student earned a 3.5 in a 5 credit Math class, a 2.1 in a 3 credit Music course, a 2.5 in a 4 credit Chemistry course, and a 3.3 in a 6 credit Journalism course.  What would the student's GPA be?  Round your to two decimal places if necessary.
+  </para></problem>
+
+<solution id="eip-948">
+  <para id="eip-240">2.98
+  </para></solution>
+</exercise><exercise id="eip-903"><problem id="eip-523">
+  <para id="eip-297">In a psychology class, 57 students have a mean score of 87.1 on a test.  Then 10 more students take the test and their mean score is 68.6.  What is the mean score of all of these students together?  Round your answer to one decimal place if necessary.
+  </para></problem>
+
+<solution id="eip-48">
+  <para id="eip-34">84.3</para></solution>
+</exercise><table id="eip-100" summary="11 people would pay 10 dollars, 14 people would pay 12 dollars, 19 people would pay 14 dollars, 26 people would pay 16 dollars, 18 people would pay 18 dollars, and 12 people would pay 20 dollars.">
+<tgroup cols="2"><tbody>
+  <row>
+    <entry>Maximum Price</entry>
+    <entry># of Survey Respondents</entry>
+  </row>
+  <row>
+    <entry>$10</entry>
+    <entry>11</entry>
+  </row>
+  <row>
+    <entry>$12</entry>
+    <entry>14</entry>
+  </row>
+  <row>
+    <entry>$14</entry>
+    <entry>19</entry>
+  </row>
+  <row>
+    <entry>$16</entry>
+    <entry>26</entry>
+  </row>
+  <row>
+    <entry>$18</entry>
+    <entry>18</entry>
+  </row>
+  <row>
+    <entry>$20</entry>
+    <entry>12</entry>
+  </row>
+</tbody>
+
+
+
+
+
+
+
+</tgroup>
+</table><exercise id="eip-624"><problem id="eip-309">
+  <para id="eip-418">The marketing team for a business surveyed 100 people and asked them what the maximum price they would pay for the business's product would be.  The results of the survey are given in Table 3 above.  Find the average maximum price a person would pay for the product.
+  </para></problem>
+
+</exercise><table id="eip-202" summary="The first row of data in the table says that 3 of the 40 pounds bags of Wonder-Gro that cost $8.00 each were used. The second row of data says that 2 of the 50 pound bags of Scotty's Turf Builder were used. The final row of data says that 3 of the 30 pound bags of Deluxe Dirt that cost $7.50 each were used.">
+<tgroup cols="4"><tbody>
+  <row>
+    <entry>Name</entry>
+    <entry># of bags used</entry>
+    <entry># lbs. per bag</entry>
+    <entry>$ per bag</entry>
+  </row>
+  <row>
+    <entry>Wonder-Gro</entry>
+    <entry>3</entry>
+    <entry>40</entry>
+    <entry>8.00</entry>
+  </row>
+  <row>
+    <entry>Scotty's Turf Builder</entry>
+    <entry>2</entry>
+    <entry>50</entry>
+    <entry>9.00</entry>
+  </row>
+  <row>
+    <entry>Deluxe Dirt</entry>
+    <entry>3</entry>
+    <entry>30</entry>
+    <entry>7.50</entry>
+  </row>
+</tbody>
+</tgroup>
+</table><exercise id="eip-573"><problem id="eip-550">
+  <para id="eip-557">The data in Table 4 above describes the type of soil, number of bags, weight per bag (in pounds), and price per bag of various soils that were used in Oliver's gardening project.  Compute the weighted average given by dividing the total weight of soil used by the total number of bags used.  Write a short sentence interpreting what this weighted average represents.
+  </para></problem>
+
+
+<solution id="eip-idm544316016">
+<para id="eip-idm517316064">The weighted average is 38.75 pounds per bag.  This means that if all the bags weighed the same amount and we wanted the total amount of soil used to stay the same, then each bag of soil would have to each weigh 38.75 pounds</para></solution></exercise><exercise id="eip-632"><problem id="eip-474">
+  <para id="eip-582">The data in Table 4 above describes the type of soil, number of bags, weight per bag (in pounds), and price per bag of various soils that were used in Oliver's gardening project.  Compute the weighted average given by dividing the total money spent by the total number of bags used.  Write a short sentence interpreting what this weighted average represents.
+  </para></problem>
+
+
+</exercise><exercise id="eip-293"><problem id="eip-idm765170640">
+  <para id="eip-idm422017936">The data in Table 4 above describes the type of soil, number of bags, weight per bag (in pounds), and price per bag of various soils that were used in Oliver's gardening project. Compute the weighted average given by dividing the total money spent by the total weight of soil used.  Write a short sentence interpreting what this weighted average represents. </para></problem>
+
+
+
+<solution id="eip-idm790426048">
+  <para id="eip-idm161772128">The weighted average is $0.21 per pound (rounded to two decimal places).  This means that if Oliver were to spend the same amount of money for each pound of soil used, then he would pay at a rate of approximately 21 cents per pound of soil.
+  </para></solution>
+</exercise><exercise id="eip-811"><problem id="eip-906">
+  <para id="eip-975">Kumar is trying to calculate his final grade in a class.  His grade is determined by 8 quizzes worth 5% each, 4 exams worth 10% each, and homework worth the remaining 20%.  If Kumar had an average quiz score of 91%, an average exam score of 76%, and an average homework score of 80%, then what is Kumar's final grade in the class? </para>
+</problem>
+
+
+</exercise><exercise id="eip-772"><problem id="eip-224">
+  <para id="eip-376">Using the information from the previous exercise, find what Kumar's final grade would have been if he got an average of 100% on the homework.  Round your answer to two decimal places if necessary.</para></problem>
+
+<solution id="eip-922">
+  <para id="eip-322">Kumar's final grade would become 86.8%.
+  </para></solution>
+</exercise></section></content>
+
+</document>
