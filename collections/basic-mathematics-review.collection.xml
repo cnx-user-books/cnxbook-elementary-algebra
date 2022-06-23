@@ -1,0 +1,834 @@
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xmlns:cnxml="http://cnx.rice.edu/cnxml" xml:lang="en" type="Textbook">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+  <md:content-id>col11427</md:content-id>
+  <md:title>Basic Mathematics Review</md:title>
+  
+  
+  <md:license url="http://creativecommons.org/licenses/by/3.0/"/>
+  <md:language>en</md:language>
+
+  
+
+  
+  <md:uuid>9f731300-3aaa-4fba-9fcf-d7a143b6c612</md:uuid>
+<md:slug>basic-mathematics-review</md:slug>
+</metadata>
+
+  <col:content>
+    
+      <col:module document="m18873">
+        <col:featured-links>
+          
+            <cnxml:link-group type="example">
+              <cnxml:link url="00 Preface and TOC.pdf">Download Preface</cnxml:link>
+            </cnxml:link-group>
+          
+        </col:featured-links>
+      </col:module>
+        
+      
+    
+    
+      <col:module document="m18871"/>
+        
+      
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>Arithmetic Review</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m22784"/>
+        
+      
+    
+    
+      <col:module document="m18882"/>
+        
+      
+    
+    
+      <col:module document="m21868"/>
+        
+      
+    
+    
+      <col:module document="m21870"/>
+        
+      
+    
+    
+      <col:module document="m21861"/>
+        
+      
+    
+    
+      <col:module document="m21867"/>
+        
+      
+    
+    
+      <col:module document="m21865"/>
+        
+      
+    
+    
+      <col:module document="m21864"/>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>Basic Properties of Real Numbers</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m22788"/>
+        
+      
+    
+    
+      <col:module document="m18872"/>
+        
+      
+    
+    
+      <col:module document="m21895"/>
+        
+      
+    
+    
+      <col:module document="m21894"/>
+        
+      
+    
+    
+      <col:module document="m21883"/>
+        
+      
+    
+    
+      <col:module document="m21900"/>
+        
+      
+    
+    
+      <col:module document="m21897"/>
+        
+      
+    
+    
+      <col:module document="m21887"/>
+        
+      
+    
+    
+      <col:module document="m21891"/>
+        
+      
+    
+    
+      <col:module document="m21892"/>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>Basic Operations with Real Numbers</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m22786"/>
+        
+      
+    
+    
+      <col:module document="m18874"/>
+        
+      
+    
+    
+      <col:module document="m21876"/>
+        
+      
+    
+    
+      <col:module document="m21991"/>
+        
+      
+    
+    
+      <col:module document="m21877"/>
+        
+      
+    
+    
+      <col:module document="m21872"/>
+        
+      
+    
+    
+      <col:module document="m21882"/>
+        
+      
+    
+    
+      <col:module document="m21879"/>
+        
+      
+    
+    
+      <col:module document="m21881"/>
+        
+      
+    
+    
+      <col:module document="m21874"/>
+        
+      
+    
+    
+      <col:module document="m21875"/>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>Algebraic Expressions and Equations</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m22802"/>
+        
+      
+    
+    
+      <col:module document="m18875"/>
+        
+      
+    
+    
+      <col:module document="m21850"/>
+        
+      
+    
+    
+      <col:module document="m21848"/>
+        
+      
+    
+    
+      <col:module document="m21854"/>
+        
+      
+    
+    
+      <col:module document="m21852"/>
+        
+      
+    
+    
+      <col:module document="m21858"/>
+        
+      
+    
+    
+      <col:module document="m21849"/>
+        
+      
+    
+    
+      <col:module document="m21851"/>
+        
+      
+    
+    
+      <col:module document="m21859"/>
+        
+      
+    
+    
+      <col:module document="m21853"/>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>Solving Linear Equations and Inequalities</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m22801"/>
+        
+      
+    
+    
+      <col:module document="m18876"/>
+        
+      
+    
+    
+      <col:module document="m21981"/>
+        
+      
+    
+    
+      <col:module document="m21992"/>
+        
+      
+    
+    
+      <col:module document="m21978"/>
+        
+      
+    
+    
+      <col:module document="m21980"/>
+        
+      
+    
+    
+      <col:module document="m21979"/>
+        
+      
+    
+    
+      <col:module document="m21982"/>
+        
+      
+    
+    
+      <col:module document="m21914"/>
+        
+      
+    
+    
+      <col:module document="m21977"/>
+        
+      
+    
+    
+      <col:module document="m21890"/>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>Factoring Polynomials</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m22804"/>
+        
+      
+    
+    
+      <col:module document="m18870"/>
+        
+      
+    
+    
+      <col:module document="m21906"/>
+        
+      
+    
+    
+      <col:module document="m21913"/>
+        
+      
+    
+    
+      <col:module document="m21901"/>
+        
+      
+    
+    
+      <col:module document="m21903"/>
+        
+      
+    
+    
+      <col:module document="m21904"/>
+        
+      
+    
+    
+      <col:module document="m21912"/>
+        
+      
+    
+    
+      <col:module document="m21910"/>
+        
+      
+    
+    
+      <col:module document="m21899"/>
+        
+      
+    
+    
+      <col:module document="m21908"/>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>Graphing Linear Equations and Inequalities in One and Two Variables</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m22790"/>
+        
+      
+    
+    
+      <col:module document="m18877"/>
+        
+      
+    
+    
+      <col:module document="m21993"/>
+        
+      
+    
+    
+      <col:module document="m21995"/>
+        
+      
+    
+    
+      <col:module document="m22014"/>
+        
+      
+    
+    
+      <col:module document="m22000"/>
+        
+      
+    
+    
+      <col:module document="m21998"/>
+        
+      
+    
+    
+      <col:module document="m22011"/>
+        
+      
+    
+    
+      <col:module document="m22008"/>
+        
+      
+    
+    
+      <col:module document="m22004"/>
+        
+      
+    
+    
+      <col:module document="m22015"/>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>Rational Expressions</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m22796"/>
+        
+      
+    
+    
+      <col:module document="m18878"/>
+        
+      
+    
+    
+      <col:module document="m21953"/>
+        
+      
+    
+    
+      <col:module document="m21964"/>
+        
+      
+    
+    
+      <col:module document="m21941"/>
+        
+      
+    
+    
+      <col:module document="m21936"/>
+        
+      
+    
+    
+      <col:module document="m21951"/>
+        
+      
+    
+    
+      <col:module document="m21938"/>
+        
+      
+    
+    
+      <col:module document="m21944"/>
+        
+      
+    
+    
+      <col:module document="m21946"/>
+        
+      
+    
+    
+      <col:module document="m21954"/>
+        
+      
+    
+    
+      <col:module document="m21949"/>
+        
+      
+    
+    
+      <col:module document="m21959"/>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>Roots, Radicals, and Square Root Equations</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m22797"/>
+        
+      
+    
+    
+      <col:module document="m18879"/>
+        
+      
+    
+    
+      <col:module document="m21973"/>
+        
+      
+    
+    
+      <col:module document="m21975"/>
+        
+      
+    
+    
+      <col:module document="m21968"/>
+        
+      
+    
+    
+      <col:module document="m21957"/>
+        
+      
+    
+    
+      <col:module document="m21965"/>
+        
+      
+    
+    
+      <col:module document="m21971"/>
+        
+      
+    
+    
+      <col:module document="m21962"/>
+        
+      
+    
+    
+      <col:module document="m21956"/>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>Quadratic Equations</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m22792"/>
+        
+      
+    
+    
+      <col:module document="m18880"/>
+        
+      
+    
+    
+      <col:module document="m21933"/>
+        
+      
+    
+    
+      <col:module document="m21922"/>
+        
+      
+    
+    
+      <col:module document="m21935"/>
+        
+      
+    
+    
+      <col:module document="m21927"/>
+        
+      
+    
+    
+      <col:module document="m21915"/>
+        
+      
+    
+    
+      <col:module document="m21926"/>
+        
+      
+    
+    
+      <col:module document="m21931"/>
+        
+      
+    
+    
+      <col:module document="m21917"/>
+        
+      
+    
+    
+      <col:module document="m21920"/>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>Systems of Linear Equations</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m22799"/>
+        
+      
+    
+    
+      <col:module document="m18881"/>
+        
+      
+    
+    
+      <col:module document="m21984"/>
+        
+      
+    
+    
+      <col:module document="m21986"/>
+        
+      
+    
+    
+      <col:module document="m21983"/>
+        
+      
+    
+    
+      <col:module document="m21989"/>
+        
+      
+    
+    
+      <col:module document="m21985"/>
+        
+      
+    
+    
+      <col:module document="m21987"/>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>Geometry Review</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m39370"/>
+        
+      
+    
+    
+      <col:module document="m39855"/>
+        
+      
+    
+    
+      <col:module document="m32620"/>
+        
+      
+    
+    
+      <col:module document="m17352"/>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+    
+      
+        
+      <col:subcollection>
+        <md:title>Appendix</md:title>
+        
+        
+        
+
+        <col:content>
+          
+    
+      <col:module document="m22779"/>
+        
+      
+    
+    
+      <col:module document="m22775"/>
+        
+      
+    
+    
+      <col:module document="m22777"/>
+        
+      
+    
+    
+      <col:module document="m22780"/>
+        
+      
+    
+        </col:content>
+      </col:subcollection>
+    
+  </col:content>
+</col:collection>
