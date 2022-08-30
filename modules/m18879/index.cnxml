@@ -811,11 +811,11 @@ Because <m:math>
 								</m:mtd>
 								<m:mtd columnalign="left">
 									<m:mrow>
-										<m:mtable frame="solid"><m:mrow>
+										<m:mtable frame="solid"><m:mtr><m:mtd><m:mrow>
 												<m:msqrt>
 													<m:mi>x</m:mi>
 												</m:msqrt>
-											</m:mrow></m:mtable>
+											</m:mrow></m:mtd></m:mtr></m:mtable>
 									</m:mrow>
 								</m:mtd>
 							</m:mtr>
