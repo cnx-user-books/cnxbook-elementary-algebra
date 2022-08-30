@@ -874,14 +874,14 @@ We can use the first rule of exponents (and the others that we will develop) alo
 					<m:mi>x</m:mi>
 					<m:mn>5</m:mn>
 				</m:msup>
-				<m:mo>=</m:mo><m:mtable frame="solid"><m:mrow>
+				<m:mo>=</m:mo><m:mtable frame="solid"><m:mtr><m:mtd><m:mrow>
 						<m:mn>2</m:mn><m:mo>⋅</m:mo><m:mn>7</m:mn><m:mo>⋅</m:mo><m:msup>
 							<m:mi>x</m:mi>
 							<m:mrow>
 								<m:mn>3</m:mn><m:mo>+</m:mo><m:mn>5</m:mn>
 							</m:mrow>
 						</m:msup>
-					</m:mrow></m:mtable>
+					</m:mrow></m:mtd></m:mtr></m:mtable>
 				<m:mo>=</m:mo><m:mn>14</m:mn><m:msup>
 					<m:mi>x</m:mi>
 					<m:mn>8</m:mn>
@@ -903,14 +903,14 @@ We can use the first rule of exponents (and the others that we will develop) alo
 					<m:mi>y</m:mi>
 					<m:mn>2</m:mn>
 				</m:msup>
-				<m:mo>=</m:mo><m:mtable frame="solid"><m:mrow>
+				<m:mo>=</m:mo><m:mtable frame="solid"><m:mtr><m:mtd><m:mrow>
 						<m:mn>4</m:mn><m:mo>⋅</m:mo><m:mn>6</m:mn><m:mo>⋅</m:mo><m:msup>
 							<m:mi>y</m:mi>
 							<m:mrow>
 								<m:mn>3</m:mn><m:mo>+</m:mo><m:mn>2</m:mn>
 							</m:mrow>
 						</m:msup>
-					</m:mrow></m:mtable>
+					</m:mrow></m:mtd></m:mtr></m:mtable>
 				<m:mo>=</m:mo><m:mn>24</m:mn><m:msup>
 					<m:mi>y</m:mi>
 					<m:mn>5</m:mn>
@@ -940,7 +940,7 @@ We can use the first rule of exponents (and the others that we will develop) alo
 					<m:mi>b</m:mi>
 					<m:mn>3</m:mn>
 				</m:msup>
-				<m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mtable frame="solid"><m:mrow>
+				<m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mtable frame="solid"><m:mtr><m:mtd><m:mrow>
 						<m:mn>9</m:mn><m:mo>⋅</m:mo><m:mn>8</m:mn><m:mo>⋅</m:mo><m:mn>2</m:mn><m:msup>
 							<m:mi>a</m:mi>
 							<m:mrow>
@@ -953,7 +953,7 @@ We can use the first rule of exponents (and the others that we will develop) alo
 								<m:mn>6</m:mn><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>+</m:mo><m:mn>3</m:mn>
 							</m:mrow>
 						</m:msup>
-					</m:mrow></m:mtable>
+					</m:mrow></m:mtd></m:mtr></m:mtable>
 				<m:mo>=</m:mo><m:mn>144</m:mn><m:msup>
 					<m:mi>a</m:mi>
 					<m:mn>3</m:mn>
@@ -985,7 +985,7 @@ We can use the first rule of exponents (and the others that we will develop) alo
 					</m:mrow>
 					<m:mn>8</m:mn>
 				</m:msup>
-				<m:mo>=</m:mo><m:mtable frame="solid"><m:mrow>
+				<m:mo>=</m:mo><m:mtable frame="solid"><m:mtr><m:mtd><m:mrow>
 						<m:mn>5</m:mn><m:mo>⋅</m:mo><m:mn>3</m:mn><m:msup>
 							<m:mrow>
 								<m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo>
@@ -994,7 +994,7 @@ We can use the first rule of exponents (and the others that we will develop) alo
 								<m:mn>2</m:mn><m:mo>+</m:mo><m:mn>8</m:mn>
 							</m:mrow>
 						</m:msup>
-					</m:mrow></m:mtable>
+					</m:mrow></m:mtd></m:mtr></m:mtable>
 				<m:mo>=</m:mo><m:mn>15</m:mn><m:msup>
 					<m:mrow>
 						<m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>6</m:mi><m:mo stretchy="false">)</m:mo>
@@ -1614,14 +1614,14 @@ Find the following quotients. All exponents are natural numbers.</para><example 
 										</m:msup>
 									</m:mrow>
 								</m:mfrac>
-								<m:mo>=</m:mo><m:mtable frame="solid"><m:mrow>
+								<m:mo>=</m:mo><m:mtable frame="solid"><m:mtr><m:mtd><m:mrow>
 										<m:msup>
 											<m:mtext>x</m:mtext>
 											<m:mrow>
 												<m:mtext>5-2</m:mtext>
 											</m:mrow>
 										</m:msup>
-									</m:mrow></m:mtable>
+									</m:mrow></m:mtd></m:mtr></m:mtable>
 								<m:mo>=</m:mo><m:msup>
 									<m:mi>x</m:mi>
 									<m:mn>3</m:mn>
@@ -1726,7 +1726,7 @@ Find the following quotients. All exponents are natural numbers.</para><example 
      <m:mi>b</m:mi><m:mi>c</m:mi>
     </m:mrow>
    </m:mfrac>
-   <m:mo>=</m:mo><m:mtable frame="solid"><m:mrow>
+   <m:mo>=</m:mo><m:mtable frame="solid"><m:mtr><m:mtd><m:mrow>
     <m:mn>9</m:mn><m:msup>
      <m:mi>a</m:mi>
      <m:mrow>
@@ -1746,7 +1746,7 @@ Find the following quotients. All exponents are natural numbers.</para><example 
      </m:mrow>
     </m:msup>
     
-   </m:mrow></m:mtable>
+   </m:mrow></m:mtd></m:mtr></m:mtable>
    <m:mo>=</m:mo><m:mn>9</m:mn><m:mi>a</m:mi><m:msup>
     <m:mi>b</m:mi>
     <m:mn>5</m:mn>

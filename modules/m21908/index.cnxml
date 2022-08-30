@@ -46,7 +46,7 @@ This module contains a proficiency exam for the chapter "Factoring Polynomials".
 				</m:math>
 			</para></solution>
 	</exercise><exercise id="eip-66"><problem id="eip-373">
-			<para id="eip-568"><emphasis>(<link document="m18870"/>)</emphasis> The product is <m:math display="display">
+			<para id="eip-568"><emphasis>(<link document="m18870"/>)</emphasis> The product is <m:math>
       <m:apply>
         <m:times/>
         <m:cn>15</m:cn>

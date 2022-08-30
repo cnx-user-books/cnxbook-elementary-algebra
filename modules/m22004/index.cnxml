@@ -372,7 +372,7 @@ Graphing Linear Equations and Inequalities in One Variable (<link document="m188
 							</m:msub>
 							<m:mo>,</m:mo><m:mi>y</m:mi><m:mmultiscripts>
 								<m:mo stretchy="false">)</m:mo>
-								<m:mprescripts/>
+								<m:none/><m:none/><m:mprescripts/>
 								<m:mn>1</m:mn>
 								<m:none/>
 							</m:mmultiscripts>
@@ -388,7 +388,7 @@ Graphing Linear Equations and Inequalities in One Variable (<link document="m188
 							</m:msub>
 							<m:mo>,</m:mo><m:mi>y</m:mi><m:mmultiscripts>
 								<m:mo stretchy="false">)</m:mo>
-								<m:mprescripts/>
+								<m:none/><m:none/><m:mprescripts/>
 								<m:mn>2</m:mn>
 								<m:none/>
 							</m:mmultiscripts>

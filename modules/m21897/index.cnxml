@@ -315,14 +315,14 @@ Simplify each expression using the power rule for powers. All exponents are natu
 									</m:mrow>
 									<m:mn>4</m:mn>
 								</m:msup>
-								<m:mo>=</m:mo><m:mtable frame="solid"><m:mrow>
+								<m:mo>=</m:mo><m:mtable frame="solid"><m:mtr><m:mtd><m:mrow>
 										<m:msup>
 											<m:mi>x</m:mi>
 											<m:mrow>
 												<m:mn>3</m:mn><m:mtext> </m:mtext><m:mo>⋅</m:mo><m:mtext> </m:mtext><m:mn>4</m:mn>
 											</m:mrow>
 										</m:msup>
-									</m:mrow></m:mtable>
+									</m:mrow></m:mtd></m:mtr></m:mtable>
 								<m:mtext> </m:mtext><m:msup>
 									<m:mi>x</m:mi>
 									<m:mrow>
@@ -357,7 +357,7 @@ Simplify each expression using the power rule for powers. All exponents are natu
     </m:mrow>
     <m:mn>3</m:mn>
    </m:msup>
-   <m:mo>=</m:mo><m:mtable frame="solid"><m:mrow>
+   <m:mo>=</m:mo><m:mtable frame="solid"><m:mtr><m:mtd><m:mrow>
     <m:msup>
      <m:mi>y</m:mi>
      <m:mrow>
@@ -365,7 +365,7 @@ Simplify each expression using the power rule for powers. All exponents are natu
      </m:mrow>
     </m:msup>
     
-   </m:mrow></m:mtable>
+   </m:mrow></m:mtd></m:mtr></m:mtable>
    <m:mo>=</m:mo><m:msup>
     <m:mi>y</m:mi>
     <m:mrow>
@@ -394,7 +394,7 @@ Simplify each expression using the power rule for powers. All exponents are natu
     </m:mrow>
     <m:mn>6</m:mn>
    </m:msup>
-   <m:mo>=</m:mo><m:mtable frame="solid"><m:mrow>
+   <m:mo>=</m:mo><m:mtable frame="solid"><m:mtr><m:mtd><m:mrow>
     <m:msup>
      <m:mi>d</m:mi>
      <m:mrow>
@@ -402,7 +402,7 @@ Simplify each expression using the power rule for powers. All exponents are natu
      </m:mrow>
     </m:msup>
     
-   </m:mrow></m:mtable>
+   </m:mrow></m:mtd></m:mtr></m:mtable>
    <m:mo>=</m:mo><m:msup>
     <m:mi>d</m:mi>
     <m:mrow>
